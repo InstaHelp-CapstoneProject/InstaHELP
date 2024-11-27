@@ -61,7 +61,7 @@
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/masyarakat_icon" />
+                android:src="@drawable/icon_resident"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -85,18 +85,18 @@
         <!-- Card: Instansi -->
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="197dp"
+            android:layout_marginStart="8dp"
             android:layout_weight="1"
-            android:orientation="vertical"
-            android:gravity="center"
             android:background="@drawable/card_background"
-            android:padding="16dp"
-            android:layout_marginStart="8dp">
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
 
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/instansi_icon" />
+                android:src="@drawable/icon_instansi" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -111,10 +111,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
+                android:gravity="center"
                 android:text="Untuk organisasi atau lembaga yang menangani kejadian"
                 android:textColor="#707070"
-                android:textSize="12sp"
-                android:gravity="center" />
+                android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>
 

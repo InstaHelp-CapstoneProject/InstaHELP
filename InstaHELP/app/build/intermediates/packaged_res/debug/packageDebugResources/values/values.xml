@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="dark">#333333</color>
+    <color name="my_primary">#FF6F09</color>
+    <color name="my_secondary">#D7481B</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">InstaHELP</string>
+    <string name="kami_siap_m">Kami siap membantu Anda dalam situasi darurat, kapan saja, di mana saja.</string>
+    <string name="selamat_dat">Selamat datang\ndi InstaHelp</string>
+    <style name="Base.Theme.InstaHELP" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/my_primary</item>
+        <item name="colorPrimaryVariant">@color/my_secondary</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+    <style name="kami_siap_m">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#F8F8F8</item>
+    </style>
+    <style name="selamat_dat">
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">#F8F8F8</item>
+    </style>
+</resources>
