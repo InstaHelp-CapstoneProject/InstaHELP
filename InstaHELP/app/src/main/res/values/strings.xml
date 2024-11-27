@@ -2,4 +2,13 @@
     <string name="app_name">InstaHELP</string>
     <string name="selamat_dat">Selamat datang\ndi InstaHelp</string>
     <string name="kami_siap_m">Kami siap membantu Anda dalam situasi darurat, kapan saja, di mana saja.</string>
+    <!-- Strings for Login Activity -->
+    <string name="e_mail">Email Anda</string>
+    <string name="login_welcome_message">Selamat datang kembali</string>
+    <string name="login_prompt_email">Silahkan masukan email Anda</string>
+    <string name="password_hint">Kata Sandi</string>
+    <string name="forgot_password">Lupa kata sandi ?</string>
+    <string name="login_button">Masuk</string>
+    <string name="sign_up_prompt">Belum memiliki akun?</string>
+    <string name="sign_up_action">Daftar sekarang</string>
 </resources>

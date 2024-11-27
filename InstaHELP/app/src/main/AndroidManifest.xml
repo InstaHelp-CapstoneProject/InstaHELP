@@ -10,16 +10,22 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.InstaHELP"
-        tools:targetApi="31">
+        tools:targetApi="35">
         <activity
-            android:name=".SelectRoleActivity"
+            android:name=".resident.call.CallActivity"
             android:exported="false" />
         <activity
-            android:name=".GetStartedActivity"
+            android:name=".loginregist.SelectRoleActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".loginregist.GetStartedActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".loginregist.MainActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".resident.call.Detail_HospitalActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
