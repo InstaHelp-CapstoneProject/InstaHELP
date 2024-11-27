@@ -63,7 +63,11 @@
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
+<<<<<<< HEAD
                 android:src="@drawable/icon_resident" />
+=======
+                android:src="@drawable/icon_resident"/>
+>>>>>>> origin/main
 
             <TextView
                 android:layout_width="wrap_content"
@@ -96,13 +100,22 @@
         <LinearLayout
             android:id="@+id/card_instansi"
             android:layout_width="0dp"
+<<<<<<< HEAD
             android:layout_height="230dp"
+=======
+            android:layout_height="197dp"
+            android:layout_marginStart="8dp"
+>>>>>>> origin/main
             android:layout_weight="1"
             android:background="@drawable/card_background"
             android:gravity="center"
             android:orientation="vertical"
+<<<<<<< HEAD
             android:padding="16dp"
             android:layout_marginStart="8dp">
+=======
+            android:padding="16dp">
+>>>>>>> origin/main
 
             <ImageView
                 android:layout_width="100dp"
@@ -126,6 +139,7 @@
                 android:text="Untuk organisasi atau lembaga yang menangani kejadian"
                 android:textColor="#707070"
                 android:textSize="12sp" />
+<<<<<<< HEAD
 
             <!-- Toggle Indicator -->
             <View
@@ -134,6 +148,8 @@
                 android:layout_height="20dp"
                 android:layout_marginTop="8dp"
                 android:background="@drawable/toggle_selector"/>
+=======
+>>>>>>> origin/main
         </LinearLayout>
     </LinearLayout>
 
