@@ -100,6 +100,7 @@
 
     <!-- Informasi Lokasi -->
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -152,16 +153,19 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <!-- RecyclerView untuk pilihan ambulans -->
+
+    <!-- Footer tombol message dan panggilan darurat -->
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewAmbulance"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_margin="10dp"
         android:background="@color/white"
-        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
-        app:layout_constraintBottom_toTopOf="@+id/footer_buttons" />
+        app:layout_constraintBottom_toTopOf="@+id/footer_buttons"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        tools:layout_editor_absoluteX="9dp" />
 
-    <!-- Footer tombol message dan panggilan darurat -->
     <LinearLayout
         android:id="@+id/footer_buttons"
         android:layout_width="match_parent"
