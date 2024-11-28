@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         tools:targetApi="35">
         <activity
+            android:name=".loginregist.SignUpResidentActivity"
+            android:exported="false" />
+        <activity
             android:name=".resident.call.CallActivity"
             android:exported="false" />
         <activity
@@ -19,14 +22,14 @@
             android:exported="false" />
         <activity
             android:name=".loginregist.GetStartedActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".loginregist.MainActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".resident.call.DetailHospitalActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

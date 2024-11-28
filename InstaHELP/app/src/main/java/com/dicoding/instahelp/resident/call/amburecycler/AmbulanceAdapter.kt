@@ -7,7 +7,10 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.dicoding.instahelp.R
 
-class AmbulanceAdapter(private val ambulanceList: List<Ambulance>) : RecyclerView.Adapter<AmbulanceAdapter.AmbulanceViewHolder>() {
+class AmbulanceAdapter(
+    private val ambulanceList: List<Ambulance>,
+    private val onItemClick: (Ambulance) -> Unit // Callback untuk klik item
+) : RecyclerView.Adapter<AmbulanceAdapter.AmbulanceViewHolder>() {
 
     // ViewHolder untuk setiap item
     inner class AmbulanceViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -31,6 +34,11 @@ class AmbulanceAdapter(private val ambulanceList: List<Ambulance>) : RecyclerVie
         holder.driverName.text = "Sopir: ${ambulance.driverName}"
         holder.plateNumber.text = "No. Plat: ${ambulance.plateNumber}"
         holder.availability.text = if (ambulance.isAvailable) "Tersedia" else "Tidak Tersedia"
+
+        // Set click listener untuk item
+        holder.itemView.setOnClickListener {
+            onItemClick(ambulance)
+        }
     }
 
     override fun getItemCount(): Int {

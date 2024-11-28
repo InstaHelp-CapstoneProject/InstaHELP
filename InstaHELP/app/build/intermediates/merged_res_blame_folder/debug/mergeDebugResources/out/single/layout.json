@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\activity_get_started.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_get_started.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\item_ambulance.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\item_ambulance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\activity_call.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\activity_login_masyarakat.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_login_masyarakat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\activity_select_role.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_select_role.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\activity_detail_hospital.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_detail_hospital.xml"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-mergeDebugResources-50:/layout/layout_bottom_sheet_call.xml",
+        "source": "com.dicoding.instahelp.app-main-53:/layout/layout_bottom_sheet_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\layout_bottom_sheet_call.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\layout_bottom_sheet_call.xml"
+    }
+]

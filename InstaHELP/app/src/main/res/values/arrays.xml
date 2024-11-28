@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="gender_options">
+        <item>Pilih jenis kelamin</item>
+        <item>Perempuan</item>
+        <item>Laki-laki</item>
+    </string-array>
+</resources>

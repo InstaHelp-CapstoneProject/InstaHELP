@@ -17,10 +17,6 @@ class DetailHospitalActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_hospital)
 
-        // Inisialisasi RecyclerView
-        recyclerView = findViewById(R.id.recyclerViewAmbulance)
-        recyclerView.layoutManager = LinearLayoutManager(this)
-
         // Data contoh untuk ambulans
         val ambulanceList = listOf(
             Ambulance("Ambulans Gawat Darurat", "John Doe", "BK 9999 GD", true),
@@ -28,8 +24,16 @@ class DetailHospitalActivity : AppCompatActivity() {
             Ambulance("Ambulans Gawat Darurat", "Mark Smith", "BK 1234 ABC", true)
         )
 
-        // Inisialisasi Adapter dan set ke RecyclerView
-        ambulanceAdapter = AmbulanceAdapter(ambulanceList)
+        // Inisialisasi RecyclerView dan Adapter
+        recyclerView = findViewById(R.id.recyclerViewAmbulance)
+        recyclerView.layoutManager = LinearLayoutManager(this)
+
+        // Set Adapter dengan Listener
+        ambulanceAdapter = AmbulanceAdapter(ambulanceList) { ambulance ->
+            // Tampilkan BottomSheet saat item diklik
+            val bottomSheet = CallBottomSheetFragment()
+            bottomSheet.show(supportFragmentManager, bottomSheet.tag)
+        }
         recyclerView.adapter = ambulanceAdapter
     }
 }
