@@ -4,7 +4,7 @@
             "outputFile": "com.dicoding.instahelp.app-mergeDebugResources-48:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Hp\\.gradle\\caches\\8.9\\transforms\\cee67f5b3ef32587969087d4ccb862d9\\transformed\\material-1.12.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\caches\\8.9\\transforms\\cee67f5b3ef32587969087d4ccb862d9\\transformed\\material-1.12.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,35,40",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,17 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Hp\\.gradle\\caches\\8.9\\transforms\\fbbb5be6f1c0caddf4566df321ec0599\\transformed\\appcompat-1.7.0\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Hp\\.gradle\\caches\\8.9\\transforms\\f86aac3d4ff142ea2d14c468276b083f\\transformed\\mediarouter-1.7.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\caches\\8.9\\transforms\\f86aac3d4ff142ea2d14c468276b083f\\transformed\\mediarouter-1.7.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -47,6 +37,16 @@
                         "startOffsets": "413,488,566",
                         "endColumns": "74,77,74",
                         "endOffsets": "483,561,636"
+                    }
+                },
+                {
+                    "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\caches\\8.9\\transforms\\fbbb5be6f1c0caddf4566df321ec0599\\transformed\\appcompat-1.7.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
                     }
                 }
             ]
