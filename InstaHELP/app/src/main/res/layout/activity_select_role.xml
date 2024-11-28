@@ -5,15 +5,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#D7DEA8">
-
     <!-- Header Section -->
-
     <!-- Content Section -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:background="#FF6F09">
-
         <!-- Title -->
         <TextView
             android:id="@+id/tv_header_title"
@@ -25,7 +22,6 @@
             android:textColor="@android:color/white"
             android:textSize="20sp"
             android:textStyle="bold" />
-
         <!-- Subtitle -->
         <TextView
             android:id="@+id/tv_header_subtitle"
@@ -38,7 +34,6 @@
             android:textColor="@android:color/white"
             android:textSize="14sp" />
     </RelativeLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -47,28 +42,19 @@
         android:gravity="center"
         android:padding="16dp"
         android:background="@android:color/white">
-
         <!-- Card: Masyarakat -->
         <LinearLayout
-            android:id="@+id/card_masyarakat"
             android:layout_width="0dp"
-            android:layout_height="230dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/card_background"
-            android:gravity="center"
             android:orientation="vertical"
-            android:padding="16dp"
-            android:layout_marginEnd="8dp">
-
+            android:gravity="center"
+            android:background="@drawable/card_background"
+            android:padding="16dp">
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-<<<<<<< HEAD
                 android:src="@drawable/icon_resident" />
-=======
-                android:src="@drawable/icon_resident"/>
->>>>>>> origin/main
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -77,51 +63,29 @@
                 android:textColor="#FF6F09"
                 android:textSize="16sp"
                 android:textStyle="bold" />
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:gravity="center"
                 android:text="Untuk individu yang ingin melaporkan kejadian"
                 android:textColor="#707070"
-                android:textSize="12sp" />
-
-            <!-- Toggle Indicator -->
-            <View
-                android:id="@+id/toggle_masyarakat"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginTop="8dp"
-                android:background="@drawable/toggle_selector"/>
+                android:textSize="12sp"
+                android:gravity="center" />
         </LinearLayout>
-
         <!-- Card: Instansi -->
         <LinearLayout
-            android:id="@+id/card_instansi"
             android:layout_width="0dp"
-<<<<<<< HEAD
-            android:layout_height="230dp"
-=======
-            android:layout_height="197dp"
-            android:layout_marginStart="8dp"
->>>>>>> origin/main
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/card_background"
-            android:gravity="center"
             android:orientation="vertical"
-<<<<<<< HEAD
+            android:gravity="center"
+            android:background="@drawable/card_background"
             android:padding="16dp"
             android:layout_marginStart="8dp">
-=======
-            android:padding="16dp">
->>>>>>> origin/main
-
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/icon_instansi" />
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -130,29 +94,16 @@
                 android:textColor="#FF6F09"
                 android:textSize="16sp"
                 android:textStyle="bold" />
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:gravity="center"
                 android:text="Untuk organisasi atau lembaga yang menangani kejadian"
                 android:textColor="#707070"
-                android:textSize="12sp" />
-<<<<<<< HEAD
-
-            <!-- Toggle Indicator -->
-            <View
-                android:id="@+id/toggle_instansi"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginTop="8dp"
-                android:background="@drawable/toggle_selector"/>
-=======
->>>>>>> origin/main
+                android:textSize="12sp"
+                android:gravity="center" />
         </LinearLayout>
     </LinearLayout>
-
     <!-- Button Section -->
     <Button
         android:layout_width="match_parent"
@@ -164,5 +115,4 @@
         android:textSize="16sp"
         android:textStyle="bold"
         android:layout_gravity="center" />
-
 </LinearLayout>
