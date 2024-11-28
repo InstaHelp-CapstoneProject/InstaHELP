@@ -4,7 +4,24 @@
             "outputFile": "com.dicoding.instahelp.app-mergeDebugResources-48:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Hp\\.gradle\\caches\\8.9\\transforms\\cee67f5b3ef32587969087d4ccb862d9\\transformed\\material-1.12.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\caches\\8.9\\transforms\\f86aac3d4ff142ea2d14c468276b083f\\transformed\\mediarouter-1.7.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,94,163",
+                        "endColumns": "38,68,68",
+                        "endOffsets": "89,158,227"
+                    },
+                    "to": {
+                        "startLines": "2,20,21",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,1212,1281",
+                        "endColumns": "38,68,68",
+                        "endOffsets": "89,1276,1345"
+                    }
+                },
+                {
+                    "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\caches\\8.9\\transforms\\cee67f5b3ef32587969087d4ccb862d9\\transformed\\material-1.12.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,24 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Hp\\.gradle\\caches\\8.9\\transforms\\f86aac3d4ff142ea2d14c468276b083f\\transformed\\mediarouter-1.7.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,94,163",
-                        "endColumns": "38,68,68",
-                        "endOffsets": "89,158,227"
-                    },
-                    "to": {
-                        "startLines": "2,20,21",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,1212,1281",
-                        "endColumns": "38,68,68",
-                        "endOffsets": "89,1276,1345"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Hp\\.gradle\\caches\\8.9\\transforms\\fbbb5be6f1c0caddf4566df321ec0599\\transformed\\appcompat-1.7.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\caches\\8.9\\transforms\\fbbb5be6f1c0caddf4566df321ec0599\\transformed\\appcompat-1.7.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
