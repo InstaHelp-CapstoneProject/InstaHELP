@@ -8,7 +8,7 @@ import com.dicoding.instahelp.R
 import com.dicoding.instahelp.resident.call.amburecycler.Ambulance
 import com.dicoding.instahelp.resident.call.amburecycler.AmbulanceAdapter
 
-class Detail_HospitalActivity : AppCompatActivity() {
+class DetailHospitalActivity : AppCompatActivity() {
 
     private lateinit var recyclerView: RecyclerView
     private lateinit var ambulanceAdapter: AmbulanceAdapter

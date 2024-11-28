@@ -1,0 +1,6 @@
+com.dicoding.instahelp.test.app-tracing-1.2.0-0 C:\Users\Hp\.gradle\caches\8.9\transforms\acd43bd7316a52062e7c54c1849737b8\transformed\tracing-1.2.0\res
+com.dicoding.instahelp.test.app-core-1.6.1-1 C:\Users\Hp\.gradle\caches\8.9\transforms\bc77b122bb3e1495afe9b4ea8a518d65\transformed\core-1.6.1\res
+com.dicoding.instahelp.test.app-androidTest-2 D:\MyProject\capstone-md\InstaHELP\app\build\generated\res\resValues\androidTest\debug
+com.dicoding.instahelp.test.app-mergeDebugAndroidTestResources-3 D:\MyProject\capstone-md\InstaHELP\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.dicoding.instahelp.test.app-mergeDebugAndroidTestResources-4 D:\MyProject\capstone-md\InstaHELP\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.dicoding.instahelp.test.app-debugAndroidTest-5 D:\MyProject\capstone-md\InstaHELP\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

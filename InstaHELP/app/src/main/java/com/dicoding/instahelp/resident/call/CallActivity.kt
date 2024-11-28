@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:InstaHELP/app/src/main/java/com/dicoding/instahelp/resident/call/CallActivity.kt
 package com.dicoding.instahelp.resident.call
-========
-package com.dicoding.instahelp.loginregist
->>>>>>>> origin/main:InstaHELP/app/src/main/java/com/dicoding/instahelp/loginregist/SelectRoleActivity.kt
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

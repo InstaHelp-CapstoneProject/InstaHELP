@@ -1,174 +1,198 @@
 [
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\drawable_icon_instansi.png.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\drawable\\icon_instansi.png"
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-hdpi_insta_logo.webp.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-hdpi\\insta_logo.webp"
+        "merged": "com.dicoding.instahelp.app-debug-50:/drawable_ic_message.png.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/drawable/ic_message.png"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\xml\\data_extraction_rules.xml"
-    },
-    {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\drawable_rumahsakit.png.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\drawable\\rumahsakit.png"
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-mdpi_insta_logo.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-mdpi/insta_logo.webp"
     },
     {
         "merged": "com.dicoding.instahelp.app-debug-50:/drawable_icon_instansi.png.flat",
         "source": "com.dicoding.instahelp.app-main-52:/drawable/icon_instansi.png"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\layout_activity_get_started.xml.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\layout\\activity_get_started.xml"
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-xxhdpi_insta_logo.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-xxhdpi/insta_logo.webp"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.dicoding.instahelp.app-debug-50:/layout_item_ambulance.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/layout/item_ambulance.xml"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\drawable_icon_resident.png.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\drawable\\icon_resident.png"
+        "merged": "com.dicoding.instahelp.app-debug-50:/drawable_icon_resident.png.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/drawable/icon_resident.png"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.dicoding.instahelp.app-debug-50:/drawable_card_background.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/drawable/card_background.xml"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-xxxhdpi_ic_hospital_round.webp.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-xxxhdpi\\ic_hospital_round.webp"
+        "merged": "com.dicoding.instahelp.app-debug-50:/layout_activity_login_masyarakat.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/layout/activity_login_masyarakat.xml"
     },
     {
-        "merged": "com.dicoding.instahelp.app-debug-50:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.dicoding.instahelp.app-main-52:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.dicoding.instahelp.app-debug-50:/drawable_eye_reveal.png.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/drawable/eye_reveal.png"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-xxhdpi_insta_logo.webp.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-xxhdpi\\insta_logo.webp"
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-xxxhdpi_ic_hospital_round.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-xxxhdpi/ic_hospital_round.webp"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-anydpi-v26_ic_hospital_round.xml.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-anydpi-v26\\ic_hospital_round.xml"
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-xhdpi_insta_logo.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-xhdpi/insta_logo.webp"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\layout_activity_call.xml.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\layout\\activity_call.xml"
-    },
-    {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\drawable_button.xml.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\drawable\\button.xml"
-    },
-    {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\layout_activity_main.xml.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\drawable_rounded_bg.xml.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\drawable\\rounded_bg.xml"
-    },
-    {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-xxxhdpi_ic_hospital_background.webp.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-xxxhdpi\\ic_hospital_background.webp"
-    },
-    {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\drawable_baseline_arrow_back_ios_24.xml.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\drawable\\baseline_arrow_back_ios_24.xml"
-    },
-    {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.dicoding.instahelp.app-debug-50:/xml_data_extraction_rules.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/xml/data_extraction_rules.xml"
     },
     {
         "merged": "com.dicoding.instahelp.app-debug-50:/layout_activity_main.xml.flat",
         "source": "com.dicoding.instahelp.app-main-52:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\layout_activity_select_role.xml.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\layout\\activity_select_role.xml"
+        "merged": "com.dicoding.instahelp.app-debug-50:/layout_activity_detail_hospital.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/layout/activity_detail_hospital.xml"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-xxxhdpi_ic_hospital.webp.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-xxxhdpi\\ic_hospital.webp"
+        "merged": "com.dicoding.instahelp.app-debug-50:/layout_activity_get_started.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/layout/activity_get_started.xml"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-mdpi_insta_logo.webp.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-mdpi\\insta_logo.webp"
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\xml\\backup_rules.xml"
+        "merged": "com.dicoding.instahelp.app-debug-50:/drawable_instalogo.png.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/drawable/instalogo.png"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-hdpi_insta_logo.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-hdpi/insta_logo.webp"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-xhdpi_insta_logo.webp.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-xhdpi\\insta_logo.webp"
+        "merged": "com.dicoding.instahelp.app-debug-50:/layout_activity_call.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/layout/activity_call.xml"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-xxxhdpi_insta_logo.webp.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-xxxhdpi\\insta_logo.webp"
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.dicoding.instahelp.app-debug-50:/drawable_baseline_arrow_back_ios_24.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/drawable/baseline_arrow_back_ios_24.xml"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\layout_activity_detail_hospital.xml.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\layout\\activity_detail_hospital.xml"
+        "merged": "com.dicoding.instahelp.app-debug-50:/drawable_ic_location.png.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/drawable/ic_location.png"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\drawable_card_background.xml.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\drawable\\card_background.xml"
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-xxxhdpi_ic_hospital_background.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-xxxhdpi/ic_hospital_background.webp"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\drawable_instalogo.png.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\drawable\\instalogo.png"
+        "merged": "com.dicoding.instahelp.app-debug-50:/drawable_eye_hid.png.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/drawable/eye_hid.png"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-anydpi-v26_ic_hospital.xml.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-anydpi-v26\\ic_hospital.xml"
+        "merged": "com.dicoding.instahelp.app-debug-50:/layout_activity_select_role.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/layout/activity_select_role.xml"
     },
     {
-        "merged": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-debug-50:\\mipmap-xxxhdpi_ic_hospital_foreground.webp.flat",
-        "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\daemon\\8.9\\com.dicoding.instahelp.app-main-52:\\mipmap-xxxhdpi\\ic_hospital_foreground.webp"
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-50:/drawable_box_background.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/drawable/box_background.xml"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-xxxhdpi_ic_hospital_foreground.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-xxxhdpi/ic_hospital_foreground.webp"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-50:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-50:/drawable_button.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/drawable/button.xml"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-xxxhdpi_ic_hospital.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-xxxhdpi/ic_hospital.webp"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-50:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-50:/drawable_rumahsakit.png.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/drawable/rumahsakit.png"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-50:/xml_backup_rules.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-xxxhdpi_insta_logo.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-xxxhdpi/insta_logo.webp"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-anydpi-v26_ic_hospital_round.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-anydpi-v26/ic_hospital_round.xml"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-anydpi-v26_ic_hospital.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-anydpi-v26/ic_hospital.xml"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-50:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-50:/drawable_rounded_bg.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/drawable/rounded_bg.xml"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-50:/drawable_toggle_selector.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/drawable/toggle_selector.xml"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-50:/drawable_placeholder_image.png.flat",
+        "source": "com.dicoding.instahelp.app-main-52:/drawable/placeholder_image.png"
     }
 ]

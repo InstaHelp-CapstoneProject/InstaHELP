@@ -1,4 +1,8 @@
 package com.dicoding.instahelp.resident.call.amburecycler
 
-class Ambulance {
-}
+data class Ambulance(
+    val name: String,
+    val driverName: String,
+    val plateNumber: String,
+    val isAvailable: Boolean
+)

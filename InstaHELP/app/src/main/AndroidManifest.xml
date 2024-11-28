@@ -24,7 +24,7 @@
             android:name=".loginregist.MainActivity"
             android:exported="false"/>
         <activity
-            android:name=".resident.call.Detail_HospitalActivity"
+            android:name=".resident.call.DetailHospitalActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="true">
             <intent-filter>

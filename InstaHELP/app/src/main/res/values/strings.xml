@@ -2,6 +2,7 @@
     <string name="app_name">InstaHELP</string>
     <string name="selamat_dat">Selamat datang\ndi InstaHelp</string>
     <string name="kami_siap_m">Kami siap membantu Anda dalam situasi darurat, kapan saja, di mana saja.</string>
+    <string name="get_started">Mulai Sekarang</string>
     <!-- Strings for Login Activity -->
     <string name="e_mail">Email Anda</string>
     <string name="login_welcome_message">Selamat datang kembali</string>
@@ -11,4 +12,10 @@
     <string name="login_button">Masuk</string>
     <string name="sign_up_prompt">Belum memiliki akun?</string>
     <string name="sign_up_action">Daftar sekarang</string>
+    <!-- Strings for AmbulanceItem Layout -->
+    <string name="ambulance_image_description">Foto Ambulans</string>
+    <string name="ambulance_name">Ambulans Gawat Darurat</string>
+    <string name="driver_name">Sopir: John Doe</string>
+    <string name="plate_number">No. Plat: BK 9999 GD</string>
+    <string name="availability">Tersedia</string>
 </resources>
