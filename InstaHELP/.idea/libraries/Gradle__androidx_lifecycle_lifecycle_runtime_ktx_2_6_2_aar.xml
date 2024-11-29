@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-runtime-ktx:2.6.2@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/8.9/transforms/0375ea0658d571354965eb6567d1cfd6/transformed/lifecycle-runtime-ktx-2.6.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/0375ea0658d571354965eb6567d1cfd6/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/0375ea0658d571354965eb6567d1cfd6/transformed/lifecycle-runtime-ktx-2.6.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../Gradle/gradle-8.11.1-bin/gradle-8.11.1/caches/8.9/transforms/806ccf813f068497cf3c8fad71b33434/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../Gradle/gradle-8.11.1-bin/gradle-8.11.1/caches/8.9/transforms/806ccf813f068497cf3c8fad71b33434/transformed/lifecycle-runtime-ktx-2.6.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../Gradle/gradle-8.11.1-bin/gradle-8.11.1/caches/8.9/transforms/806ccf813f068497cf3c8fad71b33434/transformed/lifecycle-runtime-ktx-2.6.2/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-ktx/2.6.2/6ad3251adb760573a519eebbdfb90fd2384b185d/lifecycle-runtime-ktx-2.6.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Gradle/gradle-8.11.1-bin/gradle-8.11.1/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-ktx/2.6.2/6ad3251adb760573a519eebbdfb90fd2384b185d/lifecycle-runtime-ktx-2.6.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

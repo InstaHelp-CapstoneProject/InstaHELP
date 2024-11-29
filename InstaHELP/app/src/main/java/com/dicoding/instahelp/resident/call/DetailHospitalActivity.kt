@@ -1,6 +1,7 @@
 package com.dicoding.instahelp.resident.call
 
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -31,9 +32,14 @@ class DetailHospitalActivity : AppCompatActivity() {
         // Set Adapter dengan Listener
         ambulanceAdapter = AmbulanceAdapter(ambulanceList) { ambulance ->
             // Tampilkan BottomSheet saat item diklik
+        }
+        recyclerView.adapter = ambulanceAdapter
+
+        val emergencyButton: Button = findViewById(R.id.button_call_emergency)
+        emergencyButton.setOnClickListener {
             val bottomSheet = CallBottomSheetFragment()
             bottomSheet.show(supportFragmentManager, bottomSheet.tag)
         }
-        recyclerView.adapter = ambulanceAdapter
+
     }
 }
