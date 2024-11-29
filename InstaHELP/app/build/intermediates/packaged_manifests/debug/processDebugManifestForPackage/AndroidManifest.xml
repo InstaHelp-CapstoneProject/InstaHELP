@@ -8,6 +8,10 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="35" />
 
+    <!-- Izin untuk menggunakan mikrofon -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <queries>
         <intent>
             <action android:name="android.media.browse.MediaBrowserService" />
@@ -32,6 +36,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true" >
+        <activity
+            android:name="com.dicoding.instahelp.loginregist.SignUpResidentActivity"
+            android:exported="false" />
         <activity
             android:name="com.dicoding.instahelp.resident.call.CallActivity"
             android:exported="false" />
