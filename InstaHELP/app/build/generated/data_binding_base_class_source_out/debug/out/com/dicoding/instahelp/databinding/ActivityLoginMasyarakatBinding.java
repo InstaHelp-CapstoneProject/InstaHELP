@@ -6,7 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -18,7 +19,16 @@ import java.lang.String;
 
 public final class ActivityLoginMasyarakatBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final RelativeLayout rootView;
+
+  @NonNull
+  public final ButtonOrangeBinding btnLoginMasyarakat;
+
+  @NonNull
+  public final TextView btnSignupMasyarakat;
+
+  @NonNull
+  public final EditText etEmail;
 
   @NonNull
   public final EditText etPassword;
@@ -26,16 +36,38 @@ public final class ActivityLoginMasyarakatBinding implements ViewBinding {
   @NonNull
   public final ImageView eyeIcon;
 
-  private ActivityLoginMasyarakatBinding(@NonNull LinearLayout rootView,
-      @NonNull EditText etPassword, @NonNull ImageView eyeIcon) {
+  @NonNull
+  public final RelativeLayout passwordContainer;
+
+  @NonNull
+  public final TextView tvForgotPasswordResident;
+
+  @NonNull
+  public final TextView tvHeaderSubtitle;
+
+  @NonNull
+  public final TextView tvHeaderTitle;
+
+  private ActivityLoginMasyarakatBinding(@NonNull RelativeLayout rootView,
+      @NonNull ButtonOrangeBinding btnLoginMasyarakat, @NonNull TextView btnSignupMasyarakat,
+      @NonNull EditText etEmail, @NonNull EditText etPassword, @NonNull ImageView eyeIcon,
+      @NonNull RelativeLayout passwordContainer, @NonNull TextView tvForgotPasswordResident,
+      @NonNull TextView tvHeaderSubtitle, @NonNull TextView tvHeaderTitle) {
     this.rootView = rootView;
+    this.btnLoginMasyarakat = btnLoginMasyarakat;
+    this.btnSignupMasyarakat = btnSignupMasyarakat;
+    this.etEmail = etEmail;
     this.etPassword = etPassword;
     this.eyeIcon = eyeIcon;
+    this.passwordContainer = passwordContainer;
+    this.tvForgotPasswordResident = tvForgotPasswordResident;
+    this.tvHeaderSubtitle = tvHeaderSubtitle;
+    this.tvHeaderTitle = tvHeaderTitle;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -60,6 +92,25 @@ public final class ActivityLoginMasyarakatBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btn_login_masyarakat;
+      View btnLoginMasyarakat = ViewBindings.findChildViewById(rootView, id);
+      if (btnLoginMasyarakat == null) {
+        break missingId;
+      }
+      ButtonOrangeBinding binding_btnLoginMasyarakat = ButtonOrangeBinding.bind(btnLoginMasyarakat);
+
+      id = R.id.btn_signup_masyarakat;
+      TextView btnSignupMasyarakat = ViewBindings.findChildViewById(rootView, id);
+      if (btnSignupMasyarakat == null) {
+        break missingId;
+      }
+
+      id = R.id.et_email;
+      EditText etEmail = ViewBindings.findChildViewById(rootView, id);
+      if (etEmail == null) {
+        break missingId;
+      }
+
       id = R.id.et_password;
       EditText etPassword = ViewBindings.findChildViewById(rootView, id);
       if (etPassword == null) {
@@ -72,7 +123,33 @@ public final class ActivityLoginMasyarakatBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginMasyarakatBinding((LinearLayout) rootView, etPassword, eyeIcon);
+      id = R.id.password_container;
+      RelativeLayout passwordContainer = ViewBindings.findChildViewById(rootView, id);
+      if (passwordContainer == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_forgot_password_resident;
+      TextView tvForgotPasswordResident = ViewBindings.findChildViewById(rootView, id);
+      if (tvForgotPasswordResident == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_header_subtitle;
+      TextView tvHeaderSubtitle = ViewBindings.findChildViewById(rootView, id);
+      if (tvHeaderSubtitle == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_header_title;
+      TextView tvHeaderTitle = ViewBindings.findChildViewById(rootView, id);
+      if (tvHeaderTitle == null) {
+        break missingId;
+      }
+
+      return new ActivityLoginMasyarakatBinding((RelativeLayout) rootView,
+          binding_btnLoginMasyarakat, btnSignupMasyarakat, etEmail, etPassword, eyeIcon,
+          passwordContainer, tvForgotPasswordResident, tvHeaderSubtitle, tvHeaderTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

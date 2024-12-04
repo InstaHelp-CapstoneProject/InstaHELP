@@ -4,7 +4,6 @@ package com.dicoding.instahelp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -22,28 +21,19 @@ public final class ActivityGetStartedBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final Button btnGetStarted;
-
-  @NonNull
   public final TextView kamiSiapM;
 
   @NonNull
   public final ImageView logo1;
 
   @NonNull
-  public final RelativeLayout main;
-
-  @NonNull
   public final TextView selamatDat;
 
-  private ActivityGetStartedBinding(@NonNull RelativeLayout rootView, @NonNull Button btnGetStarted,
-      @NonNull TextView kamiSiapM, @NonNull ImageView logo1, @NonNull RelativeLayout main,
-      @NonNull TextView selamatDat) {
+  private ActivityGetStartedBinding(@NonNull RelativeLayout rootView, @NonNull TextView kamiSiapM,
+      @NonNull ImageView logo1, @NonNull TextView selamatDat) {
     this.rootView = rootView;
-    this.btnGetStarted = btnGetStarted;
     this.kamiSiapM = kamiSiapM;
     this.logo1 = logo1;
-    this.main = main;
     this.selamatDat = selamatDat;
   }
 
@@ -74,12 +64,6 @@ public final class ActivityGetStartedBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_get_started;
-      Button btnGetStarted = ViewBindings.findChildViewById(rootView, id);
-      if (btnGetStarted == null) {
-        break missingId;
-      }
-
       id = R.id.kami_siap_m;
       TextView kamiSiapM = ViewBindings.findChildViewById(rootView, id);
       if (kamiSiapM == null) {
@@ -92,16 +76,13 @@ public final class ActivityGetStartedBinding implements ViewBinding {
         break missingId;
       }
 
-      RelativeLayout main = (RelativeLayout) rootView;
-
       id = R.id.selamat_dat;
       TextView selamatDat = ViewBindings.findChildViewById(rootView, id);
       if (selamatDat == null) {
         break missingId;
       }
 
-      return new ActivityGetStartedBinding((RelativeLayout) rootView, btnGetStarted, kamiSiapM,
-          logo1, main, selamatDat);
+      return new ActivityGetStartedBinding((RelativeLayout) rootView, kamiSiapM, logo1, selamatDat);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

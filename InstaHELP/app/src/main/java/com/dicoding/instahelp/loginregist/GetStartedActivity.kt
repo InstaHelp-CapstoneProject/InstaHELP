@@ -1,25 +1,29 @@
 package com.dicoding.instahelp.loginregist
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.RelativeLayout
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.dicoding.instahelp.R
+import com  .dicoding.instahelp.R
 
 class GetStartedActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_get_started)
+        setContentView(com.dicoding.instahelp.R.layout.activity_get_started)
 
-        // Pastikan ID 'main' ada di layout Anda
-        val mainLayout = findViewById<RelativeLayout>(R.id.main) // Ganti dengan ID yang sesuai
-        ViewCompat.setOnApplyWindowInsetsListener(mainLayout) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+        // Mendapatkan referensi ke tombol
+        val btnGetStarted = findViewById<Button>(com.dicoding.instahelp.R.id.btn_get_started)
+
+        // Menetapkan klik listener untuk tombol
+        btnGetStarted.setOnClickListener {
+            // Menavigasi ke SelectRoleActivity
+            val intent = Intent(this, SelectRoleActivity::class.java)
+            startActivity(intent)
         }
     }
 }

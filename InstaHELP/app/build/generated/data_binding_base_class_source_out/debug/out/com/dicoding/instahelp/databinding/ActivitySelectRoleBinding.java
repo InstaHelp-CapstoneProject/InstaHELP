@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -17,13 +18,16 @@ import java.lang.String;
 
 public final class ActivitySelectRoleBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
   public final LinearLayout cardInstansi;
 
   @NonNull
   public final LinearLayout cardMasyarakat;
+
+  @NonNull
+  public final LinearLayout roleSelectionContainer;
 
   @NonNull
   public final View toggleInstansi;
@@ -37,13 +41,15 @@ public final class ActivitySelectRoleBinding implements ViewBinding {
   @NonNull
   public final TextView tvHeaderTitle;
 
-  private ActivitySelectRoleBinding(@NonNull LinearLayout rootView,
+  private ActivitySelectRoleBinding(@NonNull RelativeLayout rootView,
       @NonNull LinearLayout cardInstansi, @NonNull LinearLayout cardMasyarakat,
-      @NonNull View toggleInstansi, @NonNull View toggleMasyarakat,
-      @NonNull TextView tvHeaderSubtitle, @NonNull TextView tvHeaderTitle) {
+      @NonNull LinearLayout roleSelectionContainer, @NonNull View toggleInstansi,
+      @NonNull View toggleMasyarakat, @NonNull TextView tvHeaderSubtitle,
+      @NonNull TextView tvHeaderTitle) {
     this.rootView = rootView;
     this.cardInstansi = cardInstansi;
     this.cardMasyarakat = cardMasyarakat;
+    this.roleSelectionContainer = roleSelectionContainer;
     this.toggleInstansi = toggleInstansi;
     this.toggleMasyarakat = toggleMasyarakat;
     this.tvHeaderSubtitle = tvHeaderSubtitle;
@@ -52,7 +58,7 @@ public final class ActivitySelectRoleBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -89,6 +95,12 @@ public final class ActivitySelectRoleBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.role_selection_container;
+      LinearLayout roleSelectionContainer = ViewBindings.findChildViewById(rootView, id);
+      if (roleSelectionContainer == null) {
+        break missingId;
+      }
+
       id = R.id.toggle_instansi;
       View toggleInstansi = ViewBindings.findChildViewById(rootView, id);
       if (toggleInstansi == null) {
@@ -113,8 +125,9 @@ public final class ActivitySelectRoleBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySelectRoleBinding((LinearLayout) rootView, cardInstansi, cardMasyarakat,
-          toggleInstansi, toggleMasyarakat, tvHeaderSubtitle, tvHeaderTitle);
+      return new ActivitySelectRoleBinding((RelativeLayout) rootView, cardInstansi, cardMasyarakat,
+          roleSelectionContainer, toggleInstansi, toggleMasyarakat, tvHeaderSubtitle,
+          tvHeaderTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -25,16 +25,27 @@
     <string name="kami_siap_m">Kami siap membantu Anda dalam situasi darurat, kapan saja, di mana saja.</string>
     <string name="login_button">Masuk</string>
     <string name="login_prompt_email">Silahkan masukan email Anda</string>
-    <string name="login_welcome_message">Selamat datang kembali</string>
+    <string name="login_welcome_message">Selamat datang\nkembali</string>
     <string name="password_hint">Kata Sandi</string>
     <string name="plate_number">No. Plat: BK 9999 GD</string>
     <string name="selamat_dat">Selamat datang\ndi InstaHelp</string>
+    <string name="selamat_datang_di_instahelp">Selamat Datang di Instahelp</string>
+    <string name="selanjutnya">Selanjutnya</string>
     <string name="sign_up_action">Daftar sekarang</string>
     <string name="sign_up_prompt">Belum memiliki akun?</string>
+    <string name="untuk_individu_yang_ingin_melaporkan_kejadian">Untuk individu yang ingin melaporkan kejadian</string>
+    <string name="untuk_organisasi_atau_lembaga_yang_menangani_kejadian">Untuk organisasi atau lembaga\nyang menangani kejadian</string>
     <style name="Base.Theme.InstaHELP" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/my_primary</item>
         <item name="colorPrimaryVariant">@color/my_secondary</item>
         <item name="colorOnPrimary">@color/white</item>
+    </style>
+    <style name="input" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox</item>
+        <item name="boxCollapsedPaddingTop">0dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="hintTextColor">@color/gray</item>
+        <item name="android:textColorHint">@color/gray</item>
     </style>
     <style name="kami_siap_m">
         <item name="android:textSize">16sp</item>
