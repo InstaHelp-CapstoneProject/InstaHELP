@@ -6,4 +6,12 @@
         <item name="colorOnPrimary">@color/white</item>
     </style>
 
+    <style name="input" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox</item>
+        <item name="boxCollapsedPaddingTop">0dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="hintTextColor">@color/gray</item>
+        <item name="android:textColorHint">@color/gray</item>
+    </style>
+
 </resources>
