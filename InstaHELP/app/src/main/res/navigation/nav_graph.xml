@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/panggilFragment">
+
+    <fragment
+        android:id="@+id/panggilFragment"
+        android:name="com.dicoding.instahelp.resident.fragment.PanggilFragment"
+        android:label="Panggil"
+        tools:layout="@layout/fragment_panggil" />
+
+    <fragment
+        android:id="@+id/laporanFragment"
+        android:name="com.dicoding.instahelp.resident.fragment.LaporanFragment"
+        android:label="Laporan"
+        tools:layout="@layout/fragment_laporan" />
+
+    <fragment
+        android:id="@+id/pengaturanFragment"
+        android:name="com.dicoding.instahelp.resident.fragment.PengaturanFragment"
+        android:label="Pengaturan"
+        tools:layout="@layout/fragment_pengaturan" />
+</navigation>

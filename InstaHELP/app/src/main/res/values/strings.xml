@@ -22,5 +22,40 @@
     <string name="untuk_individu_yang_ingin_melaporkan_kejadian">Untuk individu yang ingin melaporkan kejadian</string>
     <string name="untuk_organisasi_atau_lembaga_yang_menangani_kejadian">Untuk organisasi atau lembaga\nyang menangani kejadian</string>
     <string name="selanjutnya">Selanjutnya</string>
+<<<<<<< HEAD
     <string name="rincian_instansi">Rincian Instansi</string>
+=======
+    <!-- Bottom Sheet Emergency Call Form -->
+    <string name="header_emergency_form">Form Panggilan Darurat</string>
+    <string name="photo_incident">Foto Kejadian</string>
+    <string name="take_photo">Foto</string>
+    <string name="coordinate_point">Titik Koordinat</string>
+    <string name="coordinate_location_hint">Koordinat Lokasi</string>
+    <string name="call_button">Panggil</string>
+    <string name="mic_button_desc">Rekam suara untuk panggilan darurat</string>
+    <string name="take_photo_icon_desc">Ikon kamera untuk mengambil foto kejadian</string>
+    <string name="location_icon_desc">Ikon lokasi</string>
+    <string name="urgent_call_icon_desc">Ikon panggilan darurat</string>
+
+    <!-- Strings for Logo and Profile Section -->
+    <string name="user_name">Alex</string>
+    <string name="user_location">Sunggal, Medan</string>
+    <string name="user_status_verified">Terverifikasi</string>
+
+    <!-- Strings for Search Box -->
+    <string name="search_hint">Cari Rumah Sakit/Instansi</string>
+
+    <!-- Section Header -->
+    <string name="nearest_hospitals">Rumah Sakit Terdekat</string>
+
+    <!-- Accessibility content descriptions -->
+    <string name="profile_image_description">Gambar profil pengguna</string>
+    <string name="hospital_image_description">Gambar rumah sakit</string>
+    <string name="hospital_name">Nama Rumah Sakit</string>
+    <string name="hospital_location">Lokasi Rumah Sakit</string>
+    <string name="availability_badge_available">Tersedia</string>
+    <string name="vehicle_icon_description">Ikon Kendaraan</string>
+    <string name="location_icon_description">Ikon Lokasi</string>
+    <string name="profile_picture">Foto Profil</string>
+>>>>>>> 3f9c2cf36be6f86e1a1f47395e35be0a01649eb8
 </resources>

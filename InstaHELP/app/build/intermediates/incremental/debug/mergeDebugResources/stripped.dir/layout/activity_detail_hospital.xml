@@ -6,26 +6,17 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
-    <include
-        android:id="@+id/rincian_instansi"
-        layout="@layout/toolbar"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
 
-    </include>
 
     <ImageView
         android:id="@+id/gambar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
         android:scaleType="centerCrop"
         android:src="@drawable/rumahsakit"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Informasi Rumah Sakit -->
     <RelativeLayout
@@ -184,6 +175,4 @@
             android:textColor="@color/white"
             android:textStyle="bold" />
     </LinearLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

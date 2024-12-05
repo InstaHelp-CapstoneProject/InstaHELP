@@ -51,22 +51,24 @@
             app:layout_constraintEnd_toEndOf="parent" />
 
         <!-- Nama Input -->
+
+        <!-- Alamat Input -->
         <EditText
             android:id="@+id/et_nama"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="136dp"
+            android:background="@drawable/bg_edittext"
             android:hint="Nama"
             android:inputType="textPersonName"
-            android:background="@drawable/bg_edittext"
             android:padding="12dp"
             android:textColor="#000000"
             android:textSize="14sp"
-            app:layout_constraintTop_toBottomOf="@id/et_nik"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintTop_toBottomOf="@id/et_nik" />
 
-        <!-- Alamat Input -->
         <EditText
             android:id="@+id/et_alamat"
             android:layout_width="0dp"

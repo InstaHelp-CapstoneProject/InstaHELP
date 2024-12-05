@@ -6,8 +6,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.dicoding.instahelp.R
-import com.dicoding.instahelp.resident.call.amburecycler.Ambulance
-import com.dicoding.instahelp.resident.call.amburecycler.AmbulanceAdapter
+import com.dicoding.instahelp.resident.call.recycleradapter.Ambulance
+import com.dicoding.instahelp.resident.call.recycleradapter.AmbulanceAdapter
+import com.dicoding.instahelp.resident.fragment.CallBottomSheetFragment
 
 class DetailHospitalActivity : AppCompatActivity() {
 
