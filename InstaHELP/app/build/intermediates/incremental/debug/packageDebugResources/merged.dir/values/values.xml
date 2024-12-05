@@ -10,9 +10,9 @@
     <color name="gray">#666666</color>
     <color name="gray_light">#DDDDDD</color>
     <color name="green">#4CAF50</color>
-    <color name="my_primary">#FF5722</color>
+    <color name="my_primary">#FF6F09</color>
     <color name="my_secondary">#D7481B</color>
-    <color name="orange">#FF5722</color>
+    <color name="orange">#FF6F09</color>
     <color name="orange_pressed">#F4511E</color>
     <color name="white">#FFFFFF</color>
     <string name="ambulance_image_description">Foto Ambulans</string>
@@ -28,7 +28,6 @@
     <string name="forgot_password">Lupa kata sandi ?</string>
     <string name="get_started">Mulai Sekarang</string>
     <string name="header_emergency_form">Form Panggilan Darurat</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hospital_image_description">Gambar rumah sakit</string>
     <string name="hospital_location">Lokasi Rumah Sakit</string>
     <string name="hospital_name">Nama Rumah Sakit</string>
@@ -37,7 +36,7 @@
     <string name="location_icon_description">Ikon Lokasi</string>
     <string name="login_button">Masuk</string>
     <string name="login_prompt_email">Silahkan masukan email Anda</string>
-    <string name="login_welcome_message">Selamat datang kembali</string>
+    <string name="login_welcome_message">Selamat datang\nkembali</string>
     <string name="mic_button_desc">Rekam suara untuk panggilan darurat</string>
     <string name="nearest_hospitals">Rumah Sakit Terdekat</string>
     <string name="password_hint">Kata Sandi</string>
@@ -45,12 +44,17 @@
     <string name="plate_number">No. Plat: BK 9999 GD</string>
     <string name="profile_image_description">Gambar profil pengguna</string>
     <string name="profile_picture">Foto Profil</string>
+    <string name="rincian_instansi">Rincian Instansi</string>
     <string name="search_hint">Cari Rumah Sakit/Instansi</string>
     <string name="selamat_dat">Selamat datang\ndi InstaHelp</string>
+    <string name="selamat_datang_di_instahelp">Selamat Datang di Instahelp</string>
+    <string name="selanjutnya">Selanjutnya</string>
     <string name="sign_up_action">Daftar sekarang</string>
     <string name="sign_up_prompt">Belum memiliki akun?</string>
     <string name="take_photo">Foto</string>
     <string name="take_photo_icon_desc">Ikon kamera untuk mengambil foto kejadian</string>
+    <string name="untuk_individu_yang_ingin_melaporkan_kejadian">Untuk individu yang ingin melaporkan kejadian</string>
+    <string name="untuk_organisasi_atau_lembaga_yang_menangani_kejadian">Untuk organisasi atau lembaga\nyang menangani kejadian</string>
     <string name="urgent_call_icon_desc">Ikon panggilan darurat</string>
     <string name="user_location">Sunggal, Medan</string>
     <string name="user_name">Alex</string>
@@ -60,6 +64,13 @@
         <item name="colorPrimary">@color/my_primary</item>
         <item name="colorPrimaryVariant">@color/my_secondary</item>
         <item name="colorOnPrimary">@color/white</item>
+    </style>
+    <style name="input" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox</item>
+        <item name="boxCollapsedPaddingTop">0dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="hintTextColor">@color/gray</item>
+        <item name="android:textColorHint">@color/gray</item>
     </style>
     <style name="kami_siap_m">
         <item name="android:textSize">16sp</item>

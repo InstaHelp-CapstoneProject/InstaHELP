@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -20,7 +21,7 @@
         android:id="@+id/header_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/header_emergency_form"
+        android:text="Form Panggilan Darurat"
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -48,8 +49,7 @@
             android:layout_height="40dp"
             android:src="@drawable/ic_mic"
             app:tint="@color/white"
-            android:layout_centerInParent="true"
-            android:contentDescription="@string/mic_button_desc" />
+            android:layout_centerInParent="true" />
     </RelativeLayout>
 
     <!-- Foto Kejadian -->
@@ -58,7 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:gravity="start"
-        android:text="@string/photo_incident"
+        android:text="Foto Kejadian"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:layout_gravity="start"
@@ -84,19 +84,17 @@
             android:layout_gravity="center_vertical"
             android:layout_marginStart="130dp"
             android:src="@drawable/take_picture"
-            app:tint="@color/white"
-            android:contentDescription="@string/take_photo_icon_desc" />
+            app:tint="@color/white" />
 
         <!-- Teks Tombol -->
         <TextView
             android:layout_width="35dp"
-            android:layout_height="19dp"
+            android:layout_height="25dp"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="10dp"
-            android:text="@string/take_photo"
+            android:text="Foto"
             android:textColor="@color/white"
-            android:textSize="16sp"
-            android:textStyle="bold"/>
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -110,7 +108,7 @@
             android:id="@+id/text_titik_koordinat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/coordinate_point"
+            android:text="Titik Koordinat"
             android:textColor="@color/black"
             android:textSize="14sp"
             android:textStyle="bold"
@@ -128,12 +126,10 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="@string/coordinate_location_hint"
                 android:background="@drawable/card_background"
+                android:hint="Koordinat Lokasi"
                 android:padding="10dp"
-                android:inputType="text"
-                android:autofillHints="postalAddress"
-                android:importantForAutofill="auto" />
+                tools:ignore="TouchTargetSizeCheck" />
 
             <!-- Button with Location Icon -->
             <RelativeLayout
@@ -149,8 +145,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/ic_location"
-                    android:contentDescription="@string/location_icon_desc" />
+                    android:src="@drawable/ic_location" />
             </RelativeLayout>
         </LinearLayout>
     </LinearLayout>
@@ -173,10 +168,8 @@
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:layout_marginStart="120dp"
-            android:layout_gravity="center_vertical"
-            android:src="@drawable/urgent_call"
-            android:contentDescription="@string/urgent_call_icon_desc" />
+            android:layout_marginStart="120dp"            android:layout_gravity="center_vertical"
+            android:src="@drawable/urgent_call" />
 
         <!-- Teks Tombol -->
         <TextView
@@ -184,7 +177,7 @@
             android:layout_height="25dp"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="10dp"
-            android:text="@string/call_button"
+            android:text="Panggil"
             android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold" />
