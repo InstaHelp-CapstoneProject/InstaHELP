@@ -57,7 +57,8 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation (libs.androidx.constraintlayout)
     implementation (libs.androidx.recyclerview)
-    implementation (libs.material)
     implementation (libs.androidx.appcompat)
+
+    implementation("com.google.android.material:material:1.9.0")
 
 }

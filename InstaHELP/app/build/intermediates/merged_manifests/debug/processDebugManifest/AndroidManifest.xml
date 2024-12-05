@@ -35,7 +35,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        android:theme="@style/AppTheme" >
         <activity
             android:name="com.dicoding.instahelp.resident.call.DetailHospitalActivity"
             android:exported="true" />
@@ -44,6 +44,9 @@
             android:exported="false" />
         <activity
             android:name="com.dicoding.instahelp.loginregist.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dicoding.instahelp.loginregist.ForgetPasswordActivity"
             android:exported="false" />
         <activity
             android:name="com.dicoding.instahelp.loginregist.SignUpResidentActivity"

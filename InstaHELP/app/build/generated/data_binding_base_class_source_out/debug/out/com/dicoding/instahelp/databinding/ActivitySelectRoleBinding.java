@@ -21,6 +21,9 @@ public final class ActivitySelectRoleBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
+  public final ButtonOrangeBinding btnSelectRole;
+
+  @NonNull
   public final LinearLayout cardInstansi;
 
   @NonNull
@@ -42,11 +45,12 @@ public final class ActivitySelectRoleBinding implements ViewBinding {
   public final TextView tvHeaderTitle;
 
   private ActivitySelectRoleBinding(@NonNull RelativeLayout rootView,
-      @NonNull LinearLayout cardInstansi, @NonNull LinearLayout cardMasyarakat,
-      @NonNull LinearLayout roleSelectionContainer, @NonNull View toggleInstansi,
-      @NonNull View toggleMasyarakat, @NonNull TextView tvHeaderSubtitle,
-      @NonNull TextView tvHeaderTitle) {
+      @NonNull ButtonOrangeBinding btnSelectRole, @NonNull LinearLayout cardInstansi,
+      @NonNull LinearLayout cardMasyarakat, @NonNull LinearLayout roleSelectionContainer,
+      @NonNull View toggleInstansi, @NonNull View toggleMasyarakat,
+      @NonNull TextView tvHeaderSubtitle, @NonNull TextView tvHeaderTitle) {
     this.rootView = rootView;
+    this.btnSelectRole = btnSelectRole;
     this.cardInstansi = cardInstansi;
     this.cardMasyarakat = cardMasyarakat;
     this.roleSelectionContainer = roleSelectionContainer;
@@ -83,6 +87,13 @@ public final class ActivitySelectRoleBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btn_select_role;
+      View btnSelectRole = ViewBindings.findChildViewById(rootView, id);
+      if (btnSelectRole == null) {
+        break missingId;
+      }
+      ButtonOrangeBinding binding_btnSelectRole = ButtonOrangeBinding.bind(btnSelectRole);
+
       id = R.id.card_instansi;
       LinearLayout cardInstansi = ViewBindings.findChildViewById(rootView, id);
       if (cardInstansi == null) {
@@ -125,9 +136,9 @@ public final class ActivitySelectRoleBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySelectRoleBinding((RelativeLayout) rootView, cardInstansi, cardMasyarakat,
-          roleSelectionContainer, toggleInstansi, toggleMasyarakat, tvHeaderSubtitle,
-          tvHeaderTitle);
+      return new ActivitySelectRoleBinding((RelativeLayout) rootView, binding_btnSelectRole,
+          cardInstansi, cardMasyarakat, roleSelectionContainer, toggleInstansi, toggleMasyarakat,
+          tvHeaderSubtitle, tvHeaderTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

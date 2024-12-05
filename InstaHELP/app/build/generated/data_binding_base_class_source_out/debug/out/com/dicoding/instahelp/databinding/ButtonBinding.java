@@ -4,7 +4,7 @@ package com.dicoding.instahelp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -20,9 +20,9 @@ public final class ButtonBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button btnGetStarted;
+  public final TextView btnGetStarted;
 
-  private ButtonBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnGetStarted) {
+  private ButtonBinding(@NonNull ConstraintLayout rootView, @NonNull TextView btnGetStarted) {
     this.rootView = rootView;
     this.btnGetStarted = btnGetStarted;
   }
@@ -55,7 +55,7 @@ public final class ButtonBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btn_get_started;
-      Button btnGetStarted = ViewBindings.findChildViewById(rootView, id);
+      TextView btnGetStarted = ViewBindings.findChildViewById(rootView, id);
       if (btnGetStarted == null) {
         break missingId;
       }

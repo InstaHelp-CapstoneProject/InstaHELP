@@ -5,24 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
+    <TextView
         android:id="@+id/btn_get_started"
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="112dp"
+        android:layout_marginBottom="92dp"
         android:background="@drawable/rounded_bottom_sheet"
         android:gravity="center"
+        android:onClick="onGetStartedClick"
         android:text="@string/get_started"
         android:textColor="@color/orange"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:onClick="onGetStartedClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent">
-    </Button>
+
+    </TextView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

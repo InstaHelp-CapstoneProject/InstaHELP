@@ -7,6 +7,7 @@ import android.text.method.HideReturnsTransformationMethod
 import android.text.method.PasswordTransformationMethod
 import android.widget.Button
 import android.widget.TextView
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.dicoding.instahelp.R
 import com.dicoding.instahelp.databinding.ActivityLoginInstansiBinding
@@ -19,6 +20,7 @@ class LoginInstansiActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
         binding = ActivityLoginInstansiBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -31,6 +33,17 @@ class LoginInstansiActivity : AppCompatActivity() {
             val intent = Intent(this, SignUpResidentActivity::class.java)
             startActivity(intent)
         }
+        val logininstansi: TextView = findViewById(R.id.btn_next)
+        logininstansi.setOnClickListener {
+            val intent = Intent(this, SignUpResidentActivity::class.java)
+            startActivity(intent) // Memulai aktivitas SignUpResidentActivity
+        }
+        val forgot_password: TextView = findViewById(R.id.tv_forgot_password_instansi)
+        forgot_password.setOnClickListener {
+            val intent = Intent(this, ForgetPasswordActivity::class.java)
+            startActivity(intent)
+        }
+        logininstansi.text = getString(R.string.masuk)
     }
 
     private fun togglePasswordVisibility() {

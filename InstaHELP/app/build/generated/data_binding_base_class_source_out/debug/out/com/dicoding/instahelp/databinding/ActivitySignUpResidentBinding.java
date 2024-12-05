@@ -4,10 +4,9 @@ package com.dicoding.instahelp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.ScrollView;
+import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -21,10 +20,13 @@ import java.lang.String;
 
 public final class ActivitySignUpResidentBinding implements ViewBinding {
   @NonNull
-  private final ScrollView rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
-  public final Button btnBuatAkun;
+  public final ButtonOrangeBinding btnMakeAcc;
+
+  @NonNull
+  public final ImageView calender;
 
   @NonNull
   public final EditText etAlamat;
@@ -54,6 +56,12 @@ public final class ActivitySignUpResidentBinding implements ViewBinding {
   public final EditText etTempatLahir;
 
   @NonNull
+  public final ImageView eyeIconKatasandi;
+
+  @NonNull
+  public final ImageView eyeIconKksandi;
+
+  @NonNull
   public final ImageView ivLogo;
 
   @NonNull
@@ -63,16 +71,19 @@ public final class ActivitySignUpResidentBinding implements ViewBinding {
   public final ToolbarBinding toolbarSignup;
 
   @NonNull
-  public final TextView tvLogin;
+  public final TextView tvLoginNow;
 
-  private ActivitySignUpResidentBinding(@NonNull ScrollView rootView, @NonNull Button btnBuatAkun,
+  private ActivitySignUpResidentBinding(@NonNull RelativeLayout rootView,
+      @NonNull ButtonOrangeBinding btnMakeAcc, @NonNull ImageView calender,
       @NonNull EditText etAlamat, @NonNull EditText etEmail, @NonNull EditText etKataSandi,
       @NonNull EditText etKonfirmasiKataSandi, @NonNull EditText etNama, @NonNull EditText etNik,
       @NonNull EditText etNomorTelepon, @NonNull EditText etTanggalLahir,
-      @NonNull EditText etTempatLahir, @NonNull ImageView ivLogo, @NonNull Spinner spJenisKelamin,
-      @NonNull ToolbarBinding toolbarSignup, @NonNull TextView tvLogin) {
+      @NonNull EditText etTempatLahir, @NonNull ImageView eyeIconKatasandi,
+      @NonNull ImageView eyeIconKksandi, @NonNull ImageView ivLogo, @NonNull Spinner spJenisKelamin,
+      @NonNull ToolbarBinding toolbarSignup, @NonNull TextView tvLoginNow) {
     this.rootView = rootView;
-    this.btnBuatAkun = btnBuatAkun;
+    this.btnMakeAcc = btnMakeAcc;
+    this.calender = calender;
     this.etAlamat = etAlamat;
     this.etEmail = etEmail;
     this.etKataSandi = etKataSandi;
@@ -82,15 +93,17 @@ public final class ActivitySignUpResidentBinding implements ViewBinding {
     this.etNomorTelepon = etNomorTelepon;
     this.etTanggalLahir = etTanggalLahir;
     this.etTempatLahir = etTempatLahir;
+    this.eyeIconKatasandi = eyeIconKatasandi;
+    this.eyeIconKksandi = eyeIconKksandi;
     this.ivLogo = ivLogo;
     this.spJenisKelamin = spJenisKelamin;
     this.toolbarSignup = toolbarSignup;
-    this.tvLogin = tvLogin;
+    this.tvLoginNow = tvLoginNow;
   }
 
   @Override
   @NonNull
-  public ScrollView getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -115,9 +128,16 @@ public final class ActivitySignUpResidentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_buat_akun;
-      Button btnBuatAkun = ViewBindings.findChildViewById(rootView, id);
-      if (btnBuatAkun == null) {
+      id = R.id.btn_makeAcc;
+      View btnMakeAcc = ViewBindings.findChildViewById(rootView, id);
+      if (btnMakeAcc == null) {
+        break missingId;
+      }
+      ButtonOrangeBinding binding_btnMakeAcc = ButtonOrangeBinding.bind(btnMakeAcc);
+
+      id = R.id.calender;
+      ImageView calender = ViewBindings.findChildViewById(rootView, id);
+      if (calender == null) {
         break missingId;
       }
 
@@ -175,6 +195,18 @@ public final class ActivitySignUpResidentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.eye_icon_katasandi;
+      ImageView eyeIconKatasandi = ViewBindings.findChildViewById(rootView, id);
+      if (eyeIconKatasandi == null) {
+        break missingId;
+      }
+
+      id = R.id.eye_icon_kksandi;
+      ImageView eyeIconKksandi = ViewBindings.findChildViewById(rootView, id);
+      if (eyeIconKksandi == null) {
+        break missingId;
+      }
+
       id = R.id.iv_logo;
       ImageView ivLogo = ViewBindings.findChildViewById(rootView, id);
       if (ivLogo == null) {
@@ -194,15 +226,16 @@ public final class ActivitySignUpResidentBinding implements ViewBinding {
       }
       ToolbarBinding binding_toolbarSignup = ToolbarBinding.bind(toolbarSignup);
 
-      id = R.id.tv_login;
-      TextView tvLogin = ViewBindings.findChildViewById(rootView, id);
-      if (tvLogin == null) {
+      id = R.id.tv_login_now;
+      TextView tvLoginNow = ViewBindings.findChildViewById(rootView, id);
+      if (tvLoginNow == null) {
         break missingId;
       }
 
-      return new ActivitySignUpResidentBinding((ScrollView) rootView, btnBuatAkun, etAlamat,
-          etEmail, etKataSandi, etKonfirmasiKataSandi, etNama, etNik, etNomorTelepon,
-          etTanggalLahir, etTempatLahir, ivLogo, spJenisKelamin, binding_toolbarSignup, tvLogin);
+      return new ActivitySignUpResidentBinding((RelativeLayout) rootView, binding_btnMakeAcc,
+          calender, etAlamat, etEmail, etKataSandi, etKonfirmasiKataSandi, etNama, etNik,
+          etNomorTelepon, etTanggalLahir, etTempatLahir, eyeIconKatasandi, eyeIconKksandi, ivLogo,
+          spJenisKelamin, binding_toolbarSignup, tvLoginNow);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

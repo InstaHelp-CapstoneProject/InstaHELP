@@ -6,6 +6,7 @@
         <item>Laki-laki</item>
     </string-array>
     <color name="black">#FF000000</color>
+    <color name="blue">#3B5FE6</color>
     <color name="dark">#333333</color>
     <color name="gray">#666666</color>
     <color name="gray_light">#DDDDDD</color>
@@ -14,15 +15,21 @@
     <color name="my_secondary">#D7481B</color>
     <color name="orange">#FF6F09</color>
     <color name="orange_pressed">#F4511E</color>
+    <color name="primaryColor">#FF6F09</color>
+    <color name="primaryDarkColor">#666666</color>
+    <color name="red">#FF0922</color>
+    <color name="secondaryColor">#D7481B</color>
     <color name="white">#FFFFFF</color>
     <string name="ambulance_image_description">Foto Ambulans</string>
     <string name="ambulance_name">Ambulans Gawat Darurat</string>
     <string name="app_name">InstaHELP</string>
     <string name="availability">Tersedia</string>
     <string name="availability_badge_available">Tersedia</string>
+    <string name="buat_akun">Buat Akun</string>
     <string name="call_button">Panggil</string>
     <string name="coordinate_location_hint">Koordinat Lokasi</string>
     <string name="coordinate_point">Titik Koordinat</string>
+    <string name="daftar_sekarang">Daftar Sekarang</string>
     <string name="driver_name">Sopir: John Doe</string>
     <string name="e_mail">Email Anda</string>
     <string name="forgot_password">Lupa kata sandi ?</string>
@@ -37,10 +44,14 @@
     <string name="login_button">Masuk</string>
     <string name="login_prompt_email">Silahkan masukan email Anda</string>
     <string name="login_welcome_message">Selamat datang\nkembali</string>
+    <string name="lupa_kata_sandi">Lupa Kata Sandi</string>
+    <string name="masuk">Masuk</string>
+    <string name="masuk_sekarang">Masuk sekarang</string>
     <string name="mic_button_desc">Rekam suara untuk panggilan darurat</string>
     <string name="nearest_hospitals">Rumah Sakit Terdekat</string>
     <string name="password_hint">Kata Sandi</string>
     <string name="photo_incident">Foto Kejadian</string>
+    <string name="pilihjenis">Pilih Jenis Kelamin</string>
     <string name="plate_number">No. Plat: BK 9999 GD</string>
     <string name="profile_image_description">Gambar profil pengguna</string>
     <string name="profile_picture">Foto Profil</string>
@@ -51,6 +62,7 @@
     <string name="selanjutnya">Selanjutnya</string>
     <string name="sign_up_action">Daftar sekarang</string>
     <string name="sign_up_prompt">Belum memiliki akun?</string>
+    <string name="sudah_punya_akun">Sudah punya akun?</string>
     <string name="take_photo">Foto</string>
     <string name="take_photo_icon_desc">Ikon kamera untuk mengambil foto kejadian</string>
     <string name="untuk_individu_yang_ingin_melaporkan_kejadian">Untuk individu yang ingin melaporkan kejadian</string>
@@ -60,6 +72,14 @@
     <string name="user_name">Alex</string>
     <string name="user_status_verified">Terverifikasi</string>
     <string name="vehicle_icon_description">Ikon Kendaraan</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
     <style name="Base.Theme.InstaHELP" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/my_primary</item>
         <item name="colorPrimaryVariant">@color/my_secondary</item>

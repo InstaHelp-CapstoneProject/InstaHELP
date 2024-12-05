@@ -56,4 +56,14 @@
     <string name="vehicle_icon_description">Ikon Kendaraan</string>
     <string name="location_icon_description">Ikon Lokasi</string>
     <string name="profile_picture">Foto Profil</string>
+
+    <!-- Form SignUp -->
+    <string name="pilihjenis">Pilih Jenis Kelamin</string>
+    <string name="daftar_sekarang">Daftar Sekarang</string>
+    <string name="masuk">Masuk</string>
+    <string name="buat_akun">Buat Akun</string>
+    <string name="sudah_punya_akun">Sudah punya akun?</string>
+    <string name="masuk_sekarang">Masuk sekarang</string>
+    <string name="lupa_kata_sandi">Lupa Kata Sandi</string>
+
 </resources>

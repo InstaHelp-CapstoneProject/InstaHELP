@@ -10,4 +10,6 @@
     <color name="orange_pressed">#F4511E</color>
     <color name="my_secondary">#D7481B</color>
     <color name="my_primary">#FF6F09</color>
+    <color name="red">#FF0922</color>
+    <color name="blue">#3B5FE6</color>
 </resources>

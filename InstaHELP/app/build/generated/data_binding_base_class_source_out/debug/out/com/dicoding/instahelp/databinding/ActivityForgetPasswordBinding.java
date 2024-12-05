@@ -4,14 +4,12 @@ package com.dicoding.instahelp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.TextView;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.dicoding.instahelp.R;
@@ -21,50 +19,37 @@ import java.lang.String;
 
 public final class ActivityForgetPasswordBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
-  public final TextView appName;
+  public final LinearLayout aku;
 
   @NonNull
-  public final ImageView backButton;
+  public final ButtonOrangeBinding btnForgetAcc;
 
   @NonNull
-  public final EditText emailOrPhoneInput;
+  public final EditText etEmail;
 
   @NonNull
-  public final ImageView logo;
+  public final ImageView ivLogo;
 
   @NonNull
-  public final LinearLayout logoAndName;
+  public final ToolbarBinding toolbarForgetPass;
 
-  @NonNull
-  public final ConstraintLayout main;
-
-  @NonNull
-  public final Button submitButton;
-
-  @NonNull
-  public final TextView titleText;
-
-  private ActivityForgetPasswordBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView appName, @NonNull ImageView backButton, @NonNull EditText emailOrPhoneInput,
-      @NonNull ImageView logo, @NonNull LinearLayout logoAndName, @NonNull ConstraintLayout main,
-      @NonNull Button submitButton, @NonNull TextView titleText) {
+  private ActivityForgetPasswordBinding(@NonNull RelativeLayout rootView, @NonNull LinearLayout aku,
+      @NonNull ButtonOrangeBinding btnForgetAcc, @NonNull EditText etEmail,
+      @NonNull ImageView ivLogo, @NonNull ToolbarBinding toolbarForgetPass) {
     this.rootView = rootView;
-    this.appName = appName;
-    this.backButton = backButton;
-    this.emailOrPhoneInput = emailOrPhoneInput;
-    this.logo = logo;
-    this.logoAndName = logoAndName;
-    this.main = main;
-    this.submitButton = submitButton;
-    this.titleText = titleText;
+    this.aku = aku;
+    this.btnForgetAcc = btnForgetAcc;
+    this.etEmail = etEmail;
+    this.ivLogo = ivLogo;
+    this.toolbarForgetPass = toolbarForgetPass;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -89,52 +74,40 @@ public final class ActivityForgetPasswordBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.app_name;
-      TextView appName = ViewBindings.findChildViewById(rootView, id);
-      if (appName == null) {
+      id = R.id.aku;
+      LinearLayout aku = ViewBindings.findChildViewById(rootView, id);
+      if (aku == null) {
         break missingId;
       }
 
-      id = R.id.back_button;
-      ImageView backButton = ViewBindings.findChildViewById(rootView, id);
-      if (backButton == null) {
+      id = R.id.btn_forgetAcc;
+      View btnForgetAcc = ViewBindings.findChildViewById(rootView, id);
+      if (btnForgetAcc == null) {
+        break missingId;
+      }
+      ButtonOrangeBinding binding_btnForgetAcc = ButtonOrangeBinding.bind(btnForgetAcc);
+
+      id = R.id.et_email;
+      EditText etEmail = ViewBindings.findChildViewById(rootView, id);
+      if (etEmail == null) {
         break missingId;
       }
 
-      id = R.id.email_or_phone_input;
-      EditText emailOrPhoneInput = ViewBindings.findChildViewById(rootView, id);
-      if (emailOrPhoneInput == null) {
+      id = R.id.iv_logo;
+      ImageView ivLogo = ViewBindings.findChildViewById(rootView, id);
+      if (ivLogo == null) {
         break missingId;
       }
 
-      id = R.id.logo;
-      ImageView logo = ViewBindings.findChildViewById(rootView, id);
-      if (logo == null) {
+      id = R.id.toolbar_forgetPass;
+      View toolbarForgetPass = ViewBindings.findChildViewById(rootView, id);
+      if (toolbarForgetPass == null) {
         break missingId;
       }
+      ToolbarBinding binding_toolbarForgetPass = ToolbarBinding.bind(toolbarForgetPass);
 
-      id = R.id.logo_and_name;
-      LinearLayout logoAndName = ViewBindings.findChildViewById(rootView, id);
-      if (logoAndName == null) {
-        break missingId;
-      }
-
-      ConstraintLayout main = (ConstraintLayout) rootView;
-
-      id = R.id.submit_button;
-      Button submitButton = ViewBindings.findChildViewById(rootView, id);
-      if (submitButton == null) {
-        break missingId;
-      }
-
-      id = R.id.title_text;
-      TextView titleText = ViewBindings.findChildViewById(rootView, id);
-      if (titleText == null) {
-        break missingId;
-      }
-
-      return new ActivityForgetPasswordBinding((ConstraintLayout) rootView, appName, backButton,
-          emailOrPhoneInput, logo, logoAndName, main, submitButton, titleText);
+      return new ActivityForgetPasswordBinding((RelativeLayout) rootView, aku, binding_btnForgetAcc,
+          etEmail, ivLogo, binding_toolbarForgetPass);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

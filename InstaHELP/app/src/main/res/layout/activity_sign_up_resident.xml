@@ -1,211 +1,270 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
     tools:context=".loginregist.SignUpResidentActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <!-- Toolbar -->
+    <include
+        android:id="@+id/toolbar_signup"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <!-- ScrollView untuk Logo dan Form -->
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white">
+        android:layout_below="@id/toolbar_signup"
+        android:padding="16dp"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="50dp">
 
-        <include
-            android:id="@+id/toolbar_signup"
-            layout="@layout/toolbar"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent">
-        </include>
-
-
-        <!-- Logo -->
-        <ImageView
-            android:id="@+id/iv_logo"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginTop="28dp"
-            android:src="@drawable/instalogo"
-            android:contentDescription="Logo"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/toolbar_signup" />
-
-        <!-- NIK Input -->
-        <EditText
-            android:id="@+id/et_nik"
-            android:layout_width="0dp"
+        <LinearLayout
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:hint="NIK"
-            android:inputType="number"
-            android:background="@drawable/bg_edittext"
-            android:padding="12dp"
-            android:textColor="#000000"
-            android:textSize="14sp"
-            app:layout_constraintTop_toBottomOf="@id/iv_logo"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
 
-        <!-- Nama Input -->
+            <!-- Logo -->
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/instalogo"
+                android:contentDescription="Logo" />
 
-        <!-- Alamat Input -->
-        <EditText
-            android:id="@+id/et_nama"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="136dp"
-            android:background="@drawable/bg_edittext"
-            android:hint="Nama"
-            android:inputType="textPersonName"
-            android:padding="12dp"
-            android:textColor="#000000"
-            android:textSize="14sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/et_nik" />
+            <!-- NIK Input -->
+            <EditText
+                android:id="@+id/et_nik"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                android:hint="NIK"
+                android:inputType="number"
+                android:background="@drawable/bg_edittext"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
 
-        <EditText
-            android:id="@+id/et_alamat"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:hint="Alamat"
-            android:inputType="textPostalAddress"
-            android:background="@drawable/bg_edittext"
-            android:padding="12dp"
-            android:textColor="#000000"
-            android:textSize="14sp"
-            app:layout_constraintTop_toBottomOf="@id/et_nama"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            <!-- Nama Input -->
+            <EditText
+                android:id="@+id/et_nama"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:hint="Nama"
+                android:inputType="textPersonName"
+                android:background="@drawable/bg_edittext"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
 
-        <!-- Jenis Kelamin -->
-        <Spinner
-            android:id="@+id/sp_jenis_kelamin"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/bg_spinner"
-            android:entries="@array/gender_options"
-            app:layout_constraintTop_toBottomOf="@id/et_alamat"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            <!-- Alamat Input -->
+            <EditText
+                android:id="@+id/et_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:hint="Alamat"
+                android:inputType="textPostalAddress"
+                android:background="@drawable/bg_edittext"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
 
-        <!-- Tempat Lahir -->
-        <EditText
-            android:id="@+id/et_tempat_lahir"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:hint="Tempat lahir"
-            android:inputType="text"
-            android:background="@drawable/bg_edittext"
-            android:padding="12dp"
-            app:layout_constraintTop_toBottomOf="@id/sp_jenis_kelamin"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            <!-- Jenis Kelamin -->
 
-        <!-- Tanggal Lahir -->
-        <EditText
-            android:id="@+id/et_tanggal_lahir"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:hint="Tanggal lahir"
-            android:inputType="date"
-            android:background="@drawable/bg_edittext"
-            android:padding="12dp"
-            app:layout_constraintTop_toBottomOf="@id/et_tempat_lahir"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_edittext">
 
-        <!-- Nomor Telepon -->
-        <EditText
-            android:id="@+id/et_nomor_telepon"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:hint="Nomor telepon"
-            android:inputType="phone"
-            android:background="@drawable/bg_edittext"
-            android:padding="12dp"
-            app:layout_constraintTop_toBottomOf="@id/et_tanggal_lahir"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+                <Spinner
+                    android:id="@+id/sp_jenis_kelamin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:entries="@array/gender_options"
+                    android:paddingEnd="16dp"
+                    android:paddingStart="8dp" />
 
-        <!-- Email -->
-        <EditText
-            android:id="@+id/et_email"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:hint="Email"
-            android:inputType="textEmailAddress"
-            android:background="@drawable/bg_edittext"
-            android:padding="12dp"
-            app:layout_constraintTop_toBottomOf="@id/et_nomor_telepon"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            </LinearLayout>
 
-        <!-- Kata Sandi -->
-        <EditText
-            android:id="@+id/et_kata_sandi"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:hint="Kata sandi"
-            android:inputType="textPassword"
-            android:background="@drawable/bg_edittext"
-            android:padding="12dp"
-            app:layout_constraintTop_toBottomOf="@id/et_email"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            <!-- Tempat Lahir -->
+            <EditText
+                android:id="@+id/et_tempat_lahir"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:hint="Tempat lahir"
+                android:inputType="text"
+                android:background="@drawable/bg_edittext"
+                android:padding="10dp"
+                android:textSize="14sp"/>
 
-        <!-- Konfirmasi Kata Sandi -->
-        <EditText
-            android:id="@+id/et_konfirmasi_kata_sandi"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:hint="Konfirmasi kata sandi"
-            android:inputType="textPassword"
-            android:background="@drawable/bg_edittext"
-            android:padding="12dp"
-            app:layout_constraintTop_toBottomOf="@id/et_kata_sandi"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            <!-- Tanggal Lahir -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_edittext">
 
-        <!-- Button Buat Akun -->
-        <Button
-            android:id="@+id/btn_buat_akun"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:backgroundTint="#FF7F00"
-            android:text="Buat Akun"
-            android:textColor="#FFFFFF"
-            app:layout_constraintTop_toBottomOf="@id/et_konfirmasi_kata_sandi"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+                <EditText
+                    android:background="@null"
+                    android:id="@+id/et_tanggal_lahir"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:hint="Tanggal Lahir"
+                    android:layout_toStartOf="@+id/calender"
+                    android:textSize="14sp"
+                    android:inputType="none"
+                    android:focusable="false"
+                    android:padding="10dp"
+                    android:elevation="2dp"/>
 
-        <!-- Login -->
-        <TextView
-            android:id="@+id/tv_login"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="Sudah punya akun? Masuk sekarang"
-            android:textColor="#FF7F00"
-            android:textSize="14sp"
-            app:layout_constraintTop_toBottomOf="@id/btn_buat_akun"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+                <ImageView
+                    android:id="@+id/calender"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/calender" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            </RelativeLayout>
 
-</ScrollView>
+            <!-- Nomor Telepon -->
+            <EditText
+                android:id="@+id/et_nomor_telepon"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:hint="Nomor Telepon"
+                android:inputType="phone"
+                android:background="@drawable/bg_edittext"
+                android:padding="10dp"
+                android:textSize="14sp"/>
+
+            <!-- Email -->
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/bg_edittext"
+                android:padding="10dp"
+                android:textSize="14sp"/>
+
+            <!-- Kata Sandi -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_edittext">
+
+                <EditText
+                    android:background="@null"
+                    android:id="@+id/et_kata_sandi"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:hint="Kata Sandi"
+                    android:layout_toStartOf="@+id/eye_icon_katasandi"
+                    android:textSize="14sp"
+                    android:inputType="textPassword"
+                    android:focusable="false"
+                    android:padding="10dp"
+                    android:elevation="2dp"/>
+
+
+                <ImageView
+                    android:id="@+id/eye_icon_katasandi"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/eye_hid" />
+            </RelativeLayout>
+
+
+            <!-- Konfirmasi Kata Sandi -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_edittext">
+
+                <EditText
+                    android:background="@null"
+                    android:id="@+id/et_konfirmasi_kata_sandi"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:hint="Konfirmasi Kata Sandi"
+                    android:layout_toStartOf="@+id/eye_icon_kksandi"
+                    android:textSize="14sp"
+                    android:inputType="textPassword"
+                    android:focusable="false"
+                    android:padding="10dp"
+                    android:elevation="2dp"/>
+
+
+                <ImageView
+                    android:id="@+id/eye_icon_kksandi"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/eye_hid" />
+            </RelativeLayout>
+
+            <!-- Button Buat Akun -->
+            <include
+                android:id="@+id/btn_makeAcc"
+                android:layout_marginTop="70dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/button_orange"/>
+
+            <!-- Login -->
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="40dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sudah_punya_akun"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_login_now"
+                    android:background="?attr/selectableItemBackground"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/masuk_sekarang"
+                    android:textColor="@color/blue"
+                    android:textSize="14sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

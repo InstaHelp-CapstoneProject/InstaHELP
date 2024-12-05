@@ -1441,6 +1441,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color blue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -2185,6 +2186,8 @@ color notification_icon_bg_color
 color notification_material_background_media_default_color
 color orange
 color orange_pressed
+color primaryColor
+color primaryDarkColor
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2193,8 +2196,10 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color red
 color ripple_material_dark
 color ripple_material_light
+color secondaryColor
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -3111,6 +3116,8 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable arrow_down
+drawable arrow_up
 drawable avd_hide_password
 drawable avd_show_password
 drawable baseline_arrow_back_ios_24
@@ -3126,6 +3133,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button
+drawable calender
 drawable card_background
 drawable circle_background
 drawable design_fab_background
@@ -3553,6 +3561,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id aku
 id alertTitle
 id aligned
 id all
@@ -3565,7 +3574,6 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
-id app_name
 id arc
 id asConfigured
 id async
@@ -3576,7 +3584,6 @@ id autoCompleteToStart
 id availability
 id availability_badge
 id axisRelative
-id back_button
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3591,12 +3598,13 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btn_back
-id btn_buat_akun
+id btn_forgetAcc
 id btn_get_started
-id btn_login
 id btn_login_instansi
 id btn_login_masyarakat
+id btn_makeAcc
 id btn_next
+id btn_select_role
 id btn_signup_instansi
 id btn_signup_masyarakat
 id buttonPanel
@@ -3604,6 +3612,7 @@ id button_call
 id button_call_emergency
 id button_message
 id cache_measures
+id calender
 id callMeasure
 id call_button
 id call_icon
@@ -3690,7 +3699,6 @@ id edit_query
 id edit_text_coordinates
 id edit_text_id
 id elastic
-id email_or_phone_input
 id embed
 id end
 id endToStart
@@ -3712,6 +3720,8 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id eye_icon
+id eye_icon_katasandi
+id eye_icon_kksandi
 id fade
 id fill
 id fill_horizontal
@@ -3786,9 +3796,7 @@ id list_item
 id locale
 id location_button
 id location_icon
-id logo
 id logo_1
-id logo_and_name
 id ltr
 id m3_side_sheet
 id main
@@ -4067,7 +4075,6 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
-id submit_button
 id supportScrollUp
 id tabMode
 id tag_accessibility_actions
@@ -4105,11 +4112,11 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
-id title_text
 id toggle
 id toggle_instansi
 id toggle_masyarakat
 id toolbar
+id toolbar_forgetPass
 id toolbar_signup
 id top
 id topCurve
@@ -4126,11 +4133,11 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tv_forgot_password_masyarakat
+id tv_forgot_password_instansi
 id tv_forgot_password_resident
 id tv_header_subtitle
 id tv_header_title
-id tv_login
+id tv_login_now
 id unchecked
 id uniform
 id unlabeled
@@ -4296,7 +4303,6 @@ layout activity_select_role
 layout activity_sign_up_resident
 layout activity_splash
 layout bg_top
-layout btn_masuk
 layout button
 layout button_orange
 layout custom_dialog
@@ -4453,6 +4459,7 @@ string bottomsheet_action_expand
 string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
+string buat_akun
 string call_button
 string call_notification_answer_action
 string call_notification_answer_video_action
@@ -4467,6 +4474,7 @@ string character_counter_pattern
 string clear_text_end_icon_content_description
 string coordinate_location_hint
 string coordinate_point
+string daftar_sekarang
 string dest_title
 string driver_name
 string e_mail
@@ -4491,6 +4499,7 @@ string location_icon_description
 string login_button
 string login_prompt_email
 string login_welcome_message
+string lupa_kata_sandi
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -4507,6 +4516,8 @@ string m3_sys_motion_easing_linear
 string m3_sys_motion_easing_standard
 string m3_sys_motion_easing_standard_accelerate
 string m3_sys_motion_easing_standard_decelerate
+string masuk
+string masuk_sekarang
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_24h_suffix
@@ -4636,6 +4647,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string photo_incident
+string pilihjenis
 string plate_number
 string profile_image_description
 string profile_picture
@@ -4653,6 +4665,7 @@ string side_sheet_behavior
 string sign_up_action
 string sign_up_prompt
 string status_bar_notification_info_overflow
+string sudah_punya_akun
 string take_photo
 string take_photo_icon_desc
 string untuk_individu_yang_ingin_melaporkan_kejadian
@@ -4673,6 +4686,7 @@ style Animation_Material3_SideSheetDialog
 style Animation_Material3_SideSheetDialog_Left
 style Animation_Material3_SideSheetDialog_Right
 style Animation_MaterialComponents_BottomSheetDialog
+style AppTheme
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

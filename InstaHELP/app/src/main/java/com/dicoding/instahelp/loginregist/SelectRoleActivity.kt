@@ -5,7 +5,9 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.LinearLayout
+import android.widget.TextView
 import android.widget.Toast
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.dicoding.instahelp.R
 
@@ -15,6 +17,8 @@ class SelectRoleActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+
         setContentView(R.layout.activity_select_role)
 
         val cardMasyarakat = findViewById<LinearLayout>(R.id.card_masyarakat)
@@ -38,7 +42,7 @@ class SelectRoleActivity : AppCompatActivity() {
         }
 
         // Mendapatkan referensi ke tombol "Selanjutnya"
-        val btnNext = findViewById<Button>(R.id.btn_next)
+        val btnNext = findViewById<TextView>(R.id.btn_next)
 
         // Menetapkan klik listener untuk tombol "Selanjutnya"
         btnNext.setOnClickListener {
