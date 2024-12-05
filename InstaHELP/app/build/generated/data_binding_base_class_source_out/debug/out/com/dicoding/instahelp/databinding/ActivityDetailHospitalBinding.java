@@ -25,9 +25,6 @@ public final class ActivityDetailHospitalBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView btnBack;
-
-  @NonNull
   public final Button buttonCallEmergency;
 
   @NonNull
@@ -49,9 +46,6 @@ public final class ActivityDetailHospitalBinding implements ViewBinding {
   public final TextView jarakDariLokasi;
 
   @NonNull
-  public final LinearLayout linearLayout;
-
-  @NonNull
   public final RelativeLayout locationButton;
 
   @NonNull
@@ -70,22 +64,20 @@ public final class ActivityDetailHospitalBinding implements ViewBinding {
   public final RelativeLayout relativeLayout;
 
   @NonNull
-  public final TextView rincian;
+  public final ToolbarBinding rincianInstansi;
 
   @NonNull
   public final TextView tersedia;
 
   private ActivityDetailHospitalBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView btnBack, @NonNull Button buttonCallEmergency,
-      @NonNull RelativeLayout buttonMessage, @NonNull ConstraintLayout constraintLayout,
-      @NonNull TextView deskripsiRs, @NonNull LinearLayout footerButtons, @NonNull ImageView gambar,
-      @NonNull TextView jarakDariLokasi, @NonNull LinearLayout linearLayout,
-      @NonNull RelativeLayout locationButton, @NonNull ConstraintLayout main,
-      @NonNull TextView namaJalan, @NonNull TextView namaRs,
+      @NonNull Button buttonCallEmergency, @NonNull RelativeLayout buttonMessage,
+      @NonNull ConstraintLayout constraintLayout, @NonNull TextView deskripsiRs,
+      @NonNull LinearLayout footerButtons, @NonNull ImageView gambar,
+      @NonNull TextView jarakDariLokasi, @NonNull RelativeLayout locationButton,
+      @NonNull ConstraintLayout main, @NonNull TextView namaJalan, @NonNull TextView namaRs,
       @NonNull RecyclerView recyclerViewAmbulance, @NonNull RelativeLayout relativeLayout,
-      @NonNull TextView rincian, @NonNull TextView tersedia) {
+      @NonNull ToolbarBinding rincianInstansi, @NonNull TextView tersedia) {
     this.rootView = rootView;
-    this.btnBack = btnBack;
     this.buttonCallEmergency = buttonCallEmergency;
     this.buttonMessage = buttonMessage;
     this.constraintLayout = constraintLayout;
@@ -93,14 +85,13 @@ public final class ActivityDetailHospitalBinding implements ViewBinding {
     this.footerButtons = footerButtons;
     this.gambar = gambar;
     this.jarakDariLokasi = jarakDariLokasi;
-    this.linearLayout = linearLayout;
     this.locationButton = locationButton;
     this.main = main;
     this.namaJalan = namaJalan;
     this.namaRs = namaRs;
     this.recyclerViewAmbulance = recyclerViewAmbulance;
     this.relativeLayout = relativeLayout;
-    this.rincian = rincian;
+    this.rincianInstansi = rincianInstansi;
     this.tersedia = tersedia;
   }
 
@@ -131,12 +122,6 @@ public final class ActivityDetailHospitalBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_back;
-      ImageView btnBack = ViewBindings.findChildViewById(rootView, id);
-      if (btnBack == null) {
-        break missingId;
-      }
-
       id = R.id.button_call_emergency;
       Button buttonCallEmergency = ViewBindings.findChildViewById(rootView, id);
       if (buttonCallEmergency == null) {
@@ -179,12 +164,6 @@ public final class ActivityDetailHospitalBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.linearLayout;
-      LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
-      if (linearLayout == null) {
-        break missingId;
-      }
-
       id = R.id.location_button;
       RelativeLayout locationButton = ViewBindings.findChildViewById(rootView, id);
       if (locationButton == null) {
@@ -217,11 +196,12 @@ public final class ActivityDetailHospitalBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.rincian;
-      TextView rincian = ViewBindings.findChildViewById(rootView, id);
-      if (rincian == null) {
+      id = R.id.rincian_instansi;
+      View rincianInstansi = ViewBindings.findChildViewById(rootView, id);
+      if (rincianInstansi == null) {
         break missingId;
       }
+      ToolbarBinding binding_rincianInstansi = ToolbarBinding.bind(rincianInstansi);
 
       id = R.id.tersedia;
       TextView tersedia = ViewBindings.findChildViewById(rootView, id);
@@ -229,10 +209,10 @@ public final class ActivityDetailHospitalBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDetailHospitalBinding((ConstraintLayout) rootView, btnBack,
-          buttonCallEmergency, buttonMessage, constraintLayout, deskripsiRs, footerButtons, gambar,
-          jarakDariLokasi, linearLayout, locationButton, main, namaJalan, namaRs,
-          recyclerViewAmbulance, relativeLayout, rincian, tersedia);
+      return new ActivityDetailHospitalBinding((ConstraintLayout) rootView, buttonCallEmergency,
+          buttonMessage, constraintLayout, deskripsiRs, footerButtons, gambar, jarakDariLokasi,
+          locationButton, main, namaJalan, namaRs, recyclerViewAmbulance, relativeLayout,
+          binding_rincianInstansi, tersedia);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

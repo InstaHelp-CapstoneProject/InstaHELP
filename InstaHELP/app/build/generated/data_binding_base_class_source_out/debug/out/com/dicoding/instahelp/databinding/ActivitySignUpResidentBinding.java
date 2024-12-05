@@ -54,26 +54,23 @@ public final class ActivitySignUpResidentBinding implements ViewBinding {
   public final EditText etTempatLahir;
 
   @NonNull
-  public final ImageView ivBack;
-
-  @NonNull
   public final ImageView ivLogo;
 
   @NonNull
   public final Spinner spJenisKelamin;
 
   @NonNull
-  public final TextView tvLogin;
+  public final ToolbarBinding toolbarSignup;
 
   @NonNull
-  public final TextView tvTitle;
+  public final TextView tvLogin;
 
   private ActivitySignUpResidentBinding(@NonNull ScrollView rootView, @NonNull Button btnBuatAkun,
       @NonNull EditText etAlamat, @NonNull EditText etEmail, @NonNull EditText etKataSandi,
       @NonNull EditText etKonfirmasiKataSandi, @NonNull EditText etNama, @NonNull EditText etNik,
       @NonNull EditText etNomorTelepon, @NonNull EditText etTanggalLahir,
-      @NonNull EditText etTempatLahir, @NonNull ImageView ivBack, @NonNull ImageView ivLogo,
-      @NonNull Spinner spJenisKelamin, @NonNull TextView tvLogin, @NonNull TextView tvTitle) {
+      @NonNull EditText etTempatLahir, @NonNull ImageView ivLogo, @NonNull Spinner spJenisKelamin,
+      @NonNull ToolbarBinding toolbarSignup, @NonNull TextView tvLogin) {
     this.rootView = rootView;
     this.btnBuatAkun = btnBuatAkun;
     this.etAlamat = etAlamat;
@@ -85,11 +82,10 @@ public final class ActivitySignUpResidentBinding implements ViewBinding {
     this.etNomorTelepon = etNomorTelepon;
     this.etTanggalLahir = etTanggalLahir;
     this.etTempatLahir = etTempatLahir;
-    this.ivBack = ivBack;
     this.ivLogo = ivLogo;
     this.spJenisKelamin = spJenisKelamin;
+    this.toolbarSignup = toolbarSignup;
     this.tvLogin = tvLogin;
-    this.tvTitle = tvTitle;
   }
 
   @Override
@@ -179,12 +175,6 @@ public final class ActivitySignUpResidentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.iv_back;
-      ImageView ivBack = ViewBindings.findChildViewById(rootView, id);
-      if (ivBack == null) {
-        break missingId;
-      }
-
       id = R.id.iv_logo;
       ImageView ivLogo = ViewBindings.findChildViewById(rootView, id);
       if (ivLogo == null) {
@@ -197,21 +187,22 @@ public final class ActivitySignUpResidentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.toolbar_signup;
+      View toolbarSignup = ViewBindings.findChildViewById(rootView, id);
+      if (toolbarSignup == null) {
+        break missingId;
+      }
+      ToolbarBinding binding_toolbarSignup = ToolbarBinding.bind(toolbarSignup);
+
       id = R.id.tv_login;
       TextView tvLogin = ViewBindings.findChildViewById(rootView, id);
       if (tvLogin == null) {
         break missingId;
       }
 
-      id = R.id.tv_title;
-      TextView tvTitle = ViewBindings.findChildViewById(rootView, id);
-      if (tvTitle == null) {
-        break missingId;
-      }
-
       return new ActivitySignUpResidentBinding((ScrollView) rootView, btnBuatAkun, etAlamat,
           etEmail, etKataSandi, etKonfirmasiKataSandi, etNama, etNik, etNomorTelepon,
-          etTanggalLahir, etTempatLahir, ivBack, ivLogo, spJenisKelamin, tvLogin, tvTitle);
+          etTanggalLahir, etTempatLahir, ivLogo, spJenisKelamin, binding_toolbarSignup, tvLogin);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

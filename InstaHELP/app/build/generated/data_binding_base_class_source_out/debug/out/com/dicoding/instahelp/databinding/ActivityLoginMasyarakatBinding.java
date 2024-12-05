@@ -22,7 +22,7 @@ public final class ActivityLoginMasyarakatBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final ButtonOrangeBinding btnLoginMasyarakat;
+  public final BtnMasukBinding btnLoginMasyarakat;
 
   @NonNull
   public final TextView btnSignupMasyarakat;
@@ -49,7 +49,7 @@ public final class ActivityLoginMasyarakatBinding implements ViewBinding {
   public final TextView tvHeaderTitle;
 
   private ActivityLoginMasyarakatBinding(@NonNull RelativeLayout rootView,
-      @NonNull ButtonOrangeBinding btnLoginMasyarakat, @NonNull TextView btnSignupMasyarakat,
+      @NonNull BtnMasukBinding btnLoginMasyarakat, @NonNull TextView btnSignupMasyarakat,
       @NonNull EditText etEmail, @NonNull EditText etPassword, @NonNull ImageView eyeIcon,
       @NonNull RelativeLayout passwordContainer, @NonNull TextView tvForgotPasswordResident,
       @NonNull TextView tvHeaderSubtitle, @NonNull TextView tvHeaderTitle) {
@@ -97,7 +97,7 @@ public final class ActivityLoginMasyarakatBinding implements ViewBinding {
       if (btnLoginMasyarakat == null) {
         break missingId;
       }
-      ButtonOrangeBinding binding_btnLoginMasyarakat = ButtonOrangeBinding.bind(btnLoginMasyarakat);
+      BtnMasukBinding binding_btnLoginMasyarakat = BtnMasukBinding.bind(btnLoginMasyarakat);
 
       id = R.id.btn_signup_masyarakat;
       TextView btnSignupMasyarakat = ViewBindings.findChildViewById(rootView, id);

@@ -3446,6 +3446,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable oval
 drawable placeholder_image
 drawable pull_tab_background
 drawable rounded_bg
@@ -3572,6 +3573,7 @@ id bounceStart
 id btn_back
 id btn_buat_akun
 id btn_get_started
+id btn_login
 id btn_login_instansi
 id btn_login_masyarakat
 id btn_next
@@ -3736,7 +3738,6 @@ id inward
 id is_pooling_container_tag
 id italic
 id item_touch_helper_previous_elevation
-id iv_back
 id iv_logo
 id jarak_dari_lokasi
 id jumpToEnd
@@ -3750,7 +3751,6 @@ id legacy
 id line1
 id line3
 id linear
-id linearLayout
 id listMode
 id list_item
 id locale
@@ -3958,6 +3958,7 @@ id rightToLeft
 id right_icon
 id right_side
 id rincian
+id rincian_instansi
 id role_selection_container
 id rounded
 id row_index_key
@@ -4069,6 +4070,8 @@ id title_text
 id toggle
 id toggle_instansi
 id toggle_masyarakat
+id toolbar
+id toolbar_signup
 id top
 id topCurve
 id topPanel
@@ -4089,7 +4092,6 @@ id tv_forgot_password_resident
 id tv_header_subtitle
 id tv_header_title
 id tv_login
-id tv_title
 id unchecked
 id uniform
 id unlabeled
@@ -4248,6 +4250,7 @@ layout activity_select_role
 layout activity_sign_up_resident
 layout activity_splash
 layout bg_top
+layout btn_masuk
 layout button
 layout button_orange
 layout custom_dialog
@@ -4355,6 +4358,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout toolbar
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -4569,6 +4573,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string plate_number
+string rincian_instansi
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description

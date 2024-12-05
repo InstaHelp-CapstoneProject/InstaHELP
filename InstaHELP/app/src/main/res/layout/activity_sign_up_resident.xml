@@ -5,50 +5,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="16dp"
     tools:context=".loginregist.SignUpResidentActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp">
+        android:background="@color/white">
 
-        <!-- Back Button -->
-        <ImageView
-            android:id="@+id/iv_back"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:src="@drawable/baseline_arrow_back_ios_24"
-            android:contentDescription="Back"
+        <include
+            android:id="@+id/toolbar_signup"
+            layout="@layout/toolbar"
+            app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent">
+        </include>
 
-        <!-- Title -->
-        <TextView
-            android:id="@+id/tv_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:text="Buat Akun"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="#000000"
-            app:layout_constraintStart_toEndOf="@id/iv_back"
-            app:layout_constraintTop_toTopOf="parent" />
 
         <!-- Logo -->
         <ImageView
             android:id="@+id/iv_logo"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="28dp"
             android:src="@drawable/instalogo"
             android:contentDescription="Logo"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_title" />
+            app:layout_constraintTop_toBottomOf="@id/toolbar_signup" />
 
         <!-- NIK Input -->
         <EditText

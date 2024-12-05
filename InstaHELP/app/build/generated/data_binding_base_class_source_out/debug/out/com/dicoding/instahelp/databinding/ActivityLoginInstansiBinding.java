@@ -22,7 +22,7 @@ public final class ActivityLoginInstansiBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final ButtonOrangeBinding btnLoginInstansi;
+  public final BtnMasukBinding btnLoginInstansi;
 
   @NonNull
   public final TextView btnSignupInstansi;
@@ -49,7 +49,7 @@ public final class ActivityLoginInstansiBinding implements ViewBinding {
   public final TextView tvHeaderTitle;
 
   private ActivityLoginInstansiBinding(@NonNull RelativeLayout rootView,
-      @NonNull ButtonOrangeBinding btnLoginInstansi, @NonNull TextView btnSignupInstansi,
+      @NonNull BtnMasukBinding btnLoginInstansi, @NonNull TextView btnSignupInstansi,
       @NonNull EditText etEmail, @NonNull EditText etPassword, @NonNull ImageView eyeIcon,
       @NonNull RelativeLayout passwordContainer, @NonNull TextView tvForgotPasswordMasyarakat,
       @NonNull TextView tvHeaderSubtitle, @NonNull TextView tvHeaderTitle) {
@@ -97,7 +97,7 @@ public final class ActivityLoginInstansiBinding implements ViewBinding {
       if (btnLoginInstansi == null) {
         break missingId;
       }
-      ButtonOrangeBinding binding_btnLoginInstansi = ButtonOrangeBinding.bind(btnLoginInstansi);
+      BtnMasukBinding binding_btnLoginInstansi = BtnMasukBinding.bind(btnLoginInstansi);
 
       id = R.id.btn_signup_instansi;
       TextView btnSignupInstansi = ViewBindings.findChildViewById(rootView, id);

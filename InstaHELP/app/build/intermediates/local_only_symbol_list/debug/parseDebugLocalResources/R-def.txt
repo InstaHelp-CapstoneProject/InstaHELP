@@ -27,6 +27,7 @@ drawable icon_instansi
 drawable icon_resident
 drawable instalogo
 drawable logos
+drawable oval
 drawable placeholder_image
 drawable pull_tab_background
 drawable rounded_bg
@@ -47,6 +48,7 @@ id back_button
 id btn_back
 id btn_buat_akun
 id btn_get_started
+id btn_login
 id btn_login_instansi
 id btn_login_masyarakat
 id btn_next
@@ -76,11 +78,9 @@ id eye_icon
 id footer_buttons
 id gambar
 id header_text
-id iv_back
 id iv_logo
 id jarak_dari_lokasi
 id kami_siap_m
-id linearLayout
 id location_button
 id logo
 id logo_1
@@ -94,6 +94,7 @@ id plate_number
 id recyclerViewAmbulance
 id relativeLayout
 id rincian
+id rincian_instansi
 id role_selection_container
 id selamat_dat
 id sp_jenis_kelamin
@@ -103,13 +104,14 @@ id text_titik_koordinat
 id title_text
 id toggle_instansi
 id toggle_masyarakat
+id toolbar
+id toolbar_signup
 id topCurve
 id tv_forgot_password_masyarakat
 id tv_forgot_password_resident
 id tv_header_subtitle
 id tv_header_title
 id tv_login
-id tv_title
 layout activity_call
 layout activity_detail_hospital
 layout activity_forget_password
@@ -121,10 +123,12 @@ layout activity_select_role
 layout activity_sign_up_resident
 layout activity_splash
 layout bg_top
+layout btn_masuk
 layout button
 layout button_orange
 layout item_ambulance
 layout layout_bottom_sheet_call
+layout toolbar
 mipmap ic_launcher
 mipmap ic_launcher_round
 string ambulance_image_description
@@ -141,6 +145,7 @@ string login_prompt_email
 string login_welcome_message
 string password_hint
 string plate_number
+string rincian_instansi
 string selamat_dat
 string selamat_datang_di_instahelp
 string selanjutnya
