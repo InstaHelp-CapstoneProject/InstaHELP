@@ -14,10 +14,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:targetApi="35">
+        tools:targetApi="35"
+        android:hardwareAccelerated="true">
         <activity
             android:name=".resident.call.DetailHospitalActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".resident.call.CallActivity"
             android:exported="false" />
@@ -25,13 +26,19 @@
             android:name=".loginregist.MainActivity"
             android:exported="false" />
         <activity
+            android:name=".loginregist.ForgetPasswordInstansiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".loginregist.SignUpInstansiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".loginregist.LoginInstansiActivity"
+            android:exported="false" />
+        <activity
             android:name=".loginregist.ForgetPasswordActivity"
             android:exported="false" />
         <activity
             android:name=".loginregist.SignUpResidentActivity"
-            android:exported="false" />
-        <activity
-            android:name=".loginregist.LoginInstansiActivity"
             android:exported="false" />
         <activity
             android:name=".loginregist.LoginMasyarakatActivity"

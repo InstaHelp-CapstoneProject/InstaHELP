@@ -27,28 +27,40 @@ class LoginMasyarakatActivity : AppCompatActivity() {
         binding.eyeIcon.setOnClickListener {
             togglePasswordVisibility()
         }
-        val signupResident = findViewById<TextView>(R.id.btn_signup_masyarakat)
+        val signupResident = findViewById<TextView>(R.id.btn_signup_resident)
         signupResident.setOnClickListener {
             // Navigasi ke SignUpResidentActivity
             val intent = Intent(this, SignUpResidentActivity::class.java)
             startActivity(intent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
 
-        val loginresident: TextView = findViewById(R.id.btn_next)
-        loginresident.setOnClickListener {
+        val loginResident: TextView = findViewById(R.id.btn_next)
+        loginResident.setOnClickListener {
             val intent = Intent(this, SignUpResidentActivity::class.java)
             startActivity(intent)
+            overridePendingTransition(R.anim.activity_zoom_in, R.anim.activity_zoom_out)
         }
-        val forgot_password: TextView = findViewById(R.id.tv_forgot_password_resident)
-        forgot_password.setOnClickListener {
+        val forgotPass: TextView = findViewById(R.id.tv_forgot_password_resident)
+        forgotPass.setOnClickListener {
             val intent = Intent(this, ForgetPasswordActivity::class.java)
             startActivity(intent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
 
 
-        loginresident.text = getString(R.string.masuk)
+        loginResident.text = getString(R.string.masuk)
 
     }
+    override fun onBackPressed() {
+        super.onBackPressed()
+        val intent = Intent(this, SelectRoleActivity::class.java)
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
+        startActivity(intent)
+        overridePendingTransition(R.anim.activity_zoom_in, R.anim.activity_zoom_out)
+        finish()
+    }
+
 
     private fun togglePasswordVisibility() {
         if (isPasswordVisible) {

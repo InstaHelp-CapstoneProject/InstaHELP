@@ -31,10 +31,14 @@ public final class ToolbarBinding implements ViewBinding {
   public final ImageView btnBack;
 
   @NonNull
+<<<<<<< HEAD
   public final RecyclerView reportRecyclerView;
 
   @NonNull
   public final TextView rincian;
+=======
+  public final TextView detail;
+>>>>>>> 2d4ec518d211e71ad833176765cc50b1eb2c192f
 
   @NonNull
   public final TextInputEditText searchEditText;
@@ -42,16 +46,25 @@ public final class ToolbarBinding implements ViewBinding {
   @NonNull
   public final LinearLayout toolbar;
 
+<<<<<<< HEAD
   private ToolbarBinding(@NonNull CoordinatorLayout rootView,
       @NonNull BottomNavigationView bottomNavigationView, @NonNull ImageView btnBack,
       @NonNull RecyclerView reportRecyclerView, @NonNull TextView rincian,
       @NonNull TextInputEditText searchEditText, @NonNull LinearLayout toolbar) {
+=======
+  private ToolbarBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView btnBack,
+      @NonNull TextView detail, @NonNull LinearLayout toolbar) {
+>>>>>>> 2d4ec518d211e71ad833176765cc50b1eb2c192f
     this.rootView = rootView;
     this.bottomNavigationView = bottomNavigationView;
     this.btnBack = btnBack;
+<<<<<<< HEAD
     this.reportRecyclerView = reportRecyclerView;
     this.rincian = rincian;
     this.searchEditText = searchEditText;
+=======
+    this.detail = detail;
+>>>>>>> 2d4ec518d211e71ad833176765cc50b1eb2c192f
     this.toolbar = toolbar;
   }
 
@@ -94,6 +107,7 @@ public final class ToolbarBinding implements ViewBinding {
         break missingId;
       }
 
+<<<<<<< HEAD
       id = R.id.reportRecyclerView;
       RecyclerView reportRecyclerView = ViewBindings.findChildViewById(rootView, id);
       if (reportRecyclerView == null) {
@@ -103,6 +117,11 @@ public final class ToolbarBinding implements ViewBinding {
       id = R.id.rincian;
       TextView rincian = ViewBindings.findChildViewById(rootView, id);
       if (rincian == null) {
+=======
+      id = R.id.detail;
+      TextView detail = ViewBindings.findChildViewById(rootView, id);
+      if (detail == null) {
+>>>>>>> 2d4ec518d211e71ad833176765cc50b1eb2c192f
         break missingId;
       }
 
@@ -118,8 +137,12 @@ public final class ToolbarBinding implements ViewBinding {
         break missingId;
       }
 
+<<<<<<< HEAD
       return new ToolbarBinding((CoordinatorLayout) rootView, bottomNavigationView, btnBack,
           reportRecyclerView, rincian, searchEditText, toolbar);
+=======
+      return new ToolbarBinding((ConstraintLayout) rootView, btnBack, detail, toolbar);
+>>>>>>> 2d4ec518d211e71ad833176765cc50b1eb2c192f
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
