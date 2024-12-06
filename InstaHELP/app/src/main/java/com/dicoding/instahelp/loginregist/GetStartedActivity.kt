@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import com.dicoding.instahelp.R
 
 class GetStartedActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,6 +21,7 @@ class GetStartedActivity : AppCompatActivity() {
             // Menavigasi ke SelectRoleActivity
             val intent = Intent(this, SelectRoleActivity::class.java)
             startActivity(intent)
+            overridePendingTransition(R.anim.activity_fade_in, R.anim.activity_fade_out)
         }
     }
 }

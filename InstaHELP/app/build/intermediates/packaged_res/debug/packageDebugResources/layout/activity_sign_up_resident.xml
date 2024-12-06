@@ -9,20 +9,19 @@
 
     <!-- Toolbar -->
     <include
-        android:id="@+id/toolbar_signup"
+        android:id="@+id/toolbar_signup_resident"
         layout="@layout/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-
 
 
     <!-- ScrollView untuk Logo dan Form -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/toolbar_signup"
-        android:padding="16dp"
-        android:layout_marginTop="30dp"
+        android:layout_below="@id/toolbar_signup_resident"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
         android:paddingBottom="50dp">
 
         <LinearLayout
@@ -45,7 +44,6 @@
                 android:id="@+id/et_nik"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
-                android:layout_marginTop="16dp"
                 android:hint="NIK"
                 android:inputType="number"
                 android:background="@drawable/bg_edittext"
@@ -55,7 +53,7 @@
 
             <!-- Nama Input -->
             <EditText
-                android:id="@+id/et_nama"
+                android:id="@+id/et_name"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginTop="20dp"
@@ -68,7 +66,7 @@
 
             <!-- Alamat Input -->
             <EditText
-                android:id="@+id/et_alamat"
+                android:id="@+id/et_address"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginTop="20dp"
@@ -88,7 +86,7 @@
                 android:background="@drawable/bg_edittext">
 
                 <Spinner
-                    android:id="@+id/sp_jenis_kelamin"
+                    android:id="@+id/sp_gender"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:entries="@array/gender_options"
@@ -99,7 +97,7 @@
 
             <!-- Tempat Lahir -->
             <EditText
-                android:id="@+id/et_tempat_lahir"
+                android:id="@+id/et_place_birth"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginTop="20dp"
@@ -118,7 +116,7 @@
 
                 <EditText
                     android:background="@null"
-                    android:id="@+id/et_tanggal_lahir"
+                    android:id="@+id/et_date_birth"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:hint="Tanggal Lahir"
@@ -142,7 +140,7 @@
 
             <!-- Nomor Telepon -->
             <EditText
-                android:id="@+id/et_nomor_telepon"
+                android:id="@+id/et_phone"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginTop="20dp"
@@ -173,11 +171,11 @@
 
                 <EditText
                     android:background="@null"
-                    android:id="@+id/et_kata_sandi"
+                    android:id="@+id/et_password"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:hint="Kata Sandi"
-                    android:layout_toStartOf="@+id/eye_icon_katasandi"
+                    android:layout_toStartOf="@+id/eye_icon_password"
                     android:textSize="14sp"
                     android:inputType="textPassword"
                     android:focusable="false"
@@ -186,7 +184,7 @@
 
 
                 <ImageView
-                    android:id="@+id/eye_icon_katasandi"
+                    android:id="@+id/eye_icon_password"
                     android:layout_width="25dp"
                     android:layout_height="25dp"
                     android:layout_alignParentEnd="true"
@@ -205,11 +203,11 @@
 
                 <EditText
                     android:background="@null"
-                    android:id="@+id/et_konfirmasi_kata_sandi"
+                    android:id="@+id/et_confirmpass"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:hint="Konfirmasi Kata Sandi"
-                    android:layout_toStartOf="@+id/eye_icon_kksandi"
+                    android:layout_toStartOf="@+id/eye_icon_confirmpass"
                     android:textSize="14sp"
                     android:inputType="textPassword"
                     android:focusable="false"
@@ -218,7 +216,7 @@
 
 
                 <ImageView
-                    android:id="@+id/eye_icon_kksandi"
+                    android:id="@+id/eye_icon_confirmpass"
                     android:layout_width="25dp"
                     android:layout_height="25dp"
                     android:layout_alignParentEnd="true"
@@ -242,7 +240,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center"
-                android:layout_marginBottom="40dp">
+                android:layout_marginBottom="60dp">
 
                 <TextView
                     android:layout_width="wrap_content"

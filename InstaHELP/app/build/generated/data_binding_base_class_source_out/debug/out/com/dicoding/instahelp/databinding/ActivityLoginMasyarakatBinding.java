@@ -22,10 +22,10 @@ public final class ActivityLoginMasyarakatBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final ButtonOrangeBinding btnLoginMasyarakat;
+  public final ButtonOrangeBinding btnLoginResident;
 
   @NonNull
-  public final TextView btnSignupMasyarakat;
+  public final TextView btnSignupResident;
 
   @NonNull
   public final EditText etEmail;
@@ -49,13 +49,13 @@ public final class ActivityLoginMasyarakatBinding implements ViewBinding {
   public final TextView tvHeaderTitle;
 
   private ActivityLoginMasyarakatBinding(@NonNull RelativeLayout rootView,
-      @NonNull ButtonOrangeBinding btnLoginMasyarakat, @NonNull TextView btnSignupMasyarakat,
+      @NonNull ButtonOrangeBinding btnLoginResident, @NonNull TextView btnSignupResident,
       @NonNull EditText etEmail, @NonNull EditText etPassword, @NonNull ImageView eyeIcon,
       @NonNull RelativeLayout passwordContainer, @NonNull TextView tvForgotPasswordResident,
       @NonNull TextView tvHeaderSubtitle, @NonNull TextView tvHeaderTitle) {
     this.rootView = rootView;
-    this.btnLoginMasyarakat = btnLoginMasyarakat;
-    this.btnSignupMasyarakat = btnSignupMasyarakat;
+    this.btnLoginResident = btnLoginResident;
+    this.btnSignupResident = btnSignupResident;
     this.etEmail = etEmail;
     this.etPassword = etPassword;
     this.eyeIcon = eyeIcon;
@@ -92,16 +92,16 @@ public final class ActivityLoginMasyarakatBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_login_masyarakat;
-      View btnLoginMasyarakat = ViewBindings.findChildViewById(rootView, id);
-      if (btnLoginMasyarakat == null) {
+      id = R.id.btn_login_resident;
+      View btnLoginResident = ViewBindings.findChildViewById(rootView, id);
+      if (btnLoginResident == null) {
         break missingId;
       }
-      ButtonOrangeBinding binding_btnLoginMasyarakat = ButtonOrangeBinding.bind(btnLoginMasyarakat);
+      ButtonOrangeBinding binding_btnLoginResident = ButtonOrangeBinding.bind(btnLoginResident);
 
-      id = R.id.btn_signup_masyarakat;
-      TextView btnSignupMasyarakat = ViewBindings.findChildViewById(rootView, id);
-      if (btnSignupMasyarakat == null) {
+      id = R.id.btn_signup_resident;
+      TextView btnSignupResident = ViewBindings.findChildViewById(rootView, id);
+      if (btnSignupResident == null) {
         break missingId;
       }
 
@@ -147,9 +147,9 @@ public final class ActivityLoginMasyarakatBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginMasyarakatBinding((RelativeLayout) rootView,
-          binding_btnLoginMasyarakat, btnSignupMasyarakat, etEmail, etPassword, eyeIcon,
-          passwordContainer, tvForgotPasswordResident, tvHeaderSubtitle, tvHeaderTitle);
+      return new ActivityLoginMasyarakatBinding((RelativeLayout) rootView, binding_btnLoginResident,
+          btnSignupResident, etEmail, etPassword, eyeIcon, passwordContainer,
+          tvForgotPasswordResident, tvHeaderSubtitle, tvHeaderTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

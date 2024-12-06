@@ -29,75 +29,75 @@ public final class ActivitySignUpResidentBinding implements ViewBinding {
   public final ImageView calender;
 
   @NonNull
-  public final EditText etAlamat;
+  public final EditText etAddress;
+
+  @NonNull
+  public final EditText etConfirmpass;
+
+  @NonNull
+  public final EditText etDateBirth;
 
   @NonNull
   public final EditText etEmail;
 
   @NonNull
-  public final EditText etKataSandi;
-
-  @NonNull
-  public final EditText etKonfirmasiKataSandi;
-
-  @NonNull
-  public final EditText etNama;
+  public final EditText etName;
 
   @NonNull
   public final EditText etNik;
 
   @NonNull
-  public final EditText etNomorTelepon;
+  public final EditText etPassword;
 
   @NonNull
-  public final EditText etTanggalLahir;
+  public final EditText etPhone;
 
   @NonNull
-  public final EditText etTempatLahir;
+  public final EditText etPlaceBirth;
 
   @NonNull
-  public final ImageView eyeIconKatasandi;
+  public final ImageView eyeIconConfirmpass;
 
   @NonNull
-  public final ImageView eyeIconKksandi;
+  public final ImageView eyeIconPassword;
 
   @NonNull
   public final ImageView ivLogo;
 
   @NonNull
-  public final Spinner spJenisKelamin;
+  public final Spinner spGender;
 
   @NonNull
-  public final ToolbarBinding toolbarSignup;
+  public final ToolbarBinding toolbarSignupResident;
 
   @NonNull
   public final TextView tvLoginNow;
 
   private ActivitySignUpResidentBinding(@NonNull RelativeLayout rootView,
       @NonNull ButtonOrangeBinding btnMakeAcc, @NonNull ImageView calender,
-      @NonNull EditText etAlamat, @NonNull EditText etEmail, @NonNull EditText etKataSandi,
-      @NonNull EditText etKonfirmasiKataSandi, @NonNull EditText etNama, @NonNull EditText etNik,
-      @NonNull EditText etNomorTelepon, @NonNull EditText etTanggalLahir,
-      @NonNull EditText etTempatLahir, @NonNull ImageView eyeIconKatasandi,
-      @NonNull ImageView eyeIconKksandi, @NonNull ImageView ivLogo, @NonNull Spinner spJenisKelamin,
-      @NonNull ToolbarBinding toolbarSignup, @NonNull TextView tvLoginNow) {
+      @NonNull EditText etAddress, @NonNull EditText etConfirmpass, @NonNull EditText etDateBirth,
+      @NonNull EditText etEmail, @NonNull EditText etName, @NonNull EditText etNik,
+      @NonNull EditText etPassword, @NonNull EditText etPhone, @NonNull EditText etPlaceBirth,
+      @NonNull ImageView eyeIconConfirmpass, @NonNull ImageView eyeIconPassword,
+      @NonNull ImageView ivLogo, @NonNull Spinner spGender,
+      @NonNull ToolbarBinding toolbarSignupResident, @NonNull TextView tvLoginNow) {
     this.rootView = rootView;
     this.btnMakeAcc = btnMakeAcc;
     this.calender = calender;
-    this.etAlamat = etAlamat;
+    this.etAddress = etAddress;
+    this.etConfirmpass = etConfirmpass;
+    this.etDateBirth = etDateBirth;
     this.etEmail = etEmail;
-    this.etKataSandi = etKataSandi;
-    this.etKonfirmasiKataSandi = etKonfirmasiKataSandi;
-    this.etNama = etNama;
+    this.etName = etName;
     this.etNik = etNik;
-    this.etNomorTelepon = etNomorTelepon;
-    this.etTanggalLahir = etTanggalLahir;
-    this.etTempatLahir = etTempatLahir;
-    this.eyeIconKatasandi = eyeIconKatasandi;
-    this.eyeIconKksandi = eyeIconKksandi;
+    this.etPassword = etPassword;
+    this.etPhone = etPhone;
+    this.etPlaceBirth = etPlaceBirth;
+    this.eyeIconConfirmpass = eyeIconConfirmpass;
+    this.eyeIconPassword = eyeIconPassword;
     this.ivLogo = ivLogo;
-    this.spJenisKelamin = spJenisKelamin;
-    this.toolbarSignup = toolbarSignup;
+    this.spGender = spGender;
+    this.toolbarSignupResident = toolbarSignupResident;
     this.tvLoginNow = tvLoginNow;
   }
 
@@ -141,9 +141,21 @@ public final class ActivitySignUpResidentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.et_alamat;
-      EditText etAlamat = ViewBindings.findChildViewById(rootView, id);
-      if (etAlamat == null) {
+      id = R.id.et_address;
+      EditText etAddress = ViewBindings.findChildViewById(rootView, id);
+      if (etAddress == null) {
+        break missingId;
+      }
+
+      id = R.id.et_confirmpass;
+      EditText etConfirmpass = ViewBindings.findChildViewById(rootView, id);
+      if (etConfirmpass == null) {
+        break missingId;
+      }
+
+      id = R.id.et_date_birth;
+      EditText etDateBirth = ViewBindings.findChildViewById(rootView, id);
+      if (etDateBirth == null) {
         break missingId;
       }
 
@@ -153,21 +165,9 @@ public final class ActivitySignUpResidentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.et_kata_sandi;
-      EditText etKataSandi = ViewBindings.findChildViewById(rootView, id);
-      if (etKataSandi == null) {
-        break missingId;
-      }
-
-      id = R.id.et_konfirmasi_kata_sandi;
-      EditText etKonfirmasiKataSandi = ViewBindings.findChildViewById(rootView, id);
-      if (etKonfirmasiKataSandi == null) {
-        break missingId;
-      }
-
-      id = R.id.et_nama;
-      EditText etNama = ViewBindings.findChildViewById(rootView, id);
-      if (etNama == null) {
+      id = R.id.et_name;
+      EditText etName = ViewBindings.findChildViewById(rootView, id);
+      if (etName == null) {
         break missingId;
       }
 
@@ -177,33 +177,33 @@ public final class ActivitySignUpResidentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.et_nomor_telepon;
-      EditText etNomorTelepon = ViewBindings.findChildViewById(rootView, id);
-      if (etNomorTelepon == null) {
+      id = R.id.et_password;
+      EditText etPassword = ViewBindings.findChildViewById(rootView, id);
+      if (etPassword == null) {
         break missingId;
       }
 
-      id = R.id.et_tanggal_lahir;
-      EditText etTanggalLahir = ViewBindings.findChildViewById(rootView, id);
-      if (etTanggalLahir == null) {
+      id = R.id.et_phone;
+      EditText etPhone = ViewBindings.findChildViewById(rootView, id);
+      if (etPhone == null) {
         break missingId;
       }
 
-      id = R.id.et_tempat_lahir;
-      EditText etTempatLahir = ViewBindings.findChildViewById(rootView, id);
-      if (etTempatLahir == null) {
+      id = R.id.et_place_birth;
+      EditText etPlaceBirth = ViewBindings.findChildViewById(rootView, id);
+      if (etPlaceBirth == null) {
         break missingId;
       }
 
-      id = R.id.eye_icon_katasandi;
-      ImageView eyeIconKatasandi = ViewBindings.findChildViewById(rootView, id);
-      if (eyeIconKatasandi == null) {
+      id = R.id.eye_icon_confirmpass;
+      ImageView eyeIconConfirmpass = ViewBindings.findChildViewById(rootView, id);
+      if (eyeIconConfirmpass == null) {
         break missingId;
       }
 
-      id = R.id.eye_icon_kksandi;
-      ImageView eyeIconKksandi = ViewBindings.findChildViewById(rootView, id);
-      if (eyeIconKksandi == null) {
+      id = R.id.eye_icon_password;
+      ImageView eyeIconPassword = ViewBindings.findChildViewById(rootView, id);
+      if (eyeIconPassword == null) {
         break missingId;
       }
 
@@ -213,18 +213,18 @@ public final class ActivitySignUpResidentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.sp_jenis_kelamin;
-      Spinner spJenisKelamin = ViewBindings.findChildViewById(rootView, id);
-      if (spJenisKelamin == null) {
+      id = R.id.sp_gender;
+      Spinner spGender = ViewBindings.findChildViewById(rootView, id);
+      if (spGender == null) {
         break missingId;
       }
 
-      id = R.id.toolbar_signup;
-      View toolbarSignup = ViewBindings.findChildViewById(rootView, id);
-      if (toolbarSignup == null) {
+      id = R.id.toolbar_signup_resident;
+      View toolbarSignupResident = ViewBindings.findChildViewById(rootView, id);
+      if (toolbarSignupResident == null) {
         break missingId;
       }
-      ToolbarBinding binding_toolbarSignup = ToolbarBinding.bind(toolbarSignup);
+      ToolbarBinding binding_toolbarSignupResident = ToolbarBinding.bind(toolbarSignupResident);
 
       id = R.id.tv_login_now;
       TextView tvLoginNow = ViewBindings.findChildViewById(rootView, id);
@@ -233,9 +233,9 @@ public final class ActivitySignUpResidentBinding implements ViewBinding {
       }
 
       return new ActivitySignUpResidentBinding((RelativeLayout) rootView, binding_btnMakeAcc,
-          calender, etAlamat, etEmail, etKataSandi, etKonfirmasiKataSandi, etNama, etNik,
-          etNomorTelepon, etTanggalLahir, etTempatLahir, eyeIconKatasandi, eyeIconKksandi, ivLogo,
-          spJenisKelamin, binding_toolbarSignup, tvLoginNow);
+          calender, etAddress, etConfirmpass, etDateBirth, etEmail, etName, etNik, etPassword,
+          etPhone, etPlaceBirth, eyeIconConfirmpass, eyeIconPassword, ivLogo, spGender,
+          binding_toolbarSignupResident, tvLoginNow);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

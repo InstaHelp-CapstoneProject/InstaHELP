@@ -25,16 +25,16 @@ public final class ToolbarBinding implements ViewBinding {
   public final ImageView btnBack;
 
   @NonNull
-  public final TextView rincian;
+  public final TextView detail;
 
   @NonNull
   public final LinearLayout toolbar;
 
   private ToolbarBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView btnBack,
-      @NonNull TextView rincian, @NonNull LinearLayout toolbar) {
+      @NonNull TextView detail, @NonNull LinearLayout toolbar) {
     this.rootView = rootView;
     this.btnBack = btnBack;
-    this.rincian = rincian;
+    this.detail = detail;
     this.toolbar = toolbar;
   }
 
@@ -71,9 +71,9 @@ public final class ToolbarBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.rincian;
-      TextView rincian = ViewBindings.findChildViewById(rootView, id);
-      if (rincian == null) {
+      id = R.id.detail;
+      TextView detail = ViewBindings.findChildViewById(rootView, id);
+      if (detail == null) {
         break missingId;
       }
 
@@ -83,7 +83,7 @@ public final class ToolbarBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ToolbarBinding((ConstraintLayout) rootView, btnBack, rincian, toolbar);
+      return new ToolbarBinding((ConstraintLayout) rootView, btnBack, detail, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

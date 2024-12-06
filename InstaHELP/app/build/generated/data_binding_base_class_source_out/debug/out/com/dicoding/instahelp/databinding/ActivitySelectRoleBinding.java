@@ -21,22 +21,22 @@ public final class ActivitySelectRoleBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final ButtonOrangeBinding btnSelectRole;
+  public final ButtonOrangeBinding btnNextSelectRole;
 
   @NonNull
-  public final LinearLayout cardInstansi;
+  public final LinearLayout cardInstance;
 
   @NonNull
-  public final LinearLayout cardMasyarakat;
+  public final LinearLayout cardResident;
 
   @NonNull
   public final LinearLayout roleSelectionContainer;
 
   @NonNull
-  public final View toggleInstansi;
+  public final View toggleInstance;
 
   @NonNull
-  public final View toggleMasyarakat;
+  public final View toggleResident;
 
   @NonNull
   public final TextView tvHeaderSubtitle;
@@ -45,17 +45,17 @@ public final class ActivitySelectRoleBinding implements ViewBinding {
   public final TextView tvHeaderTitle;
 
   private ActivitySelectRoleBinding(@NonNull RelativeLayout rootView,
-      @NonNull ButtonOrangeBinding btnSelectRole, @NonNull LinearLayout cardInstansi,
-      @NonNull LinearLayout cardMasyarakat, @NonNull LinearLayout roleSelectionContainer,
-      @NonNull View toggleInstansi, @NonNull View toggleMasyarakat,
+      @NonNull ButtonOrangeBinding btnNextSelectRole, @NonNull LinearLayout cardInstance,
+      @NonNull LinearLayout cardResident, @NonNull LinearLayout roleSelectionContainer,
+      @NonNull View toggleInstance, @NonNull View toggleResident,
       @NonNull TextView tvHeaderSubtitle, @NonNull TextView tvHeaderTitle) {
     this.rootView = rootView;
-    this.btnSelectRole = btnSelectRole;
-    this.cardInstansi = cardInstansi;
-    this.cardMasyarakat = cardMasyarakat;
+    this.btnNextSelectRole = btnNextSelectRole;
+    this.cardInstance = cardInstance;
+    this.cardResident = cardResident;
     this.roleSelectionContainer = roleSelectionContainer;
-    this.toggleInstansi = toggleInstansi;
-    this.toggleMasyarakat = toggleMasyarakat;
+    this.toggleInstance = toggleInstance;
+    this.toggleResident = toggleResident;
     this.tvHeaderSubtitle = tvHeaderSubtitle;
     this.tvHeaderTitle = tvHeaderTitle;
   }
@@ -87,22 +87,22 @@ public final class ActivitySelectRoleBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_select_role;
-      View btnSelectRole = ViewBindings.findChildViewById(rootView, id);
-      if (btnSelectRole == null) {
+      id = R.id.btn_next_select_role;
+      View btnNextSelectRole = ViewBindings.findChildViewById(rootView, id);
+      if (btnNextSelectRole == null) {
         break missingId;
       }
-      ButtonOrangeBinding binding_btnSelectRole = ButtonOrangeBinding.bind(btnSelectRole);
+      ButtonOrangeBinding binding_btnNextSelectRole = ButtonOrangeBinding.bind(btnNextSelectRole);
 
-      id = R.id.card_instansi;
-      LinearLayout cardInstansi = ViewBindings.findChildViewById(rootView, id);
-      if (cardInstansi == null) {
+      id = R.id.card_instance;
+      LinearLayout cardInstance = ViewBindings.findChildViewById(rootView, id);
+      if (cardInstance == null) {
         break missingId;
       }
 
-      id = R.id.card_masyarakat;
-      LinearLayout cardMasyarakat = ViewBindings.findChildViewById(rootView, id);
-      if (cardMasyarakat == null) {
+      id = R.id.card_resident;
+      LinearLayout cardResident = ViewBindings.findChildViewById(rootView, id);
+      if (cardResident == null) {
         break missingId;
       }
 
@@ -112,15 +112,15 @@ public final class ActivitySelectRoleBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.toggle_instansi;
-      View toggleInstansi = ViewBindings.findChildViewById(rootView, id);
-      if (toggleInstansi == null) {
+      id = R.id.toggle_instance;
+      View toggleInstance = ViewBindings.findChildViewById(rootView, id);
+      if (toggleInstance == null) {
         break missingId;
       }
 
-      id = R.id.toggle_masyarakat;
-      View toggleMasyarakat = ViewBindings.findChildViewById(rootView, id);
-      if (toggleMasyarakat == null) {
+      id = R.id.toggle_resident;
+      View toggleResident = ViewBindings.findChildViewById(rootView, id);
+      if (toggleResident == null) {
         break missingId;
       }
 
@@ -136,8 +136,8 @@ public final class ActivitySelectRoleBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySelectRoleBinding((RelativeLayout) rootView, binding_btnSelectRole,
-          cardInstansi, cardMasyarakat, roleSelectionContainer, toggleInstansi, toggleMasyarakat,
+      return new ActivitySelectRoleBinding((RelativeLayout) rootView, binding_btnNextSelectRole,
+          cardInstance, cardResident, roleSelectionContainer, toggleInstance, toggleResident,
           tvHeaderSubtitle, tvHeaderTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);

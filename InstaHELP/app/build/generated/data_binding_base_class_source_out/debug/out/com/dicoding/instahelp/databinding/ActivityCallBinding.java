@@ -8,9 +8,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.dicoding.instahelp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityCallBinding implements ViewBinding {
   @NonNull
@@ -19,9 +21,14 @@ public final class ActivityCallBinding implements ViewBinding {
   @NonNull
   public final ConstraintLayout main;
 
-  private ActivityCallBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout main) {
+  @NonNull
+  public final ToolbarappBinding toolCall;
+
+  private ActivityCallBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout main,
+      @NonNull ToolbarappBinding toolCall) {
     this.rootView = rootView;
     this.main = main;
+    this.toolCall = toolCall;
   }
 
   @Override
@@ -47,12 +54,22 @@ public final class ActivityCallBinding implements ViewBinding {
 
   @NonNull
   public static ActivityCallBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      ConstraintLayout main = (ConstraintLayout) rootView;
+
+      id = R.id.tool_call;
+      View toolCall = ViewBindings.findChildViewById(rootView, id);
+      if (toolCall == null) {
+        break missingId;
+      }
+      ToolbarappBinding binding_toolCall = ToolbarappBinding.bind(toolCall);
+
+      return new ActivityCallBinding((ConstraintLayout) rootView, main, binding_toolCall);
     }
-
-    ConstraintLayout main = (ConstraintLayout) rootView;
-
-    return new ActivityCallBinding((ConstraintLayout) rootView, main);
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
