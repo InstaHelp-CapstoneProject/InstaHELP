@@ -16,3 +16,10 @@ data class HospitalItem(
     val distance: String,
     val isVerified: Boolean // Untuk badge verifikasi
 )
+
+data class Report(
+    val imageRes: Int,
+    val title: String,
+    val description: String,
+    val time: String
+)

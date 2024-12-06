@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\activity_detail_hospital.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_detail_hospital.xml"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-mergeDebugResources-50:/layout/fragment_pengaturan.xml",
+        "source": "com.dicoding.instahelp.app-main-53:/layout/fragment_pengaturan.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\item_hospital.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\item_hospital.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\activity_resident_main.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_resident_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\activity_get_started.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_get_started.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\activity_login_masyarakat.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_login_masyarakat.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\activity_forget_password.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_forget_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\fragment_laporan.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\fragment_laporan.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\activity_forget_password_instansi.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_forget_password_instansi.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\fragment_panggil.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\fragment_panggil.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\fragment_processed.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\fragment_processed.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\layout_bottom_sheet_call.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\layout_bottom_sheet_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\fragment_completed.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\fragment_completed.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\report_item.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\report_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\toolbarapp.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\toolbarapp.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\activity_call.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\button_orange.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\button_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\button.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\button.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\toolbar.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\fragment_reported.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\fragment_reported.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\activity_login_instansi.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_login_instansi.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\item_ambulance.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\item_ambulance.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\activity_sign_up_instansi.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_sign_up_instansi.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\fragment_pengaturan.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\fragment_pengaturan.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\item_report.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\item_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\activity_select_role.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_select_role.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\bg_top.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\bg_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\fragment_rejected.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\fragment_rejected.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-mergeDebugResources-50:\\layout\\activity_sign_up_resident.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_sign_up_resident.xml"
+    }
+]

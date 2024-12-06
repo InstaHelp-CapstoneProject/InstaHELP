@@ -12,6 +12,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.dicoding.instahelp.R
 import com.dicoding.instahelp.databinding.ActivityLoginMasyarakatBinding
+import com.dicoding.instahelp.resident.ResidentMainActivity
 
 class LoginMasyarakatActivity : AppCompatActivity() {
 
@@ -37,7 +38,7 @@ class LoginMasyarakatActivity : AppCompatActivity() {
 
         val loginResident: TextView = findViewById(R.id.btn_next)
         loginResident.setOnClickListener {
-            val intent = Intent(this, SignUpResidentActivity::class.java)
+            val intent = Intent(this, ResidentMainActivity::class.java)
             startActivity(intent)
             overridePendingTransition(R.anim.activity_zoom_in, R.anim.activity_zoom_out)
         }
