@@ -4,7 +4,6 @@
     <string name="kami_siap_m">Kami siap membantu Anda dalam situasi darurat, kapan saja, di mana saja.</string>
     <string name="get_started">Mulai Sekarang</string>
     <!-- Strings for Login Activity -->
-    <string name="e_mail"><Email></Email></string>
     <string name="login_welcome_message">Selamat datang\nkembali</string>
     <string name="login_prompt_email">Silahkan masukan email Anda</string>
     <string name="password_hint">Kata Sandi</string>
@@ -65,11 +64,8 @@
     <string name="sudah_punya_akun">Sudah punya akun?</string>
     <string name="masuk_sekarang">Masuk sekarang</string>
     <string name="lupa_kata_sandi">Lupa Kata Sandi</string>
-<<<<<<< HEAD
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-=======
     <string name="nama_instansi">Nama Instansi</string>
->>>>>>> 2d4ec518d211e71ad833176765cc50b1eb2c192f
 
 </resources>
