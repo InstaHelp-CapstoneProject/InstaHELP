@@ -22,7 +22,6 @@ drawable baseline_arrow_back_ios_24
 drawable bg_edittext
 drawable bg_spinner
 drawable box_background
-drawable button
 drawable calender
 drawable card_background
 drawable circle_background
@@ -71,6 +70,7 @@ id ambulance_image
 id ambulance_name
 id availability
 id availability_badge
+id bottomNavigationView
 id bottom_navigation
 id btn_back
 id btn_forgetAcc
@@ -94,6 +94,7 @@ id card_masyarakat
 id card_profile
 id constraintLayout
 id deskripsi_rs
+id detailButton
 id distance
 id driver_name
 id edit_text_coordinates
@@ -139,9 +140,15 @@ id profile_username
 id recyclerViewAmbulance
 id recycler_hospitals
 id relativeLayout
+id reportDescription
+id reportImage
+id reportRecyclerView
+id reportTime
+id reportTitle
 id rincian
 id rincian_instansi
 id role_selection_container
+id searchEditText
 id section_settings
 id selamat_dat
 id sp_jenis_kelamin
@@ -178,11 +185,13 @@ layout activity_splash
 layout bg_top
 layout button
 layout button_orange
+layout fragment_laporan
 layout fragment_panggil
 layout fragment_pengaturan
 layout item_ambulance
 layout item_hospital
 layout layout_bottom_sheet_call
+layout report_item
 layout toolbar
 menu bottom_nav_menu
 mipmap ic_launcher
@@ -203,6 +212,7 @@ string e_mail
 string forgot_password
 string get_started
 string header_emergency_form
+string hello_blank_fragment
 string hospital_image_description
 string hospital_location
 string hospital_name

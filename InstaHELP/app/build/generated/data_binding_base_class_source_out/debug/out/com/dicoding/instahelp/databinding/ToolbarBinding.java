@@ -9,38 +9,55 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.dicoding.instahelp.R;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.textfield.TextInputEditText;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ToolbarBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final CoordinatorLayout rootView;
+
+  @NonNull
+  public final BottomNavigationView bottomNavigationView;
 
   @NonNull
   public final ImageView btnBack;
 
   @NonNull
+  public final RecyclerView reportRecyclerView;
+
+  @NonNull
   public final TextView rincian;
+
+  @NonNull
+  public final TextInputEditText searchEditText;
 
   @NonNull
   public final LinearLayout toolbar;
 
-  private ToolbarBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView btnBack,
-      @NonNull TextView rincian, @NonNull LinearLayout toolbar) {
+  private ToolbarBinding(@NonNull CoordinatorLayout rootView,
+      @NonNull BottomNavigationView bottomNavigationView, @NonNull ImageView btnBack,
+      @NonNull RecyclerView reportRecyclerView, @NonNull TextView rincian,
+      @NonNull TextInputEditText searchEditText, @NonNull LinearLayout toolbar) {
     this.rootView = rootView;
+    this.bottomNavigationView = bottomNavigationView;
     this.btnBack = btnBack;
+    this.reportRecyclerView = reportRecyclerView;
     this.rincian = rincian;
+    this.searchEditText = searchEditText;
     this.toolbar = toolbar;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public CoordinatorLayout getRoot() {
     return rootView;
   }
 
@@ -65,9 +82,21 @@ public final class ToolbarBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.bottomNavigationView;
+      BottomNavigationView bottomNavigationView = ViewBindings.findChildViewById(rootView, id);
+      if (bottomNavigationView == null) {
+        break missingId;
+      }
+
       id = R.id.btn_back;
       ImageView btnBack = ViewBindings.findChildViewById(rootView, id);
       if (btnBack == null) {
+        break missingId;
+      }
+
+      id = R.id.reportRecyclerView;
+      RecyclerView reportRecyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (reportRecyclerView == null) {
         break missingId;
       }
 
@@ -77,13 +106,20 @@ public final class ToolbarBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.searchEditText;
+      TextInputEditText searchEditText = ViewBindings.findChildViewById(rootView, id);
+      if (searchEditText == null) {
+        break missingId;
+      }
+
       id = R.id.toolbar;
       LinearLayout toolbar = ViewBindings.findChildViewById(rootView, id);
       if (toolbar == null) {
         break missingId;
       }
 
-      return new ToolbarBinding((ConstraintLayout) rootView, btnBack, rincian, toolbar);
+      return new ToolbarBinding((CoordinatorLayout) rootView, bottomNavigationView, btnBack,
+          reportRecyclerView, rincian, searchEditText, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

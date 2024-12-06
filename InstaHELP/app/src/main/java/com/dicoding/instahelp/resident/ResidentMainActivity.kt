@@ -29,6 +29,11 @@ class ResidentMainActivity : AppCompatActivity() {
                     true
                 }
 
+                R.id.laporanFragment -> {
+                    loadFragment(PanggilFragment())
+                    true
+                }
+
                 R.id.pengaturanFragment -> {
                     loadFragment(PengaturanFragment())
                     true
