@@ -25,10 +25,10 @@ import java.util.Locale
 
 class SignUpResidentActivity : AppCompatActivity() {
 
-    private lateinit var etKataSandi: EditText
-    private lateinit var eyeIconKataSandi: ImageView
-    private lateinit var etKonfirmasiKataSandi: EditText
-    private lateinit var eyeIconKonfirmasiKataSandi: ImageView
+    private lateinit var etPassword: EditText
+    private lateinit var eyeIconPassword: ImageView
+    private lateinit var etConfirmPass: EditText
+    private lateinit var eyeIconConfirmPass: ImageView
     private var isPasswordVisible = false
     private var isConfirmPasswordVisible = false
 
@@ -38,37 +38,37 @@ class SignUpResidentActivity : AppCompatActivity() {
         setContentView(R.layout.activity_sign_up_resident)
 
         // Inisialisasi elemen UI
-        etKataSandi = findViewById(R.id.et_kata_sandi)
-        eyeIconKataSandi = findViewById(R.id.eye_icon_katasandi)
-        etKonfirmasiKataSandi = findViewById(R.id.et_konfirmasi_kata_sandi)
-        eyeIconKonfirmasiKataSandi = findViewById(R.id.eye_icon_kksandi)
+        etPassword = findViewById(R.id.et_password)
+        eyeIconPassword = findViewById(R.id.eye_icon_password)
+        etConfirmPass = findViewById(R.id.et_confirmpass)
+        eyeIconConfirmPass = findViewById(R.id.eye_icon_confirmpass)
 
         // Toggle visibility untuk Kata Sandi
-        eyeIconKataSandi.setOnClickListener {
+        eyeIconPassword.setOnClickListener {
             togglePasswordVisibility(
-                etKataSandi,
-                eyeIconKataSandi,
+                etPassword,
+                eyeIconPassword,
                 isPasswordVisible
             ) { isPasswordVisible = !isPasswordVisible }
         }
 
         // Toggle visibility untuk Konfirmasi Kata Sandi
-        eyeIconKonfirmasiKataSandi.setOnClickListener {
+        eyeIconConfirmPass.setOnClickListener {
             togglePasswordVisibility(
-                etKonfirmasiKataSandi,
-                eyeIconKonfirmasiKataSandi,
+                etConfirmPass,
+                eyeIconConfirmPass,
                 isConfirmPasswordVisible
             ) { isConfirmPasswordVisible = !isConfirmPasswordVisible }
         }
 
         // Inisialisasi Spinner Jenis Kelamin
-        val spinnerGender: Spinner = findViewById(R.id.sp_jenis_kelamin)
+        val spinnerGender: Spinner = findViewById(R.id.sp_gender)
         val genderOptions = resources.getStringArray(R.array.gender_options)
         val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, genderOptions)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spinnerGender.adapter = adapter
 
-        val etTanggalLahir: EditText = findViewById(R.id.et_tanggal_lahir)
+        val etDateBirth: EditText = findViewById(R.id.et_date_birth)
         val calenderIcon: ImageView = findViewById(R.id.calender)
 
         val calendar = Calendar.getInstance()
@@ -80,7 +80,7 @@ class SignUpResidentActivity : AppCompatActivity() {
                 val selectedDate = Calendar.getInstance()
                 selectedDate.set(year, month, dayOfMonth)
                 val dateFormat = SimpleDateFormat("dd MMMM yyyy", Locale.getDefault())
-                etTanggalLahir.setText(dateFormat.format(selectedDate.time))
+                etDateBirth.setText(dateFormat.format(selectedDate.time))
             },
             calendar.get(Calendar.YEAR),
             calendar.get(Calendar.MONTH),
@@ -88,13 +88,14 @@ class SignUpResidentActivity : AppCompatActivity() {
         )
 
         // Show DatePickerDialog on clicking EditText or ImageView
-        etTanggalLahir.setOnClickListener { datePicker.show() }
+        etDateBirth.setOnClickListener { datePicker.show() }
         calenderIcon.setOnClickListener { datePicker.show() }
 
-        val have_acc: TextView = findViewById(R.id.tv_login_now)
-        have_acc.setOnClickListener {
+        val haveAcc: TextView = findViewById(R.id.tv_login_now)
+        haveAcc.setOnClickListener {
             val intent = Intent(this, LoginMasyarakatActivity::class.java)
             startActivity(intent)
+            overridePendingTransition(R.anim.activity_zoom_out, R.anim.activity_zoom_in)
         }
 
         val btnBack: ImageView = findViewById(R.id.btn_back)
@@ -103,16 +104,17 @@ class SignUpResidentActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val toolbar = findViewById<View>(R.id.toolbar_signup)
-        val rinciantext = toolbar.findViewById<TextView>(R.id.rincian)
-        rinciantext.text = getString(R.string.daftar_sekarang)
+        val toolbar = findViewById<View>(R.id.toolbar_signup_resident)
+        val detailText = toolbar.findViewById<TextView>(R.id.detail)
+        detailText.text = getString(R.string.daftar_sekarang)
 
-        val make_acc: TextView = findViewById(R.id.btn_next)
-        make_acc.setOnClickListener {
-            val intent = Intent(this, SignUpResidentActivity::class.java)
+        val makeAcc: TextView = findViewById(R.id.btn_next)
+        makeAcc.setOnClickListener {
+            val intent = Intent(this, LoginMasyarakatActivity::class.java)
             startActivity(intent) // Memulai aktivitas SignUpResidentActivity
+            overridePendingTransition(R.anim.activity_zoom_out, R.anim.activity_zoom_in)
         }
-        make_acc.text = getString(R.string.buat_akun)
+        makeAcc.text = getString(R.string.buat_akun)
     }
 
     private fun togglePasswordVisibility(

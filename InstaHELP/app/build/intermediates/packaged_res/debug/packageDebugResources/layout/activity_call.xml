@@ -8,6 +8,13 @@
     android:background="@color/white"
     tools:context=".resident.call.CallActivity">
 
-    
+    <include
+        android:id="@+id/tool_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/toolbarapp"/>
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,7 +1,9 @@
 package com.dicoding.instahelp.loginregist
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -16,10 +18,17 @@ class ForgetPasswordActivity : AppCompatActivity() {
         setContentView(R.layout.activity_forget_password)
 
         val toolbar = findViewById<View>(R.id.toolbar_forgetPass)
-        val rinciantext = toolbar.findViewById<TextView>(R.id.rincian)
-        rinciantext.text = getString(R.string.lupa_kata_sandi)
+        val detailText = toolbar.findViewById<TextView>(R.id.detail)
+        detailText.text = getString(R.string.lupa_kata_sandi)
 
-        val forgetAcct: TextView = findViewById(R.id.btn_next)
-        forgetAcct.text = getString(R.string.masuk)
+        val forgetAcc: TextView = findViewById(R.id.btn_next)
+        forgetAcc.text = getString(R.string.masuk)
+
+        val btnBack: ImageView = findViewById(R.id.btn_back)
+        btnBack.setOnClickListener{
+            val intent = Intent(this, LoginMasyarakatActivity::class.java)
+            startActivity(intent)
+            overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right)
+        }
     }
 }

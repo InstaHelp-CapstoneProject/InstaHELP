@@ -2,6 +2,7 @@ package com.dicoding.instahelp.loginregist
 
 import android.content.Intent
 import android.os.Bundle
+import android.provider.CalendarContract.Instances
 import android.text.InputType
 import android.text.method.HideReturnsTransformationMethod
 import android.text.method.PasswordTransformationMethod
@@ -27,23 +28,36 @@ class LoginInstansiActivity : AppCompatActivity() {
         binding.eyeIcon.setOnClickListener {
             togglePasswordVisibility()
         }
-        val signupInstansi = findViewById<TextView>(R.id.btn_signup_instansi)
-        signupInstansi.setOnClickListener {
+
+        val signupInstance = findViewById<TextView>(R.id.btn_signup_instance)
+        signupInstance.setOnClickListener {
             // Navigasi ke SignUpResidentActivity
-            val intent = Intent(this, SignUpResidentActivity::class.java)
+            val intent = Intent(this, SignUpInstansiActivity::class.java)
             startActivity(intent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
-        val logininstansi: TextView = findViewById(R.id.btn_next)
-        logininstansi.setOnClickListener {
-            val intent = Intent(this, SignUpResidentActivity::class.java)
+        val loginInstance: TextView = findViewById(R.id.btn_next)
+        loginInstance.setOnClickListener {
+            val intent = Intent(this, SignUpInstansiActivity::class.java)
             startActivity(intent) // Memulai aktivitas SignUpResidentActivity
+            overridePendingTransition(R.anim.activity_zoom_in, R.anim.activity_zoom_out)
         }
-        val forgot_password: TextView = findViewById(R.id.tv_forgot_password_instansi)
-        forgot_password.setOnClickListener {
+        val forgotPass: TextView = findViewById(R.id.tv_forgot_password_instance)
+        forgotPass.setOnClickListener {
             val intent = Intent(this, ForgetPasswordActivity::class.java)
             startActivity(intent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
-        logininstansi.text = getString(R.string.masuk)
+        loginInstance.text = getString(R.string.masuk)
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        val intent = Intent(this, SelectRoleActivity::class.java)
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
+        startActivity(intent)
+        overridePendingTransition(R.anim.activity_zoom_in, R.anim.activity_zoom_out)
+        finish()
     }
 
     private fun togglePasswordVisibility() {

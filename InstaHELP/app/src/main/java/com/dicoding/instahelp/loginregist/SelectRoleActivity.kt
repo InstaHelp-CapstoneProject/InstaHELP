@@ -12,33 +12,32 @@ import androidx.appcompat.app.AppCompatActivity
 import com.dicoding.instahelp.R
 
 class SelectRoleActivity : AppCompatActivity() {
-    private var isMasyarakatSelected = false
-    private var isInstansiSelected = false
+    private var isResidentSelected = false
+    private var isInstanceSelected = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-
         setContentView(R.layout.activity_select_role)
 
-        val cardMasyarakat = findViewById<LinearLayout>(R.id.card_masyarakat)
-        val cardInstansi = findViewById<LinearLayout>(R.id.card_instansi)
-        val toggleMasyarakat = findViewById<View>(R.id.toggle_masyarakat)
-        val toggleInstansi = findViewById<View>(R.id.toggle_instansi)
+        val cardResident = findViewById<LinearLayout>(R.id.card_resident)
+        val cardInstance = findViewById<LinearLayout>(R.id.card_instance)
+        val toggleResident = findViewById<View>(R.id.toggle_resident)
+        val toggleInstance = findViewById<View>(R.id.toggle_instance)
 
         // Pengecekan role yang dipilih
-        cardMasyarakat.setOnClickListener {
-            toggleMasyarakat.isSelected = true
-            toggleInstansi.isSelected = false
-            isMasyarakatSelected = true
-            isInstansiSelected = false
+        cardResident.setOnClickListener {
+            toggleResident.isSelected = true
+            toggleInstance.isSelected = false
+            isResidentSelected = true
+            isInstanceSelected = false
         }
 
-        cardInstansi.setOnClickListener {
-            toggleInstansi.isSelected = true
-            toggleMasyarakat.isSelected = false
-            isInstansiSelected = true
-            isMasyarakatSelected = false
+        cardInstance.setOnClickListener {
+            toggleInstance.isSelected = true
+            toggleResident.isSelected = false
+            isResidentSelected = false
+            isInstanceSelected = true
         }
 
         // Mendapatkan referensi ke tombol "Selanjutnya"
@@ -46,13 +45,14 @@ class SelectRoleActivity : AppCompatActivity() {
 
         // Menetapkan klik listener untuk tombol "Selanjutnya"
         btnNext.setOnClickListener {
-            if (isMasyarakatSelected || isInstansiSelected) {
-                val intent = if (isMasyarakatSelected) {
+            if (isResidentSelected || isInstanceSelected) {
+                val intent = if (isResidentSelected) {
                     Intent(this, LoginMasyarakatActivity::class.java)
                 } else {
-                    Intent(this, LoginInstansiActivity::class.java) // Ganti dengan LoginInstansiActivity jika ada
+                    Intent( this, LoginInstansiActivity::class.java)
                 }
                 startActivity(intent)
+                overridePendingTransition(R.anim.activity_zoom_in, R.anim.activity_zoom_out)
                 finish() // Menutup SelectRoleActivity setelah navigasi
             } else {
                 // Menampilkan pesan jika role belum dipilih
@@ -61,4 +61,6 @@ class SelectRoleActivity : AppCompatActivity() {
         }
 
     }
+
+
 }

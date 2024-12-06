@@ -47,7 +47,7 @@
         android:layout_width="300dp"
         android:layout_centerHorizontal="true"
         android:layout_height="45dp"
-        android:hint="@string/e_mail"
+        android:hint="Email"
         android:textSize="14sp"
         android:padding="10dp"
         android:layout_marginBottom="12dp"
@@ -111,7 +111,7 @@
 
     <include
         android:layout_below="@+id/password_container"
-        android:id="@+id/btn_login_masyarakat"
+        android:id="@+id/btn_login_resident"
         android:layout_marginTop="100dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -119,7 +119,7 @@
     </include>
 
     <LinearLayout
-        android:layout_below="@+id/btn_login_masyarakat"
+        android:layout_below="@+id/btn_login_resident"
         android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -133,7 +133,7 @@
             android:textSize="14sp" />
 
         <TextView
-            android:id="@+id/btn_signup_masyarakat"
+            android:id="@+id/btn_signup_resident"
             android:background="?attr/selectableItemBackground"
             android:focusable="true"
             android:clickable="true"

@@ -22,10 +22,10 @@ public final class ActivityLoginInstansiBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final ButtonOrangeBinding btnLoginInstansi;
+  public final ButtonOrangeBinding btnLoginInstance;
 
   @NonNull
-  public final TextView btnSignupInstansi;
+  public final TextView btnSignupInstance;
 
   @NonNull
   public final EditText etEmail;
@@ -40,7 +40,7 @@ public final class ActivityLoginInstansiBinding implements ViewBinding {
   public final RelativeLayout passwordContainer;
 
   @NonNull
-  public final TextView tvForgotPasswordInstansi;
+  public final TextView tvForgotPasswordInstance;
 
   @NonNull
   public final TextView tvHeaderSubtitle;
@@ -49,18 +49,18 @@ public final class ActivityLoginInstansiBinding implements ViewBinding {
   public final TextView tvHeaderTitle;
 
   private ActivityLoginInstansiBinding(@NonNull RelativeLayout rootView,
-      @NonNull ButtonOrangeBinding btnLoginInstansi, @NonNull TextView btnSignupInstansi,
+      @NonNull ButtonOrangeBinding btnLoginInstance, @NonNull TextView btnSignupInstance,
       @NonNull EditText etEmail, @NonNull EditText etPassword, @NonNull ImageView eyeIcon,
-      @NonNull RelativeLayout passwordContainer, @NonNull TextView tvForgotPasswordInstansi,
+      @NonNull RelativeLayout passwordContainer, @NonNull TextView tvForgotPasswordInstance,
       @NonNull TextView tvHeaderSubtitle, @NonNull TextView tvHeaderTitle) {
     this.rootView = rootView;
-    this.btnLoginInstansi = btnLoginInstansi;
-    this.btnSignupInstansi = btnSignupInstansi;
+    this.btnLoginInstance = btnLoginInstance;
+    this.btnSignupInstance = btnSignupInstance;
     this.etEmail = etEmail;
     this.etPassword = etPassword;
     this.eyeIcon = eyeIcon;
     this.passwordContainer = passwordContainer;
-    this.tvForgotPasswordInstansi = tvForgotPasswordInstansi;
+    this.tvForgotPasswordInstance = tvForgotPasswordInstance;
     this.tvHeaderSubtitle = tvHeaderSubtitle;
     this.tvHeaderTitle = tvHeaderTitle;
   }
@@ -92,16 +92,16 @@ public final class ActivityLoginInstansiBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_login_instansi;
-      View btnLoginInstansi = ViewBindings.findChildViewById(rootView, id);
-      if (btnLoginInstansi == null) {
+      id = R.id.btn_login_instance;
+      View btnLoginInstance = ViewBindings.findChildViewById(rootView, id);
+      if (btnLoginInstance == null) {
         break missingId;
       }
-      ButtonOrangeBinding binding_btnLoginInstansi = ButtonOrangeBinding.bind(btnLoginInstansi);
+      ButtonOrangeBinding binding_btnLoginInstance = ButtonOrangeBinding.bind(btnLoginInstance);
 
-      id = R.id.btn_signup_instansi;
-      TextView btnSignupInstansi = ViewBindings.findChildViewById(rootView, id);
-      if (btnSignupInstansi == null) {
+      id = R.id.btn_signup_instance;
+      TextView btnSignupInstance = ViewBindings.findChildViewById(rootView, id);
+      if (btnSignupInstance == null) {
         break missingId;
       }
 
@@ -129,9 +129,9 @@ public final class ActivityLoginInstansiBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tv_forgot_password_instansi;
-      TextView tvForgotPasswordInstansi = ViewBindings.findChildViewById(rootView, id);
-      if (tvForgotPasswordInstansi == null) {
+      id = R.id.tv_forgot_password_instance;
+      TextView tvForgotPasswordInstance = ViewBindings.findChildViewById(rootView, id);
+      if (tvForgotPasswordInstance == null) {
         break missingId;
       }
 
@@ -147,9 +147,9 @@ public final class ActivityLoginInstansiBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginInstansiBinding((RelativeLayout) rootView, binding_btnLoginInstansi,
-          btnSignupInstansi, etEmail, etPassword, eyeIcon, passwordContainer,
-          tvForgotPasswordInstansi, tvHeaderSubtitle, tvHeaderTitle);
+      return new ActivityLoginInstansiBinding((RelativeLayout) rootView, binding_btnLoginInstance,
+          btnSignupInstance, etEmail, etPassword, eyeIcon, passwordContainer,
+          tvForgotPasswordInstance, tvHeaderSubtitle, tvHeaderTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

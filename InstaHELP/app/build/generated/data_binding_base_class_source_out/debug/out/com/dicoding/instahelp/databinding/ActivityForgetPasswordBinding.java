@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,9 +21,6 @@ public final class ActivityForgetPasswordBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final LinearLayout aku;
-
-  @NonNull
   public final ButtonOrangeBinding btnForgetAcc;
 
   @NonNull
@@ -36,11 +32,10 @@ public final class ActivityForgetPasswordBinding implements ViewBinding {
   @NonNull
   public final ToolbarBinding toolbarForgetPass;
 
-  private ActivityForgetPasswordBinding(@NonNull RelativeLayout rootView, @NonNull LinearLayout aku,
+  private ActivityForgetPasswordBinding(@NonNull RelativeLayout rootView,
       @NonNull ButtonOrangeBinding btnForgetAcc, @NonNull EditText etEmail,
       @NonNull ImageView ivLogo, @NonNull ToolbarBinding toolbarForgetPass) {
     this.rootView = rootView;
-    this.aku = aku;
     this.btnForgetAcc = btnForgetAcc;
     this.etEmail = etEmail;
     this.ivLogo = ivLogo;
@@ -74,12 +69,6 @@ public final class ActivityForgetPasswordBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.aku;
-      LinearLayout aku = ViewBindings.findChildViewById(rootView, id);
-      if (aku == null) {
-        break missingId;
-      }
-
       id = R.id.btn_forgetAcc;
       View btnForgetAcc = ViewBindings.findChildViewById(rootView, id);
       if (btnForgetAcc == null) {
@@ -106,7 +95,7 @@ public final class ActivityForgetPasswordBinding implements ViewBinding {
       }
       ToolbarBinding binding_toolbarForgetPass = ToolbarBinding.bind(toolbarForgetPass);
 
-      return new ActivityForgetPasswordBinding((RelativeLayout) rootView, aku, binding_btnForgetAcc,
+      return new ActivityForgetPasswordBinding((RelativeLayout) rootView, binding_btnForgetAcc,
           etEmail, ivLogo, binding_toolbarForgetPass);
     }
     String missingId = rootView.getResources().getResourceName(id);

@@ -4,7 +4,7 @@
     <string name="kami_siap_m">Kami siap membantu Anda dalam situasi darurat, kapan saja, di mana saja.</string>
     <string name="get_started">Mulai Sekarang</string>
     <!-- Strings for Login Activity -->
-    <string name="e_mail">Email Anda</string>
+    <string name="e_mail"><Email></Email></string>
     <string name="login_welcome_message">Selamat datang\nkembali</string>
     <string name="login_prompt_email">Silahkan masukan email Anda</string>
     <string name="password_hint">Kata Sandi</string>
@@ -65,5 +65,6 @@
     <string name="sudah_punya_akun">Sudah punya akun?</string>
     <string name="masuk_sekarang">Masuk sekarang</string>
     <string name="lupa_kata_sandi">Lupa Kata Sandi</string>
+    <string name="nama_instansi">Nama Instansi</string>
 
 </resources>
