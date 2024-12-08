@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dilaporkan"
+        android:title="Dilaporkan" />
+    <item
+        android:id="@+id/diproses"
+        android:title="Diproses" />
+    <item
+        android:id="@+id/selesai"
+        android:title="Selesai" />
+    <item
+        android:id="@+id/ditolak"
+        android:title="Ditolak" />
+</menu>
+

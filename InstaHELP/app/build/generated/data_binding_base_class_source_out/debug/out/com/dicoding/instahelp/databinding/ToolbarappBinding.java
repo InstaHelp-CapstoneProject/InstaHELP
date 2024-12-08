@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -30,18 +31,23 @@ public final class ToolbarappBinding implements ViewBinding {
   public final ImageView profileImage;
 
   @NonNull
+  public final RelativeLayout relativeLayout2;
+
+  @NonNull
   public final ImageView toolbarapp;
 
   @NonNull
   public final TextView verified;
 
   private ToolbarappBinding(@NonNull ConstraintLayout rootView, @NonNull TextView city,
-      @NonNull TextView name, @NonNull ImageView profileImage, @NonNull ImageView toolbarapp,
+      @NonNull TextView name, @NonNull ImageView profileImage,
+      @NonNull RelativeLayout relativeLayout2, @NonNull ImageView toolbarapp,
       @NonNull TextView verified) {
     this.rootView = rootView;
     this.city = city;
     this.name = name;
     this.profileImage = profileImage;
+    this.relativeLayout2 = relativeLayout2;
     this.toolbarapp = toolbarapp;
     this.verified = verified;
   }
@@ -91,6 +97,12 @@ public final class ToolbarappBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.relativeLayout2;
+      RelativeLayout relativeLayout2 = ViewBindings.findChildViewById(rootView, id);
+      if (relativeLayout2 == null) {
+        break missingId;
+      }
+
       id = R.id.toolbarapp;
       ImageView toolbarapp = ViewBindings.findChildViewById(rootView, id);
       if (toolbarapp == null) {
@@ -104,7 +116,7 @@ public final class ToolbarappBinding implements ViewBinding {
       }
 
       return new ToolbarappBinding((ConstraintLayout) rootView, city, name, profileImage,
-          toolbarapp, verified);
+          relativeLayout2, toolbarapp, verified);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

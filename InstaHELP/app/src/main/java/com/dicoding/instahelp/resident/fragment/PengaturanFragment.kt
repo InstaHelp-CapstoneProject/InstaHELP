@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.Toast
-import android.widget.Toolbar
+import androidx.appcompat.widget.Toolbar
 import androidx.cardview.widget.CardView
 import androidx.fragment.app.Fragment
 import com.dicoding.instahelp.R
@@ -24,8 +24,9 @@ class PengaturanFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val toolbar: Toolbar = view.findViewById(R.id.toolbar)
-        toolbar.setNavigationOnClickListener {
+        // Pastikan toolbar ada di layout
+        val toolbar: Toolbar? = view.findViewById(R.id.toolbar)
+        toolbar?.setNavigationOnClickListener {
             requireActivity().onBackPressedDispatcher.onBackPressed()
         }
 

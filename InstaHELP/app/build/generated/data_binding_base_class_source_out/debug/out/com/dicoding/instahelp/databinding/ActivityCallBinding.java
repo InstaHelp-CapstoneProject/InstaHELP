@@ -4,9 +4,11 @@ package com.dicoding.instahelp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.dicoding.instahelp.R;
@@ -19,15 +21,24 @@ public final class ActivityCallBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final LinearLayout linearLayout;
+
+  @NonNull
   public final ConstraintLayout main;
+
+  @NonNull
+  public final RecyclerView recyclerHospitals;
 
   @NonNull
   public final ToolbarappBinding toolCall;
 
-  private ActivityCallBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout main,
-      @NonNull ToolbarappBinding toolCall) {
+  private ActivityCallBinding(@NonNull ConstraintLayout rootView,
+      @NonNull LinearLayout linearLayout, @NonNull ConstraintLayout main,
+      @NonNull RecyclerView recyclerHospitals, @NonNull ToolbarappBinding toolCall) {
     this.rootView = rootView;
+    this.linearLayout = linearLayout;
     this.main = main;
+    this.recyclerHospitals = recyclerHospitals;
     this.toolCall = toolCall;
   }
 
@@ -58,7 +69,19 @@ public final class ActivityCallBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.linearLayout;
+      LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout == null) {
+        break missingId;
+      }
+
       ConstraintLayout main = (ConstraintLayout) rootView;
+
+      id = R.id.recycler_hospitals;
+      RecyclerView recyclerHospitals = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerHospitals == null) {
+        break missingId;
+      }
 
       id = R.id.tool_call;
       View toolCall = ViewBindings.findChildViewById(rootView, id);
@@ -67,7 +90,8 @@ public final class ActivityCallBinding implements ViewBinding {
       }
       ToolbarappBinding binding_toolCall = ToolbarappBinding.bind(toolCall);
 
-      return new ActivityCallBinding((ConstraintLayout) rootView, main, binding_toolCall);
+      return new ActivityCallBinding((ConstraintLayout) rootView, linearLayout, main,
+          recyclerHospitals, binding_toolCall);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -28,6 +28,7 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:debuggable="true"
+        android:enableOnBackInvokedCallback="true"
         android:extractNativeLibs="false"
         android:fullBackupContent="@xml/backup_rules"
         android:hardwareAccelerated="true"
@@ -42,6 +43,9 @@
             android:exported="false" />
         <activity
             android:name="com.dicoding.instahelp.resident.call.CallActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dicoding.instahelp.resident.ResidentMainActivity"
             android:exported="false" />
         <activity
             android:name="com.dicoding.instahelp.loginregist.MainActivity"
