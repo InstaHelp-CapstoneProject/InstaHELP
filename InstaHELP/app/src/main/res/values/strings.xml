@@ -42,6 +42,10 @@
 
     <!-- Strings for Search Box -->
     <string name="search_hint">Cari Rumah Sakit/Instansi</string>
+    <string name="search_completed">Cari Laporan Selesai</string>
+    <string name="search_reported">Cari Laporan Dilaporkan</string>
+    <string name="search_rejected">Cari Laporan Ditolak</string>
+    <string name="search_processed">Cari Laporan Diproses</string>
 
     <!-- Section Header -->
     <string name="nearest_hospitals">Rumah Sakit Terdekat</string>
@@ -69,5 +73,7 @@
     <string name="nama_instansi">Nama Instansi</string>
     <string name="berikut_adalah_daftar_rumah_sakit">Berikut adalah daftar Rumah sakit</string>
     <string name="rumah_sakit_terdekat">Rumah sakit terdekat</string>
+    <string name="alex_account">\@alexuhuy</string>
+
 
 </resources>

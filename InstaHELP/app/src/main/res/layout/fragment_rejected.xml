@@ -13,7 +13,7 @@
         android:background="@drawable/search_box_background"
         android:drawableStart="@drawable/ic_search_24px"
         android:drawablePadding="8dp"
-        android:hint="@string/search_hint"
+        android:hint="@string/search_rejected"
         android:inputType="text"
         android:padding="12dp"
         android:textSize="14sp"
