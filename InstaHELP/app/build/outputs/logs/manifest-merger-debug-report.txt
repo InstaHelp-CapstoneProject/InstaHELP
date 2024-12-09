@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:2:1-63:12
-INJECTED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:2:1-63:12
-INJECTED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:2:1-63:12
-INJECTED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:2:1-63:12
+ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:2:1-64:12
 MERGED from [androidx.databinding:viewbinding:8.7.2] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\da6c1723a4c176bfffc981696acfb168\transformed\viewbinding-8.7.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.8.4] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\abb7cce55cfb2ec08b9137666695fb88\transformed\navigation-common-2.8.4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.8.4] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\73b4c1639ad5538d112efb3f37983f17\transformed\navigation-common-ktx-2.8.4\AndroidManifest.xml:2:1-7:12
@@ -85,8 +85,8 @@ ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:
 	android:name
 		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:8:5-61:19
-INJECTED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:8:5-61:19
+ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:8:5-62:19
+INJECTED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:8:5-62:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\feccc49a95e6e8f306da9073f7008081\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\feccc49a95e6e8f306da9073f7008081\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\3539ebe1f897d3157e3debd51d6825b6\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
@@ -110,107 +110,109 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Gradle\g
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.15.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\21f124cca840039de64e8faa7d5909be\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:13:9-41
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:14:9-41
 	android:hardwareAccelerated
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:18:9-43
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:19:9-43
 	android:fullBackupContent
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:12:9-54
 	android:roundIcon
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:15:9-54
 	tools:targetApi
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:17:9-29
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:18:9-29
 	android:icon
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:12:9-43
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:16:9-40
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:17:9-40
+	android:networkSecurityConfig
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:9:9-69
 	android:dataExtractionRules
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:10:9-65
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:11:9-65
 activity#com.dicoding.instahelp.resident.call.DetailHospitalActivity
-ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:19:9-21:40
+ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:21:13-37
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:20:13-65
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:21:13-65
 activity#com.dicoding.instahelp.resident.call.CallActivity
-ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:22:9-24:40
+ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:23:9-25:40
 	android:exported
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:24:13-37
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:23:13-55
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:24:13-55
 activity#com.dicoding.instahelp.loginregist.MainActivity
-ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:25:9-27:40
+ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:26:9-28:40
 	android:exported
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:27:13-37
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:26:13-53
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:27:13-53
 activity#com.dicoding.instahelp.loginregist.ForgetPasswordInstansiActivity
-ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:28:9-30:40
+ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:exported
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:30:13-37
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:29:13-71
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:30:13-71
 activity#com.dicoding.instahelp.loginregist.SignUpInstansiActivity
-ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:31:9-33:40
+ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:33:13-37
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:32:13-63
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:33:13-63
 activity#com.dicoding.instahelp.loginregist.LoginInstansiActivity
-ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:34:9-36:40
+ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:35:9-37:40
 	android:exported
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:36:13-37
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:35:13-62
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:36:13-62
 activity#com.dicoding.instahelp.loginregist.ForgetPasswordActivity
-ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:37:9-39:40
+ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:38:9-40:40
 	android:exported
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:39:13-37
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:38:13-63
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:39:13-63
 activity#com.dicoding.instahelp.loginregist.SignUpResidentActivity
-ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:40:9-42:40
+ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:42:13-37
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:41:13-63
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:42:13-63
 activity#com.dicoding.instahelp.loginregist.LoginMasyarakatActivity
-ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:43:9-45:40
+ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:45:13-37
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:44:13-64
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:45:13-64
 activity#com.dicoding.instahelp.loginregist.SelectRoleActivity
-ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:46:9-48:40
+ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:47:9-49:40
 	android:exported
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:48:13-37
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:47:13-59
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:48:13-59
 activity#com.dicoding.instahelp.loginregist.GetStartedActivity
-ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:49:9-51:40
+ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:50:9-52:40
 	android:exported
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:51:13-37
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:50:13-59
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:51:13-59
 activity#com.dicoding.instahelp.splashscreen.SplashActivity
-ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:52:9-60:20
+ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:53:9-61:20
 	android:exported
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:54:13-36
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:55:13-36
 	android:name
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:53:13-56
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:54:13-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:55:13-59:29
+ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:56:13-60:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:56:17-69
+ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:57:17-69
 	android:name
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:56:25-66
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:57:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:58:17-77
+ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:59:17-77
 	android:name
-		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:58:27-74
+		ADDED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:59:27-74
 uses-sdk
 INJECTED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml

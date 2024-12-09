@@ -15,6 +15,7 @@ import com.dicoding.instahelp.API.LoginResidentRequest
 import com.dicoding.instahelp.API.LoginResponse
 import com.dicoding.instahelp.R
 import com.dicoding.instahelp.databinding.ActivityLoginMasyarakatBinding
+import com.dicoding.instahelp.resident.ResidentMainActivity
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -75,8 +76,10 @@ class LoginMasyarakatActivity : AppCompatActivity() {
                     val loginResponse = response.body()
                     Log.d("LoginMasyarakatActivity", "User logged in: $loginResponse")
                     Toast.makeText(this@LoginMasyarakatActivity, "Login berhasil!", Toast.LENGTH_SHORT).show()
-                    // Navigasi ke activity berikutnya setelah login berhasil
-                    // Misalnya: startActivity(Intent(this@LoginMasyarakatActivity, HomeActivity::class.java))
+
+                    // Navigasi ke HomeActivity setelah login berhasil
+                    startActivity(Intent(this@LoginMasyarakatActivity, ResidentMainActivity::class.java))
+                    finish()
                 } else {
                     Log.e("LoginMasyarakatActivity", "Error: ${response.errorBody()?.string()}")
                     Toast.makeText(this@LoginMasyarakatActivity, "Login gagal. Periksa kredensial Anda.", Toast.LENGTH_SHORT).show()
