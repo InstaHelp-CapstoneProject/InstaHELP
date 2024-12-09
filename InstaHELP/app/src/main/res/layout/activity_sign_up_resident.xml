@@ -48,7 +48,6 @@
                 android:inputType="number"
                 android:background="@drawable/bg_edittext"
                 android:padding="10dp"
-                android:textColor="@color/white"
                 android:textSize="14sp" />
 
             <!-- Nama Input -->
@@ -61,7 +60,6 @@
                 android:inputType="textPersonName"
                 android:background="@drawable/bg_edittext"
                 android:padding="10dp"
-                android:textColor="@color/white"
                 android:textSize="14sp" />
 
             <!-- Alamat Input -->
@@ -74,7 +72,6 @@
                 android:inputType="textPostalAddress"
                 android:background="@drawable/bg_edittext"
                 android:padding="10dp"
-                android:textColor="@color/white"
                 android:textSize="14sp" />
 
             <!-- Jenis Kelamin -->
@@ -178,7 +175,7 @@
                     android:layout_toStartOf="@+id/eye_icon_password"
                     android:textSize="14sp"
                     android:inputType="textPassword"
-                    android:focusable="false"
+                    android:focusable="true"
                     android:padding="10dp"
                     android:elevation="2dp"/>
 
@@ -210,7 +207,7 @@
                     android:layout_toStartOf="@+id/eye_icon_confirmpass"
                     android:textSize="14sp"
                     android:inputType="textPassword"
-                    android:focusable="false"
+                    android:focusable="true"
                     android:padding="10dp"
                     android:elevation="2dp"/>
 

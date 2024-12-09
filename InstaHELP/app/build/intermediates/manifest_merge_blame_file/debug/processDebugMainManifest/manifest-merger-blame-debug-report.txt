@@ -9,52 +9,235 @@
 9        android:targetSdkVersion="35" />
 10    <!-- Izin untuk menggunakan mikrofon -->
 11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-11-->C:\Users\LENOVO\AndroidStudioProjects\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:5:5-71
-11-->C:\Users\LENOVO\AndroidStudioProjects\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:5:22-68
+11-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:5:5-71
+11-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:5:22-68
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\LENOVO\AndroidStudioProjects\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:6:5-67
-12-->C:\Users\LENOVO\AndroidStudioProjects\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:6:22-64
+12-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:6:22-64
 13
 14    <queries>
-14-->[androidx.media:media:1.4.1] C:\Users\LENOVO\.gradle\caches\8.9\transforms\85a1c6537bff32b0d411b360f2903efa\transformed\media-1.4.1\AndroidManifest.xml:24:5-28:15
+14-->[androidx.media:media:1.4.1] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\85a1c6537bff32b0d411b360f2903efa\transformed\media-1.4.1\AndroidManifest.xml:24:5-28:15
 15        <intent>
-15-->[androidx.media:media:1.4.1] C:\Users\LENOVO\.gradle\caches\8.9\transforms\85a1c6537bff32b0d411b360f2903efa\transformed\media-1.4.1\AndroidManifest.xml:25:9-27:18
+15-->[androidx.media:media:1.4.1] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\85a1c6537bff32b0d411b360f2903efa\transformed\media-1.4.1\AndroidManifest.xml:25:9-27:18
 16            <action android:name="android.media.browse.MediaBrowserService" />
-16-->[androidx.media:media:1.4.1] C:\Users\LENOVO\.gradle\caches\8.9\transforms\85a1c6537bff32b0d411b360f2903efa\transformed\media-1.4.1\AndroidManifest.xml:26:13-79
-16-->[androidx.media:media:1.4.1] C:\Users\LENOVO\.gradle\caches\8.9\transforms\85a1c6537bff32b0d411b360f2903efa\transformed\media-1.4.1\AndroidManifest.xml:26:21-76
+16-->[androidx.media:media:1.4.1] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\85a1c6537bff32b0d411b360f2903efa\transformed\media-1.4.1\AndroidManifest.xml:26:13-79
+16-->[androidx.media:media:1.4.1] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\85a1c6537bff32b0d411b360f2903efa\transformed\media-1.4.1\AndroidManifest.xml:26:21-76
 17        </intent>
 18    </queries>
 19
 20    <permission
-20-->[androidx.core:core:1.15.0] C:\Users\LENOVO\.gradle\caches\8.9\transforms\21f124cca840039de64e8faa7d5909be\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+20-->[androidx.core:core:1.15.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\21f124cca840039de64e8faa7d5909be\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
 21        android:name="com.dicoding.instahelp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-21-->[androidx.core:core:1.15.0] C:\Users\LENOVO\.gradle\caches\8.9\transforms\21f124cca840039de64e8faa7d5909be\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+21-->[androidx.core:core:1.15.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\21f124cca840039de64e8faa7d5909be\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
 22        android:protectionLevel="signature" />
-22-->[androidx.core:core:1.15.0] C:\Users\LENOVO\.gradle\caches\8.9\transforms\21f124cca840039de64e8faa7d5909be\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+22-->[androidx.core:core:1.15.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\21f124cca840039de64e8faa7d5909be\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
 23
 24    <uses-permission android:name="com.dicoding.instahelp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-24-->[androidx.core:core:1.15.0] C:\Users\LENOVO\.gradle\caches\8.9\transforms\21f124cca840039de64e8faa7d5909be\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
-24-->[androidx.core:core:1.15.0] C:\Users\LENOVO\.gradle\caches\8.9\transforms\21f124cca840039de64e8faa7d5909be\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+24-->[androidx.core:core:1.15.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\21f124cca840039de64e8faa7d5909be\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.15.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\21f124cca840039de64e8faa7d5909be\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
 25
 26    <application
-26-->C:\Users\LENOVO\AndroidStudioProjects\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:8:5-65:19
+26-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:8:5-66:19
 27        android:allowBackup="true"
-27-->C:\Users\LENOVO\AndroidStudioProjects\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:9:9-35
+27-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:10:9-35
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-28-->[androidx.core:core:1.15.0] C:\Users\LENOVO\.gradle\caches\8.9\transforms\21f124cca840039de64e8faa7d5909be\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+28-->[androidx.core:core:1.15.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\21f124cca840039de64e8faa7d5909be\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
 29        android:dataExtractionRules="@xml/data_extraction_rules"
-29-->C:\Users\LENOVO\AndroidStudioProjects\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:11:9-65
+29-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:12:9-65
 30        android:debuggable="true"
 31        android:enableOnBackInvokedCallback="true"
-31-->C:\Users\LENOVO\AndroidStudioProjects\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:10:9-51
+31-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:11:9-51
 32        android:extractNativeLibs="false"
 33        android:fullBackupContent="@xml/backup_rules"
-33-->C:\Users\LENOVO\AndroidStudioProjects\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:12:9-54
+33-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:13:9-54
 34        android:hardwareAccelerated="true"
-34-->C:\Users\LENOVO\AndroidStudioProjects\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:19:9-43
+34-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:20:9-43
 35        android:icon="@mipmap/ic_launcher"
-35-->C:\Users\LENOVO\AndroidStudioProjects\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:13:9-43
+35-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:14:9-43
 36        android:label="@string/app_name"
+<<<<<<< HEAD
+36-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:15:9-41
+37        android:networkSecurityConfig="@xml/network_security_config"
+37-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:9:9-69
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:16:9-54
+39        android:supportsRtl="true"
+39-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:17:9-35
+40        android:testOnly="true"
+41        android:theme="@style/AppTheme" >
+41-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:18:9-40
+42        <activity
+42-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:21:9-23:40
+43            android:name="com.dicoding.instahelp.resident.call.DetailHospitalActivity"
+43-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:22:13-65
+44            android:exported="false" />
+44-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:23:13-37
+45        <activity
+45-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:24:9-26:40
+46            android:name="com.dicoding.instahelp.resident.call.CallActivity"
+46-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:25:13-55
+47            android:exported="false" />
+47-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:26:13-37
+48        <activity
+48-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:27:9-29:40
+49            android:name="com.dicoding.instahelp.resident.ResidentMainActivity"
+49-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:28:13-58
+50            android:exported="false" />
+50-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:29:13-37
+51        <activity
+51-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:30:9-32:40
+52            android:name="com.dicoding.instahelp.loginregist.MainActivity"
+52-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:31:13-53
+53            android:exported="false" />
+53-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:32:13-37
+54        <activity
+54-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:33:9-35:40
+55            android:name="com.dicoding.instahelp.loginregist.ForgetPasswordInstansiActivity"
+55-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:34:13-71
+56            android:exported="false" />
+56-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:35:13-37
+57        <activity
+57-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:36:9-38:40
+58            android:name="com.dicoding.instahelp.loginregist.SignUpInstansiActivity"
+58-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:37:13-63
+59            android:exported="false" />
+59-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:38:13-37
+60        <activity
+60-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:39:9-41:40
+61            android:name="com.dicoding.instahelp.loginregist.LoginInstansiActivity"
+61-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:40:13-62
+62            android:exported="false" />
+62-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:41:13-37
+63        <activity
+63-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:42:9-44:40
+64            android:name="com.dicoding.instahelp.loginregist.ForgetPasswordActivity"
+64-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:43:13-63
+65            android:exported="false" />
+65-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:44:13-37
+66        <activity
+66-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:45:9-47:40
+67            android:name="com.dicoding.instahelp.loginregist.SignUpResidentActivity"
+67-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:46:13-63
+68            android:exported="false" />
+68-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:47:13-37
+69        <activity
+69-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:48:9-50:40
+70            android:name="com.dicoding.instahelp.loginregist.LoginMasyarakatActivity"
+70-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:49:13-64
+71            android:exported="false" />
+71-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:50:13-37
+72        <activity
+72-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:51:9-53:40
+73            android:name="com.dicoding.instahelp.loginregist.SelectRoleActivity"
+73-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:52:13-59
+74            android:exported="false" />
+74-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:53:13-37
+75        <activity
+75-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:54:9-56:40
+76            android:name="com.dicoding.instahelp.loginregist.GetStartedActivity"
+76-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:55:13-59
+77            android:exported="false" />
+77-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:56:13-37
+78        <activity
+78-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:57:9-65:20
+79            android:name="com.dicoding.instahelp.splashscreen.SplashActivity"
+79-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:58:13-56
+80            android:exported="true" >
+80-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:59:13-36
+81            <intent-filter>
+81-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:60:13-64:29
+82                <action android:name="android.intent.action.MAIN" />
+82-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:61:17-69
+82-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:61:25-66
+83
+84                <category android:name="android.intent.category.LAUNCHER" />
+84-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:63:17-77
+84-->C:\Users\ASUS\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:63:27-74
+85            </intent-filter>
+86        </activity>
+87
+88        <provider
+88-->[androidx.emoji2:emoji2:1.3.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\1399ac297573e474baa70018a0b67c01\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+89            android:name="androidx.startup.InitializationProvider"
+89-->[androidx.emoji2:emoji2:1.3.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\1399ac297573e474baa70018a0b67c01\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+90            android:authorities="com.dicoding.instahelp.androidx-startup"
+90-->[androidx.emoji2:emoji2:1.3.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\1399ac297573e474baa70018a0b67c01\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+91            android:exported="false" >
+91-->[androidx.emoji2:emoji2:1.3.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\1399ac297573e474baa70018a0b67c01\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+92            <meta-data
+92-->[androidx.emoji2:emoji2:1.3.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\1399ac297573e474baa70018a0b67c01\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+93-->[androidx.emoji2:emoji2:1.3.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\1399ac297573e474baa70018a0b67c01\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+94                android:value="androidx.startup" />
+94-->[androidx.emoji2:emoji2:1.3.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\1399ac297573e474baa70018a0b67c01\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+95            <meta-data
+95-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\4c3d4d1ab275587d9af754c9877b4cbd\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+96                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+96-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\4c3d4d1ab275587d9af754c9877b4cbd\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+97                android:value="androidx.startup" />
+97-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\4c3d4d1ab275587d9af754c9877b4cbd\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+98            <meta-data
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+100                android:value="androidx.startup" />
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+101        </provider>
+102
+103        <uses-library
+103-->[androidx.window:window:1.0.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\567478c70b1b749932d6520f8395f771\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+104            android:name="androidx.window.extensions"
+104-->[androidx.window:window:1.0.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\567478c70b1b749932d6520f8395f771\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+105            android:required="false" />
+105-->[androidx.window:window:1.0.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\567478c70b1b749932d6520f8395f771\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+106        <uses-library
+106-->[androidx.window:window:1.0.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\567478c70b1b749932d6520f8395f771\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+107            android:name="androidx.window.sidecar"
+107-->[androidx.window:window:1.0.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\567478c70b1b749932d6520f8395f771\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+108            android:required="false" />
+108-->[androidx.window:window:1.0.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\567478c70b1b749932d6520f8395f771\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+109
+110        <receiver
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+111            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+112            android:directBootAware="false"
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+113            android:enabled="true"
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+114            android:exported="true"
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+115            android:permission="android.permission.DUMP" >
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+116            <intent-filter>
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+117                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+117-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+117-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+118            </intent-filter>
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+120                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+120-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+120-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+121            </intent-filter>
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+123                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+124            </intent-filter>
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+126                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Gradle\gradle-8.11.1-bin\gradle-8.11.1\caches\8.9\transforms\8e86a35c7b11aaa59f3d3015119a338d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+127            </intent-filter>
+128        </receiver>
+129    </application>
+130
+131</manifest>
+=======
 36-->C:\Users\LENOVO\AndroidStudioProjects\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:14:9-41
 37        android:roundIcon="@mipmap/ic_launcher_round"
 37-->C:\Users\LENOVO\AndroidStudioProjects\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:15:9-54
@@ -233,3 +416,4 @@
 127    </application>
 128
 129</manifest>
+>>>>>>> 264f1adb40b5296cefe7ec6cff23757d80650d1e
