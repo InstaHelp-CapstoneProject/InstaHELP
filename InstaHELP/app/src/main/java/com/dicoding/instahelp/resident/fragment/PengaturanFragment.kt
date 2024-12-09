@@ -30,7 +30,7 @@ class PengaturanFragment : Fragment() {
             requireActivity().onBackPressedDispatcher.onBackPressed()
         }
 
-        val profileCard: CardView = view.findViewById(R.id.card_profile)
+        val profileCard: CardView = view.findViewById(R.id.profile_card)
         profileCard.setOnClickListener {
             // Pindah ke halaman detail profil
             Toast.makeText(requireContext(), "Profile clicked!", Toast.LENGTH_SHORT).show()

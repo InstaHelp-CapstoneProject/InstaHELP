@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Mon Dec 09 15:52:23 WIB 2024
 base.0=C\:\\Users\\ASUS\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\ASUS\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
@@ -9,6 +10,19 @@ base.6=C\:\\Users\\ASUS\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\
 base.7=C\:\\Users\\ASUS\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
 base.8=C\:\\Users\\ASUS\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
 base.9=C\:\\Users\\ASUS\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+=======
+#Fri Dec 06 21:30:58 WIB 2024
+base.0=C\:\\Users\\LENOVO\\AndroidStudioProjects\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\LENOVO\\AndroidStudioProjects\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\LENOVO\\AndroidStudioProjects\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.3=C\:\\Users\\LENOVO\\AndroidStudioProjects\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.4=C\:\\Users\\LENOVO\\AndroidStudioProjects\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.5=C\:\\Users\\LENOVO\\AndroidStudioProjects\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.6=C\:\\Users\\LENOVO\\AndroidStudioProjects\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.7=C\:\\Users\\LENOVO\\AndroidStudioProjects\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.8=C\:\\Users\\LENOVO\\AndroidStudioProjects\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+base.9=C\:\\Users\\LENOVO\\AndroidStudioProjects\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+>>>>>>> 264f1adb40b5296cefe7ec6cff23757d80650d1e
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=10/classes.dex
