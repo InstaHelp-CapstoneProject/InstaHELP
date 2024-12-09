@@ -11,7 +11,8 @@ import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.dicoding.instahelp.API.ApiClient
-import com.dicoding.instahelp.API.ResidentAuth
+import com.dicoding.instahelp.API.LoginResidentRequest
+import com.dicoding.instahelp.API.LoginResponse
 import com.dicoding.instahelp.R
 import com.dicoding.instahelp.databinding.ActivityLoginMasyarakatBinding
 import retrofit2.Call
@@ -43,7 +44,7 @@ class LoginMasyarakatActivity : AppCompatActivity() {
 
         val loginResident: TextView = findViewById(R.id.btn_next)
         loginResident.setOnClickListener {
-            loginUser ()
+            loginUser()
         }
 
         val forgotPass: TextView = findViewById(R.id.tv_forgot_password_resident)
@@ -56,7 +57,7 @@ class LoginMasyarakatActivity : AppCompatActivity() {
         loginResident.text = getString(R.string.masuk)
     }
 
-    private fun loginUser () {
+    private fun loginUser() {
         val email = binding.etEmail.text.toString()
         val password = binding.etPassword.text.toString()
 
@@ -65,14 +66,14 @@ class LoginMasyarakatActivity : AppCompatActivity() {
             return
         }
 
-        val residentAuth = ResidentAuth(email = email, password = password)
+        val loginRequest = LoginResidentRequest(email = email, password = password)
 
         // Panggil API untuk login
-        ApiClient.apiService.loginUser(residentAuth).enqueue(object : Callback<ResidentAuth> {
-            override fun onResponse(call: Call<ResidentAuth>, response: Response<ResidentAuth>) {
+        ApiClient.apiService.loginResident(loginRequest).enqueue(object : Callback<LoginResponse> {
+            override fun onResponse(call: Call<LoginResponse>, response: Response<LoginResponse>) {
                 if (response.isSuccessful) {
-                    val loggedInUser  = response.body()
-                    Log.d("LoginMasyarakatActivity", "User  logged in: $loggedInUser ")
+                    val loginResponse = response.body()
+                    Log.d("LoginMasyarakatActivity", "User logged in: $loginResponse")
                     Toast.makeText(this@LoginMasyarakatActivity, "Login berhasil!", Toast.LENGTH_SHORT).show()
                     // Navigasi ke activity berikutnya setelah login berhasil
                     // Misalnya: startActivity(Intent(this@LoginMasyarakatActivity, HomeActivity::class.java))
@@ -82,7 +83,7 @@ class LoginMasyarakatActivity : AppCompatActivity() {
                 }
             }
 
-            override fun onFailure(call: Call<ResidentAuth>, t: Throwable) {
+            override fun onFailure(call: Call<LoginResponse>, t: Throwable) {
                 Log.e("LoginMasyarakatActivity", "Failure: ${t.message}")
                 Toast.makeText(this@LoginMasyarakatActivity, "Terjadi kesalahan. Silakan coba lagi.", Toast.LENGTH_SHORT).show()
             }

@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_marginStart="15dp"
-        android:text="@string/login_welcome_message"
+        android:text="@string/selamat_dat"
         android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="35sp"

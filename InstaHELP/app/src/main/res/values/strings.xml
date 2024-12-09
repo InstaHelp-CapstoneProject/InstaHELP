@@ -66,4 +66,9 @@
     <string name="lupa_kata_sandi">Lupa Kata Sandi</string>
     <string name="nama_instansi">Nama Instansi</string>
 
+    <string name="search_completed">Completed</string>
+    <string name="search_processed">Processed</string>
+    <string name="search_rejected">Rejected</string>
+    <string name="search_reported">Reported</string>
+
 </resources>
