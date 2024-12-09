@@ -6,9 +6,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:networkSecurityConfig="@xml/network_security_config"
         android:allowBackup="true"
-        android:enableOnBackInvokedCallback="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -23,9 +21,6 @@
             android:exported="false" />
         <activity
             android:name=".resident.call.CallActivity"
-            android:exported="false" />
-        <activity
-            android:name=".resident.ResidentMainActivity"
             android:exported="false" />
         <activity
             android:name=".loginregist.MainActivity"

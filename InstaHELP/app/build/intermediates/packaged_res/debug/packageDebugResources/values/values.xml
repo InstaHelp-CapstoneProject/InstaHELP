@@ -25,17 +25,16 @@
     <string name="app_name">InstaHELP</string>
     <string name="availability">Tersedia</string>
     <string name="availability_badge_available">Tersedia</string>
-    <string name="berikut_adalah_daftar_rumah_sakit">Berikut adalah daftar Rumah sakit</string>
     <string name="buat_akun">Buat Akun</string>
     <string name="call_button">Panggil</string>
     <string name="coordinate_location_hint">Koordinat Lokasi</string>
     <string name="coordinate_point">Titik Koordinat</string>
     <string name="daftar_sekarang">Daftar Sekarang</string>
     <string name="driver_name">Sopir: John Doe</string>
+    <string name="e_mail"><Email/></string>
     <string name="forgot_password">Lupa kata sandi ?</string>
     <string name="get_started">Mulai Sekarang</string>
     <string name="header_emergency_form">Form Panggilan Darurat</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hospital_image_description">Gambar rumah sakit</string>
     <string name="hospital_location">Lokasi Rumah Sakit</string>
     <string name="hospital_name">Nama Rumah Sakit</string>
@@ -58,7 +57,6 @@
     <string name="profile_image_description">Gambar profil pengguna</string>
     <string name="profile_picture">Foto Profil</string>
     <string name="rincian_instansi">Rincian Instansi</string>
-    <string name="rumah_sakit_terdekat">Rumah sakit terdekat</string>
     <string name="search_hint">Cari Rumah Sakit/Instansi</string>
     <string name="selamat_dat">Selamat datang\ndi InstaHelp</string>
     <string name="selamat_datang_di_instahelp">Selamat Datang di Instahelp</string>

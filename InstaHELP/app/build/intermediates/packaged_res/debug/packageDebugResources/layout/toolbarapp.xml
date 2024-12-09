@@ -18,7 +18,6 @@
 
     <!-- Profile Section -->
     <RelativeLayout
-        android:id="@+id/relativeLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="10dp"
@@ -33,23 +32,23 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_alignParentTop="true"
-            android:layout_centerVertical="true"
             android:layout_marginStart="20dp"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
             android:background="@drawable/rounded_image"
             android:outlineProvider="background"
-            android:scaleType="centerCrop"
             android:src="@drawable/photo" />
 
         <TextView
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
             android:layout_toEndOf="@id/profile_image"
+            android:layout_marginStart="15dp"
             android:text="Alex"
+            android:textStyle="normal"
             android:textColor="@color/black"
-            android:textSize="15sp"
-            android:textStyle="normal" />
+            android:textSize="15sp"/>
 
         <!-- City Text -->
         <TextView
@@ -57,12 +56,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/name"
-            android:layout_marginStart="15dp"
             android:layout_toEndOf="@id/profile_image"
+            android:layout_marginStart="15dp"
             android:paddingTop="5dp"
             android:text="Jakarta"
             android:textColor="@color/gray"
-            android:textSize="16sp" />
+            android:textSize="16sp"/>
 
         <TextView
             android:id="@+id/verified"
@@ -70,16 +69,15 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="20dp"
-            android:background="@drawable/rounded_bg"
-            android:paddingHorizontal="8dp"
-            android:paddingVertical="4dp"
             android:text="Terverifikasi"
             android:textColor="@color/white"
+            android:background="@drawable/rounded_bg"
             android:textSize="10sp"
-            android:textStyle="bold" />
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp"
+            android:layout_marginEnd="20dp"
+            android:textStyle="bold"/>
 
     </RelativeLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

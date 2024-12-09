@@ -3140,6 +3140,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button
 drawable calender
 drawable card_background
 drawable circle_background
@@ -3683,11 +3684,8 @@ id design_menu_item_text
 id design_navigation_view
 id deskripsi_rs
 id detail
-id detailButton
 id dialog_button
-id dilaporkan
 id dimensions
-id diproses
 id direct
 id disableHome
 id disableIntraAutoTransition
@@ -3695,7 +3693,6 @@ id disablePostScroll
 id disableScroll
 id disjoint
 id distance
-id ditolak
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3711,7 +3708,6 @@ id easeInOut
 id easeOut
 id east
 id edge
-id editText
 id edit_query
 id edit_text_coordinates
 id edit_text_id
@@ -3786,7 +3782,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imgReport
 id immediateStop
 id included
 id indeterminate
@@ -3810,7 +3805,6 @@ id legacy
 id line1
 id line3
 id linear
-id linearLayout
 id listMode
 id list_item
 id locale
@@ -4016,14 +4010,8 @@ id radio
 id ratio
 id rectangles
 id recyclerViewAmbulance
-id recyclerViewReported
 id recycler_hospitals
 id relativeLayout
-id relativeLayout2
-id reportDescription
-id reportImage
-id reportTime
-id reportTitle
 id report_drawn
 id reverseSawtooth
 id right
@@ -4060,7 +4048,6 @@ id selamat_dat
 id select_dialog_listview
 id selected
 id selection_type
-id selesai
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -4103,7 +4090,6 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
-id tabLayout
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -4164,9 +4150,6 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tvDescription
-id tvTime
-id tvTitle
 id tv_forgot_password_instance
 id tv_forgot_password_resident
 id tv_header_subtitle
@@ -4186,7 +4169,6 @@ id vehicle_icon
 id verified
 id vertical
 id vertical_only
-id viewPager
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -4359,18 +4341,12 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout fragment_completed
-layout fragment_laporan
 layout fragment_panggil
 layout fragment_pengaturan
-layout fragment_processed
-layout fragment_rejected
-layout fragment_reported
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_ambulance
 layout item_hospital
-layout item_report
 layout layout_bottom_sheet_call
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -4453,7 +4429,6 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
-layout report_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -4461,7 +4436,6 @@ layout support_simple_spinner_dropdown_item
 layout toolbar
 layout toolbarapp
 menu bottom_nav_menu
-menu nav_laporan
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
@@ -4500,7 +4474,6 @@ string app_name
 string appbar_scrolling_view_behavior
 string availability
 string availability_badge_available
-string berikut_adalah_daftar_rumah_sakit
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
@@ -4525,6 +4498,7 @@ string coordinate_point
 string daftar_sekarang
 string dest_title
 string driver_name
+string e_mail
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -4533,7 +4507,6 @@ string fab_transformation_sheet_behavior
 string forgot_password
 string get_started
 string header_emergency_form
-string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string hospital_image_description
 string hospital_location
@@ -4701,7 +4674,6 @@ string plate_number
 string profile_image_description
 string profile_picture
 string rincian_instansi
-string rumah_sakit_terdekat
 string search_hint
 string search_menu_title
 string searchbar_scrolling_view_behavior
@@ -6051,4 +6023,3 @@ styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
-xml network_security_config
