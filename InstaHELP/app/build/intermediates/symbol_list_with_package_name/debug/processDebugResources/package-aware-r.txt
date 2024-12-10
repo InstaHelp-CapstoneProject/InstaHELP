@@ -93,7 +93,8 @@ animator nav_default_enter_anim
 animator nav_default_exit_anim
 animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
-array gender_options
+array gender_options_display
+array gender_options_value
 attr SharedValue
 attr SharedValueId
 attr action

@@ -1,7 +1,13 @@
 <resources>
-    <string-array name="gender_options">
+    <string-array name="gender_options_display">
         <item>Pilih jenis kelamin</item>
-        <item>Perempuan</item>
-        <item>Laki-laki</item>
+        <item>Wanita</item>
+        <item>Pria</item>
+    </string-array>
+
+    <string-array name="gender_options_value">
+        <item></item> <!-- Untuk pilihan "Pilih jenis kelamin" -->
+        <item>WOMAN</item>
+        <item>MAN</item>
     </string-array>
 </resources>

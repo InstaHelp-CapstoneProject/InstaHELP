@@ -19,7 +19,7 @@ interface ApiService {
     fun registerResident(@Body registerRequest: ResidentRegistrationRequest): Call<RegisterResponse>
 
     // Endpoint untuk register institution
-    @POST("register/register")
+    @POST("auth/register")
     fun registerInstitution(@Body registerRequest: InstitutionRegistrationRequest): Call<RegisterResponse>
 
     // Endpoint untuk forgot password

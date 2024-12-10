@@ -8,7 +8,8 @@ anim slide_in_left
 anim slide_in_right
 anim slide_out_left
 anim slide_out_right
-array gender_options
+array gender_options_display
+array gender_options_value
 color black
 color blue
 color dark

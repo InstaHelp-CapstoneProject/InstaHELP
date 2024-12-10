@@ -66,12 +66,19 @@ class SignUpResidentActivity : AppCompatActivity() {
             ) { isConfirmPasswordVisible = !isConfirmPasswordVisible }
         }
 
-        // Inisialisasi Spinner Jenis Kelamin
         val spinnerGender: Spinner = findViewById(R.id.sp_gender)
-        val genderOptions = resources.getStringArray(R.array.gender_options)
-        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, genderOptions)
+        val genderDisplay = resources.getStringArray(R.array.gender_options_display)
+        val genderValues = resources.getStringArray(R.array.gender_options_value)
+
+        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, genderDisplay)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spinnerGender.adapter = adapter
+
+        val selectedIndex = spinnerGender.selectedItemPosition
+        val genderValue = genderValues[selectedIndex]
+
+
+
 
         val etDateBirth: EditText = findViewById(R.id.et_date_birth)
         val calenderIcon: ImageView = findViewById(R.id.calender)
@@ -121,9 +128,11 @@ class SignUpResidentActivity : AppCompatActivity() {
             val confirmPassword = findViewById<EditText>(R.id.et_confirmpass).text.toString()
             val gender = spinnerGender.selectedItem.toString()
             val dateOfBirth = findViewById<EditText>(R.id.et_date_birth).text.toString()
+            val placeOfBirth = findViewById<EditText>(R.id.et_place_birth).text.toString()
             val nik = findViewById<EditText>(R.id.et_nik).text.toString()
             val address = findViewById<EditText>(R.id.et_address).text.toString()
             val phoneNumber = findViewById<EditText>(R.id.et_phone).text.toString()
+
 
             // Validasi input
             if (name.isEmpty() || email.isEmpty() || password.isEmpty() || confirmPassword.isEmpty() || gender.isEmpty() || dateOfBirth.isEmpty() || nik.isEmpty() || address.isEmpty() || phoneNumber.isEmpty()) {
@@ -137,41 +146,72 @@ class SignUpResidentActivity : AppCompatActivity() {
             }
 
             val registerRequest = ResidentRegistrationRequest(
-                name = name,
+                role = "resident",  // Role set to "resident"
+                name = name,  // Ensure this is a valid value (e.g., entered by the user)
                 email = email,
-                password = password,
-                password_confirmation = confirmPassword,
-                gender = gender,
-                date_of_birth = dateOfBirth,
-                place_of_birth = "",  // Bisa kosong atau tambahkan input untuk tempat lahir jika diperlukan
+                address = address,
+                username = "username",  // Username is added
                 nik = nik,
+                date_of_birth = dateOfBirth,
+                place_of_birth = placeOfBirth,
+                gender = gender,  // Gender should be "MAN" or "WOMAN"
                 phone_number = phoneNumber,
-                address = address
+                password = password,
+                password_confirmation = confirmPassword
             )
+
+            if (!android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+                Toast.makeText(this, "Email tidak valid", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
+            if (!phoneNumber.matches("^0[0-9]{9,12}\$".toRegex())) { // Memastikan nomor telepon diawali dengan '0' dan panjangnya 10-13 digit
+                Toast.makeText(this, "Nomor telepon tidak valid", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
 
             // Panggil API untuk registrasi
             ApiClient.apiService.registerResident(registerRequest).enqueue(object : Callback<RegisterResponse> {
                 override fun onResponse(call: Call<RegisterResponse>, response: Response<RegisterResponse>) {
                     if (response.isSuccessful) {
                         val registerResponse = response.body()
+                        val token = registerResponse?.token
                         Log.d("SignUpResidentActivity", "Registration successful: $registerResponse")
+
+                        // Simpan token ke SharedPreferences
+                        if (token != null) {
+                            val sharedPreferences = getSharedPreferences("user_preferences", MODE_PRIVATE)
+                            val editor = sharedPreferences.edit()
+                            editor.putString("bearer_token", token)
+                            editor.apply()
+                        } else {
+                            Log.e("SignUpResidentActivity", "Token is null")
+                        }
+
                         Toast.makeText(this@SignUpResidentActivity, "Registrasi berhasil!", Toast.LENGTH_SHORT).show()
-                        val intent = Intent(this@SignUpResidentActivity, LoginMasyarakatActivity::class.java)
-                        startActivity(intent)
+                        // Mulai aktivitas berikutnya, misalnya ke halaman utama
+                        startActivity(Intent(this@SignUpResidentActivity, MainActivity::class.java))
                     } else {
-                        Log.e("SignUpResidentActivity", "Error: ${response.errorBody()?.string()}")
-                        Toast.makeText(this@SignUpResidentActivity, "Registrasi gagal. Coba lagi.", Toast.LENGTH_SHORT).show()
+                        // Handle error response dengan pesan yang lebih jelas
+                        val error = response.errorBody()?.string()
+                        Log.e("SignUpResidentActivity", "Error: $error")
+                        Toast.makeText(this@SignUpResidentActivity, "Registrasi gagal: $error", Toast.LENGTH_SHORT).show()
                     }
                 }
+
 
                 override fun onFailure(call: Call<RegisterResponse>, t: Throwable) {
                     Log.e("SignUpResidentActivity", "Failure: ${t.message}")
                     Toast.makeText(this@SignUpResidentActivity, "Terjadi kesalahan. Silakan coba lagi.", Toast.LENGTH_SHORT).show()
                 }
+
             })
+
         }
 
         makeAcc.text = getString(R.string.buat_akun)
+
     }
 
     private fun togglePasswordVisibility(

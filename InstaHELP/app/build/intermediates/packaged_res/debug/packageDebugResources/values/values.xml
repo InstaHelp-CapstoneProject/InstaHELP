@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="gender_options">
+    <string-array name="gender_options_display">
         <item>Pilih jenis kelamin</item>
-        <item>Perempuan</item>
-        <item>Laki-laki</item>
+        <item>Wanita</item>
+        <item>Pria</item>
+    </string-array>
+    <string-array name="gender_options_value">
+        <item/> 
+        <item>WOMAN</item>
+        <item>MAN</item>
     </string-array>
     <color name="black">#FF000000</color>
     <color name="blue">#3B5FE6</color>

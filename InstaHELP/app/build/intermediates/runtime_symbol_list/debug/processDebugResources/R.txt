@@ -92,7 +92,8 @@ int animator nav_default_enter_anim 0x7f020022
 int animator nav_default_exit_anim 0x7f020023
 int animator nav_default_pop_enter_anim 0x7f020024
 int animator nav_default_pop_exit_anim 0x7f020025
-int array gender_options 0x7f030000
+int array gender_options_display 0x7f030000
+int array gender_options_value 0x7f030001
 int attr SharedValue 0x7f040000
 int attr SharedValueId 0x7f040001
 int attr action 0x7f040002
