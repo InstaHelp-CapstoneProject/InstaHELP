@@ -21,6 +21,7 @@ import com.dicoding.instahelp.API.RegisterResponse
 import com.dicoding.instahelp.API.ResidentRegistrationRequest
 import com.dicoding.instahelp.R
 import com.dicoding.instahelp.databinding.ActivitySignUpResidentBinding
+import com.dicoding.instahelp.resident.ResidentMainActivity
 import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Locale
@@ -66,19 +67,12 @@ class SignUpResidentActivity : AppCompatActivity() {
             ) { isConfirmPasswordVisible = !isConfirmPasswordVisible }
         }
 
+        // Inisialisasi Spinner Jenis Kelamin
         val spinnerGender: Spinner = findViewById(R.id.sp_gender)
-        val genderDisplay = resources.getStringArray(R.array.gender_options_display)
-        val genderValues = resources.getStringArray(R.array.gender_options_value)
-
-        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, genderDisplay)
+        val genderOptions = resources.getStringArray(R.array.gender_options_value)
+        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, genderOptions)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spinnerGender.adapter = adapter
-
-        val selectedIndex = spinnerGender.selectedItemPosition
-        val genderValue = genderValues[selectedIndex]
-
-
-
 
         val etDateBirth: EditText = findViewById(R.id.et_date_birth)
         val calenderIcon: ImageView = findViewById(R.id.calender)
@@ -177,6 +171,7 @@ class SignUpResidentActivity : AppCompatActivity() {
                     if (response.isSuccessful) {
                         val registerResponse = response.body()
                         val token = registerResponse?.token
+
                         Log.d("SignUpResidentActivity", "Registration successful: $registerResponse")
 
                         // Simpan token ke SharedPreferences
@@ -191,7 +186,7 @@ class SignUpResidentActivity : AppCompatActivity() {
 
                         Toast.makeText(this@SignUpResidentActivity, "Registrasi berhasil!", Toast.LENGTH_SHORT).show()
                         // Mulai aktivitas berikutnya, misalnya ke halaman utama
-                        startActivity(Intent(this@SignUpResidentActivity, MainActivity::class.java))
+                        startActivity(Intent(this@SignUpResidentActivity, ResidentMainActivity::class.java))
                     } else {
                         // Handle error response dengan pesan yang lebih jelas
                         val error = response.errorBody()?.string()

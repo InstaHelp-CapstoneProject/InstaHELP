@@ -26,6 +26,8 @@
         <activity
             android:name=".loginregist.MainActivity"
             android:exported="false" />
+        <activity android:name=".resident.ResidentMainActivity"
+            android:exported="false"/>
         <activity
             android:name=".loginregist.ForgetPasswordInstansiActivity"
             android:exported="false" />
