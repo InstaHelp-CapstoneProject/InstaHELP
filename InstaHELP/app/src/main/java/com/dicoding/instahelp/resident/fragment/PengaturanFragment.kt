@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.Toast
-import androidx.appcompat.widget.Toolbar
+import android.widget.Toolbar
 import androidx.cardview.widget.CardView
 import androidx.fragment.app.Fragment
 import com.dicoding.instahelp.R
@@ -24,13 +24,12 @@ class PengaturanFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Pastikan toolbar ada di layout
-        val toolbar: Toolbar? = view.findViewById(R.id.toolbar)
-        toolbar?.setNavigationOnClickListener {
+        val toolbar: Toolbar = view.findViewById(R.id.toolbar)
+        toolbar.setNavigationOnClickListener {
             requireActivity().onBackPressedDispatcher.onBackPressed()
         }
 
-        val profileCard: CardView = view.findViewById(R.id.profile_card)
+        val profileCard: CardView = view.findViewById(R.id.card_profile)
         profileCard.setOnClickListener {
             // Pindah ke halaman detail profil
             Toast.makeText(requireContext(), "Profile clicked!", Toast.LENGTH_SHORT).show()

@@ -48,7 +48,6 @@
                 android:inputType="number"
                 android:background="@drawable/bg_edittext"
                 android:padding="10dp"
-                android:textColor="@color/white"
                 android:textSize="14sp" />
 
             <!-- Nama Input -->
@@ -61,7 +60,6 @@
                 android:inputType="textPersonName"
                 android:background="@drawable/bg_edittext"
                 android:padding="10dp"
-                android:textColor="@color/white"
                 android:textSize="14sp" />
 
             <!-- Alamat Input -->
@@ -74,7 +72,6 @@
                 android:inputType="textPostalAddress"
                 android:background="@drawable/bg_edittext"
                 android:padding="10dp"
-                android:textColor="@color/white"
                 android:textSize="14sp" />
 
             <!-- Jenis Kelamin -->
@@ -89,9 +86,9 @@
                     android:id="@+id/sp_gender"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:entries="@array/gender_options"
+                    android:entries="@array/gender_options_display"
                     android:paddingEnd="16dp"
-                    android:paddingStart="8dp" />
+                    android:paddingStart="2dp" />
 
             </LinearLayout>
 
@@ -124,6 +121,7 @@
                     android:textSize="14sp"
                     android:inputType="none"
                     android:focusable="false"
+                    android:clickable="true"
                     android:padding="10dp"
                     android:elevation="2dp"/>
 
@@ -178,7 +176,7 @@
                     android:layout_toStartOf="@+id/eye_icon_password"
                     android:textSize="14sp"
                     android:inputType="textPassword"
-                    android:focusable="false"
+                    android:focusable="true"
                     android:padding="10dp"
                     android:elevation="2dp"/>
 
@@ -210,7 +208,7 @@
                     android:layout_toStartOf="@+id/eye_icon_confirmpass"
                     android:textSize="14sp"
                     android:inputType="textPassword"
-                    android:focusable="false"
+                    android:focusable="true"
                     android:padding="10dp"
                     android:elevation="2dp"/>
 
