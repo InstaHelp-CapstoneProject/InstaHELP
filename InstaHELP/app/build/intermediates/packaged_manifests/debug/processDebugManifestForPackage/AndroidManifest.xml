@@ -48,6 +48,9 @@
             android:name="com.dicoding.instahelp.loginregist.MainActivity"
             android:exported="false" />
         <activity
+            android:name="com.dicoding.instahelp.resident.ResidentMainActivity"
+            android:exported="false" />
+        <activity
             android:name="com.dicoding.instahelp.loginregist.ForgetPasswordInstansiActivity"
             android:exported="false" />
         <activity
@@ -70,9 +73,6 @@
             android:exported="false" />
         <activity
             android:name="com.dicoding.instahelp.loginregist.GetStartedActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.dicoding.instahelp.splashscreen.SplashActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

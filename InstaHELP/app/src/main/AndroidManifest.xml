@@ -51,10 +51,7 @@
             android:exported="false" />
         <activity
             android:name=".loginregist.GetStartedActivity"
-            android:exported="false" />
-        <activity
-            android:name=".splashscreen.SplashActivity"
-            android:exported="true">
+            android:exported="true" >
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
