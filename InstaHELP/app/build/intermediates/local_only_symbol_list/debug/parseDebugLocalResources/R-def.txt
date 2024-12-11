@@ -15,6 +15,7 @@ color dark
 color gray
 color gray_light
 color green
+color ic_instahelpp_background
 color my_primary
 color my_secondary
 color orange
@@ -49,6 +50,7 @@ drawable ic_mic
 drawable ic_numid
 drawable ic_phone
 drawable ic_profile
+drawable ic_profileconf
 drawable ic_report
 drawable ic_search
 drawable ic_search_24px
@@ -100,7 +102,6 @@ id call_button
 id call_icon
 id call_text
 id card_instance
-id card_profile
 id card_resident
 id city
 id constraintLayout
@@ -154,6 +155,9 @@ id panggilFragment
 id password_container
 id pengaturanFragment
 id plate_number
+id profile_card
+id profile_config
+id profile_detail
 id profile_image
 id profile_name
 id profile_username
@@ -182,6 +186,7 @@ id toolbar
 id toolbar_forgetPass
 id toolbar_signup_instance
 id toolbar_signup_resident
+id toolbar_title
 id toolbarapp
 id topCurve
 id tvDescription
@@ -232,9 +237,13 @@ layout toolbar
 layout toolbarapp
 menu bottom_nav_menu
 menu nav_laporan
+mipmap ic_instahelpp
+mipmap ic_instahelpp_foreground
+mipmap ic_instahelpp_round
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
+string alex_account
 string ambulance_image_description
 string ambulance_name
 string app_name
@@ -274,7 +283,11 @@ string profile_image_description
 string profile_picture
 string rincian_instansi
 string rumah_sakit_terdekat
+string search_completed
 string search_hint
+string search_processed
+string search_rejected
+string search_reported
 string selamat_dat
 string selamat_datang_di_instahelp
 string selanjutnya

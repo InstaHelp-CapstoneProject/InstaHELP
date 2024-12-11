@@ -18,10 +18,14 @@ class SplashActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash);
 
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, GetStartedActivity::class.java)
-            startActivity(intent)
-            overridePendingTransition(R.anim.activity_fade_in, R.anim.activity_fade_out)
+            goToGetStartedActivity()
+        }, 3000L)
+    }
+
+    private fun goToGetStartedActivity() {
+        Intent(this, GetStartedActivity::class.java).also {
+            startActivity(it)
             finish()
-        }, 3000)
+        }
     }
 }

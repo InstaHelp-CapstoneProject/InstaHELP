@@ -24,7 +24,13 @@ public final class FragmentPengaturanBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final CardView cardProfile;
+  public final CardView profileCard;
+
+  @NonNull
+  public final ImageView profileConfig;
+
+  @NonNull
+  public final CardView profileDetail;
 
   @NonNull
   public final ImageView profileImage;
@@ -41,17 +47,25 @@ public final class FragmentPengaturanBinding implements ViewBinding {
   @NonNull
   public final Toolbar toolbar;
 
+  @NonNull
+  public final TextView toolbarTitle;
+
   private FragmentPengaturanBinding(@NonNull ConstraintLayout rootView,
-      @NonNull CardView cardProfile, @NonNull ImageView profileImage, @NonNull TextView profileName,
-      @NonNull TextView profileUsername, @NonNull LinearLayout sectionSettings,
-      @NonNull Toolbar toolbar) {
+      @NonNull CardView profileCard, @NonNull ImageView profileConfig,
+      @NonNull CardView profileDetail, @NonNull ImageView profileImage,
+      @NonNull TextView profileName, @NonNull TextView profileUsername,
+      @NonNull LinearLayout sectionSettings, @NonNull Toolbar toolbar,
+      @NonNull TextView toolbarTitle) {
     this.rootView = rootView;
-    this.cardProfile = cardProfile;
+    this.profileCard = profileCard;
+    this.profileConfig = profileConfig;
+    this.profileDetail = profileDetail;
     this.profileImage = profileImage;
     this.profileName = profileName;
     this.profileUsername = profileUsername;
     this.sectionSettings = sectionSettings;
     this.toolbar = toolbar;
+    this.toolbarTitle = toolbarTitle;
   }
 
   @Override
@@ -81,9 +95,21 @@ public final class FragmentPengaturanBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.card_profile;
-      CardView cardProfile = ViewBindings.findChildViewById(rootView, id);
-      if (cardProfile == null) {
+      id = R.id.profile_card;
+      CardView profileCard = ViewBindings.findChildViewById(rootView, id);
+      if (profileCard == null) {
+        break missingId;
+      }
+
+      id = R.id.profile_config;
+      ImageView profileConfig = ViewBindings.findChildViewById(rootView, id);
+      if (profileConfig == null) {
+        break missingId;
+      }
+
+      id = R.id.profile_detail;
+      CardView profileDetail = ViewBindings.findChildViewById(rootView, id);
+      if (profileDetail == null) {
         break missingId;
       }
 
@@ -117,8 +143,15 @@ public final class FragmentPengaturanBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentPengaturanBinding((ConstraintLayout) rootView, cardProfile, profileImage,
-          profileName, profileUsername, sectionSettings, toolbar);
+      id = R.id.toolbar_title;
+      TextView toolbarTitle = ViewBindings.findChildViewById(rootView, id);
+      if (toolbarTitle == null) {
+        break missingId;
+      }
+
+      return new FragmentPengaturanBinding((ConstraintLayout) rootView, profileCard, profileConfig,
+          profileDetail, profileImage, profileName, profileUsername, sectionSettings, toolbar,
+          toolbarTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

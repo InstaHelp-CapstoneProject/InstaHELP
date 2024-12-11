@@ -1516,6 +1516,7 @@ color gray_light
 color green
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_instahelpp_background
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -3355,6 +3356,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_numid
 drawable ic_phone
 drawable ic_profile
+drawable ic_profileconf
 drawable ic_report
 drawable ic_search
 drawable ic_search_24px
@@ -3630,7 +3632,6 @@ id call_text
 id cancel_action
 id cancel_button
 id card_instance
-id card_profile
 id card_resident
 id carryVelocity
 id center
@@ -4007,6 +4008,9 @@ id pooling_container_listener_holder_tag
 id position
 id postLayout
 id pressed
+id profile_card
+id profile_config
+id profile_detail
 id profile_image
 id profile_name
 id profile_username
@@ -4148,6 +4152,7 @@ id toolbar
 id toolbar_forgetPass
 id toolbar_signup_instance
 id toolbar_signup_resident
+id toolbar_title
 id toolbarapp
 id top
 id topCurve
@@ -4462,6 +4467,9 @@ layout toolbar
 layout toolbarapp
 menu bottom_nav_menu
 menu nav_laporan
+mipmap ic_instahelpp
+mipmap ic_instahelpp_foreground
+mipmap ic_instahelpp_round
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
@@ -4493,6 +4501,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string alex_account
 string ambulance_image_description
 string ambulance_name
 string androidx_startup
@@ -4702,8 +4711,12 @@ string profile_image_description
 string profile_picture
 string rincian_instansi
 string rumah_sakit_terdekat
+string search_completed
 string search_hint
 string search_menu_title
+string search_processed
+string search_rejected
+string search_reported
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description

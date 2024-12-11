@@ -4,8 +4,24 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "com.dicoding.instahelp.app-debug-51:/mipmap-hdpi_ic_instahelpp.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-53:/mipmap-hdpi/ic_instahelpp.webp"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-51:/mipmap-xxxhdpi_ic_instahelpp_round.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-53:/mipmap-xxxhdpi/ic_instahelpp_round.webp"
+    },
+    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\drawable_splashscreen.xml.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\drawable\\splashscreen.xml"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-51:/mipmap-xhdpi_ic_instahelpp_foreground.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-53:/mipmap-xhdpi/ic_instahelpp_foreground.webp"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-51:/mipmap-mdpi_ic_instahelpp.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-53:/mipmap-mdpi/ic_instahelpp.webp"
     },
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\layout_activity_call.xml.flat",
@@ -20,12 +36,20 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\drawable\\text_input_border_color.xml"
     },
     {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\drawable_ic_profileconf.png.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\drawable\\ic_profileconf.png"
+    },
+    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\drawable_calender.png.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\drawable\\calender.png"
     },
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\drawable_card_background.xml.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\drawable\\card_background.xml"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-51:/mipmap-xxxhdpi_ic_instahelpp_foreground.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-53:/mipmap-xxxhdpi/ic_instahelpp_foreground.webp"
     },
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\drawable_circle_background.xml.flat",
@@ -46,6 +70,10 @@
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\drawable_toggle_selector.xml.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\drawable\\toggle_selector.xml"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-51:/mipmap-mdpi_ic_instahelpp_round.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-53:/mipmap-mdpi/ic_instahelpp_round.webp"
     },
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\layout_fragment_completed.xml.flat",
@@ -108,6 +136,10 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "com.dicoding.instahelp.app-debug-51:/mipmap-xxhdpi_ic_instahelpp_foreground.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-53:/mipmap-xxhdpi/ic_instahelpp_foreground.webp"
+    },
+    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\drawable_rounded_bottom.xml.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\drawable\\rounded_bottom.xml"
     },
@@ -120,8 +152,16 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\item_hospital.xml"
     },
     {
+        "merged": "com.dicoding.instahelp.app-debug-51:/mipmap-xhdpi_ic_instahelpp.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-53:/mipmap-xhdpi/ic_instahelpp.webp"
+    },
+    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\anim_activity_zoom_in.xml.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\anim\\activity_zoom_in.xml"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-51:/mipmap-xxhdpi_ic_instahelpp.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-53:/mipmap-xxhdpi/ic_instahelpp.webp"
     },
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\menu_nav_laporan.xml.flat",
@@ -136,8 +176,16 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\fragment_panggil.xml"
     },
     {
+        "merged": "com.dicoding.instahelp.app-debug-51:/mipmap-anydpi-v26_ic_instahelpp_round.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-53:/mipmap-anydpi-v26/ic_instahelpp_round.xml"
+    },
+    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\layout_fragment_processed.xml.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\fragment_processed.xml"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-51:/mipmap-xxxhdpi_ic_instahelpp.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-53:/mipmap-xxxhdpi/ic_instahelpp.webp"
     },
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\drawable_ic_report.png.flat",
@@ -158,6 +206,10 @@
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\drawable_logos.xml.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\drawable\\logos.xml"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-51:/mipmap-hdpi_ic_instahelpp_round.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-53:/mipmap-hdpi/ic_instahelpp_round.webp"
     },
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\drawable_ic_numid.png.flat",
@@ -224,6 +276,10 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\drawable\\oval.xml"
     },
     {
+        "merged": "com.dicoding.instahelp.app-debug-51:/mipmap-anydpi-v26_ic_instahelpp.xml.flat",
+        "source": "com.dicoding.instahelp.app-main-53:/mipmap-anydpi-v26/ic_instahelpp.xml"
+    },
+    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\drawable_eye_reveal.png.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\drawable\\eye_reveal.png"
     },
@@ -266,10 +322,6 @@
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\drawable_ic_phone.png.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\drawable\\ic_phone.png"
-    },
-    {
-        "merged": "com.dicoding.instahelp.app-debug-51:/layout_fragment_pengaturan.xml.flat",
-        "source": "com.dicoding.instahelp.app-main-53:/layout/fragment_pengaturan.xml"
     },
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\layout_report_item.xml.flat",
@@ -356,6 +408,10 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\drawable\\box_background.xml"
     },
     {
+        "merged": "com.dicoding.instahelp.app-debug-51:/mipmap-xxhdpi_ic_instahelpp_round.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-53:/mipmap-xxhdpi/ic_instahelpp_round.webp"
+    },
+    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\drawable_rounded_image.xml.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\drawable\\rounded_image.xml"
     },
@@ -372,8 +428,20 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\anim\\activity_zoom_out.xml"
     },
     {
+        "merged": "com.dicoding.instahelp.app-debug-51:/mipmap-hdpi_ic_instahelpp_foreground.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-53:/mipmap-hdpi/ic_instahelpp_foreground.webp"
+    },
+    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\layout_activity_detail_hospital.xml.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-main-53:\\layout\\activity_detail_hospital.xml"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-51:/mipmap-xhdpi_ic_instahelpp_round.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-53:/mipmap-xhdpi/ic_instahelpp_round.webp"
+    },
+    {
+        "merged": "com.dicoding.instahelp.app-debug-51:/mipmap-mdpi_ic_instahelpp_foreground.webp.flat",
+        "source": "com.dicoding.instahelp.app-main-53:/mipmap-mdpi/ic_instahelpp_foreground.webp"
     },
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.9\\com.dicoding.instahelp.app-debug-51:\\drawable_instalogo.png.flat",
