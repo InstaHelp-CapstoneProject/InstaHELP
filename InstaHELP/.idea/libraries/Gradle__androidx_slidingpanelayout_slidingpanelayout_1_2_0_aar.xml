@@ -4,9 +4,15 @@
       <root url="jar://$USER_HOME$/.gradle/caches/8.9/transforms/5cc54cabfe8adc01cbf13968d06ed4d2/transformed/slidingpanelayout-1.2.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
+<<<<<<< HEAD
       <root url="jar://$USER_HOME$/.gradle/caches/8.9/transforms/5cc54cabfe8adc01cbf13968d06ed4d2/transformed/slidingpanelayout-1.2.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/5cc54cabfe8adc01cbf13968d06ed4d2/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/5cc54cabfe8adc01cbf13968d06ed4d2/transformed/slidingpanelayout-1.2.0/res" />
+=======
+      <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/5cc54cabfe8adc01cbf13968d06ed4d2/transformed/slidingpanelayout-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/5cc54cabfe8adc01cbf13968d06ed4d2/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/8.9/transforms/5cc54cabfe8adc01cbf13968d06ed4d2/transformed/slidingpanelayout-1.2.0/jars/classes.jar!/" />
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
     </CLASSES>
     <JAVADOC />
     <SOURCES>

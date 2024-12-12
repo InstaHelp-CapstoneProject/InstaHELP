@@ -2,8 +2,13 @@
   <library name="Gradle: androidx.tracing:tracing:1.2.0@aar" external-system-id="GRADLE">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/17fdd1936bdd7a824cc58f4a835aa3e6/transformed/tracing-1.2.0/res" />
+<<<<<<< HEAD
       <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/17fdd1936bdd7a824cc58f4a835aa3e6/transformed/tracing-1.2.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/8.9/transforms/17fdd1936bdd7a824cc58f4a835aa3e6/transformed/tracing-1.2.0/jars/classes.jar!/" />
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/8.9/transforms/17fdd1936bdd7a824cc58f4a835aa3e6/transformed/tracing-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/17fdd1936bdd7a824cc58f4a835aa3e6/transformed/tracing-1.2.0/AndroidManifest.xml" />
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -13,6 +13,7 @@
         </DropdownSelection>
         <DialogSelection />
       </SelectionState>
+<<<<<<< HEAD
       <SelectionState runConfigName="capstone-md.InstaHELP.app">
         <option name="selectionMode" value="DROPDOWN" />
         <DropdownSelection timestamp="2024-12-12T06:19:38.877705900Z">
@@ -24,6 +25,8 @@
         </DropdownSelection>
         <DialogSelection />
       </SelectionState>
+=======
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
     </selectionStates>
   </component>
 </project>

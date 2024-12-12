@@ -1,4 +1,5 @@
 com.dicoding.instahelp:style/Widget.AppCompat.Spinner.Underlined = 0x7f130340
+<<<<<<< HEAD
 com.dicoding.instahelp:macro/m3_comp_navigation_bar_inactive_focus_state_layer_color = 0x7f0d006e
 com.dicoding.instahelp:styleable/SplitPlaceholderRule = 0x7f140092
 com.dicoding.instahelp:style/Widget.MaterialComponents.AppBarLayout.Primary = 0x7f130402
@@ -104,10 +105,164 @@ com.dicoding.instahelp:id/accessibility_custom_action_27 = 0x7f090025
 com.dicoding.instahelp:style/Widget.MaterialComponents.BottomAppBar = 0x7f13040a
 com.dicoding.instahelp:style/TextAppearance.MaterialComponents.Subtitle1 = 0x7f13020b
 com.dicoding.instahelp:style/Widget.Design.TabLayout = 0x7f13034f
+=======
+com.dicoding.instahelp:styleable/ActivityChooserView = 0x7f140005
+com.dicoding.instahelp:style/Widget.MaterialComponents.MaterialCalendar.MonthTextView = 0x7f130446
+com.dicoding.instahelp:styleable/BottomNavigationView = 0x7f140019
+com.dicoding.instahelp:style/Widget.MaterialComponents.AppBarLayout.Primary = 0x7f130402
+com.dicoding.instahelp:styleable/CompoundButton = 0x7f140028
+com.dicoding.instahelp:styleable/Transform = 0x7f1400a2
+com.dicoding.instahelp:styleable/SplitPlaceholderRule = 0x7f140092
+com.dicoding.instahelp:style/ShapeAppearance.Material3.Corner.Medium = 0x7f130174
+com.dicoding.instahelp:style/ThemeOverlay.Material3.MaterialCalendar.HeaderCancelButton = 0x7f1302c1
+com.dicoding.instahelp:style/Theme.MediaRouter.Light = 0x7f130285
+com.dicoding.instahelp:string/photo_incident = 0x7f1200e4
+com.dicoding.instahelp:style/Widget.MaterialComponents.TimePicker.Display.HelperText = 0x7f130471
+com.dicoding.instahelp:style/Base.Widget.MaterialComponents.PopupMenu = 0x7f130118
+com.dicoding.instahelp:style/ThemeOverlay.MediaRouter.Dark = 0x7f1302fa
+com.dicoding.instahelp:id/profile_name = 0x7f0901fc
+com.dicoding.instahelp:style/Widget.MaterialComponents.MaterialCalendar.HeaderLayout.Fullscreen = 0x7f13043f
+com.dicoding.instahelp:id/card_profile = 0x7f090083
+com.dicoding.instahelp:string/exposed_dropdown_menu_content_description = 0x7f12003d
+com.dicoding.instahelp:style/Widget.Material3.Chip.Assist.Elevated = 0x7f13037c
+com.dicoding.instahelp:dimen/m3_sys_motion_easing_emphasized_accelerate_control_y1 = 0x7f0701f8
+com.dicoding.instahelp:styleable/ActionBarLayout = 0x7f140001
+com.dicoding.instahelp:macro/m3_comp_navigation_drawer_active_icon_color = 0x7f0d007e
+com.dicoding.instahelp:style/MaterialAlertDialog.MaterialComponents.Title.Icon.CenterStacked = 0x7f130133
+com.dicoding.instahelp:style/Widget.Material3.Chip.Input.Elevated = 0x7f130380
+com.dicoding.instahelp:style/Animation.AppCompat.Dialog = 0x7f130002
+com.dicoding.instahelp:styleable/Transition = 0x7f1400a3
+com.dicoding.instahelp:string/path_password_eye_mask_strike_through = 0x7f1200e1
+com.dicoding.instahelp:macro/m3_comp_date_picker_modal_header_headline_color = 0x7f0d0015
+com.dicoding.instahelp:style/MaterialAlertDialog.MaterialComponents.Body.Text = 0x7f13012f
+com.dicoding.instahelp:string/mtrl_checkbox_state_description_unchecked = 0x7f1200a7
+com.dicoding.instahelp:style/Widget.AppCompat.Button.ButtonBar.AlertDialog = 0x7f13030a
+com.dicoding.instahelp:color/material_dynamic_tertiary40 = 0x7f060261
+com.dicoding.instahelp:attr/textInputFilledExposedDropdownMenuStyle = 0x7f0404a0
+com.dicoding.instahelp:style/Widget.Material3.MaterialCalendar.Day.Invalid = 0x7f1303b0
+com.dicoding.instahelp:style/Widget.MaterialComponents.NavigationView = 0x7f130451
+com.dicoding.instahelp:style/Widget.MaterialComponents.CircularProgressIndicator.ExtraSmall = 0x7f130426
+com.dicoding.instahelp:style/Base.Widget.Material3.Snackbar = 0x7f13010f
+com.dicoding.instahelp:styleable/MenuView = 0x7f140067
+com.dicoding.instahelp:style/Widget.AppCompat.Light.ActionBar.TabText.Inverse = 0x7f13031c
+com.dicoding.instahelp:dimen/mr_controller_volume_group_list_max_height = 0x7f070251
+com.dicoding.instahelp:styleable/AppCompatTheme = 0x7f140015
+com.dicoding.instahelp:style/TextAppearance.AppCompat.Medium = 0x7f1301a6
+com.dicoding.instahelp:macro/m3_comp_navigation_bar_inactive_focus_state_layer_color = 0x7f0d006e
+com.dicoding.instahelp:styleable/SearchView = 0x7f140088
+com.dicoding.instahelp:dimen/mtrl_progress_indicator_full_rounded_corner_radius = 0x7f0702f4
+com.dicoding.instahelp:style/ThemeOverlay.Material3.MaterialTimePicker.Display.TextInputEditText = 0x7f1302c3
+com.dicoding.instahelp:id/accessibility_custom_action_19 = 0x7f09001c
+com.dicoding.instahelp:style/TextAppearance.AppCompat.Display4 = 0x7f13019d
+com.dicoding.instahelp:drawable/m3_bottom_sheet_drag_handle = 0x7f080177
+com.dicoding.instahelp:id/bounceStart = 0x7f09006b
+com.dicoding.instahelp:style/Widget.Material3.MaterialCalendar.Day = 0x7f1303af
+com.dicoding.instahelp:style/ThemeOverlay.Material3.MaterialAlertDialog.Centered = 0x7f1302be
+com.dicoding.instahelp:style/Widget.Material3.FloatingActionButton.Large.Secondary = 0x7f13039f
+com.dicoding.instahelp:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup = 0x7f13014a
+com.dicoding.instahelp:macro/m3_comp_radio_button_unselected_hover_icon_color = 0x7f0d00e1
+com.dicoding.instahelp:styleable/MaterialCheckBoxStates = 0x7f14005b
+com.dicoding.instahelp:id/material_clock_level = 0x7f090148
+com.dicoding.instahelp:style/TextAppearance.Design.Suffix = 0x7f1301d8
+com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Button = 0x7f13001a
+com.dicoding.instahelp:drawable/ic_group_expand_07 = 0x7f0800bc
+com.dicoding.instahelp:style/Widget.Material3.Button.TonalButton = 0x7f130374
+com.dicoding.instahelp:id/edit_text_id = 0x7f0900d7
+com.dicoding.instahelp:attr/fabAlignmentMode = 0x7f0401d8
+com.dicoding.instahelp:styleable/SwitchCompat = 0x7f140097
+com.dicoding.instahelp:style/Theme.MaterialComponents.Light.NoActionBar = 0x7f130280
+com.dicoding.instahelp:style/Base.Theme.AppCompat.Light.DialogWhenLarge = 0x7f130059
+com.dicoding.instahelp:id/list_item = 0x7f090138
+com.dicoding.instahelp:integer/bottom_sheet_slide_duration = 0x7f0a0003
+com.dicoding.instahelp:style/Widget.Material3.BottomAppBar.Legacy = 0x7f13035d
+com.dicoding.instahelp:string/masuk_sekarang = 0x7f120062
+com.dicoding.instahelp:id/top = 0x7f090289
+com.dicoding.instahelp:style/ThemeOverlay.Material3.PersonalizedColors = 0x7f1302c6
+com.dicoding.instahelp:layout/fragment_processed = 0x7f0c0040
+com.dicoding.instahelp:id/accessibility_custom_action_27 = 0x7f090025
+com.dicoding.instahelp:id/mtrl_picker_header_title_and_selection = 0x7f0901b3
+com.dicoding.instahelp:style/ThemeOverlay.Material3.Button = 0x7f13029d
+com.dicoding.instahelp:style/Widget.Material3.CircularProgressIndicator.Legacy.Small = 0x7f13038b
+com.dicoding.instahelp:drawable/btn_checkbox_checked_mtrl = 0x7f080080
+com.dicoding.instahelp:id/cancel_button = 0x7f090081
+com.dicoding.instahelp:style/Widget.AppCompat.Button.Borderless.Colored = 0x7f130309
+com.dicoding.instahelp:style/Widget.MaterialComponents.MaterialCalendar.HeaderSelection = 0x7f130440
+com.dicoding.instahelp:style/Widget.AppCompat.ActivityChooserView = 0x7f130305
+com.dicoding.instahelp:style/Widget.MaterialComponents.BottomNavigationView.Colored = 0x7f13040e
+com.dicoding.instahelp:style/Base.Widget.Material3.FloatingActionButton.Small = 0x7f13010c
+com.dicoding.instahelp:dimen/design_navigation_padding_bottom = 0x7f07007c
+com.dicoding.instahelp:styleable/StateListDrawableItem = 0x7f140095
+com.dicoding.instahelp:id/progress_horizontal = 0x7f0901ff
+com.dicoding.instahelp:layout/notification_template_custom_big = 0x7f0c0093
+com.dicoding.instahelp:style/Widget.AppCompat.Light.PopupMenu = 0x7f130328
+com.dicoding.instahelp:anim/abc_popup_enter = 0x7f010003
+com.dicoding.instahelp:style/Base.Theme.AppCompat.Light.Dialog = 0x7f130055
+com.dicoding.instahelp:style/Widget.Material3.MaterialCalendar.Year.Selected = 0x7f1303c2
+com.dicoding.instahelp:style/ShapeAppearanceOverlay.Material3.Corner.Left = 0x7f130185
+com.dicoding.instahelp:style/Widget.Material3.MaterialTimePicker.Display = 0x7f1303ca
+com.dicoding.instahelp:string/mtrl_exceed_max_badge_number_suffix = 0x7f1200aa
+com.dicoding.instahelp:string/mtrl_switch_thumb_path_unchecked = 0x7f1200d5
+com.dicoding.instahelp:string/abc_activitychooserview_choose_application = 0x7f120005
+com.dicoding.instahelp:id/rectangles = 0x7f090202
+com.dicoding.instahelp:style/Widget.MaterialComponents.Button.TextButton.Snackbar = 0x7f13041b
+com.dicoding.instahelp:style/Theme.MaterialComponents.Dialog.FixedSize = 0x7f13026d
+com.dicoding.instahelp:style/Widget.Material3.PopupMenu.ListPopupWindow = 0x7f1303d6
+com.dicoding.instahelp:style/Widget.AppCompat.Light.ActivityChooserView = 0x7f130323
+com.dicoding.instahelp:style/Widget.MaterialComponents.Button.UnelevatedButton = 0x7f13041c
+com.dicoding.instahelp:style/Widget.AppCompat.Button.Borderless = 0x7f130308
+com.dicoding.instahelp:style/Widget.Material3.FloatingActionButton.Large.Primary = 0x7f13039e
+com.dicoding.instahelp:macro/m3_comp_search_bar_supporting_text_type = 0x7f0d00ef
+com.dicoding.instahelp:style/Widget.AppCompat.DrawerArrowToggle = 0x7f130312
+com.dicoding.instahelp:color/m3_sys_color_dynamic_dark_primary_container = 0x7f060196
+com.dicoding.instahelp:drawable/ic_mr_button_connected_18_dark = 0x7f0800fa
+com.dicoding.instahelp:macro/m3_comp_time_picker_time_selector_selected_hover_state_layer_color = 0x7f0d0162
+com.dicoding.instahelp:layout/mr_picker_header_item = 0x7f0c0067
+com.dicoding.instahelp:id/city = 0x7f090092
+com.dicoding.instahelp:styleable/AppBarLayout = 0x7f14000d
+com.dicoding.instahelp:styleable/KeyTrigger = 0x7f14004c
+com.dicoding.instahelp:dimen/abc_cascading_menus_min_smallest_width = 0x7f070016
+com.dicoding.instahelp:styleable/Grid = 0x7f140042
+com.dicoding.instahelp:dimen/material_clock_hand_stroke_width = 0x7f070229
+com.dicoding.instahelp:id/BOTTOM_END = 0x7f090001
+com.dicoding.instahelp:id/password_toggle = 0x7f0901ef
+com.dicoding.instahelp:style/TextAppearance.Compat.Notification.Line2.Media = 0x7f1301c9
+com.dicoding.instahelp:layout/activity_call = 0x7f0c001c
+com.dicoding.instahelp:style/Platform.V25.AppCompat = 0x7f130143
+com.dicoding.instahelp:style/Widget.AppCompat.TextView.SpinnerItem = 0x7f130342
+com.dicoding.instahelp:styleable/ClockHandView = 0x7f140024
+com.dicoding.instahelp:attr/layout_goneMarginStart = 0x7f0402c8
+com.dicoding.instahelp:style/Widget.MaterialComponents.TextInputEditText.FilledBox = 0x7f13045f
+com.dicoding.instahelp:id/disablePostScroll = 0x7f0900c0
+com.dicoding.instahelp:style/ThemeOverlay.Material3.NavigationView = 0x7f1302c5
+com.dicoding.instahelp:layout/design_navigation_menu_item = 0x7f0c0039
+com.dicoding.instahelp:style/ThemeOverlay.MaterialComponents.ActionBar.Surface = 0x7f1302d5
+com.dicoding.instahelp:style/Base.V14.ThemeOverlay.MaterialComponents.Dialog.Alert = 0x7f1300a0
+com.dicoding.instahelp:drawable/$mtrl_checkbox_button_checked_unchecked__1 = 0x7f08000e
+com.dicoding.instahelp:style/ThemeOverlay.Material3.TextInputEditText = 0x7f1302cb
+com.dicoding.instahelp:integer/mtrl_card_anim_delay_ms = 0x7f0a0039
+com.dicoding.instahelp:style/Widget.Material3.Snackbar = 0x7f1303e7
+com.dicoding.instahelp:style/Widget.Material3.ActionBar.Solid = 0x7f130352
+com.dicoding.instahelp:style/Theme.MaterialComponents.Light.Dialog.MinWidth = 0x7f13027d
+com.dicoding.instahelp:styleable/Layout = 0x7f14004d
+com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Widget.Switch = 0x7f130042
+com.dicoding.instahelp:macro/m3_comp_outlined_text_field_focus_supporting_text_color = 0x7f0d00bc
+com.dicoding.instahelp:id/mr_cast_group_name = 0x7f09016b
+com.dicoding.instahelp:style/Theme.MaterialComponents.Light.DialogWhenLarge = 0x7f13027f
+com.dicoding.instahelp:style/Base.Widget.Material3.TabLayout = 0x7f130110
+com.dicoding.instahelp:id/textinput_placeholder = 0x7f090279
+com.dicoding.instahelp:styleable/MaterialCheckBox = 0x7f14005a
+com.dicoding.instahelp:attr/chipStrokeWidth = 0x7f0400d4
+com.dicoding.instahelp:style/Widget.MaterialComponents.ActionBar.Solid = 0x7f1303ff
+com.dicoding.instahelp:id/accessibility_custom_action_9 = 0x7f090030
+com.dicoding.instahelp:plurals/mtrl_badge_content_description = 0x7f110000
+com.dicoding.instahelp:style/TextAppearance.MaterialComponents.Subtitle1 = 0x7f13020b
+com.dicoding.instahelp:style/Widget.MaterialComponents.BottomAppBar = 0x7f13040a
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:mipmap/ic_instahelpp_foreground = 0x7f0f0001
 com.dicoding.instahelp:style/Widget.Material3.ExtendedFloatingActionButton.Tertiary = 0x7f13039d
 com.dicoding.instahelp:color/m3_ref_palette_dynamic_neutral_variant24 = 0x7f0600c3
 com.dicoding.instahelp:style/Widget.MaterialComponents.AutoCompleteTextView.FilledBox.Dense = 0x7f130406
+<<<<<<< HEAD
 com.dicoding.instahelp:style/Widget.MaterialComponents.TextView = 0x7f13046b
 com.dicoding.instahelp:style/ThemeOverlay.AppCompat.Light = 0x7f130290
 com.dicoding.instahelp:drawable/ic_group_collapse_03 = 0x7f0800a8
@@ -163,25 +318,112 @@ com.dicoding.instahelp:style/Widget.AppCompat.ImageButton = 0x7f130315
 com.dicoding.instahelp:id/user_status = 0x7f0902a8
 com.dicoding.instahelp:style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu = 0x7f130469
 com.dicoding.instahelp:attr/pivotAnchor = 0x7f0403a9
+=======
+com.dicoding.instahelp:style/Widget.Design.TabLayout = 0x7f13034f
+com.dicoding.instahelp:style/Widget.MaterialComponents.TextView = 0x7f13046b
+com.dicoding.instahelp:color/notification_icon_bg_color = 0x7f060308
+com.dicoding.instahelp:style/ThemeOverlay.Material3.Button.TonalButton = 0x7f1302a4
+com.dicoding.instahelp:style/Widget.Material3.TextInputLayout.OutlinedBox = 0x7f1303f5
+com.dicoding.instahelp:id/compress = 0x7f090099
+com.dicoding.instahelp:style/TextAppearance.M3.Sys.Typescale.LabelSmall = 0x7f1301e5
+com.dicoding.instahelp:macro/m3_comp_primary_navigation_tab_inactive_focus_state_layer_color = 0x7f0d00cc
+com.dicoding.instahelp:id/listMode = 0x7f090137
+com.dicoding.instahelp:style/Base.V14.Theme.MaterialComponents = 0x7f130093
+com.dicoding.instahelp:macro/m3_comp_progress_indicator_active_indicator_color = 0x7f0d00d4
+com.dicoding.instahelp:macro/m3_comp_filled_tonal_icon_button_container_color = 0x7f0d0054
+com.dicoding.instahelp:dimen/m3_comp_search_bar_container_elevation = 0x7f07016f
+com.dicoding.instahelp:style/ThemeOverlay.AppCompat.Light = 0x7f130290
+com.dicoding.instahelp:drawable/ic_group_collapse_03 = 0x7f0800a8
+com.dicoding.instahelp:style/Widget.MaterialComponents.MaterialCalendar.Day = 0x7f130434
+com.dicoding.instahelp:macro/m3_comp_switch_unselected_focus_handle_color = 0x7f0d012f
+com.dicoding.instahelp:style/Theme.MaterialComponents.Bridge = 0x7f130257
+com.dicoding.instahelp:macro/m3_comp_filled_tonal_icon_button_toggle_unselected_icon_color = 0x7f0d0056
+com.dicoding.instahelp:macro/m3_comp_switch_selected_hover_state_layer_color = 0x7f0d0127
+com.dicoding.instahelp:attr/firstBaselineToTopHeight = 0x7f0401e8
+com.dicoding.instahelp:style/Widget.MaterialComponents.MaterialCalendar.Year.Today = 0x7f130449
+com.dicoding.instahelp:styleable/CollapsingToolbarLayout = 0x7f140025
+com.dicoding.instahelp:dimen/m3_sys_motion_easing_legacy_accelerate_control_y2 = 0x7f070201
+com.dicoding.instahelp:style/Widget.Material3.BottomSheet = 0x7f130361
+com.dicoding.instahelp:style/Base.V14.ThemeOverlay.Material3.BottomSheetDialog = 0x7f13009c
+com.dicoding.instahelp:drawable/mr_cast_mute_button = 0x7f080194
+com.dicoding.instahelp:macro/m3_comp_menu_container_color = 0x7f0d005d
+com.dicoding.instahelp:id/mr_cast_mute_button = 0x7f090174
+com.dicoding.instahelp:string/profile_image_description = 0x7f1200e7
+com.dicoding.instahelp:string/sign_up_action = 0x7f1200f8
+com.dicoding.instahelp:attr/actionMenuTextAppearance = 0x7f040011
+com.dicoding.instahelp:macro/m3_comp_outlined_card_focus_outline_color = 0x7f0d00ac
+com.dicoding.instahelp:drawable/oval = 0x7f0801db
+com.dicoding.instahelp:dimen/m3_comp_switch_disabled_unselected_handle_opacity = 0x7f070192
+com.dicoding.instahelp:macro/m3_comp_outlined_card_container_color = 0x7f0d00a8
+com.dicoding.instahelp:style/Widget.MaterialComponents.CompoundButton.CheckBox = 0x7f13042a
+com.dicoding.instahelp:styleable/MaterialDivider = 0x7f14005c
+com.dicoding.instahelp:style/Widget.MaterialComponents.MaterialCalendar.HeaderConfirmButton = 0x7f13043c
+com.dicoding.instahelp:dimen/m3_comp_radio_button_unselected_pressed_state_layer_opacity = 0x7f07016c
+com.dicoding.instahelp:macro/m3_comp_outlined_text_field_hover_outline_color = 0x7f0d00be
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:drawable/ic_group_expand_09 = 0x7f0800be
 com.dicoding.instahelp:style/Widget.MaterialComponents.TextInputLayout.OutlinedBox = 0x7f130467
 com.dicoding.instahelp:dimen/abc_dialog_fixed_height_major = 0x7f07001c
 com.dicoding.instahelp:drawable/ic_mr_button_connecting_13_dark = 0x7f08012e
+<<<<<<< HEAD
 com.dicoding.instahelp:layout/notification_action = 0x7f0c008b
 com.dicoding.instahelp:style/Base.Widget.AppCompat.ButtonBar = 0x7f1300d5
+=======
+com.dicoding.instahelp:styleable/MaterialTimePicker = 0x7f140062
+com.dicoding.instahelp:style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense = 0x7f130464
+com.dicoding.instahelp:drawable/ic_vol_type_speaker_light = 0x7f08016c
+com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Medium.Inverse = 0x7f130027
+com.dicoding.instahelp:attr/colorSecondaryFixed = 0x7f040123
+com.dicoding.instahelp:id/unlabeled = 0x7f0902a2
+com.dicoding.instahelp:style/Theme.Material3.Dark.Dialog.Alert = 0x7f13023a
+com.dicoding.instahelp:color/m3_ref_palette_neutral17 = 0x7f06010c
+com.dicoding.instahelp:integer/mtrl_card_anim_duration_ms = 0x7f0a003a
+com.dicoding.instahelp:color/m3_sys_color_dynamic_on_tertiary_fixed_variant = 0x7f0601cb
+com.dicoding.instahelp:style/TextAppearance.Design.HelperText = 0x7f1301d3
+com.dicoding.instahelp:color/m3_sys_color_dynamic_dark_on_secondary = 0x7f06018d
+com.dicoding.instahelp:style/Base.Widget.AppCompat.Button.Borderless = 0x7f1300d0
+com.dicoding.instahelp:style/Widget.AppCompat.ImageButton = 0x7f130315
+com.dicoding.instahelp:id/user_status = 0x7f0902a8
+com.dicoding.instahelp:style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu = 0x7f130469
+com.dicoding.instahelp:style/ThemeOverlay.Material3.MaterialAlertDialog = 0x7f1302bd
+com.dicoding.instahelp:style/ShapeAppearance.Material3.LargeComponent = 0x7f130177
+com.dicoding.instahelp:drawable/box_background = 0x7f08007f
+com.dicoding.instahelp:styleable/TextInputLayout = 0x7f14009e
+com.dicoding.instahelp:attr/pivotAnchor = 0x7f0403a9
+com.dicoding.instahelp:macro/m3_comp_fab_primary_container_color = 0x7f0d0036
+com.dicoding.instahelp:styleable/Variant = 0x7f1400a4
+com.dicoding.instahelp:string/selamat_dat = 0x7f1200f3
+com.dicoding.instahelp:styleable/TextInputEditText = 0x7f14009d
+com.dicoding.instahelp:style/ShapeAppearance.Material3.Corner.ExtraSmall = 0x7f130171
+com.dicoding.instahelp:styleable/Spinner = 0x7f14008f
+com.dicoding.instahelp:style/Base.Widget.AppCompat.ButtonBar = 0x7f1300d5
+com.dicoding.instahelp:style/Theme.Material3.Dark.SideSheetDialog = 0x7f13023e
+com.dicoding.instahelp:id/search_mag_icon = 0x7f090227
+com.dicoding.instahelp:interpolator/m3_sys_motion_easing_standard = 0x7f0b000b
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:id/open_search_view_header_container = 0x7f0901dd
 com.dicoding.instahelp:style/Widget.Design.AppBarLayout = 0x7f130347
 com.dicoding.instahelp:style/Widget.Material3.FloatingActionButton.Primary = 0x7f1303a2
 com.dicoding.instahelp:styleable/CollapsingToolbarLayout_Layout = 0x7f140026
 com.dicoding.instahelp:id/wrap = 0x7f0902bc
+<<<<<<< HEAD
 com.dicoding.instahelp:style/Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton = 0x7f130443
 com.dicoding.instahelp:attr/nestedScrollable = 0x7f040383
 com.dicoding.instahelp:style/ThemeOverlay.MaterialAlertDialog.Material3.Title.Icon = 0x7f1302d1
 com.dicoding.instahelp:integer/hide_password_duration = 0x7f0a0009
+=======
+com.dicoding.instahelp:attr/nestedScrollable = 0x7f040383
+com.dicoding.instahelp:macro/m3_comp_outlined_text_field_caret_color = 0x7f0d00b0
+com.dicoding.instahelp:id/enterAlways = 0x7f0900dd
+com.dicoding.instahelp:style/ThemeOverlay.MaterialAlertDialog.Material3.Title.Icon = 0x7f1302d1
+com.dicoding.instahelp:integer/hide_password_duration = 0x7f0a0009
+com.dicoding.instahelp:style/Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton = 0x7f130443
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/Animation.Material3.SideSheetDialog = 0x7f130007
 com.dicoding.instahelp:style/Theme.Material3.DayNight = 0x7f13023f
 com.dicoding.instahelp:attr/reactiveGuide_applyToAllConstraintSets = 0x7f0403cd
 com.dicoding.instahelp:style/Widget.Material3.FloatingActionButton.Small.Tertiary = 0x7f1303a7
+<<<<<<< HEAD
 com.dicoding.instahelp:style/TextAppearance.AppCompat.Widget.Button.Colored = 0x7f1301bd
 com.dicoding.instahelp:id/center_horizontal = 0x7f090089
 com.dicoding.instahelp:style/Widget.MaterialComponents.AutoCompleteTextView.OutlinedBox.Dense = 0x7f130408
@@ -266,6 +508,58 @@ com.dicoding.instahelp:color/m3_sys_color_dynamic_on_tertiary_fixed_variant = 0x
 com.dicoding.instahelp:style/TextAppearance.Design.HelperText = 0x7f1301d3
 com.dicoding.instahelp:color/m3_sys_color_dynamic_dark_on_secondary = 0x7f06018d
 com.dicoding.instahelp:style/Widget.MaterialComponents.TimePicker.Button = 0x7f13046d
+=======
+com.dicoding.instahelp:style/Widget.MaterialComponents.AutoCompleteTextView.OutlinedBox.Dense = 0x7f130408
+com.dicoding.instahelp:id/center_horizontal = 0x7f090089
+com.dicoding.instahelp:id/accessibility_custom_action_4 = 0x7f09002b
+com.dicoding.instahelp:style/Base.Widget.Material3.TabLayout.Secondary = 0x7f130112
+com.dicoding.instahelp:macro/m3_comp_time_picker_period_selector_outline_color = 0x7f0d0154
+com.dicoding.instahelp:attr/activityAction = 0x7f040028
+com.dicoding.instahelp:styleable/ViewBackgroundHelper = 0x7f1400a6
+com.dicoding.instahelp:style/Base.Widget.AppCompat.ActivityChooserView = 0x7f1300cd
+com.dicoding.instahelp:style/Theme.Material3.DayNight.Dialog = 0x7f130241
+com.dicoding.instahelp:color/m3_sys_color_dynamic_primary_fixed_dim = 0x7f0601cd
+com.dicoding.instahelp:string/mtrl_badge_numberless_content_description = 0x7f12009c
+com.dicoding.instahelp:style/Widget.Material3.CircularProgressIndicator.Medium = 0x7f13038c
+com.dicoding.instahelp:dimen/mtrl_calendar_header_content_padding = 0x7f070292
+com.dicoding.instahelp:style/Widget.Material3.SideSheet = 0x7f1303df
+com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Small = 0x7f130041
+com.dicoding.instahelp:style/Widget.MaterialComponents.TimePicker = 0x7f13046c
+com.dicoding.instahelp:style/Widget.Material3.TabLayout.Secondary = 0x7f1303ec
+com.dicoding.instahelp:style/Widget.AppCompat.Button.Colored = 0x7f13030b
+com.dicoding.instahelp:style/Widget.MaterialComponents.NavigationRailView = 0x7f13044c
+com.dicoding.instahelp:id/with_icon = 0x7f0902ba
+com.dicoding.instahelp:styleable/MaterialButton = 0x7f140055
+com.dicoding.instahelp:style/ThemeOverlay.MaterialComponents.TimePicker.Display.TextInputEditText = 0x7f1302f6
+com.dicoding.instahelp:styleable/MaterialRadioButton = 0x7f14005d
+com.dicoding.instahelp:style/ShapeAppearanceOverlay.Material3.SearchBar = 0x7f13018a
+com.dicoding.instahelp:style/Theme.MaterialComponents.NoActionBar.Bridge = 0x7f130283
+com.dicoding.instahelp:color/material_personalized__highlighted_text = 0x7f06027e
+com.dicoding.instahelp:style/Widget.Material3.MaterialCalendar.HeaderSelection = 0x7f1303ba
+com.dicoding.instahelp:drawable/ic_mr_button_connecting_28_dark = 0x7f08014c
+com.dicoding.instahelp:style/Theme.AppCompat.DayNight.DarkActionBar = 0x7f13021e
+com.dicoding.instahelp:attr/imagePanY = 0x7f04024f
+com.dicoding.instahelp:integer/m3_chip_anim_duration = 0x7f0a000f
+com.dicoding.instahelp:style/Theme.Design.BottomSheetDialog = 0x7f130232
+com.dicoding.instahelp:attr/layout_keyline = 0x7f0402cb
+com.dicoding.instahelp:attr/layout_editor_absoluteX = 0x7f0402c1
+com.dicoding.instahelp:macro/m3_comp_date_picker_modal_range_selection_month_subhead_color = 0x7f0d001b
+com.dicoding.instahelp:id/included = 0x7f090121
+com.dicoding.instahelp:style/TextAppearance.AppCompat.Large = 0x7f1301a0
+com.dicoding.instahelp:styleable/MediaRouteButton = 0x7f140064
+com.dicoding.instahelp:style/ThemeOverlay.Material3.TabLayout = 0x7f1302ca
+com.dicoding.instahelp:style/Widget.MaterialComponents.Button.TextButton.Dialog = 0x7f130417
+com.dicoding.instahelp:style/Base.V22.Theme.AppCompat = 0x7f1300af
+com.dicoding.instahelp:macro/m3_comp_extended_fab_primary_container_color = 0x7f0d002c
+com.dicoding.instahelp:id/ALT = 0x7f090000
+com.dicoding.instahelp:style/Theme.MaterialComponents.DayNight.DialogWhenLarge = 0x7f130266
+com.dicoding.instahelp:string/login_prompt_email = 0x7f12004e
+com.dicoding.instahelp:color/m3_ref_palette_neutral22 = 0x7f06010e
+com.dicoding.instahelp:dimen/mtrl_btn_z = 0x7f070284
+com.dicoding.instahelp:macro/m3_comp_navigation_rail_active_icon_color = 0x7f0d0095
+com.dicoding.instahelp:macro/m3_comp_slider_label_label_text_color = 0x7f0d0112
+com.dicoding.instahelp:style/Widget.Material3.MaterialCalendar.Year = 0x7f1303c1
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/Theme.Material3.Light.SideSheetDialog = 0x7f130254
 com.dicoding.instahelp:anim/slide_in_right = 0x7f010035
 com.dicoding.instahelp:id/clip_vertical = 0x7f090095
@@ -276,13 +570,21 @@ com.dicoding.instahelp:styleable/Capability = 0x7f14001c
 com.dicoding.instahelp:attr/dragDirection = 0x7f04018e
 com.dicoding.instahelp:style/Widget.Material3.FloatingActionButton.Tertiary = 0x7f1303a9
 com.dicoding.instahelp:style/ThemeOverlay.Material3.ExtendedFloatingActionButton.Primary = 0x7f1302b1
+<<<<<<< HEAD
 com.dicoding.instahelp:layout/mtrl_picker_header_toggle = 0x7f0c0086
 com.dicoding.instahelp:style/Base.DialogWindowTitleBackground.AppCompat = 0x7f130013
+=======
+com.dicoding.instahelp:style/Widget.MaterialComponents.TimePicker.Button = 0x7f13046d
+com.dicoding.instahelp:layout/mtrl_picker_header_toggle = 0x7f0c0086
+com.dicoding.instahelp:style/Base.DialogWindowTitleBackground.AppCompat = 0x7f130013
+com.dicoding.instahelp:style/Base.Widget.AppCompat.Button.Colored = 0x7f1300d3
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/Theme.MediaRouter.LightControlPanel = 0x7f130287
 com.dicoding.instahelp:attr/itemBackground = 0x7f040261
 com.dicoding.instahelp:string/path_password_eye_mask_visible = 0x7f1200e2
 com.dicoding.instahelp:style/Widget.Material3.Snackbar.TextView = 0x7f1303e9
 com.dicoding.instahelp:string/mtrl_switch_thumb_path_checked = 0x7f1200d1
+<<<<<<< HEAD
 com.dicoding.instahelp:style/Base.Widget.AppCompat.Button.Colored = 0x7f1300d3
 com.dicoding.instahelp:style/TextAppearance.MaterialComponents.Headline4 = 0x7f130207
 com.dicoding.instahelp:drawable/text_input_border_color = 0x7f0801ec
@@ -297,10 +599,26 @@ com.dicoding.instahelp:attr/layout_editor_absoluteX = 0x7f0402c1
 com.dicoding.instahelp:style/Widget.Material3.MaterialCalendar.HeaderSelection = 0x7f1303ba
 com.dicoding.instahelp:macro/m3_comp_filled_tonal_icon_button_container_color = 0x7f0d0054
 com.dicoding.instahelp:id/mr_cast_meta_art = 0x7f09016f
+=======
+com.dicoding.instahelp:string/character_counter_overflowed_content_description = 0x7f120033
+com.dicoding.instahelp:attr/showDividers = 0x7f0403fe
+com.dicoding.instahelp:styleable/ActionMode = 0x7f140004
+com.dicoding.instahelp:style/TextAppearance.MaterialComponents.Headline4 = 0x7f130207
+com.dicoding.instahelp:macro/m3_comp_navigation_drawer_active_hover_label_text_color = 0x7f0d007c
+com.dicoding.instahelp:drawable/text_input_border_color = 0x7f0801ec
+com.dicoding.instahelp:style/Widget.Material3.Chip.Input = 0x7f13037f
+com.dicoding.instahelp:drawable/ic_audiotrack_dark = 0x7f080096
+com.dicoding.instahelp:styleable/SideSheetBehavior_Layout = 0x7f14008b
+com.dicoding.instahelp:dimen/m3_comp_search_bar_avatar_size = 0x7f07016e
+com.dicoding.instahelp:id/mr_cast_meta_art = 0x7f09016f
+com.dicoding.instahelp:color/material_personalized_color_surface_container_highest = 0x7f0602a1
+com.dicoding.instahelp:id/panggilFragment = 0x7f0901e8
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:string/abc_menu_alt_shortcut_label = 0x7f120008
 com.dicoding.instahelp:dimen/design_textinput_caption_translate_y = 0x7f07008d
 com.dicoding.instahelp:style/Widget.Material3.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu = 0x7f1303f3
 com.dicoding.instahelp:id/btn_get_started = 0x7f09006e
+<<<<<<< HEAD
 com.dicoding.instahelp:style/ThemeOverlay.Material3.Light.Dialog.Alert.Framework = 0x7f1302bc
 com.dicoding.instahelp:styleable/NavigationView = 0x7f14007a
 com.dicoding.instahelp:macro/m3_comp_time_picker_period_selector_unselected_label_text_color = 0x7f0d015c
@@ -318,16 +636,34 @@ com.dicoding.instahelp:drawable/mr_media_play_dark = 0x7f0801a0
 com.dicoding.instahelp:attr/scaleFromTextSize = 0x7f0403de
 com.dicoding.instahelp:style/Widget.Material3.SearchView.Prefix = 0x7f1303dd
 com.dicoding.instahelp:id/mtrl_picker_header_selection_text = 0x7f0901b2
+=======
+com.dicoding.instahelp:styleable/MotionHelper = 0x7f14006b
+com.dicoding.instahelp:style/Base.V14.Theme.MaterialComponents.Light.Dialog.Bridge = 0x7f13009b
+com.dicoding.instahelp:drawable/abc_btn_check_to_on_mtrl_000 = 0x7f08002e
+com.dicoding.instahelp:macro/m3_comp_switch_unselected_focus_icon_color = 0x7f0d0130
+com.dicoding.instahelp:style/Widget.MaterialComponents.Chip.Choice = 0x7f130421
+com.dicoding.instahelp:style/Widget.MaterialComponents.TimePicker.Display = 0x7f13046f
+com.dicoding.instahelp:style/ThemeOverlay.Material3.FloatingActionButton.Surface = 0x7f1302b7
+com.dicoding.instahelp:styleable/NavigationView = 0x7f14007a
+com.dicoding.instahelp:macro/m3_comp_time_picker_period_selector_unselected_label_text_color = 0x7f0d015c
+com.dicoding.instahelp:id/mtrl_picker_header_selection_text = 0x7f0901b2
+com.dicoding.instahelp:style/Widget.Material3.SearchView.Prefix = 0x7f1303dd
+com.dicoding.instahelp:drawable/mr_media_play_dark = 0x7f0801a0
+com.dicoding.instahelp:attr/scaleFromTextSize = 0x7f0403de
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:id/accessibility_custom_action_31 = 0x7f09002a
 com.dicoding.instahelp:styleable/NavAction = 0x7f140070
 com.dicoding.instahelp:drawable/$mtrl_switch_thumb_checked_unchecked__1 = 0x7f080023
 com.dicoding.instahelp:style/TextAppearance.MaterialComponents.Headline3 = 0x7f130206
 com.dicoding.instahelp:attr/motionDurationMedium4 = 0x7f040357
 com.dicoding.instahelp:style/Theme.Material3.Dark.Dialog = 0x7f130239
+<<<<<<< HEAD
 com.dicoding.instahelp:integer/mtrl_card_anim_delay_ms = 0x7f0a0039
 com.dicoding.instahelp:styleable/CompoundButton = 0x7f140028
 com.dicoding.instahelp:interpolator/m3_sys_motion_easing_emphasized_accelerate = 0x7f0b0008
 com.dicoding.instahelp:macro/m3_comp_menu_container_color = 0x7f0d005d
+=======
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/Base.Theme.InstaHELP = 0x7f13005a
 com.dicoding.instahelp:dimen/material_textinput_min_width = 0x7f070243
 com.dicoding.instahelp:layout/mtrl_calendar_month_labeled = 0x7f0c0077
@@ -335,10 +671,17 @@ com.dicoding.instahelp:style/Theme.MaterialComponents.Light.Dialog.Alert = 0x7f1
 com.dicoding.instahelp:style/TextAppearance.Material3.TitleSmall = 0x7f1301fd
 com.dicoding.instahelp:id/navigation_bar_item_icon_view = 0x7f0901c3
 com.dicoding.instahelp:style/Widget.Material3.MaterialCalendar.HeaderDivider = 0x7f1303b7
+<<<<<<< HEAD
+=======
+com.dicoding.instahelp:layout/material_chip_input_combo = 0x7f0c004e
+com.dicoding.instahelp:attr/buttonTint = 0x7f04009d
+com.dicoding.instahelp:dimen/mtrl_chip_pressed_translation_z = 0x7f0702b5
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/TextAppearance.Material3.ActionBar.Subtitle = 0x7f1301e9
 com.dicoding.instahelp:style/Animation.Material3.SideSheetDialog.Right = 0x7f130009
 com.dicoding.instahelp:style/RtlOverlay.Widget.AppCompat.Search.DropDown = 0x7f13014f
 com.dicoding.instahelp:id/parentRelative = 0x7f0901ec
+<<<<<<< HEAD
 com.dicoding.instahelp:string/mtrl_picker_range_header_title = 0x7f1200c1
 com.dicoding.instahelp:styleable/ButtonBarLayout = 0x7f14001b
 com.dicoding.instahelp:id/toggle_instance = 0x7f090281
@@ -355,17 +698,43 @@ com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Widget.Switch = 0x7f1
 com.dicoding.instahelp:drawable/ic_phone = 0x7f08015e
 com.dicoding.instahelp:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox = 0x7f1302d7
 com.dicoding.instahelp:color/m3_sys_color_dynamic_light_surface_bright = 0x7f0601bc
+=======
+com.dicoding.instahelp:layout/notification_action = 0x7f0c008b
+com.dicoding.instahelp:string/mtrl_picker_range_header_title = 0x7f1200c1
+com.dicoding.instahelp:styleable/ButtonBarLayout = 0x7f14001b
+com.dicoding.instahelp:id/toggle_instance = 0x7f090281
+com.dicoding.instahelp:string/m3_sys_motion_easing_legacy_decelerate = 0x7f12005c
+com.dicoding.instahelp:color/m3_ref_palette_tertiary95 = 0x7f060152
+com.dicoding.instahelp:drawable/mtrl_ic_cancel = 0x7f0801b7
+com.dicoding.instahelp:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox = 0x7f1302d7
+com.dicoding.instahelp:color/m3_sys_color_dynamic_light_surface_bright = 0x7f0601bc
+com.dicoding.instahelp:drawable/ic_phone = 0x7f08015e
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:string/mr_dialog_groupable_header = 0x7f120098
 com.dicoding.instahelp:layout/mtrl_calendar_days_of_week = 0x7f0c0074
 com.dicoding.instahelp:style/ThemeOverlay.Material3.Light = 0x7f1302bb
 com.dicoding.instahelp:drawable/$m3_avd_hide_password__1 = 0x7f080008
+<<<<<<< HEAD
 com.dicoding.instahelp:id/panggilFragment = 0x7f0901e8
 com.dicoding.instahelp:macro/m3_comp_switch_unselected_focus_icon_color = 0x7f0d0130
 com.dicoding.instahelp:drawable/abc_btn_check_to_on_mtrl_000 = 0x7f08002e
 com.dicoding.instahelp:color/material_personalized_color_surface_container_highest = 0x7f0602a1
 com.dicoding.instahelp:styleable/SideSheetBehavior_Layout = 0x7f14008b
+=======
+com.dicoding.instahelp:styleable/NavGraphNavigator = 0x7f140073
+com.dicoding.instahelp:style/TextAppearance.Design.CollapsingToolbar.Expanded = 0x7f1301cf
+com.dicoding.instahelp:dimen/notification_top_pad_large_text = 0x7f07032e
+com.dicoding.instahelp:style/Widget.AppCompat.Button = 0x7f130307
+com.dicoding.instahelp:attr/layout_behavior = 0x7f04028f
+com.dicoding.instahelp:dimen/material_divider_thickness = 0x7f070232
+com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Small.Inverse = 0x7f13002d
+com.dicoding.instahelp:drawable/ic_message = 0x7f0800d4
+com.dicoding.instahelp:drawable/ic_vol_mute = 0x7f080168
+com.dicoding.instahelp:style/ShapeAppearanceOverlay.Material3.FloatingActionButton = 0x7f130188
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/TextAppearance.Design.Counter = 0x7f1301d0
 com.dicoding.instahelp:id/rincian_instansi = 0x7f090211
+<<<<<<< HEAD
 com.dicoding.instahelp:style/TextAppearance.Compat.Notification.Title = 0x7f1301cd
 com.dicoding.instahelp:id/city = 0x7f090092
 com.dicoding.instahelp:id/pooling_container_listener_holder_tag = 0x7f0901f7
@@ -382,6 +751,30 @@ com.dicoding.instahelp:styleable/NavDeepLink = 0x7f140072
 com.dicoding.instahelp:style/CardView = 0x7f130121
 com.dicoding.instahelp:style/Widget.MaterialComponents.MaterialCalendar.Fullscreen = 0x7f13043a
 com.dicoding.instahelp:styleable/RecyclerView = 0x7f140084
+=======
+com.dicoding.instahelp:style/ThemeOverlay.Material3.Light.Dialog.Alert.Framework = 0x7f1302bc
+com.dicoding.instahelp:interpolator/m3_sys_motion_easing_emphasized_accelerate = 0x7f0b0008
+com.dicoding.instahelp:style/TextAppearance.AppCompat.Widget.Button.Colored = 0x7f1301bd
+com.dicoding.instahelp:style/TextAppearance.M3.Sys.Typescale.DisplayLarge = 0x7f1301dd
+com.dicoding.instahelp:id/recycler_hospitals = 0x7f090205
+com.dicoding.instahelp:id/pooling_container_listener_holder_tag = 0x7f0901f7
+com.dicoding.instahelp:id/accessibility_custom_action_28 = 0x7f090026
+com.dicoding.instahelp:color/material_divider_color = 0x7f06021f
+com.dicoding.instahelp:macro/m3_comp_switch_selected_pressed_state_layer_color = 0x7f0d012c
+com.dicoding.instahelp:style/Base.Theme.AppCompat.CompactMenu = 0x7f13004d
+com.dicoding.instahelp:style/TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse = 0x7f1301ba
+com.dicoding.instahelp:style/Widget.MaterialComponents.ProgressIndicator = 0x7f130456
+com.dicoding.instahelp:style/Widget.Material3.MaterialCalendar.Item = 0x7f1303be
+com.dicoding.instahelp:macro/m3_comp_date_picker_modal_header_supporting_text_type = 0x7f0d0018
+com.dicoding.instahelp:string/searchview_navigation_content_description = 0x7f1200f2
+com.dicoding.instahelp:attr/tabContentStart = 0x7f04044f
+com.dicoding.instahelp:attr/fontStyle = 0x7f040215
+com.dicoding.instahelp:macro/m3_comp_search_bar_trailing_icon_color = 0x7f0d00f0
+com.dicoding.instahelp:styleable/NavDeepLink = 0x7f140072
+com.dicoding.instahelp:styleable/RecyclerView = 0x7f140084
+com.dicoding.instahelp:style/CardView = 0x7f130121
+com.dicoding.instahelp:style/Widget.MaterialComponents.MaterialCalendar.Fullscreen = 0x7f13043a
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/ShapeAppearance.M3.Sys.Shape.Corner.Small = 0x7f13016f
 com.dicoding.instahelp:drawable/ic_mr_button_connecting_18_light = 0x7f080139
 com.dicoding.instahelp:macro/m3_comp_radio_button_selected_focus_state_layer_color = 0x7f0d00d9
@@ -389,10 +782,17 @@ com.dicoding.instahelp:id/btn_next_select_role = 0x7f090073
 com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored = 0x7f13003b
 com.dicoding.instahelp:style/ShapeAppearanceOverlay.Material3.Corner.Right = 0x7f130186
 com.dicoding.instahelp:style/Base.V21.ThemeOverlay.AppCompat.Dialog = 0x7f1300ab
+<<<<<<< HEAD
 com.dicoding.instahelp:style/Widget.Compat.NotificationActionText = 0x7f130346
 com.dicoding.instahelp:string/mtrl_picker_range_header_only_start_selected = 0x7f1200bf
 com.dicoding.instahelp:style/ShapeAppearance.M3.Comp.SearchBar.Container.Shape = 0x7f130162
 com.dicoding.instahelp:style/TextAppearance.AppCompat.Tooltip = 0x7f1301b1
+=======
+com.dicoding.instahelp:style/TextAppearance.AppCompat.Tooltip = 0x7f1301b1
+com.dicoding.instahelp:style/ShapeAppearance.M3.Comp.SearchBar.Container.Shape = 0x7f130162
+com.dicoding.instahelp:string/mtrl_picker_range_header_only_start_selected = 0x7f1200bf
+com.dicoding.instahelp:style/Widget.Compat.NotificationActionText = 0x7f130346
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:id/et_name_instance = 0x7f0900e5
 com.dicoding.instahelp:integer/m3_btn_anim_duration_ms = 0x7f0a000c
 com.dicoding.instahelp:style/TextAppearance.AppCompat.Subhead.Inverse = 0x7f1301ae
@@ -400,8 +800,15 @@ com.dicoding.instahelp:style/Widget.AppCompat.PopupMenu = 0x7f130331
 com.dicoding.instahelp:styleable/MenuGroup = 0x7f140065
 com.dicoding.instahelp:style/TextAppearance.AppCompat.Inverse = 0x7f13019f
 com.dicoding.instahelp:style/Base.Widget.AppCompat.CompoundButton.RadioButton = 0x7f1300d8
+<<<<<<< HEAD
 com.dicoding.instahelp:style/Widget.Material3.AutoCompleteTextView.OutlinedBox.Dense = 0x7f130358
 com.dicoding.instahelp:macro/m3_comp_navigation_bar_inactive_focus_label_text_color = 0x7f0d006d
+=======
+com.dicoding.instahelp:layout/abc_list_menu_item_icon = 0x7f0c000f
+com.dicoding.instahelp:macro/m3_comp_navigation_bar_inactive_focus_label_text_color = 0x7f0d006d
+com.dicoding.instahelp:style/Widget.Material3.AutoCompleteTextView.OutlinedBox.Dense = 0x7f130358
+com.dicoding.instahelp:style/Theme.Material3.Dark.DialogWhenLarge = 0x7f13023c
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/Widget.Material3.AutoCompleteTextView.OutlinedBox = 0x7f130357
 com.dicoding.instahelp:id/filled = 0x7f0900f5
 com.dicoding.instahelp:id/mr_control_divider = 0x7f09018a
@@ -410,6 +817,12 @@ com.dicoding.instahelp:attr/spanCount = 0x7f040413
 com.dicoding.instahelp:style/ThemeOverlay.Material3.Button.IconButton.Filled.Tonal = 0x7f1302a1
 com.dicoding.instahelp:style/TextAppearance.AppCompat = 0x7f130195
 com.dicoding.instahelp:macro/m3_comp_radio_button_unselected_pressed_icon_color = 0x7f0d00e4
+<<<<<<< HEAD
+=======
+com.dicoding.instahelp:color/m3_ref_palette_error40 = 0x7f060100
+com.dicoding.instahelp:style/MaterialAlertDialog.MaterialComponents.Title.Panel.CenterStacked = 0x7f130135
+com.dicoding.instahelp:macro/m3_comp_navigation_rail_inactive_pressed_state_layer_color = 0x7f0d009e
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/ThemeOverlay.Material3.AutoCompleteTextView.FilledBox.Dense = 0x7f130296
 com.dicoding.instahelp:macro/m3_comp_time_picker_period_selector_selected_container_color = 0x7f0d0155
 com.dicoding.instahelp:style/Widget.AppCompat.Light.ActionBar = 0x7f130316
@@ -423,12 +836,19 @@ com.dicoding.instahelp:style/ShapeAppearanceOverlay.MaterialComponents.BottomShe
 com.dicoding.instahelp:id/title = 0x7f09027d
 com.dicoding.instahelp:color/dim_foreground_disabled_material_light = 0x7f060059
 com.dicoding.instahelp:style/MaterialAlertDialog.MaterialComponents.Picker.Date.Calendar = 0x7f130130
+<<<<<<< HEAD
+=======
+com.dicoding.instahelp:style/ThemeOverlay.MaterialComponents.DayNight.BottomSheetDialog = 0x7f1302e0
+com.dicoding.instahelp:style/Theme.AppCompat.Dialog.MinWidth = 0x7f130226
+com.dicoding.instahelp:color/ripple_material_light = 0x7f060318
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:attr/layout_constraintTop_creator = 0x7f0402b5
 com.dicoding.instahelp:dimen/mtrl_switch_text_padding = 0x7f07030a
 com.dicoding.instahelp:style/Theme.MaterialComponents.Light.Dialog = 0x7f130277
 com.dicoding.instahelp:style/Widget.AppCompat.ActionButton.Overflow = 0x7f130303
 com.dicoding.instahelp:id/center_vertical = 0x7f09008a
 com.dicoding.instahelp:drawable/ic_mtrl_chip_checked_circle = 0x7f08015b
+<<<<<<< HEAD
 com.dicoding.instahelp:style/ThemeOverlay.MaterialComponents.DayNight.BottomSheetDialog = 0x7f1302e0
 com.dicoding.instahelp:style/Theme.AppCompat.Dialog.MinWidth = 0x7f130226
 com.dicoding.instahelp:color/ripple_material_light = 0x7f060318
@@ -453,6 +873,40 @@ com.dicoding.instahelp:dimen/m3_comp_navigation_rail_icon_size = 0x7f07014b
 com.dicoding.instahelp:color/design_default_color_background = 0x7f060041
 com.dicoding.instahelp:styleable/ViewPager2 = 0x7f1400a7
 com.dicoding.instahelp:layout/design_navigation_item_header = 0x7f0c0035
+=======
+com.dicoding.instahelp:style/Base.Theme.MaterialComponents = 0x7f130067
+com.dicoding.instahelp:style/Base.V14.Theme.MaterialComponents.Dialog = 0x7f130095
+com.dicoding.instahelp:macro/m3_comp_search_bar_leading_icon_color = 0x7f0d00eb
+com.dicoding.instahelp:macro/m3_comp_time_picker_time_selector_selected_container_color = 0x7f0d0160
+com.dicoding.instahelp:style/Widget.AppCompat.RatingBar.Small = 0x7f130338
+com.dicoding.instahelp:style/Base.Animation.AppCompat.Tooltip = 0x7f130010
+com.dicoding.instahelp:dimen/m3_comp_extended_fab_primary_container_elevation = 0x7f07010c
+com.dicoding.instahelp:style/Widget.Material3.FloatingActionButton.Large.Surface = 0x7f1303a0
+com.dicoding.instahelp:style/ShapeAppearanceOverlay.MaterialAlertDialog.Material3 = 0x7f13018c
+com.dicoding.instahelp:style/Base.V14.Theme.Material3.Dark.SideSheetDialog = 0x7f13008e
+com.dicoding.instahelp:style/ShapeAppearanceOverlay.Material3.Corner.Top = 0x7f130187
+com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle = 0x7f130034
+com.dicoding.instahelp:id/material_timepicker_cancel_button = 0x7f090152
+com.dicoding.instahelp:styleable/AppBarLayout_Layout = 0x7f14000f
+com.dicoding.instahelp:style/Base.Widget.MaterialComponents.Snackbar = 0x7f13011d
+com.dicoding.instahelp:id/mtrl_picker_fullscreen = 0x7f0901b0
+com.dicoding.instahelp:style/Platform.V25.AppCompat.Light = 0x7f130144
+com.dicoding.instahelp:styleable/FlowLayout = 0x7f140039
+com.dicoding.instahelp:style/Widget.Material3.CircularProgressIndicator.Small = 0x7f13038d
+com.dicoding.instahelp:dimen/m3_comp_navigation_rail_icon_size = 0x7f07014b
+com.dicoding.instahelp:drawable/ic_numid = 0x7f08015d
+com.dicoding.instahelp:style/Base.Widget.AppCompat.ListView.Menu = 0x7f1300eb
+com.dicoding.instahelp:style/Theme.AppCompat.CompactMenu = 0x7f13021c
+com.dicoding.instahelp:layout/layout_bottom_sheet_call = 0x7f0c0048
+com.dicoding.instahelp:id/accessibility_custom_action_22 = 0x7f090020
+com.dicoding.instahelp:color/my_primary = 0x7f060305
+com.dicoding.instahelp:styleable/SplitPairRule = 0x7f140091
+com.dicoding.instahelp:layout/design_navigation_item_header = 0x7f0c0035
+com.dicoding.instahelp:styleable/ViewPager2 = 0x7f1400a7
+com.dicoding.instahelp:color/design_default_color_background = 0x7f060041
+com.dicoding.instahelp:style/Base.V21.Theme.AppCompat.Light.Dialog = 0x7f1300a6
+com.dicoding.instahelp:attr/materialCalendarFullscreenTheme = 0x7f0402fb
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:dimen/m3_comp_date_picker_modal_date_today_container_outline_width = 0x7f070104
 com.dicoding.instahelp:style/ShapeAppearance.M3.Comp.TextButton.Container.Shape = 0x7f130168
 com.dicoding.instahelp:style/RtlUnderlay.Widget.AppCompat.ActionButton.Overflow = 0x7f130156
@@ -466,7 +920,12 @@ com.dicoding.instahelp:style/Platform.V21.AppCompat = 0x7f130141
 com.dicoding.instahelp:layout/notification_template_big_media_custom = 0x7f0c0090
 com.dicoding.instahelp:attr/layout_constraintLeft_toRightOf = 0x7f0402ae
 com.dicoding.instahelp:id/search_button = 0x7f090223
+<<<<<<< HEAD
 com.dicoding.instahelp:style/Widget.MaterialComponents.CompoundButton.Switch = 0x7f13042c
+=======
+com.dicoding.instahelp:attr/layout_constraintLeft_toRightOf = 0x7f0402ae
+com.dicoding.instahelp:layout/notification_template_big_media_custom = 0x7f0c0090
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/Platform.MaterialComponents.Light.Dialog = 0x7f13013d
 com.dicoding.instahelp:style/RtlOverlay.Widget.AppCompat.Search.DropDown.Query = 0x7f130152
 com.dicoding.instahelp:dimen/abc_text_size_subhead_material = 0x7f07004d
@@ -482,6 +941,7 @@ com.dicoding.instahelp:style/Widget.MaterialComponents.Snackbar = 0x7f130459
 com.dicoding.instahelp:dimen/m3_sys_motion_easing_standard_accelerate_control_y1 = 0x7f070210
 com.dicoding.instahelp:drawable/ic_mr_button_connected_10_light = 0x7f0800eb
 com.dicoding.instahelp:string/abc_searchview_description_search = 0x7f120015
+<<<<<<< HEAD
 com.dicoding.instahelp:dimen/m3_comp_extended_fab_primary_container_elevation = 0x7f07010c
 com.dicoding.instahelp:macro/m3_comp_time_picker_time_selector_selected_container_color = 0x7f0d0160
 com.dicoding.instahelp:style/Widget.AppCompat.RatingBar.Small = 0x7f130338
@@ -492,18 +952,32 @@ com.dicoding.instahelp:styleable/ActionMode = 0x7f140004
 com.dicoding.instahelp:dimen/material_divider_thickness = 0x7f070232
 com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Small.Inverse = 0x7f13002d
 com.dicoding.instahelp:attr/layout_behavior = 0x7f04028f
+=======
+com.dicoding.instahelp:style/Base.ThemeOverlay.Material3.AutoCompleteTextView = 0x7f130081
+com.dicoding.instahelp:style/Widget.Material3.ExtendedFloatingActionButton.Secondary = 0x7f13039b
+com.dicoding.instahelp:style/TextAppearance.MediaRouter.Dynamic.Header = 0x7f130211
+com.dicoding.instahelp:color/material_personalized_color_tertiary = 0x7f0602a7
+com.dicoding.instahelp:id/decelerateAndComplete = 0x7f0900ac
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:color/m3_ref_palette_error95 = 0x7f060106
 com.dicoding.instahelp:id/tag_screen_reader_focusable = 0x7f090264
 com.dicoding.instahelp:style/Widget.Material3.Tooltip = 0x7f1303fc
 com.dicoding.instahelp:drawable/ic_setting = 0x7f080166
+<<<<<<< HEAD
 com.dicoding.instahelp:id/outline = 0x7f0901e4
 com.dicoding.instahelp:style/Base.Widget.AppCompat.ActionBar.TabText = 0x7f1300c7
 com.dicoding.instahelp:style/TextAppearance.Design.Hint = 0x7f1301d4
 com.dicoding.instahelp:styleable/FontFamilyFont = 0x7f14003b
+=======
+com.dicoding.instahelp:style/Base.Widget.AppCompat.ActionBar.TabText = 0x7f1300c7
+com.dicoding.instahelp:id/outline = 0x7f0901e4
+com.dicoding.instahelp:style/TextAppearance.Design.Hint = 0x7f1301d4
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:macro/m3_comp_navigation_drawer_active_focus_label_text_color = 0x7f0d0079
 com.dicoding.instahelp:attr/chipIconSize = 0x7f0400c9
 com.dicoding.instahelp:color/material_dynamic_secondary70 = 0x7f060257
 com.dicoding.instahelp:style/Widget.MaterialComponents.CompoundButton.RadioButton = 0x7f13042b
+<<<<<<< HEAD
 com.dicoding.instahelp:id/textinput_error = 0x7f090277
 com.dicoding.instahelp:style/input = 0x7f13047e
 com.dicoding.instahelp:style/ShapeAppearance.M3.Comp.SearchView.FullScreen.Container.Shape = 0x7f130163
@@ -536,11 +1010,60 @@ com.dicoding.instahelp:color/material_grey_600 = 0x7f06026c
 com.dicoding.instahelp:style/Widget.AppCompat.ListView.DropDown = 0x7f13032f
 com.dicoding.instahelp:dimen/m3_comp_search_bar_avatar_size = 0x7f07016e
 com.dicoding.instahelp:string/photo_incident = 0x7f1200e4
+=======
+com.dicoding.instahelp:styleable/FontFamilyFont = 0x7f14003b
+com.dicoding.instahelp:styleable/AppCompatImageView = 0x7f140011
+com.dicoding.instahelp:id/material_clock_period_am_button = 0x7f090149
+com.dicoding.instahelp:color/material_personalized_primary_inverse_text_disable_only = 0x7f0602b0
+com.dicoding.instahelp:style/ShapeAppearance.MaterialComponents = 0x7f13017c
+com.dicoding.instahelp:style/Base.Widget.AppCompat.Toolbar = 0x7f1300fc
+com.dicoding.instahelp:style/ThemeOverlay.MaterialComponents.ActionBar = 0x7f1302d3
+com.dicoding.instahelp:macro/m3_comp_slider_active_track_color = 0x7f0d010b
+com.dicoding.instahelp:layout/m3_auto_complete_simple_item = 0x7f0c004c
+com.dicoding.instahelp:id/textinput_error = 0x7f090277
+com.dicoding.instahelp:style/input = 0x7f13047e
+com.dicoding.instahelp:style/ShapeAppearance.M3.Comp.SearchView.FullScreen.Container.Shape = 0x7f130163
+com.dicoding.instahelp:macro/m3_comp_filled_tonal_button_label_text_color = 0x7f0d0053
+com.dicoding.instahelp:drawable/ic_mr_button_connected_18_light = 0x7f0800fb
+com.dicoding.instahelp:dimen/mtrl_switch_thumb_size = 0x7f07030d
+com.dicoding.instahelp:macro/m3_comp_search_view_docked_container_shape = 0x7f0d00f3
+com.dicoding.instahelp:dimen/mtrl_btn_focused_z = 0x7f070272
+com.dicoding.instahelp:color/m3_sys_color_dynamic_dark_surface_container_highest = 0x7f06019d
+com.dicoding.instahelp:style/Theme.Material3.DayNight.SideSheetDialog = 0x7f130246
+com.dicoding.instahelp:style/MaterialAlertDialog.MaterialComponents.Title.Panel = 0x7f130134
+com.dicoding.instahelp:style/Base.Widget.AppCompat.Toolbar.Button.Navigation = 0x7f1300fd
+com.dicoding.instahelp:style/Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge = 0x7f130260
+com.dicoding.instahelp:style/Widget.Material3.CollapsingToolbar.Medium = 0x7f130390
+com.dicoding.instahelp:drawable/mr_cast_thumb = 0x7f080197
+com.dicoding.instahelp:integer/status_bar_notification_info_maxnum = 0x7f0a0049
+com.dicoding.instahelp:macro/m3_comp_outlined_autocomplete_menu_container_color = 0x7f0d00a0
+com.dicoding.instahelp:layout/abc_list_menu_item_radio = 0x7f0c0011
+com.dicoding.instahelp:attr/switchTextAppearance = 0x7f04044d
+com.dicoding.instahelp:styleable/MaterialToolbar = 0x7f140063
+com.dicoding.instahelp:dimen/m3_comp_suggestion_chip_flat_outline_width = 0x7f07018d
+com.dicoding.instahelp:styleable/FragmentContainerView = 0x7f14003e
+com.dicoding.instahelp:dimen/mtrl_card_checked_icon_margin = 0x7f0702af
+com.dicoding.instahelp:color/material_grey_600 = 0x7f06026c
+com.dicoding.instahelp:drawable/mr_dialog_material_background_dark = 0x7f08019a
+com.dicoding.instahelp:styleable/ScrollingViewBehavior_Layout = 0x7f140086
+com.dicoding.instahelp:style/Widget.AppCompat.ListView.DropDown = 0x7f13032f
+com.dicoding.instahelp:color/m3_sys_color_dynamic_light_secondary = 0x7f0601b9
+com.dicoding.instahelp:drawable/ic_mr_button_connecting_10_light = 0x7f080129
+com.dicoding.instahelp:style/TextAppearance.AppCompat.SearchResult.Title = 0x7f1301aa
+com.dicoding.instahelp:macro/m3_comp_text_button_pressed_state_layer_color = 0x7f0d0146
+com.dicoding.instahelp:styleable/MaterialCalendar = 0x7f140057
+com.dicoding.instahelp:attr/mediaRouteTvIconDrawable = 0x7f040339
+com.dicoding.instahelp:layout/abc_search_dropdown_item_icons_2line = 0x7f0c0018
+com.dicoding.instahelp:style/Widget.MaterialComponents.Badge = 0x7f130409
+com.dicoding.instahelp:macro/m3_comp_date_picker_modal_header_supporting_text_color = 0x7f0d0017
+com.dicoding.instahelp:dimen/mtrl_calendar_day_horizontal_padding = 0x7f07028c
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:xml/data_extraction_rules = 0x7f150001
 com.dicoding.instahelp:style/Widget.Material3.NavigationRailView.ActiveIndicator = 0x7f1303d1
 com.dicoding.instahelp:style/Base.V14.ThemeOverlay.MaterialComponents.BottomSheetDialog = 0x7f13009e
 com.dicoding.instahelp:color/m3_ref_palette_dynamic_neutral_variant80 = 0x7f0600cb
 com.dicoding.instahelp:style/TextAppearance.MaterialComponents.TimePicker.Title = 0x7f13020d
+<<<<<<< HEAD
 com.dicoding.instahelp:styleable/ClockFaceView = 0x7f140023
 com.dicoding.instahelp:color/design_fab_stroke_end_inner_color = 0x7f060052
 com.dicoding.instahelp:color/mr_cast_meta_default_text_color = 0x7f0602bf
@@ -574,14 +1097,48 @@ com.dicoding.instahelp:color/material_dynamic_primary0 = 0x7f060242
 com.dicoding.instahelp:style/Widget.AppCompat.SearchView = 0x7f130339
 com.dicoding.instahelp:drawable/indeterminate_static = 0x7f080172
 com.dicoding.instahelp:style/Base.Widget.AppCompat.Button.ButtonBar.AlertDialog = 0x7f1300d2
+=======
+com.dicoding.instahelp:drawable/notification_bg = 0x7f0801cf
+com.dicoding.instahelp:style/MaterialAlertDialog.Material3.Title.Icon = 0x7f130128
+com.dicoding.instahelp:color/m3_sys_color_light_secondary_container = 0x7f0601e8
+com.dicoding.instahelp:style/Widget.AppCompat.ActionBar.Solid = 0x7f1302fd
+com.dicoding.instahelp:dimen/m3_chip_elevated_elevation = 0x7f0700f7
+com.dicoding.instahelp:style/ShapeAppearance.M3.Comp.NavigationBar.ActiveIndicator.Shape = 0x7f13015c
+com.dicoding.instahelp:color/m3_ref_palette_dynamic_neutral_variant22 = 0x7f0600c2
+com.dicoding.instahelp:attr/tabIndicatorFullWidth = 0x7f040457
+com.dicoding.instahelp:style/ThemeOverlay.Material3.Button.IconButton.Filled = 0x7f1302a0
+com.dicoding.instahelp:styleable/ClockFaceView = 0x7f140023
+com.dicoding.instahelp:color/design_fab_stroke_end_inner_color = 0x7f060052
+com.dicoding.instahelp:color/mr_cast_meta_default_text_color = 0x7f0602bf
+com.dicoding.instahelp:layout/activity_forget_password_instansi = 0x7f0c001f
+com.dicoding.instahelp:drawable/mtrl_dropdown_arrow = 0x7f0801b4
+com.dicoding.instahelp:style/ThemeOverlay.Material3.Toolbar.Surface = 0x7f1302d0
+com.dicoding.instahelp:style/Widget.Material3.Chip.Assist = 0x7f13037b
+com.dicoding.instahelp:styleable/OnSwipe = 0x7f14007d
+com.dicoding.instahelp:color/material_dynamic_neutral_variant60 = 0x7f06023c
+com.dicoding.instahelp:style/Theme.Material3.Dark.Dialog.MinWidth = 0x7f13023b
+com.dicoding.instahelp:color/mtrl_fab_bg_color_selector = 0x7f0602e2
+com.dicoding.instahelp:style/MaterialAlertDialog.Material3.Body.Text = 0x7f130126
+com.dicoding.instahelp:styleable/MenuItem = 0x7f140066
+com.dicoding.instahelp:drawable/indeterminate_static = 0x7f080172
+com.dicoding.instahelp:style/Base.Widget.AppCompat.Button.ButtonBar.AlertDialog = 0x7f1300d2
+com.dicoding.instahelp:drawable/notification_bg_low = 0x7f0801d0
+com.dicoding.instahelp:style/Widget.AppCompat.SearchView = 0x7f130339
+com.dicoding.instahelp:color/material_dynamic_primary0 = 0x7f060242
+com.dicoding.instahelp:style/Base.Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton = 0x7f130116
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:drawable/$avd_hide_password__1 = 0x7f080001
 com.dicoding.instahelp:id/visible_removing_fragment_view_tag = 0x7f0902b6
 com.dicoding.instahelp:dimen/mtrl_alert_dialog_background_inset_end = 0x7f07025b
 com.dicoding.instahelp:string/pilihjenis = 0x7f1200e5
 com.dicoding.instahelp:dimen/m3_extended_fab_icon_padding = 0x7f0701b1
+<<<<<<< HEAD
 com.dicoding.instahelp:style/Base.Widget.Design.TabLayout = 0x7f1300fe
 com.dicoding.instahelp:style/Base.V21.Theme.AppCompat.Light.Dialog = 0x7f1300a6
 com.dicoding.instahelp:attr/materialCalendarFullscreenTheme = 0x7f0402fb
+=======
+com.dicoding.instahelp:string/pilihjenis = 0x7f1200e5
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/Base.Widget.AppCompat.TextView = 0x7f1300fa
 com.dicoding.instahelp:dimen/mediarouter_chooser_list_item_padding_top = 0x7f070249
 com.dicoding.instahelp:style/Base.Widget.AppCompat.SeekBar.Discrete = 0x7f1300f7
@@ -614,6 +1171,7 @@ com.dicoding.instahelp:id/up = 0x7f0902a3
 com.dicoding.instahelp:drawable/ic_mr_button_connected_01_dark = 0x7f0800d8
 com.dicoding.instahelp:style/Base.Widget.AppCompat.Button.Small = 0x7f1300d4
 com.dicoding.instahelp:attr/keyboardIcon = 0x7f04027f
+<<<<<<< HEAD
 com.dicoding.instahelp:macro/m3_comp_outlined_button_focus_outline_color = 0x7f0d00a4
 com.dicoding.instahelp:animator/fragment_open_enter = 0x7f020007
 com.dicoding.instahelp:style/TextAppearance.AppCompat.Body1 = 0x7f130196
@@ -623,6 +1181,21 @@ com.dicoding.instahelp:styleable/TabLayout = 0x7f14009a
 com.dicoding.instahelp:styleable/DrawerLayout = 0x7f140034
 com.dicoding.instahelp:id/btn_makeAcc = 0x7f090071
 com.dicoding.instahelp:dimen/m3_large_text_vertical_offset_adjustment = 0x7f0701bb
+=======
+com.dicoding.instahelp:animator/fragment_open_enter = 0x7f020007
+com.dicoding.instahelp:style/TextAppearance.AppCompat.Body1 = 0x7f130196
+com.dicoding.instahelp:macro/m3_comp_outlined_button_focus_outline_color = 0x7f0d00a4
+com.dicoding.instahelp:id/btn_makeAcc = 0x7f090071
+com.dicoding.instahelp:styleable/DrawerLayout = 0x7f140034
+com.dicoding.instahelp:style/Theme.AppCompat.Light = 0x7f130229
+com.dicoding.instahelp:attr/onShow = 0x7f04038c
+com.dicoding.instahelp:styleable/TabLayout = 0x7f14009a
+com.dicoding.instahelp:dimen/m3_large_text_vertical_offset_adjustment = 0x7f0701bb
+com.dicoding.instahelp:drawable/ic_mr_button_connecting_29_light = 0x7f08014f
+com.dicoding.instahelp:macro/m3_comp_search_bar_input_text_type = 0x7f0d00ea
+com.dicoding.instahelp:macro/m3_comp_primary_navigation_tab_with_icon_active_icon_color = 0x7f0d00cf
+com.dicoding.instahelp:style/Base.ThemeOverlay.AppCompat.Dark.ActionBar = 0x7f13007d
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:drawable/notification_template_icon_low_bg = 0x7f0801d8
 com.dicoding.instahelp:drawable/abc_ic_menu_paste_mtrl_am_alpha = 0x7f080046
 com.dicoding.instahelp:attr/floatingActionButtonSurfaceStyle = 0x7f0401f6
@@ -630,6 +1203,7 @@ com.dicoding.instahelp:macro/m3_comp_fab_secondary_icon_color = 0x7f0d003c
 com.dicoding.instahelp:style/ThemeOverlay.Material3.Dialog = 0x7f1302ab
 com.dicoding.instahelp:style/MaterialAlertDialog.Material3.Animation = 0x7f130125
 com.dicoding.instahelp:style/Widget.MaterialComponents.TimePicker.Display.TextInputLayout = 0x7f130473
+<<<<<<< HEAD
 com.dicoding.instahelp:macro/m3_comp_primary_navigation_tab_with_icon_active_icon_color = 0x7f0d00cf
 com.dicoding.instahelp:style/Base.ThemeOverlay.AppCompat.Dark.ActionBar = 0x7f13007d
 com.dicoding.instahelp:style/Base.V14.ThemeOverlay.Material3.SideSheetDialog = 0x7f13009d
@@ -639,6 +1213,12 @@ com.dicoding.instahelp:style/Widget.Material3.MaterialCalendar.Item = 0x7f1303be
 com.dicoding.instahelp:style/TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse = 0x7f1301ba
 com.dicoding.instahelp:attr/extraMultilineHeightEnabled = 0x7f0401d7
 com.dicoding.instahelp:style/Base.Widget.AppCompat.Button = 0x7f1300cf
+=======
+com.dicoding.instahelp:style/Base.V14.ThemeOverlay.Material3.SideSheetDialog = 0x7f13009d
+com.dicoding.instahelp:style/Theme.AppCompat.Empty = 0x7f130228
+com.dicoding.instahelp:style/Base.Widget.AppCompat.Button = 0x7f1300cf
+com.dicoding.instahelp:attr/extraMultilineHeightEnabled = 0x7f0401d7
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:dimen/mtrl_snackbar_background_corner_radius = 0x7f070305
 com.dicoding.instahelp:drawable/ic_mr_button_connected_01_light = 0x7f0800d9
 com.dicoding.instahelp:style/Base.Widget.MaterialComponents.MaterialCalendar.NavigationButton = 0x7f130117
@@ -648,6 +1228,7 @@ com.dicoding.instahelp:style/TextAppearance.Design.Placeholder = 0x7f1301d5
 com.dicoding.instahelp:anim/abc_tooltip_enter = 0x7f01000a
 com.dicoding.instahelp:style/ThemeOverlay.Material3.Dialog.Alert = 0x7f1302ac
 com.dicoding.instahelp:drawable/mtrl_checkbox_button_checked_unchecked = 0x7f0801aa
+<<<<<<< HEAD
 com.dicoding.instahelp:styleable/ConstraintOverride = 0x7f14002d
 com.dicoding.instahelp:id/startHorizontal = 0x7f090250
 com.dicoding.instahelp:macro/m3_comp_filled_tonal_button_label_text_color = 0x7f0d0053
@@ -678,26 +1259,56 @@ com.dicoding.instahelp:color/material_dynamic_secondary80 = 0x7f060258
 com.dicoding.instahelp:color/secondary_text_default_material_dark = 0x7f06031a
 com.dicoding.instahelp:string/user_name = 0x7f120102
 com.dicoding.instahelp:style/Widget.MaterialComponents.MaterialCalendar.MonthNavigationButton = 0x7f130445
+=======
+com.dicoding.instahelp:styleable/ViewTransition = 0x7f1400a9
+com.dicoding.instahelp:style/Platform.MaterialComponents.Dialog = 0x7f13013b
+com.dicoding.instahelp:dimen/cardview_default_elevation = 0x7f070053
+com.dicoding.instahelp:id/chronometer = 0x7f090090
+com.dicoding.instahelp:styleable/ConstraintOverride = 0x7f14002d
+com.dicoding.instahelp:id/startHorizontal = 0x7f090250
+com.dicoding.instahelp:attr/dividerInsetStart = 0x7f04018a
+com.dicoding.instahelp:id/material_clock_hand = 0x7f090147
+com.dicoding.instahelp:id/parallax = 0x7f0901e9
+com.dicoding.instahelp:macro/m3_comp_bottom_app_bar_container_color = 0x7f0d0005
+com.dicoding.instahelp:macro/m3_comp_top_app_bar_medium_headline_color = 0x7f0d016d
+com.dicoding.instahelp:color/secondary_text_default_material_dark = 0x7f06031a
+com.dicoding.instahelp:string/user_name = 0x7f120102
+com.dicoding.instahelp:style/Widget.MaterialComponents.MaterialCalendar.MonthNavigationButton = 0x7f130445
+com.dicoding.instahelp:style/TextAppearance.AppCompat.Display3 = 0x7f13019c
+com.dicoding.instahelp:color/material_dynamic_secondary80 = 0x7f060258
+com.dicoding.instahelp:style/Widget.MaterialComponents.CircularProgressIndicator.Small = 0x7f130428
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/Base.V28.Theme.AppCompat = 0x7f1300ba
 com.dicoding.instahelp:color/m3_sys_color_dynamic_light_on_tertiary = 0x7f0601b3
 com.dicoding.instahelp:dimen/mtrl_snackbar_margin = 0x7f070307
 com.dicoding.instahelp:macro/m3_comp_time_picker_period_selector_selected_label_text_color = 0x7f0d0158
+<<<<<<< HEAD
 com.dicoding.instahelp:id/mr_name = 0x7f090196
 com.dicoding.instahelp:id/layout = 0x7f090130
 com.dicoding.instahelp:id/mr_cast_mute_button = 0x7f090174
 com.dicoding.instahelp:layout/mr_picker_route_item = 0x7f0c0068
+=======
+com.dicoding.instahelp:id/layout = 0x7f090130
+com.dicoding.instahelp:id/mr_name = 0x7f090196
+com.dicoding.instahelp:style/Theme.Material3.DayNight.NoActionBar = 0x7f130245
+com.dicoding.instahelp:style/Base.V26.Widget.AppCompat.Toolbar = 0x7f1300b9
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:layout/mr_picker_dialog = 0x7f0c0066
 com.dicoding.instahelp:style/Base.Widget.Material3.CompoundButton.RadioButton = 0x7f130106
 com.dicoding.instahelp:style/ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox = 0x7f1302f2
 com.dicoding.instahelp:style/Theme.MaterialComponents.Light.NoActionBar.Bridge = 0x7f130281
+<<<<<<< HEAD
 com.dicoding.instahelp:style/Theme.Material3.DayNight.NoActionBar = 0x7f130245
 com.dicoding.instahelp:style/Base.V26.Widget.AppCompat.Toolbar = 0x7f1300b9
+=======
+com.dicoding.instahelp:layout/mr_picker_route_item = 0x7f0c0068
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:attr/ratingBarStyleIndicator = 0x7f0403ca
 com.dicoding.instahelp:style/Widget.Material3.MaterialDivider.Heavy = 0x7f1303c6
 com.dicoding.instahelp:dimen/mtrl_progress_track_thickness = 0x7f0702f5
 com.dicoding.instahelp:dimen/mtrl_btn_corner_radius = 0x7f07026d
-com.dicoding.instahelp:style/Theme.AppCompat.Light.Dialog.MinWidth = 0x7f13022d
 com.dicoding.instahelp:attr/expandedTitleMarginTop = 0x7f0401cb
+<<<<<<< HEAD
 com.dicoding.instahelp:styleable/ViewTransition = 0x7f1400a9
 com.dicoding.instahelp:style/Platform.MaterialComponents.Dialog = 0x7f13013b
 com.dicoding.instahelp:attr/dividerInsetStart = 0x7f04018a
@@ -719,11 +1330,24 @@ com.dicoding.instahelp:id/tv_forgot_password_resident = 0x7f09029c
 com.dicoding.instahelp:string/lupa_kata_sandi = 0x7f120050
 com.dicoding.instahelp:color/m3_ref_palette_error70 = 0x7f060103
 com.dicoding.instahelp:style/TextAppearance.AppCompat.SearchResult.Title = 0x7f1301aa
+=======
+com.dicoding.instahelp:style/Theme.AppCompat.Light.Dialog.MinWidth = 0x7f13022d
+com.dicoding.instahelp:style/Base.Widget.Material3.ExtendedFloatingActionButton = 0x7f130108
+com.dicoding.instahelp:macro/m3_comp_extended_fab_surface_container_color = 0x7f0d0032
+com.dicoding.instahelp:style/Widget.Material3.AutoCompleteTextView.FilledBox.Dense = 0x7f130356
+com.dicoding.instahelp:styleable/TextAppearance = 0x7f14009b
+com.dicoding.instahelp:style/Theme.AppCompat.DayNight.Dialog.MinWidth = 0x7f130221
+com.dicoding.instahelp:style/ThemeOverlay.MaterialComponents.TimePicker = 0x7f1302f4
+com.dicoding.instahelp:string/lupa_kata_sandi = 0x7f120050
+com.dicoding.instahelp:color/m3_ref_palette_error70 = 0x7f060103
+com.dicoding.instahelp:id/tv_forgot_password_resident = 0x7f09029c
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:dimen/m3_comp_suggestion_chip_flat_container_elevation = 0x7f07018c
 com.dicoding.instahelp:styleable/Insets = 0x7f140044
 com.dicoding.instahelp:id/stretch = 0x7f090257
 com.dicoding.instahelp:layout/notification_template_part_time = 0x7f0c0099
 com.dicoding.instahelp:style/Base.ThemeOverlay.Material3.TextInputEditText = 0x7f130085
+<<<<<<< HEAD
 com.dicoding.instahelp:macro/m3_comp_menu_list_item_selected_container_color = 0x7f0d005e
 com.dicoding.instahelp:style/TextAppearance.MaterialComponents.Body2 = 0x7f130200
 com.dicoding.instahelp:id/search_plate = 0x7f090228
@@ -732,12 +1356,17 @@ com.dicoding.instahelp:dimen/m3_navigation_rail_item_active_indicator_height = 0
 com.dicoding.instahelp:string/abc_action_bar_up_description = 0x7f120001
 com.dicoding.instahelp:macro/m3_comp_outlined_text_field_input_text_color = 0x7f0d00c0
 com.dicoding.instahelp:macro/m3_comp_primary_navigation_tab_active_pressed_state_layer_color = 0x7f0d00ca
+=======
+com.dicoding.instahelp:style/TextAppearance.MaterialComponents.Body2 = 0x7f130200
+com.dicoding.instahelp:macro/m3_comp_menu_list_item_selected_container_color = 0x7f0d005e
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/ThemeOverlay.Material3.FloatingActionButton.Secondary = 0x7f1302b6
 com.dicoding.instahelp:style/ShapeAppearance.M3.Comp.Switch.StateLayer.Shape = 0x7f130166
 com.dicoding.instahelp:style/Base.V21.Theme.MaterialComponents.Light = 0x7f1300a9
 com.dicoding.instahelp:style/ThemeOverlay.AppCompat.ActionBar = 0x7f130289
 com.dicoding.instahelp:style/MaterialAlertDialog.Material3.Title.Panel = 0x7f13012a
 com.dicoding.instahelp:attr/shouldRemoveExpandedCorners = 0x7f0403fa
+<<<<<<< HEAD
 com.dicoding.instahelp:attr/transitionPathRotate = 0x7f0404fc
 com.dicoding.instahelp:style/Base.Widget.Material3.ActionBar.Solid = 0x7f1300ff
 com.dicoding.instahelp:animator/fragment_open_exit = 0x7f020008
@@ -790,6 +1419,46 @@ com.dicoding.instahelp:style/Base.V14.Theme.Material3.Dark = 0x7f13008b
 com.dicoding.instahelp:id/mtrl_child_content_container = 0x7f0901ad
 com.dicoding.instahelp:macro/m3_comp_switch_selected_pressed_state_layer_color = 0x7f0d012c
 com.dicoding.instahelp:color/material_divider_color = 0x7f06021f
+=======
+com.dicoding.instahelp:macro/m3_comp_primary_navigation_tab_active_pressed_state_layer_color = 0x7f0d00ca
+com.dicoding.instahelp:macro/m3_comp_outlined_text_field_input_text_color = 0x7f0d00c0
+com.dicoding.instahelp:id/search_plate = 0x7f090228
+com.dicoding.instahelp:style/Widget.Material3.BottomNavigationView = 0x7f13035f
+com.dicoding.instahelp:dimen/m3_navigation_rail_item_active_indicator_height = 0x7f0701cc
+com.dicoding.instahelp:string/abc_action_bar_up_description = 0x7f120001
+com.dicoding.instahelp:attr/transitionPathRotate = 0x7f0404fc
+com.dicoding.instahelp:style/Base.Widget.Material3.ActionBar.Solid = 0x7f1300ff
+com.dicoding.instahelp:animator/fragment_open_exit = 0x7f020008
+com.dicoding.instahelp:style/Theme.MaterialComponents.Dialog.FixedSize.Bridge = 0x7f13026e
+com.dicoding.instahelp:macro/m3_comp_elevated_card_container_color = 0x7f0d002a
+com.dicoding.instahelp:color/call_notification_decline_color = 0x7f06002c
+com.dicoding.instahelp:style/Base.V21.Theme.AppCompat.Light = 0x7f1300a5
+com.dicoding.instahelp:id/mtrl_calendar_days_of_week = 0x7f0901a5
+com.dicoding.instahelp:color/m3_sys_color_light_on_tertiary_container = 0x7f0601e2
+com.dicoding.instahelp:style/ShapeAppearance.M3.Comp.NavigationRail.Container.Shape = 0x7f130160
+com.dicoding.instahelp:string/material_hour_suffix = 0x7f120067
+com.dicoding.instahelp:attr/telltales_velocityMode = 0x7f04046f
+com.dicoding.instahelp:attr/motionDurationExtraLong3 = 0x7f04034e
+com.dicoding.instahelp:interpolator/m3_sys_motion_easing_standard_decelerate = 0x7f0b000d
+com.dicoding.instahelp:macro/m3_comp_switch_unselected_pressed_icon_color = 0x7f0d013c
+com.dicoding.instahelp:layout/material_clock_display = 0x7f0c004f
+com.dicoding.instahelp:dimen/m3_appbar_size_large = 0x7f0700aa
+com.dicoding.instahelp:style/Base.V21.Theme.AppCompat = 0x7f1300a3
+com.dicoding.instahelp:string/abc_menu_enter_shortcut_label = 0x7f12000b
+com.dicoding.instahelp:anim/m3_bottom_sheet_slide_out = 0x7f010026
+com.dicoding.instahelp:attr/stateLabels = 0x7f04042c
+com.dicoding.instahelp:attr/materialDisplayDividerStyle = 0x7f04030e
+com.dicoding.instahelp:dimen/notification_top_pad = 0x7f07032d
+com.dicoding.instahelp:styleable/Badge = 0x7f140016
+com.dicoding.instahelp:attr/backgroundColor = 0x7f04004d
+com.dicoding.instahelp:style/Base.V7.Widget.AppCompat.EditText = 0x7f1300c2
+com.dicoding.instahelp:color/m3_ref_palette_dynamic_neutral_variant87 = 0x7f0600cc
+com.dicoding.instahelp:style/Base.V14.Theme.Material3.Light = 0x7f13008f
+com.dicoding.instahelp:macro/m3_comp_navigation_drawer_inactive_pressed_state_layer_color = 0x7f0d0090
+com.dicoding.instahelp:style/Base.V14.Theme.Material3.Dark = 0x7f13008b
+com.dicoding.instahelp:color/m3_sys_color_dynamic_dark_on_secondary_container = 0x7f06018e
+com.dicoding.instahelp:style/Widget.AppCompat.Light.ActionMode.Inverse = 0x7f130322
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:attr/indeterminateAnimationType = 0x7f040252
 com.dicoding.instahelp:style/Widget.MaterialComponents.Button.TextButton.Snackbar = 0x7f13041b
 com.dicoding.instahelp:style/Base.ThemeOverlay.MaterialComponents.Light.Dialog.Alert.Framework = 0x7f130089
@@ -829,6 +1498,7 @@ com.dicoding.instahelp:drawable/ic_mr_button_connecting_00_dark = 0x7f080114
 com.dicoding.instahelp:style/TextAppearance.MaterialComponents.Overline = 0x7f13020a
 com.dicoding.instahelp:style/Base.Theme.MaterialComponents.Dialog.Bridge = 0x7f13006c
 com.dicoding.instahelp:style/Widget.Material3.CircularProgressIndicator.ExtraSmall = 0x7f130387
+<<<<<<< HEAD
 com.dicoding.instahelp:style/Base.V14.Widget.MaterialComponents.AutoCompleteTextView = 0x7f1300a2
 com.dicoding.instahelp:style/Base.Widget.MaterialComponents.TextInputLayout = 0x7f13011f
 com.dicoding.instahelp:attr/panelBackground = 0x7f04039a
@@ -836,12 +1506,26 @@ com.dicoding.instahelp:dimen/m3_card_elevated_dragged_z = 0x7f0700e7
 com.dicoding.instahelp:styleable/KeyFramesVelocity = 0x7f140049
 com.dicoding.instahelp:style/ThemeOverlay.Material3.Button.TextButton = 0x7f1302a2
 com.dicoding.instahelp:macro/m3_comp_navigation_drawer_active_focus_state_layer_color = 0x7f0d007a
+=======
+com.dicoding.instahelp:styleable/KeyFramesVelocity = 0x7f140049
+com.dicoding.instahelp:style/ThemeOverlay.Material3.Button.TextButton = 0x7f1302a2
+com.dicoding.instahelp:macro/m3_comp_navigation_drawer_active_focus_state_layer_color = 0x7f0d007a
+com.dicoding.instahelp:style/Base.V14.Widget.MaterialComponents.AutoCompleteTextView = 0x7f1300a2
+com.dicoding.instahelp:attr/panelBackground = 0x7f04039a
+com.dicoding.instahelp:style/Base.Widget.MaterialComponents.TextInputLayout = 0x7f13011f
+com.dicoding.instahelp:dimen/m3_card_elevated_dragged_z = 0x7f0700e7
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:drawable/search_box_background = 0x7f0801e7
 com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Large.Inverse = 0x7f130023
 com.dicoding.instahelp:attr/boxStrokeWidthFocused = 0x7f04008d
 com.dicoding.instahelp:id/centerInside = 0x7f090088
+<<<<<<< HEAD
 com.dicoding.instahelp:string/abc_toolbar_collapse_description = 0x7f12001a
 com.dicoding.instahelp:macro/m3_comp_outlined_text_field_disabled_label_text_color = 0x7f0d00b3
+=======
+com.dicoding.instahelp:macro/m3_comp_outlined_text_field_disabled_label_text_color = 0x7f0d00b3
+com.dicoding.instahelp:string/abc_toolbar_collapse_description = 0x7f12001a
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:dimen/mtrl_navigation_rail_text_size = 0x7f0702e7
 com.dicoding.instahelp:drawable/btn_radio_off_mtrl = 0x7f080084
 com.dicoding.instahelp:id/useLogo = 0x7f0902a4
@@ -851,6 +1535,7 @@ com.dicoding.instahelp:style/Base.Theme.Material3.Dark.SideSheetDialog = 0x7f130
 com.dicoding.instahelp:id/expand_activities_button = 0x7f0900ec
 com.dicoding.instahelp:style/Theme.Design.NoActionBar = 0x7f130236
 com.dicoding.instahelp:style/Base.Theme.AppCompat = 0x7f13004c
+<<<<<<< HEAD
 com.dicoding.instahelp:style/Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item = 0x7f130049
 com.dicoding.instahelp:drawable/mtrl_checkbox_button_icon_unchecked_indeterminate = 0x7f0801b1
 com.dicoding.instahelp:dimen/m3_comp_slider_active_handle_leading_space = 0x7f070182
@@ -886,6 +1571,40 @@ com.dicoding.instahelp:style/Widget.MaterialComponents.PopupMenu.Overflow = 0x7f
 com.dicoding.instahelp:style/Widget.Material3.TabLayout = 0x7f1303ea
 com.dicoding.instahelp:attr/round = 0x7f0403da
 com.dicoding.instahelp:color/green = 0x7f060062
+=======
+com.dicoding.instahelp:color/m3_ref_palette_secondary40 = 0x7f06013f
+com.dicoding.instahelp:style/Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item = 0x7f130049
+com.dicoding.instahelp:drawable/ic_call_answer = 0x7f080099
+com.dicoding.instahelp:color/m3_timepicker_display_text_color = 0x7f060214
+com.dicoding.instahelp:drawable/mtrl_checkbox_button_icon_unchecked_indeterminate = 0x7f0801b1
+com.dicoding.instahelp:dimen/m3_comp_slider_active_handle_leading_space = 0x7f070182
+com.dicoding.instahelp:dimen/material_clock_face_margin_bottom = 0x7f070225
+com.dicoding.instahelp:style/Widget.AppCompat.ActionButton.CloseMode = 0x7f130302
+com.dicoding.instahelp:style/ThemeOverlay.AppCompat.Dialog = 0x7f13028e
+com.dicoding.instahelp:attr/badgeWithTextShapeAppearance = 0x7f040065
+com.dicoding.instahelp:style/Widget.MaterialComponents.TextInputLayout.FilledBox = 0x7f130463
+com.dicoding.instahelp:style/Widget.Material3.MaterialCalendar.MonthNavigationButton = 0x7f1303bf
+com.dicoding.instahelp:attr/thumbRadius = 0x7f0404ba
+com.dicoding.instahelp:string/mtrl_picker_invalid_format_example = 0x7f1200b8
+com.dicoding.instahelp:color/m3_sys_color_dynamic_dark_inverse_surface = 0x7f060187
+com.dicoding.instahelp:color/m3_ref_palette_neutral92 = 0x7f06011a
+com.dicoding.instahelp:style/TextAppearance.AppCompat.Display2 = 0x7f13019b
+com.dicoding.instahelp:style/Base.V7.Widget.AppCompat.AutoCompleteTextView = 0x7f1300c1
+com.dicoding.instahelp:style/ThemeOverlay.Material3.DynamicColors.Dark = 0x7f1302ae
+com.dicoding.instahelp:style/Base.V14.Theme.Material3.Dark.Dialog = 0x7f13008d
+com.dicoding.instahelp:integer/m3_sys_motion_duration_extra_long4 = 0x7f0a0013
+com.dicoding.instahelp:macro/m3_comp_navigation_bar_container_color = 0x7f0d006b
+com.dicoding.instahelp:attr/coplanarSiblingViewId = 0x7f040151
+com.dicoding.instahelp:style/Base.Widget.AppCompat.PopupMenu.Overflow = 0x7f1300ed
+com.dicoding.instahelp:color/m3_ref_palette_dynamic_secondary60 = 0x7f0600e8
+com.dicoding.instahelp:style/Widget.Material3.PopupMenu = 0x7f1303d4
+com.dicoding.instahelp:attr/windowFixedHeightMinor = 0x7f04051c
+com.dicoding.instahelp:id/mr_cast_checkbox = 0x7f090167
+com.dicoding.instahelp:color/green = 0x7f060062
+com.dicoding.instahelp:style/Widget.MaterialComponents.PopupMenu.Overflow = 0x7f130455
+com.dicoding.instahelp:style/Widget.Material3.TabLayout = 0x7f1303ea
+com.dicoding.instahelp:attr/round = 0x7f0403da
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:color/mtrl_textinput_focused_box_stroke_color = 0x7f060303
 com.dicoding.instahelp:string/mtrl_checkbox_button_icon_path_name = 0x7f1200a0
 com.dicoding.instahelp:style/Widget.AppCompat.EditText = 0x7f130314
@@ -913,6 +1632,7 @@ com.dicoding.instahelp:attr/materialAlertDialogBodyTextStyle = 0x7f0402f0
 com.dicoding.instahelp:macro/m3_comp_primary_navigation_tab_inactive_pressed_state_layer_color = 0x7f0d00ce
 com.dicoding.instahelp:drawable/ic_mr_button_connecting_27_dark = 0x7f08014a
 com.dicoding.instahelp:styleable/ScrimInsetsFrameLayout = 0x7f140085
+<<<<<<< HEAD
 com.dicoding.instahelp:drawable/baseline_arrow_back_ios_24 = 0x7f08007c
 com.dicoding.instahelp:style/TextAppearance.M3.Sys.Typescale.TitleMedium = 0x7f1301e7
 com.dicoding.instahelp:attr/shapeAppearanceCornerMedium = 0x7f0403f2
@@ -926,18 +1646,51 @@ com.dicoding.instahelp:style/Widget.Material3.MaterialTimePicker = 0x7f1303c7
 com.dicoding.instahelp:layout/design_navigation_item_separator = 0x7f0c0036
 com.dicoding.instahelp:style/Widget.Material3.MaterialCalendar.HeaderLayout.Fullscreen = 0x7f1303b9
 com.dicoding.instahelp:macro/m3_comp_switch_unselected_track_outline_color = 0x7f0d0141
+=======
+com.dicoding.instahelp:attr/shapeAppearanceCornerMedium = 0x7f0403f2
+com.dicoding.instahelp:drawable/baseline_arrow_back_ios_24 = 0x7f08007c
+com.dicoding.instahelp:style/TextAppearance.M3.Sys.Typescale.TitleMedium = 0x7f1301e7
+com.dicoding.instahelp:anim/linear_indeterminate_line1_head_interpolator = 0x7f010021
+com.dicoding.instahelp:style/Base.V21.Theme.MaterialComponents.Light.Dialog = 0x7f1300aa
+com.dicoding.instahelp:color/m3_ref_palette_dynamic_neutral_variant92 = 0x7f0600ce
+com.dicoding.instahelp:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView = 0x7f1302d6
+com.dicoding.instahelp:drawable/splash_screen = 0x7f0801e8
+com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Header = 0x7f13003f
+com.dicoding.instahelp:macro/m3_comp_outlined_text_field_hover_input_text_color = 0x7f0d00bd
+com.dicoding.instahelp:id/touch_outside = 0x7f09028c
+com.dicoding.instahelp:style/Base.V26.Theme.AppCompat = 0x7f1300b7
+com.dicoding.instahelp:dimen/design_snackbar_max_width = 0x7f070083
+com.dicoding.instahelp:style/Animation.AppCompat.DropDownUp = 0x7f130003
+com.dicoding.instahelp:color/m3_ref_palette_dynamic_neutral_variant98 = 0x7f0600d2
+com.dicoding.instahelp:style/Widget.Material3.MaterialTimePicker = 0x7f1303c7
+com.dicoding.instahelp:layout/design_navigation_item_separator = 0x7f0c0036
+com.dicoding.instahelp:style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse = 0x7f1301b6
+com.dicoding.instahelp:color/material_personalized_color_primary_container = 0x7f060295
+com.dicoding.instahelp:id/coordinator = 0x7f0900a2
+com.dicoding.instahelp:macro/m3_comp_switch_unselected_track_outline_color = 0x7f0d0141
+com.dicoding.instahelp:style/Widget.Material3.TextInputEditText.FilledBox.Dense = 0x7f1303ee
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:id/start = 0x7f09024f
 com.dicoding.instahelp:layout/ime_secondary_split_test_activity = 0x7f0c0044
 com.dicoding.instahelp:id/middle = 0x7f09015d
 com.dicoding.instahelp:style/Widget.AppCompat.ActionBar = 0x7f1302fc
 com.dicoding.instahelp:style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle = 0x7f1301b7
 com.dicoding.instahelp:attr/carousel_touchUp_velocityThreshold = 0x7f0400b1
+<<<<<<< HEAD
 com.dicoding.instahelp:style/Theme.MaterialComponents.Light.Dialog.FixedSize.Bridge = 0x7f13027c
 com.dicoding.instahelp:style/Widget.Material3.DrawerLayout = 0x7f130395
 com.dicoding.instahelp:attr/extendedFloatingActionButtonSurfaceStyle = 0x7f0401d3
 com.dicoding.instahelp:attr/simpleItemLayout = 0x7f040407
 com.dicoding.instahelp:style/TextAppearance.M3.Sys.Typescale.TitleLarge = 0x7f1301e6
 com.dicoding.instahelp:style/Widget.Material3.TextInputEditText.FilledBox.Dense = 0x7f1303ee
+=======
+com.dicoding.instahelp:style/Widget.Material3.DrawerLayout = 0x7f130395
+com.dicoding.instahelp:style/Theme.MaterialComponents.Light.Dialog.FixedSize.Bridge = 0x7f13027c
+com.dicoding.instahelp:style/Widget.Material3.MaterialCalendar.HeaderLayout.Fullscreen = 0x7f1303b9
+com.dicoding.instahelp:style/TextAppearance.M3.Sys.Typescale.TitleLarge = 0x7f1301e6
+com.dicoding.instahelp:attr/simpleItemLayout = 0x7f040407
+com.dicoding.instahelp:attr/extendedFloatingActionButtonSurfaceStyle = 0x7f0401d3
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/Widget.Design.BottomNavigationView = 0x7f130348
 com.dicoding.instahelp:drawable/ic_mr_wifi_icon_dark = 0x7f080157
 com.dicoding.instahelp:style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox = 0x7f1302ce
@@ -957,6 +1710,7 @@ com.dicoding.instahelp:color/m3_navigation_item_text_color = 0x7f06009b
 com.dicoding.instahelp:layout/activity_login_instansi = 0x7f0c0021
 com.dicoding.instahelp:string/mtrl_exceed_max_badge_number_content_description = 0x7f1200a9
 com.dicoding.instahelp:macro/m3_comp_time_picker_time_selector_unselected_hover_state_layer_color = 0x7f0d0169
+<<<<<<< HEAD
 com.dicoding.instahelp:color/design_default_color_secondary = 0x7f06004b
 com.dicoding.instahelp:string/abc_capital_off = 0x7f120006
 com.dicoding.instahelp:drawable/ic_mr_button_connected_30_dark = 0x7f080112
@@ -974,13 +1728,42 @@ com.dicoding.instahelp:attr/progressBarPadding = 0x7f0403bf
 com.dicoding.instahelp:style/ThemeOverlay.Material3.DayNight.SideSheetDialog = 0x7f1302aa
 com.dicoding.instahelp:dimen/material_helper_text_font_1_3_padding_top = 0x7f07023f
 com.dicoding.instahelp:style/TextAppearance.MediaRouter.PrimaryText = 0x7f130215
+=======
+com.dicoding.instahelp:string/abc_capital_off = 0x7f120006
+com.dicoding.instahelp:color/design_default_color_secondary = 0x7f06004b
+com.dicoding.instahelp:drawable/ic_mr_button_connected_30_dark = 0x7f080112
+com.dicoding.instahelp:id/neverCompleteToStart = 0x7f0901ca
+com.dicoding.instahelp:styleable/StateSet = 0x7f140096
+com.dicoding.instahelp:string/rincian_instansi = 0x7f1200e9
+com.dicoding.instahelp:drawable/rounded_bottom = 0x7f0801e1
+com.dicoding.instahelp:style/Widget.MaterialComponents.MaterialCalendar.Item = 0x7f130444
+com.dicoding.instahelp:attr/thumbColor = 0x7f0404b3
+com.dicoding.instahelp:dimen/mtrl_navigation_rail_icon_margin = 0x7f0702e3
+com.dicoding.instahelp:animator/fragment_fade_exit = 0x7f020006
+com.dicoding.instahelp:drawable/ic_mr_button_connecting_11_light = 0x7f08012b
+com.dicoding.instahelp:style/TextAppearance.Material3.HeadlineLarge = 0x7f1301f1
+com.dicoding.instahelp:string/bottom_sheet_behavior = 0x7f120023
+com.dicoding.instahelp:id/open_search_view_dummy_toolbar = 0x7f0901db
+com.dicoding.instahelp:attr/tabIndicatorAnimationDuration = 0x7f040454
+com.dicoding.instahelp:dimen/m3_navigation_rail_item_padding_bottom_with_large_font = 0x7f0701d1
+com.dicoding.instahelp:attr/badgeWithTextHeight = 0x7f040063
+com.dicoding.instahelp:macro/m3_comp_fab_surface_container_color = 0x7f0d003d
+com.dicoding.instahelp:attr/progressBarPadding = 0x7f0403bf
+com.dicoding.instahelp:style/ThemeOverlay.Material3.DayNight.SideSheetDialog = 0x7f1302aa
+com.dicoding.instahelp:dimen/material_helper_text_font_1_3_padding_top = 0x7f07023f
+com.dicoding.instahelp:string/material_timepicker_pm = 0x7f120076
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:id/outward = 0x7f0901e5
 com.dicoding.instahelp:attr/shortcutMatchRequired = 0x7f0403f9
 com.dicoding.instahelp:string/plate_number = 0x7f1200e6
 com.dicoding.instahelp:color/androidx_core_ripple_material_light = 0x7f06001b
 com.dicoding.instahelp:style/ThemeOverlay.Material3.FloatingActionButton.Primary = 0x7f1302b5
 com.dicoding.instahelp:attr/panelMenuListTheme = 0x7f04039b
+<<<<<<< HEAD
 com.dicoding.instahelp:string/material_timepicker_pm = 0x7f120076
+=======
+com.dicoding.instahelp:style/TextAppearance.MediaRouter.PrimaryText = 0x7f130215
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:string/path_password_strike_through = 0x7f1200e3
 com.dicoding.instahelp:style/Theme.MaterialComponents.Light.Bridge = 0x7f130274
 com.dicoding.instahelp:macro/m3_comp_outlined_text_field_container_shape = 0x7f0d00b1
@@ -1010,6 +1793,7 @@ com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.SearchResult.Title = 
 com.dicoding.instahelp:drawable/abc_btn_colored_material = 0x7f080030
 com.dicoding.instahelp:string/mtrl_picker_text_input_month_abbr = 0x7f1200c9
 com.dicoding.instahelp:string/mtrl_picker_text_input_date_range_start_hint = 0x7f1200c7
+<<<<<<< HEAD
 com.dicoding.instahelp:style/Base.V26.Theme.AppCompat = 0x7f1300b7
 com.dicoding.instahelp:id/touch_outside = 0x7f09028c
 com.dicoding.instahelp:macro/m3_comp_outlined_text_field_hover_input_text_color = 0x7f0d00bd
@@ -1032,6 +1816,21 @@ com.dicoding.instahelp:style/Base.Animation.AppCompat.Dialog = 0x7f13000e
 com.dicoding.instahelp:style/Base.Theme.MaterialComponents.Light.DarkActionBar.Bridge = 0x7f130073
 com.dicoding.instahelp:string/searchview_clear_text_content_description = 0x7f1200f1
 com.dicoding.instahelp:styleable/ImageFilterView = 0x7f140043
+=======
+com.dicoding.instahelp:styleable/ImageFilterView = 0x7f140043
+com.dicoding.instahelp:string/searchview_clear_text_content_description = 0x7f1200f1
+com.dicoding.instahelp:style/Base.Theme.MaterialComponents.Light.DarkActionBar.Bridge = 0x7f130073
+com.dicoding.instahelp:color/call_notification_answer_color = 0x7f06002b
+com.dicoding.instahelp:style/Base.Theme.AppCompat.Light.Dialog.MinWidth = 0x7f130058
+com.dicoding.instahelp:dimen/m3_comp_slider_disabled_active_track_opacity = 0x7f070184
+com.dicoding.instahelp:dimen/mtrl_btn_text_btn_padding_right = 0x7f070282
+com.dicoding.instahelp:color/mtrl_text_btn_text_color_selector = 0x7f0602ff
+com.dicoding.instahelp:style/Base.Animation.AppCompat.Dialog = 0x7f13000e
+com.dicoding.instahelp:layout/abc_screen_simple_overlay_action_mode = 0x7f0c0016
+com.dicoding.instahelp:style/Widget.MaterialComponents.TextInputEditText.OutlinedBox.Dense = 0x7f130462
+com.dicoding.instahelp:style/ShapeAppearance.M3.Comp.Switch.Handle.Shape = 0x7f130165
+com.dicoding.instahelp:style/Widget.AppCompat.SearchView.ActionBar = 0x7f13033a
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:macro/m3_comp_navigation_drawer_inactive_hover_state_layer_color = 0x7f0d008b
 com.dicoding.instahelp:styleable/KeyCycle = 0x7f140046
 com.dicoding.instahelp:style/TextAppearance.Material3.SearchView.Prefix = 0x7f1301fa
@@ -1063,12 +1862,18 @@ com.dicoding.instahelp:color/m3_sys_color_light_inverse_on_surface = 0x7f0601d5
 com.dicoding.instahelp:macro/m3_comp_secondary_navigation_tab_active_label_text_color = 0x7f0d00fb
 com.dicoding.instahelp:style/Widget.Material3.CompoundButton.Switch = 0x7f130394
 com.dicoding.instahelp:id/centerCrop = 0x7f090087
+<<<<<<< HEAD
 com.dicoding.instahelp:macro/m3_comp_navigation_rail_active_indicator_color = 0x7f0d0096
+=======
+com.dicoding.instahelp:id/image = 0x7f09011e
+com.dicoding.instahelp:attr/itemTextColor = 0x7f04027c
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/ThemeOverlay.Material3.BottomAppBar = 0x7f130299
 com.dicoding.instahelp:string/mtrl_checkbox_state_description_checked = 0x7f1200a5
 com.dicoding.instahelp:macro/m3_comp_switch_selected_handle_color = 0x7f0d0124
 com.dicoding.instahelp:style/Theme.Material3.DynamicColors.DayNight.NoActionBar = 0x7f13024a
 com.dicoding.instahelp:attr/materialSearchViewStyle = 0x7f040317
+<<<<<<< HEAD
 com.dicoding.instahelp:id/image = 0x7f09011e
 com.dicoding.instahelp:attr/itemTextColor = 0x7f04027c
 com.dicoding.instahelp:attr/buttonIconTintMode = 0x7f040099
@@ -1079,6 +1884,22 @@ com.dicoding.instahelp:macro/m3_comp_snackbar_supporting_text_type = 0x7f0d0116
 com.dicoding.instahelp:attr/isMaterial3DynamicColorApplied = 0x7f04025d
 com.dicoding.instahelp:style/ThemeOverlay.Material3.HarmonizedColors = 0x7f1302b9
 com.dicoding.instahelp:string/mtrl_checkbox_button_path_group_name = 0x7f1200a2
+=======
+com.dicoding.instahelp:attr/behavior_saveFlags = 0x7f040075
+com.dicoding.instahelp:macro/m3_comp_snackbar_supporting_text_type = 0x7f0d0116
+com.dicoding.instahelp:style/TextAppearance.Material3.ActionBar.Title = 0x7f1301ea
+com.dicoding.instahelp:attr/isMaterial3DynamicColorApplied = 0x7f04025d
+com.dicoding.instahelp:attr/buttonIconTintMode = 0x7f040099
+com.dicoding.instahelp:styleable/MaterialTextView = 0x7f140061
+com.dicoding.instahelp:macro/m3_comp_navigation_rail_active_indicator_color = 0x7f0d0096
+com.dicoding.instahelp:style/ThemeOverlay.Material3.HarmonizedColors = 0x7f1302b9
+com.dicoding.instahelp:style/ThemeOverlay.MaterialComponents.MaterialCalendar = 0x7f1302ed
+com.dicoding.instahelp:dimen/material_time_picker_minimum_screen_width = 0x7f070245
+com.dicoding.instahelp:style/Widget.AppCompat.Light.PopupMenu.Overflow = 0x7f130329
+com.dicoding.instahelp:string/mtrl_checkbox_button_path_group_name = 0x7f1200a2
+com.dicoding.instahelp:id/above = 0x7f09000e
+com.dicoding.instahelp:dimen/m3_alert_dialog_action_bottom_padding = 0x7f07009d
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:layout/design_navigation_item = 0x7f0c0034
 com.dicoding.instahelp:style/ThemeOverlay.MaterialComponents.MaterialCalendar = 0x7f1302ed
 com.dicoding.instahelp:dimen/m3_alert_dialog_action_bottom_padding = 0x7f07009d
@@ -1089,15 +1910,24 @@ com.dicoding.instahelp:style/TextAppearance.Material3.TitleLarge = 0x7f1301fb
 com.dicoding.instahelp:macro/m3_comp_navigation_drawer_active_hover_icon_color = 0x7f0d007b
 com.dicoding.instahelp:dimen/mtrl_btn_letter_spacing = 0x7f070277
 com.dicoding.instahelp:drawable/ic_mr_button_connected_17_light = 0x7f0800f9
+<<<<<<< HEAD
 com.dicoding.instahelp:style/Theme.Material3.Light.Dialog.Alert = 0x7f130250
 com.dicoding.instahelp:string/mtrl_checkbox_button_path_checked = 0x7f1200a1
+=======
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/MaterialAlertDialog.Material3.Body.Text.CenterStacked = 0x7f130127
-com.dicoding.instahelp:drawable/notification_template_icon_bg = 0x7f0801d7
+com.dicoding.instahelp:style/Theme.Material3.Light.Dialog.Alert = 0x7f130250
 com.dicoding.instahelp:style/Widget.AppCompat.ActionBar.TabView = 0x7f130300
+com.dicoding.instahelp:drawable/notification_template_icon_bg = 0x7f0801d7
+com.dicoding.instahelp:string/mtrl_checkbox_button_path_checked = 0x7f1200a1
 com.dicoding.instahelp:style/Base.Widget.AppCompat.SeekBar = 0x7f1300f6
 com.dicoding.instahelp:string/mtrl_checkbox_button_icon_path_indeterminate = 0x7f12009f
 com.dicoding.instahelp:id/mr_cast_meta_background = 0x7f090170
+<<<<<<< HEAD
 com.dicoding.instahelp:id/neverCompleteToStart = 0x7f0901ca
+=======
+com.dicoding.instahelp:color/m3_sys_color_dark_outline = 0x7f060171
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:color/m3_sys_color_dark_background = 0x7f060160
 com.dicoding.instahelp:drawable/abc_star_half_black_48dp = 0x7f080069
 com.dicoding.instahelp:string/mr_dialog_default_group_name = 0x7f120097
@@ -1110,6 +1940,7 @@ com.dicoding.instahelp:dimen/m3_comp_switch_selected_focus_state_layer_opacity =
 com.dicoding.instahelp:macro/m3_comp_navigation_drawer_inactive_focus_state_layer_color = 0x7f0d0088
 com.dicoding.instahelp:anim/abc_grow_fade_in_from_bottom = 0x7f010002
 com.dicoding.instahelp:color/m3_ref_palette_neutral87 = 0x7f060118
+<<<<<<< HEAD
 com.dicoding.instahelp:color/m3_sys_color_dark_outline = 0x7f060171
 com.dicoding.instahelp:id/open_search_view_dummy_toolbar = 0x7f0901db
 com.dicoding.instahelp:attr/badgeWithTextHeight = 0x7f040063
@@ -1117,10 +1948,16 @@ com.dicoding.instahelp:dimen/m3_navigation_rail_item_padding_bottom_with_large_f
 com.dicoding.instahelp:macro/m3_comp_fab_surface_container_color = 0x7f0d003d
 com.dicoding.instahelp:attr/tabIndicatorAnimationDuration = 0x7f040454
 com.dicoding.instahelp:attr/reactiveGuide_applyToConstraintSet = 0x7f0403ce
+=======
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Text = 0x7f13014d
 com.dicoding.instahelp:style/Theme.Design.Light = 0x7f130233
 com.dicoding.instahelp:attr/boxBackgroundColor = 0x7f040083
 com.dicoding.instahelp:attr/state_with_icon = 0x7f040435
+<<<<<<< HEAD
+=======
+com.dicoding.instahelp:attr/reactiveGuide_applyToConstraintSet = 0x7f0403ce
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:string/mr_controller_disconnect = 0x7f12008e
 com.dicoding.instahelp:drawable/btn_radio_off_to_on_mtrl_animation = 0x7f080085
 com.dicoding.instahelp:drawable/ic_profile = 0x7f08015f
@@ -1149,8 +1986,13 @@ com.dicoding.instahelp:id/action_mode_bar = 0x7f090042
 com.dicoding.instahelp:id/notification_main_column = 0x7f0901d1
 com.dicoding.instahelp:style/Base.V21.ThemeOverlay.Material3.BottomSheetDialog = 0x7f1300ac
 com.dicoding.instahelp:color/m3_navigation_item_ripple_color = 0x7f06009a
+<<<<<<< HEAD
 com.dicoding.instahelp:attr/fontProviderPackage = 0x7f040212
 com.dicoding.instahelp:dimen/mtrl_extended_fab_translation_z_hovered_focused = 0x7f0702c8
+=======
+com.dicoding.instahelp:dimen/mtrl_extended_fab_translation_z_hovered_focused = 0x7f0702c8
+com.dicoding.instahelp:attr/fontProviderPackage = 0x7f040212
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:color/m3_ref_palette_dynamic_neutral50 = 0x7f0600af
 com.dicoding.instahelp:drawable/abc_scrubber_control_off_mtrl_alpha = 0x7f08005e
 com.dicoding.instahelp:macro/m3_comp_navigation_drawer_active_pressed_label_text_color = 0x7f0d0082
@@ -1174,8 +2016,19 @@ com.dicoding.instahelp:layout/mtrl_calendar_horizontal = 0x7f0c0075
 com.dicoding.instahelp:style/Base.Widget.Material3.CompoundButton.CheckBox = 0x7f130105
 com.dicoding.instahelp:style/Platform.ThemeOverlay.AppCompat.Light = 0x7f130140
 com.dicoding.instahelp:style/Widget.Design.BottomSheet.Modal = 0x7f130349
+<<<<<<< HEAD
 com.dicoding.instahelp:style/TextAppearance.Material3.HeadlineSmall = 0x7f1301f3
 com.dicoding.instahelp:style/Widget.MediaRouter.Light.MediaRouteButton = 0x7f13047b
+=======
+com.dicoding.instahelp:style/Widget.MediaRouter.Light.MediaRouteButton = 0x7f13047b
+com.dicoding.instahelp:style/TextAppearance.Material3.HeadlineSmall = 0x7f1301f3
+com.dicoding.instahelp:style/Widget.Material3.Button.TextButton.Icon = 0x7f130372
+com.dicoding.instahelp:attr/textAppearanceHeadline3 = 0x7f04047d
+com.dicoding.instahelp:style/Theme.Design.Light.BottomSheetDialog = 0x7f130234
+com.dicoding.instahelp:attr/lineSpacing = 0x7f0402d7
+com.dicoding.instahelp:id/dragLeft = 0x7f0900c9
+com.dicoding.instahelp:id/content = 0x7f09009e
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:string/material_slider_range_end = 0x7f12006f
 com.dicoding.instahelp:string/material_motion_easing_linear = 0x7f12006d
 com.dicoding.instahelp:string/material_motion_easing_emphasized = 0x7f12006c
@@ -1183,15 +2036,26 @@ com.dicoding.instahelp:attr/helperTextTextAppearance = 0x7f040232
 com.dicoding.instahelp:string/material_motion_easing_decelerated = 0x7f12006b
 com.dicoding.instahelp:string/masuk = 0x7f120061
 com.dicoding.instahelp:string/m3_sys_motion_easing_standard = 0x7f12005e
+<<<<<<< HEAD
 com.dicoding.instahelp:id/btn_forgetAcc = 0x7f09006d
 com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large = 0x7f130024
 com.dicoding.instahelp:id/always = 0x7f09004d
 com.dicoding.instahelp:style/RtlOverlay.Widget.AppCompat.PopupMenuItem = 0x7f130149
+=======
+com.dicoding.instahelp:integer/mtrl_view_invisible = 0x7f0a0046
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:attr/motionEasingStandard = 0x7f040364
 com.dicoding.instahelp:style/TextAppearance.M3.Sys.Typescale.BodyMedium = 0x7f1301db
 com.dicoding.instahelp:integer/mtrl_view_invisible = 0x7f0a0046
 com.dicoding.instahelp:id/open_search_view_toolbar_container = 0x7f0901e3
 com.dicoding.instahelp:attr/textAppearanceSubtitle2 = 0x7f040492
+<<<<<<< HEAD
+=======
+com.dicoding.instahelp:style/RtlOverlay.Widget.AppCompat.PopupMenuItem = 0x7f130149
+com.dicoding.instahelp:id/always = 0x7f09004d
+com.dicoding.instahelp:id/btn_forgetAcc = 0x7f09006d
+com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large = 0x7f130024
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/Base.TextAppearance.MaterialComponents.Headline6 = 0x7f130047
 com.dicoding.instahelp:id/baseline = 0x7f090060
 com.dicoding.instahelp:integer/mtrl_switch_thumb_motion_duration = 0x7f0a003c
@@ -1203,19 +2067,35 @@ com.dicoding.instahelp:attr/searchIcon = 0x7f0403e3
 com.dicoding.instahelp:dimen/mtrl_shape_corner_size_small_component = 0x7f0702f8
 com.dicoding.instahelp:color/m3_sys_color_dark_on_surface_variant = 0x7f06016e
 com.dicoding.instahelp:styleable/MotionTelltales = 0x7f14006f
+<<<<<<< HEAD
 com.dicoding.instahelp:style/ShapeAppearance.Material3.Corner.Large = 0x7f130173
 com.dicoding.instahelp:dimen/m3_sys_motion_easing_legacy_control_x1 = 0x7f070202
 com.dicoding.instahelp:style/Base.MaterialAlertDialog.MaterialComponents.Title.Panel = 0x7f130015
+=======
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/Theme.AppCompat.DayNight.Dialog.Alert = 0x7f130220
+com.dicoding.instahelp:style/ShapeAppearance.Material3.Corner.Large = 0x7f130173
+com.dicoding.instahelp:dimen/m3_sys_motion_easing_legacy_control_x1 = 0x7f070202
+com.dicoding.instahelp:style/Base.MaterialAlertDialog.MaterialComponents.Title.Panel = 0x7f130015
 com.dicoding.instahelp:color/mtrl_textinput_hovered_box_stroke_color = 0x7f060304
 com.dicoding.instahelp:macro/m3_comp_switch_unselected_icon_color = 0x7f0d013a
 com.dicoding.instahelp:attr/layout_constraintEnd_toEndOf = 0x7f04029f
+<<<<<<< HEAD
 com.dicoding.instahelp:attr/textAppearanceHeadline3 = 0x7f04047d
 com.dicoding.instahelp:style/Widget.Material3.Button.TextButton.Icon = 0x7f130372
 com.dicoding.instahelp:style/Theme.Design.Light.BottomSheetDialog = 0x7f130234
 com.dicoding.instahelp:attr/lineSpacing = 0x7f0402d7
 com.dicoding.instahelp:id/dragLeft = 0x7f0900c9
 com.dicoding.instahelp:id/content = 0x7f09009e
+=======
+com.dicoding.instahelp:style/ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox = 0x7f1302f0
+com.dicoding.instahelp:style/Widget.Material3.ChipGroup = 0x7f130385
+com.dicoding.instahelp:id/ignoreRequest = 0x7f09011d
+com.dicoding.instahelp:string/user_status_verified = 0x7f120103
+com.dicoding.instahelp:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date = 0x7f1302e8
+com.dicoding.instahelp:layout/mr_playback_control = 0x7f0c0069
+com.dicoding.instahelp:drawable/ic_dialog_close_light = 0x7f0800a3
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:styleable/TabItem = 0x7f140099
 com.dicoding.instahelp:drawable/ic_gender = 0x7f0800a4
 com.dicoding.instahelp:macro/m3_comp_fab_surface_icon_color = 0x7f0d003e
@@ -1297,16 +2177,27 @@ com.dicoding.instahelp:dimen/material_helper_text_default_padding_top = 0x7f0702
 com.dicoding.instahelp:drawable/mtrl_navigation_bar_item_background = 0x7f0801bd
 com.dicoding.instahelp:styleable/MaterialButtonToggleGroup = 0x7f140056
 com.dicoding.instahelp:macro/m3_comp_outlined_card_disabled_outline_color = 0x7f0d00aa
+<<<<<<< HEAD
 com.dicoding.instahelp:style/TextAppearance.M3.Sys.Typescale.HeadlineLarge = 0x7f1301e0
+=======
+com.dicoding.instahelp:style/Base.Widget.MaterialComponents.PopupMenu.ListPopupWindow = 0x7f13011a
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:string/material_slider_range_start = 0x7f120070
 com.dicoding.instahelp:color/m3_ref_palette_dynamic_primary95 = 0x7f0600df
 com.dicoding.instahelp:style/Widget.Material3.Toolbar.Surface = 0x7f1303fb
 com.dicoding.instahelp:color/m3_sys_color_light_surface_container_lowest = 0x7f0601ef
+<<<<<<< HEAD
 com.dicoding.instahelp:style/Widget.AppCompat.Light.ActionBar.TabView.Inverse = 0x7f13031e
+=======
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:anim/nav_default_pop_enter_anim = 0x7f010032
 com.dicoding.instahelp:attr/elevationOverlayColor = 0x7f0401a8
 com.dicoding.instahelp:string/abc_searchview_description_voice = 0x7f120017
 com.dicoding.instahelp:style/Widget.MaterialComponents.PopupMenu.ContextMenu = 0x7f130453
+<<<<<<< HEAD
+=======
+com.dicoding.instahelp:style/Widget.AppCompat.Light.ActionBar.TabView.Inverse = 0x7f13031e
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:string/abc_menu_ctrl_shortcut_label = 0x7f120009
 com.dicoding.instahelp:attr/thumbIcon = 0x7f0404b6
 com.dicoding.instahelp:string/character_counter_pattern = 0x7f120034
@@ -1318,12 +2209,21 @@ com.dicoding.instahelp:style/TextAppearance.AppCompat.Widget.PopupMenu.Large = 0
 com.dicoding.instahelp:style/Widget.AppCompat.Toolbar.Button.Navigation = 0x7f130344
 com.dicoding.instahelp:attr/fontVariationSettings = 0x7f040216
 com.dicoding.instahelp:macro/m3_comp_outlined_text_field_supporting_text_color = 0x7f0d00c4
+<<<<<<< HEAD
 com.dicoding.instahelp:macro/m3_sys_color_dark_surface_tint = 0x7f0d0175
 com.dicoding.instahelp:style/Base.V23.Theme.AppCompat.Light = 0x7f1300b2
 com.dicoding.instahelp:style/TextAppearance.Material3.SearchView = 0x7f1301f9
 com.dicoding.instahelp:style/Base.Widget.AppCompat.CompoundButton.CheckBox = 0x7f1300d7
 com.dicoding.instahelp:id/TOP_START = 0x7f09000d
 com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Display4 = 0x7f13001f
+=======
+com.dicoding.instahelp:id/TOP_START = 0x7f09000d
+com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Display4 = 0x7f13001f
+com.dicoding.instahelp:style/Base.Widget.AppCompat.CompoundButton.CheckBox = 0x7f1300d7
+com.dicoding.instahelp:macro/m3_sys_color_dark_surface_tint = 0x7f0d0175
+com.dicoding.instahelp:style/Base.V23.Theme.AppCompat.Light = 0x7f1300b2
+com.dicoding.instahelp:style/TextAppearance.Material3.SearchView = 0x7f1301f9
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:attr/dayStyle = 0x7f040176
 com.dicoding.instahelp:style/ShapeAppearance.M3.Comp.BottomAppBar.Container.Shape = 0x7f130159
 com.dicoding.instahelp:color/m3_ref_palette_dynamic_neutral0 = 0x7f0600a4
@@ -1339,6 +2239,7 @@ com.dicoding.instahelp:macro/m3_comp_top_app_bar_large_headline_color = 0x7f0d01
 com.dicoding.instahelp:macro/m3_comp_outlined_text_field_disabled_outline_color = 0x7f0d00b4
 com.dicoding.instahelp:style/Base.V24.Theme.Material3.Dark = 0x7f1300b3
 com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Medium = 0x7f130026
+<<<<<<< HEAD
 com.dicoding.instahelp:macro/m3_comp_outlined_text_field_disabled_supporting_text_color = 0x7f0d00b5
 com.dicoding.instahelp:macro/m3_comp_time_picker_time_selector_unselected_label_text_color = 0x7f0d016a
 com.dicoding.instahelp:style/Widget.Material3.Slider.Label = 0x7f1303e4
@@ -1347,6 +2248,16 @@ com.dicoding.instahelp:color/m3_ref_palette_dynamic_tertiary100 = 0x7f0600f0
 com.dicoding.instahelp:attr/logoAdjustViewBounds = 0x7f0402e9
 com.dicoding.instahelp:style/TextAppearance.M3.Sys.Typescale.TitleSmall = 0x7f1301e8
 com.dicoding.instahelp:attr/subtitleTextStyle = 0x7f040445
+=======
+com.dicoding.instahelp:style/Widget.Material3.Slider.Label = 0x7f1303e4
+com.dicoding.instahelp:macro/m3_comp_outlined_text_field_disabled_supporting_text_color = 0x7f0d00b5
+com.dicoding.instahelp:macro/m3_comp_time_picker_time_selector_unselected_label_text_color = 0x7f0d016a
+com.dicoding.instahelp:attr/subtitleTextStyle = 0x7f040445
+com.dicoding.instahelp:style/TextAppearance.M3.Sys.Typescale.TitleSmall = 0x7f1301e8
+com.dicoding.instahelp:attr/logoAdjustViewBounds = 0x7f0402e9
+com.dicoding.instahelp:style/Widget.AppCompat.TextView = 0x7f130341
+com.dicoding.instahelp:color/m3_ref_palette_dynamic_tertiary100 = 0x7f0600f0
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:macro/m3_comp_extended_fab_primary_icon_color = 0x7f0d002e
 com.dicoding.instahelp:style/Theme.AppCompat.DayNight = 0x7f13021d
 com.dicoding.instahelp:styleable/SnackbarLayout = 0x7f14008e
@@ -1364,6 +2275,13 @@ com.dicoding.instahelp:drawable/mtrl_dialog_background = 0x7f0801b3
 com.dicoding.instahelp:string/search_menu_title = 0x7f1200ec
 com.dicoding.instahelp:color/m3_sys_color_light_on_error = 0x7f0601d9
 com.dicoding.instahelp:string/ic_media_route_learn_more_accessibility = 0x7f120047
+<<<<<<< HEAD
+=======
+com.dicoding.instahelp:style/Widget.MaterialComponents.Chip.Entry = 0x7f130422
+com.dicoding.instahelp:color/material_dynamic_secondary99 = 0x7f06025b
+com.dicoding.instahelp:attr/alpha = 0x7f040031
+com.dicoding.instahelp:style/Theme.MaterialComponents.DayNight.Dialog.MinWidth = 0x7f130264
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:attr/textAppearanceHeadlineSmall = 0x7f040483
 com.dicoding.instahelp:id/tv_header_subtitle = 0x7f09029d
 com.dicoding.instahelp:dimen/m3_badge_with_text_vertical_offset = 0x7f0700ba
@@ -1373,10 +2291,13 @@ com.dicoding.instahelp:string/mtrl_picker_confirm = 0x7f1200b1
 com.dicoding.instahelp:drawable/ic_mr_button_connected_22_light = 0x7f080103
 com.dicoding.instahelp:style/Widget.Material3.FloatingActionButton.Small.Primary = 0x7f1303a4
 com.dicoding.instahelp:attr/state_collapsed = 0x7f04042e
+<<<<<<< HEAD
 com.dicoding.instahelp:style/Widget.MaterialComponents.Chip.Entry = 0x7f130422
 com.dicoding.instahelp:color/material_dynamic_secondary99 = 0x7f06025b
 com.dicoding.instahelp:attr/alpha = 0x7f040031
 com.dicoding.instahelp:style/Theme.MaterialComponents.DayNight.Dialog.MinWidth = 0x7f130264
+=======
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/TextAppearance.AppCompat.Light.SearchResult.Subtitle = 0x7f1301a2
 com.dicoding.instahelp:style/ThemeOverlay.Material3.NavigationRailView = 0x7f1302c4
 com.dicoding.instahelp:color/tooltip_background_light = 0x7f060325
@@ -1391,12 +2312,18 @@ com.dicoding.instahelp:drawable/ic_search = 0x7f080162
 com.dicoding.instahelp:macro/m3_comp_switch_unselected_hover_icon_color = 0x7f0d0136
 com.dicoding.instahelp:dimen/m3_comp_time_picker_period_selector_hover_state_layer_opacity = 0x7f0701a2
 com.dicoding.instahelp:macro/m3_comp_text_button_focus_state_layer_color = 0x7f0d0142
+<<<<<<< HEAD
 com.dicoding.instahelp:id/disableScroll = 0x7f0900c1
 com.dicoding.instahelp:attr/colorOnSurfaceInverse = 0x7f040111
 com.dicoding.instahelp:style/Base.Widget.MaterialComponents.PopupMenu.Overflow = 0x7f13011b
+=======
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:macro/m3_comp_switch_unselected_track_color = 0x7f0d0140
-com.dicoding.instahelp:style/Theme.Material3.DayNight.Dialog.Alert = 0x7f130242
+com.dicoding.instahelp:style/Base.Widget.MaterialComponents.PopupMenu.Overflow = 0x7f13011b
 com.dicoding.instahelp:color/mr_cast_route_divider_dark = 0x7f0602c4
+com.dicoding.instahelp:style/Theme.Material3.DayNight.Dialog.Alert = 0x7f130242
+com.dicoding.instahelp:id/disableScroll = 0x7f0900c1
+com.dicoding.instahelp:attr/colorOnSurfaceInverse = 0x7f040111
 com.dicoding.instahelp:macro/m3_comp_switch_unselected_pressed_track_color = 0x7f0d013e
 com.dicoding.instahelp:attr/splitMinWidth = 0x7f040419
 com.dicoding.instahelp:styleable/AppCompatTextHelper = 0x7f140013
@@ -1428,12 +2355,12 @@ com.dicoding.instahelp:attr/materialDividerStyle = 0x7f040310
 com.dicoding.instahelp:style/Widget.Material3.Chip.Filter.Elevated = 0x7f13037e
 com.dicoding.instahelp:macro/m3_comp_switch_selected_pressed_handle_color = 0x7f0d012a
 com.dicoding.instahelp:attr/waveShape = 0x7f040516
-com.dicoding.instahelp:style/Base.Widget.Material3.TabLayout.OnSurface = 0x7f130111
-com.dicoding.instahelp:attr/indicatorColor = 0x7f040254
-com.dicoding.instahelp:macro/m3_comp_switch_selected_hover_handle_color = 0x7f0d0125
-com.dicoding.instahelp:color/m3_sys_color_dynamic_light_surface_container_highest = 0x7f0601bf
 com.dicoding.instahelp:id/availability_badge = 0x7f09005d
 com.dicoding.instahelp:attr/tickColorInactive = 0x7f0404c4
+com.dicoding.instahelp:style/Base.Widget.Material3.TabLayout.OnSurface = 0x7f130111
+com.dicoding.instahelp:color/m3_sys_color_dynamic_light_surface_container_highest = 0x7f0601bf
+com.dicoding.instahelp:attr/indicatorColor = 0x7f040254
+com.dicoding.instahelp:macro/m3_comp_switch_selected_hover_handle_color = 0x7f0d0125
 com.dicoding.instahelp:style/ThemeOverlay.Material3.Button.ElevatedButton = 0x7f13029e
 com.dicoding.instahelp:style/ThemeOverlay.AppCompat.DayNight = 0x7f13028c
 com.dicoding.instahelp:style/Base.Theme.AppCompat.Light.Dialog.FixedSize = 0x7f130057
@@ -1459,6 +2386,7 @@ com.dicoding.instahelp:color/material_dynamic_secondary10 = 0x7f060250
 com.dicoding.instahelp:style/ShapeAppearance.M3.Comp.NavigationDrawer.ActiveIndicator.Shape = 0x7f13015e
 com.dicoding.instahelp:string/buat_akun = 0x7f120029
 com.dicoding.instahelp:macro/m3_comp_dialog_headline_type = 0x7f0d0025
+<<<<<<< HEAD
 com.dicoding.instahelp:macro/m3_comp_date_picker_modal_year_selection_year_unselected_label_text_color = 0x7f0d0021
 com.dicoding.instahelp:style/Widget.Material3.FloatingActionButton.Large.Tertiary = 0x7f1303a1
 com.dicoding.instahelp:string/profile_picture = 0x7f1200e8
@@ -1468,6 +2396,17 @@ com.dicoding.instahelp:id/hospital_location = 0x7f090117
 com.dicoding.instahelp:styleable/CustomAttribute = 0x7f140031
 com.dicoding.instahelp:macro/m3_comp_slider_handle_color = 0x7f0d010f
 com.dicoding.instahelp:id/action_menu_presenter = 0x7f090041
+=======
+com.dicoding.instahelp:style/Widget.Material3.FloatingActionButton.Large.Tertiary = 0x7f1303a1
+com.dicoding.instahelp:macro/m3_comp_date_picker_modal_year_selection_year_unselected_label_text_color = 0x7f0d0021
+com.dicoding.instahelp:styleable/CustomAttribute = 0x7f140031
+com.dicoding.instahelp:macro/m3_comp_slider_handle_color = 0x7f0d010f
+com.dicoding.instahelp:id/action_menu_presenter = 0x7f090041
+com.dicoding.instahelp:string/profile_picture = 0x7f1200e8
+com.dicoding.instahelp:id/hospital_location = 0x7f090117
+com.dicoding.instahelp:style/ThemeOverlay.Material3.BottomNavigationView = 0x7f13029b
+com.dicoding.instahelp:dimen/item_touch_helper_swipe_escape_velocity = 0x7f07009c
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:macro/m3_comp_sheet_side_docked_standard_container_color = 0x7f0d010a
 com.dicoding.instahelp:macro/m3_comp_sheet_side_docked_modal_container_shape = 0x7f0d0109
 com.dicoding.instahelp:string/mtrl_picker_end_date_description = 0x7f1200b6
@@ -1511,9 +2450,15 @@ com.dicoding.instahelp:macro/m3_comp_progress_indicator_track_color = 0x7f0d00d5
 com.dicoding.instahelp:macro/m3_comp_outlined_button_hover_outline_color = 0x7f0d00a5
 com.dicoding.instahelp:integer/material_motion_duration_long_1 = 0x7f0a0027
 com.dicoding.instahelp:dimen/mtrl_calendar_navigation_bottom_padding = 0x7f07029f
+<<<<<<< HEAD
 com.dicoding.instahelp:string/material_hour_24h_suffix = 0x7f120065
 com.dicoding.instahelp:attr/ifTagNotSet = 0x7f04024b
 com.dicoding.instahelp:id/toolbar = 0x7f090284
+=======
+com.dicoding.instahelp:attr/ifTagNotSet = 0x7f04024b
+com.dicoding.instahelp:id/toolbar = 0x7f090284
+com.dicoding.instahelp:string/material_hour_24h_suffix = 0x7f120065
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:attr/layoutDuringTransition = 0x7f04028b
 com.dicoding.instahelp:macro/m3_comp_outlined_text_field_input_text_type = 0x7f0d00c1
 com.dicoding.instahelp:style/ShapeAppearance.M3.Comp.NavigationRail.ActiveIndicator.Shape = 0x7f13015f
@@ -1529,6 +2474,12 @@ com.dicoding.instahelp:macro/m3_comp_switch_selected_track_color = 0x7f0d012e
 com.dicoding.instahelp:macro/m3_comp_primary_navigation_tab_with_icon_inactive_icon_color = 0x7f0d00d0
 com.dicoding.instahelp:macro/m3_comp_primary_navigation_tab_inactive_hover_state_layer_color = 0x7f0d00cd
 com.dicoding.instahelp:style/Base.Widget.MaterialComponents.Chip = 0x7f130115
+<<<<<<< HEAD
+=======
+com.dicoding.instahelp:macro/m3_comp_primary_navigation_tab_active_indicator_color = 0x7f0d00c9
+com.dicoding.instahelp:style/Base.Theme.Material3.Dark.BottomSheetDialog = 0x7f13005c
+com.dicoding.instahelp:style/TextAppearance.AppCompat.Light.SearchResult.Title = 0x7f1301a3
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:macro/m3_comp_plain_tooltip_supporting_text_type = 0x7f0d00c6
 com.dicoding.instahelp:style/Theme.Material3.DynamicColors.Dark = 0x7f130247
 com.dicoding.instahelp:string/selanjutnya = 0x7f1200f5
@@ -1559,7 +2510,10 @@ com.dicoding.instahelp:styleable/PropertySet = 0x7f140080
 com.dicoding.instahelp:id/dragEnd = 0x7f0900c8
 com.dicoding.instahelp:style/ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox.Dense = 0x7f1302f3
 com.dicoding.instahelp:color/cardview_dark_background = 0x7f06002d
+<<<<<<< HEAD
 com.dicoding.instahelp:style/TextAppearance.MaterialComponents.Subtitle2 = 0x7f13020c
+=======
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/Theme.MaterialComponents.Light.BottomSheetDialog = 0x7f130273
 com.dicoding.instahelp:drawable/ic_mr_button_connecting_03_dark = 0x7f08011a
 com.dicoding.instahelp:id/tabLayout = 0x7f09025b
@@ -1570,11 +2524,17 @@ com.dicoding.instahelp:attr/transitionEasing = 0x7f0404fa
 com.dicoding.instahelp:attr/listChoiceIndicatorMultipleAnimated = 0x7f0402da
 com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Body2 = 0x7f130019
 com.dicoding.instahelp:macro/m3_comp_navigation_rail_inactive_hover_state_layer_color = 0x7f0d009b
+<<<<<<< HEAD
 com.dicoding.instahelp:style/TextAppearance.AppCompat.Light.SearchResult.Title = 0x7f1301a3
 com.dicoding.instahelp:macro/m3_comp_primary_navigation_tab_active_indicator_color = 0x7f0d00c9
 com.dicoding.instahelp:style/Base.Theme.Material3.Dark.BottomSheetDialog = 0x7f13005c
 com.dicoding.instahelp:string/password_hint = 0x7f1200de
 com.dicoding.instahelp:macro/m3_comp_navigation_rail_inactive_focus_state_layer_color = 0x7f0d009a
+=======
+com.dicoding.instahelp:id/blocking = 0x7f090065
+com.dicoding.instahelp:id/animateToEnd = 0x7f090051
+com.dicoding.instahelp:style/Theme.MaterialComponents.DayNight.DarkActionBar = 0x7f13025c
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:id/mr_chooser_wifi_warning_container = 0x7f090187
 com.dicoding.instahelp:id/shortcut = 0x7f090233
 com.dicoding.instahelp:id/none = 0x7f0901cd
@@ -1582,6 +2542,7 @@ com.dicoding.instahelp:style/Widget.MaterialComponents.ExtendedFloatingActionBut
 com.dicoding.instahelp:color/material_personalized_color_on_error_container = 0x7f060288
 com.dicoding.instahelp:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Title = 0x7f13014e
 com.dicoding.instahelp:style/Theme.AppCompat.DayNight.NoActionBar = 0x7f130223
+<<<<<<< HEAD
 com.dicoding.instahelp:id/blocking = 0x7f090065
 com.dicoding.instahelp:style/ShapeAppearance.Material3.Corner.None = 0x7f130175
 com.dicoding.instahelp:layout/mtrl_calendar_day = 0x7f0c0072
@@ -1589,13 +2550,26 @@ com.dicoding.instahelp:styleable/Tooltip = 0x7f1400a1
 com.dicoding.instahelp:style/Base.Theme.Material3.Light.Dialog = 0x7f130063
 com.dicoding.instahelp:id/animateToEnd = 0x7f090051
 com.dicoding.instahelp:style/Theme.MaterialComponents.DayNight.DarkActionBar = 0x7f13025c
+=======
+com.dicoding.instahelp:string/password_hint = 0x7f1200de
+com.dicoding.instahelp:macro/m3_comp_navigation_rail_inactive_focus_state_layer_color = 0x7f0d009a
+com.dicoding.instahelp:styleable/Tooltip = 0x7f1400a1
+com.dicoding.instahelp:style/Base.Theme.Material3.Light.Dialog = 0x7f130063
+com.dicoding.instahelp:style/ShapeAppearance.Material3.Corner.None = 0x7f130175
+com.dicoding.instahelp:layout/mtrl_calendar_day = 0x7f0c0072
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:macro/m3_comp_navigation_rail_container_color = 0x7f0d0099
 com.dicoding.instahelp:drawable/ic_mr_button_connected_26_dark = 0x7f08010a
 com.dicoding.instahelp:string/mtrl_picker_text_input_date_hint = 0x7f1200c5
 com.dicoding.instahelp:macro/m3_comp_navigation_rail_active_pressed_state_layer_color = 0x7f0d0098
 com.dicoding.instahelp:macro/m3_comp_navigation_rail_active_label_text_color = 0x7f0d0097
+<<<<<<< HEAD
 com.dicoding.instahelp:style/Base.Widget.Material3.BottomNavigationView = 0x7f130101
 com.dicoding.instahelp:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox.Dense = 0x7f1302d8
+=======
+com.dicoding.instahelp:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox.Dense = 0x7f1302d8
+com.dicoding.instahelp:style/Base.Widget.Material3.BottomNavigationView = 0x7f130101
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:layout/design_layout_snackbar_include = 0x7f0c0030
 com.dicoding.instahelp:style/Base.Widget.Material3.FloatingActionButton = 0x7f13010a
 com.dicoding.instahelp:layout/material_textinput_timepicker = 0x7f0c0056
@@ -1683,6 +2657,7 @@ com.dicoding.instahelp:drawable/ic_mr_button_connecting_19_dark = 0x7f08013a
 com.dicoding.instahelp:macro/m3_comp_dialog_supporting_text_type = 0x7f0d0027
 com.dicoding.instahelp:string/mr_controller_expand_group = 0x7f12008f
 com.dicoding.instahelp:attr/contentPaddingStart = 0x7f04014b
+<<<<<<< HEAD
 com.dicoding.instahelp:attr/animateRelativeTo = 0x7f040038
 com.dicoding.instahelp:style/ThemeOverlay.AppCompat = 0x7f130288
 com.dicoding.instahelp:style/ThemeOverlay.AppCompat.Dialog.Alert = 0x7f13028f
@@ -1695,13 +2670,31 @@ com.dicoding.instahelp:color/m3_ref_palette_dynamic_neutral_variant60 = 0x7f0600
 com.dicoding.instahelp:attr/mediaRouteHeaderTextAppearance = 0x7f040332
 com.dicoding.instahelp:interpolator/m3_sys_motion_easing_emphasized = 0x7f0b0007
 com.dicoding.instahelp:macro/m3_comp_checkbox_unselected_outline_color = 0x7f0d000c
+=======
+com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Widget.ActionBar.Menu = 0x7f130033
+com.dicoding.instahelp:style/Widget.MaterialComponents.MaterialCalendar.YearNavigationButton = 0x7f13044a
+com.dicoding.instahelp:style/ThemeOverlay.AppCompat.Dialog.Alert = 0x7f13028f
+com.dicoding.instahelp:string/mr_user_route_category_name = 0x7f12009b
+com.dicoding.instahelp:color/m3_sys_color_dynamic_dark_surface_container = 0x7f06019b
+com.dicoding.instahelp:attr/animateRelativeTo = 0x7f040038
+com.dicoding.instahelp:style/ThemeOverlay.AppCompat = 0x7f130288
+com.dicoding.instahelp:color/m3_ref_palette_dynamic_neutral_variant60 = 0x7f0600c9
+com.dicoding.instahelp:style/Widget.MaterialComponents.BottomAppBar.PrimarySurface = 0x7f13040c
+com.dicoding.instahelp:attr/mediaRouteHeaderTextAppearance = 0x7f040332
+com.dicoding.instahelp:interpolator/m3_sys_motion_easing_emphasized = 0x7f0b0007
+com.dicoding.instahelp:macro/m3_comp_checkbox_unselected_outline_color = 0x7f0d000c
+com.dicoding.instahelp:drawable/ic_mr_button_connected_21_dark = 0x7f080100
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:macro/m3_comp_dialog_headline_color = 0x7f0d0024
 com.dicoding.instahelp:color/m3_ref_palette_dynamic_secondary80 = 0x7f0600ea
 com.dicoding.instahelp:id/center = 0x7f090086
 com.dicoding.instahelp:attr/constraintRotate = 0x7f040137
 com.dicoding.instahelp:color/design_dark_default_color_primary_variant = 0x7f06003d
 com.dicoding.instahelp:style/Widget.AppCompat.Light.ActionBar.Solid = 0x7f130317
+<<<<<<< HEAD
 com.dicoding.instahelp:drawable/ic_mr_button_connected_21_dark = 0x7f080100
+=======
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:string/character_counter_content_description = 0x7f120032
 com.dicoding.instahelp:macro/m3_comp_dialog_container_shape = 0x7f0d0023
 com.dicoding.instahelp:macro/m3_comp_dialog_container_color = 0x7f0d0022
@@ -1735,8 +2728,15 @@ com.dicoding.instahelp:id/transition_scene_layoutid_cache = 0x7f090295
 com.dicoding.instahelp:id/mtrl_calendar_months = 0x7f0901a8
 com.dicoding.instahelp:macro/m3_comp_date_picker_modal_container_shape = 0x7f0d000e
 com.dicoding.instahelp:styleable/ThemeEnforcement = 0x7f14009f
+<<<<<<< HEAD
 com.dicoding.instahelp:string/search_rejected = 0x7f1200ee
 com.dicoding.instahelp:style/Base.V14.Theme.MaterialComponents.Light.Dialog = 0x7f13009a
+=======
+com.dicoding.instahelp:drawable/rounded_bg = 0x7f0801df
+com.dicoding.instahelp:attr/materialIconButtonStyle = 0x7f040314
+com.dicoding.instahelp:style/Base.V14.Theme.MaterialComponents.Light.Dialog = 0x7f13009a
+com.dicoding.instahelp:string/search_rejected = 0x7f1200ee
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:macro/m3_comp_date_picker_modal_container_color = 0x7f0d000d
 com.dicoding.instahelp:style/TextAppearance.Compat.Notification.Info = 0x7f1301c6
 com.dicoding.instahelp:drawable/rounded_bg = 0x7f0801df
@@ -1771,6 +2771,7 @@ com.dicoding.instahelp:attr/textAppearanceHeadline1 = 0x7f04047b
 com.dicoding.instahelp:layout/support_simple_spinner_dropdown_item = 0x7f0c009e
 com.dicoding.instahelp:dimen/m3_comp_snackbar_container_elevation = 0x7f070189
 com.dicoding.instahelp:interpolator/btn_radio_to_off_mtrl_animation_interpolator_0 = 0x7f0b0004
+<<<<<<< HEAD
 com.dicoding.instahelp:attr/extendMotionSpec = 0x7f0401ce
 com.dicoding.instahelp:attr/chipIconVisible = 0x7f0400cb
 com.dicoding.instahelp:string/mr_controller_pause = 0x7f120092
@@ -1783,6 +2784,20 @@ com.dicoding.instahelp:attr/tooltipStyle = 0x7f0404e4
 com.dicoding.instahelp:attr/itemMaxLines = 0x7f040268
 com.dicoding.instahelp:string/mtrl_picker_day_of_week_column_header = 0x7f1200b5
 com.dicoding.instahelp:attr/carousel_forwardTransition = 0x7f0400ab
+=======
+com.dicoding.instahelp:string/mtrl_picker_day_of_week_column_header = 0x7f1200b5
+com.dicoding.instahelp:attr/carousel_forwardTransition = 0x7f0400ab
+com.dicoding.instahelp:string/mr_controller_pause = 0x7f120092
+com.dicoding.instahelp:attr/tickVisible = 0x7f0404ca
+com.dicoding.instahelp:attr/colorOnTertiaryFixed = 0x7f040115
+com.dicoding.instahelp:drawable/ic_mr_button_connected_16_dark = 0x7f0800f6
+com.dicoding.instahelp:attr/extendMotionSpec = 0x7f0401ce
+com.dicoding.instahelp:attr/chipIconVisible = 0x7f0400cb
+com.dicoding.instahelp:attr/itemMaxLines = 0x7f040268
+com.dicoding.instahelp:attr/tooltipStyle = 0x7f0404e4
+com.dicoding.instahelp:style/Base.ThemeOverlay.Material3.SideSheetDialog = 0x7f130084
+com.dicoding.instahelp:dimen/m3_navigation_item_vertical_padding = 0x7f0701c6
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:layout/abc_search_view = 0x7f0c0019
 com.dicoding.instahelp:layout/mr_cast_route_item = 0x7f0c0061
 com.dicoding.instahelp:style/Widget.Material3.CircularProgressIndicator.Legacy.ExtraSmall = 0x7f130389
@@ -1977,11 +2992,19 @@ com.dicoding.instahelp:dimen/m3_comp_time_picker_period_selector_pressed_state_l
 com.dicoding.instahelp:color/m3_default_color_primary_text = 0x7f060080
 com.dicoding.instahelp:integer/mtrl_chip_anim_duration = 0x7f0a003b
 com.dicoding.instahelp:style/Widget.Material3.Chip.Filter = 0x7f13037d
+<<<<<<< HEAD
 com.dicoding.instahelp:id/withinBounds = 0x7f0902bb
 com.dicoding.instahelp:attr/paddingBottomNoButtons = 0x7f040391
 com.dicoding.instahelp:style/Widget.Material3.Button = 0x7f130364
 com.dicoding.instahelp:layout/abc_dialog_title_material = 0x7f0c000c
 com.dicoding.instahelp:style/TextAppearance.Material3.DisplayMedium = 0x7f1301ef
+=======
+com.dicoding.instahelp:attr/paddingBottomNoButtons = 0x7f040391
+com.dicoding.instahelp:id/withinBounds = 0x7f0902bb
+com.dicoding.instahelp:style/TextAppearance.Material3.DisplayMedium = 0x7f1301ef
+com.dicoding.instahelp:layout/abc_dialog_title_material = 0x7f0c000c
+com.dicoding.instahelp:style/Widget.Material3.Button = 0x7f130364
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:integer/mtrl_calendar_header_orientation = 0x7f0a0036
 com.dicoding.instahelp:style/Widget.Material3.FloatingActionButton.Small.Surface = 0x7f1303a6
 com.dicoding.instahelp:integer/mtrl_btn_anim_delay_ms = 0x7f0a0034
@@ -1995,6 +3018,11 @@ com.dicoding.instahelp:dimen/mtrl_shape_corner_size_large_component = 0x7f0702f6
 com.dicoding.instahelp:integer/material_motion_duration_long_2 = 0x7f0a0028
 com.dicoding.instahelp:style/Base.Widget.AppCompat.SearchView = 0x7f1300f4
 com.dicoding.instahelp:integer/m3_sys_shape_corner_medium_corner_family = 0x7f0a0025
+<<<<<<< HEAD
+=======
+com.dicoding.instahelp:string/urgent_call_icon_desc = 0x7f120100
+com.dicoding.instahelp:color/m3_sys_color_dynamic_light_surface_container_low = 0x7f0601c0
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/Widget.Material3.CardView.Filled = 0x7f130378
 com.dicoding.instahelp:attr/motionEffect_translationY = 0x7f04036e
 com.dicoding.instahelp:styleable/ActionBar = 0x7f140000
@@ -2002,8 +3030,11 @@ com.dicoding.instahelp:styleable/NavigationBarActiveIndicator = 0x7f140077
 com.dicoding.instahelp:id/beginOnFirstDraw = 0x7f090061
 com.dicoding.instahelp:attr/borderlessButtonStyle = 0x7f04007c
 com.dicoding.instahelp:style/Widget.Material3.Search.ActionButton.Overflow = 0x7f1303d8
+<<<<<<< HEAD
 com.dicoding.instahelp:string/urgent_call_icon_desc = 0x7f120100
 com.dicoding.instahelp:color/m3_sys_color_dynamic_light_surface_container_low = 0x7f0601c0
+=======
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:macro/m3_comp_secondary_navigation_tab_hover_state_layer_color = 0x7f0d00fe
 com.dicoding.instahelp:string/mtrl_switch_thumb_group_name = 0x7f1200d0
 com.dicoding.instahelp:integer/m3_sys_shape_corner_full_corner_family = 0x7f0a0023
@@ -2035,12 +3066,21 @@ com.dicoding.instahelp:integer/m3_btn_anim_delay_ms = 0x7f0a000b
 com.dicoding.instahelp:styleable/KeyAttribute = 0x7f140045
 com.dicoding.instahelp:style/Base.Theme.AppCompat.Light = 0x7f130053
 com.dicoding.instahelp:dimen/m3_alert_dialog_elevation = 0x7f0700a0
+<<<<<<< HEAD
 com.dicoding.instahelp:color/m3_button_background_color_selector = 0x7f06006a
 com.dicoding.instahelp:attr/animateCircleAngleTo = 0x7f040035
 com.dicoding.instahelp:id/btn_back = 0x7f09006c
 com.dicoding.instahelp:integer/design_tab_indicator_anim_duration_ms = 0x7f0a0008
 com.dicoding.instahelp:macro/m3_comp_filled_button_label_text_color = 0x7f0d0044
 com.dicoding.instahelp:string/material_hour_selection = 0x7f120066
+=======
+com.dicoding.instahelp:string/material_hour_selection = 0x7f120066
+com.dicoding.instahelp:color/m3_button_background_color_selector = 0x7f06006a
+com.dicoding.instahelp:macro/m3_comp_filled_button_label_text_color = 0x7f0d0044
+com.dicoding.instahelp:integer/design_tab_indicator_anim_duration_ms = 0x7f0a0008
+com.dicoding.instahelp:attr/animateCircleAngleTo = 0x7f040035
+com.dicoding.instahelp:id/btn_back = 0x7f09006c
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:attr/colorSecondaryVariant = 0x7f040125
 com.dicoding.instahelp:integer/design_snackbar_text_max_lines = 0x7f0a0007
 com.dicoding.instahelp:id/mr_picker_header_name = 0x7f090198
@@ -2057,10 +3097,17 @@ com.dicoding.instahelp:attr/customBoolean = 0x7f040168
 com.dicoding.instahelp:drawable/abc_ic_menu_cut_mtrl_alpha = 0x7f080044
 com.dicoding.instahelp:dimen/m3_badge_with_text_horizontal_offset = 0x7f0700b7
 com.dicoding.instahelp:dimen/notification_subtext_size = 0x7f07032c
+<<<<<<< HEAD
 com.dicoding.instahelp:macro/m3_comp_navigation_bar_inactive_icon_color = 0x7f0d0072
 com.dicoding.instahelp:integer/m3_sys_shape_corner_extra_large_corner_family = 0x7f0a0021
 com.dicoding.instahelp:string/side_sheet_behavior = 0x7f1200f7
 com.dicoding.instahelp:styleable/RadialViewGroup = 0x7f140081
+=======
+com.dicoding.instahelp:styleable/RadialViewGroup = 0x7f140081
+com.dicoding.instahelp:string/side_sheet_behavior = 0x7f1200f7
+com.dicoding.instahelp:integer/m3_sys_shape_corner_extra_large_corner_family = 0x7f0a0021
+com.dicoding.instahelp:macro/m3_comp_navigation_bar_inactive_icon_color = 0x7f0d0072
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:drawable/abc_ic_go_search_api_material = 0x7f080042
 com.dicoding.instahelp:integer/abc_config_activityDefaultDur = 0x7f0a0000
 com.dicoding.instahelp:attr/dividerHorizontal = 0x7f040188
@@ -2168,11 +3215,18 @@ com.dicoding.instahelp:id/sliding_pane_detail_container = 0x7f09023b
 com.dicoding.instahelp:styleable/CoordinatorLayout = 0x7f14002f
 com.dicoding.instahelp:drawable/ic_mr_button_connected_15_light = 0x7f0800f5
 com.dicoding.instahelp:string/kami_siap_m = 0x7f12004a
+<<<<<<< HEAD
 com.dicoding.instahelp:color/m3_sys_color_dynamic_dark_surface_bright = 0x7f06019a
+=======
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/Theme.MaterialComponents.DayNight.NoActionBar.Bridge = 0x7f130268
 com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small = 0x7f130025
 com.dicoding.instahelp:attr/colorOnSurfaceVariant = 0x7f040112
 com.dicoding.instahelp:drawable/ic_m3_chip_checked_circle = 0x7f0800cb
+<<<<<<< HEAD
+=======
+com.dicoding.instahelp:color/m3_sys_color_dynamic_dark_surface_bright = 0x7f06019a
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:color/m3_ref_palette_dynamic_tertiary99 = 0x7f0600fa
 com.dicoding.instahelp:color/material_dynamic_neutral_variant30 = 0x7f060239
 com.dicoding.instahelp:layout/m3_alert_dialog_title = 0x7f0c004b
@@ -2510,15 +3564,26 @@ com.dicoding.instahelp:attr/actionButtonStyle = 0x7f04000e
 com.dicoding.instahelp:id/et_address = 0x7f0900e0
 com.dicoding.instahelp:styleable/State = 0x7f140093
 com.dicoding.instahelp:drawable/mr_button_dark_static = 0x7f08018f
+<<<<<<< HEAD
+=======
+com.dicoding.instahelp:attr/track = 0x7f0404ea
+com.dicoding.instahelp:id/hospital_name = 0x7f090118
+com.dicoding.instahelp:style/Widget.MaterialComponents.LinearProgressIndicator = 0x7f130431
+com.dicoding.instahelp:drawable/ic_mr_button_connecting_07_light = 0x7f080123
+com.dicoding.instahelp:dimen/m3_ripple_hovered_alpha = 0x7f0701d7
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:id/end_padder = 0x7f0900dc
 com.dicoding.instahelp:macro/m3_comp_radio_button_unselected_icon_color = 0x7f0d00e3
 com.dicoding.instahelp:color/material_personalized_color_outline = 0x7f060292
 com.dicoding.instahelp:drawable/ic_mr_button_connected_13_dark = 0x7f0800f0
+<<<<<<< HEAD
 com.dicoding.instahelp:drawable/ic_mr_button_connecting_07_light = 0x7f080123
 com.dicoding.instahelp:style/Widget.MaterialComponents.LinearProgressIndicator = 0x7f130431
 com.dicoding.instahelp:dimen/m3_ripple_hovered_alpha = 0x7f0701d7
 com.dicoding.instahelp:attr/track = 0x7f0404ea
 com.dicoding.instahelp:id/hospital_name = 0x7f090118
+=======
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense = 0x7f130468
 com.dicoding.instahelp:attr/wavePhase = 0x7f040515
 com.dicoding.instahelp:style/Widget.MaterialComponents.NavigationRailView.PrimarySurface = 0x7f130450
@@ -2621,12 +3686,12 @@ com.dicoding.instahelp:id/button_call_emergency = 0x7f090078
 com.dicoding.instahelp:id/btn_next = 0x7f090072
 com.dicoding.instahelp:id/btn_login_instance = 0x7f09006f
 com.dicoding.instahelp:id/bottom_navigation = 0x7f090067
-com.dicoding.instahelp:attr/strokeColor = 0x7f040439
-com.dicoding.instahelp:layout/abc_cascading_menu_item_layout = 0x7f0c000b
-com.dicoding.instahelp:attr/motionProgress = 0x7f040373
-com.dicoding.instahelp:id/bottom = 0x7f090066
 com.dicoding.instahelp:attr/behavior_autoHide = 0x7f04006c
 com.dicoding.instahelp:attr/minWidth = 0x7f040344
+com.dicoding.instahelp:attr/motionProgress = 0x7f040373
+com.dicoding.instahelp:layout/abc_cascading_menu_item_layout = 0x7f0c000b
+com.dicoding.instahelp:id/bottom = 0x7f090066
+com.dicoding.instahelp:attr/strokeColor = 0x7f040439
 com.dicoding.instahelp:id/below = 0x7f090063
 com.dicoding.instahelp:id/info = 0x7f090123
 com.dicoding.instahelp:styleable/AppCompatSeekBar = 0x7f140012
@@ -2787,9 +3852,9 @@ com.dicoding.instahelp:attr/selectableItemBackground = 0x7f0403e9
 com.dicoding.instahelp:style/Widget.MediaRouter.MediaRouteButton = 0x7f13047c
 com.dicoding.instahelp:id/tv_login_now = 0x7f09029f
 com.dicoding.instahelp:style/Base.Widget.MaterialComponents.CheckedTextView = 0x7f130114
-com.dicoding.instahelp:id/mr_custom_control = 0x7f09018f
 com.dicoding.instahelp:drawable/mtrl_checkbox_button_icon_indeterminate_unchecked = 0x7f0801af
 com.dicoding.instahelp:dimen/mtrl_btn_icon_btn_padding_left = 0x7f070274
+com.dicoding.instahelp:id/mr_custom_control = 0x7f09018f
 com.dicoding.instahelp:style/Theme.MaterialComponents.DayNight.Dialog = 0x7f13025e
 com.dicoding.instahelp:drawable/mtrl_checkbox_button_icon_checked_unchecked = 0x7f0801ad
 com.dicoding.instahelp:macro/m3_comp_outlined_card_dragged_outline_color = 0x7f0d00ab
@@ -2808,15 +3873,24 @@ com.dicoding.instahelp:dimen/m3_sys_elevation_level4 = 0x7f0701f4
 com.dicoding.instahelp:color/m3_ref_palette_dynamic_neutral_variant95 = 0x7f0600d0
 com.dicoding.instahelp:drawable/ic_vol_unmute = 0x7f08016f
 com.dicoding.instahelp:id/chain2 = 0x7f09008c
+<<<<<<< HEAD
 com.dicoding.instahelp:drawable/mr_media_pause_light = 0x7f08019f
 com.dicoding.instahelp:macro/m3_comp_navigation_drawer_active_indicator_color = 0x7f0d007f
 com.dicoding.instahelp:id/horizontal_only = 0x7f090115
 com.dicoding.instahelp:style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu = 0x7f130466
 com.dicoding.instahelp:layout/abc_alert_dialog_title_material = 0x7f0c000a
+=======
+com.dicoding.instahelp:dimen/mtrl_exposed_dropdown_menu_popup_elevation = 0x7f0702b7
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/TextAppearance.AppCompat.Widget.Switch = 0x7f1301c3
 com.dicoding.instahelp:dimen/mtrl_exposed_dropdown_menu_popup_elevation = 0x7f0702b7
 com.dicoding.instahelp:id/textinput_prefix_text = 0x7f09027a
 com.dicoding.instahelp:dimen/design_snackbar_action_inline_max_width = 0x7f07007e
+com.dicoding.instahelp:layout/abc_alert_dialog_title_material = 0x7f0c000a
+com.dicoding.instahelp:style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu = 0x7f130466
+com.dicoding.instahelp:drawable/mr_media_pause_light = 0x7f08019f
+com.dicoding.instahelp:macro/m3_comp_navigation_drawer_active_indicator_color = 0x7f0d007f
+com.dicoding.instahelp:id/horizontal_only = 0x7f090115
 com.dicoding.instahelp:layout/notification_template_media_custom = 0x7f0c0097
 com.dicoding.instahelp:drawable/mr_dialog_material_background_light = 0x7f08019b
 com.dicoding.instahelp:id/gone = 0x7f090107
@@ -2886,20 +3960,38 @@ com.dicoding.instahelp:attr/activityName = 0x7f04002a
 com.dicoding.instahelp:style/TextAppearance.M3.Sys.Typescale.BodyLarge = 0x7f1301da
 com.dicoding.instahelp:attr/itemSpacing = 0x7f040275
 com.dicoding.instahelp:attr/windowFixedHeightMajor = 0x7f04051b
+<<<<<<< HEAD
+=======
+com.dicoding.instahelp:attr/activityName = 0x7f04002a
+com.dicoding.instahelp:color/m3_dynamic_dark_highlighted_text = 0x7f060084
+com.dicoding.instahelp:style/TextAppearance.M3.Sys.Typescale.BodyLarge = 0x7f1301da
+com.dicoding.instahelp:color/material_personalized_color_surface_bright = 0x7f06029e
+com.dicoding.instahelp:styleable/BottomAppBar = 0x7f140018
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/Base.Widget.Material3.MaterialCalendar.NavigationButton = 0x7f13010e
 com.dicoding.instahelp:style/Base.V14.Theme.Material3.Light.SideSheetDialog = 0x7f130092
 com.dicoding.instahelp:string/vehicle_icon_description = 0x7f120104
 com.dicoding.instahelp:attr/spinnerStyle = 0x7f040416
 com.dicoding.instahelp:attr/colorOnSecondaryContainer = 0x7f04010d
 com.dicoding.instahelp:drawable/ic_mtrl_checked_circle = 0x7f080159
+<<<<<<< HEAD
 com.dicoding.instahelp:dimen/sliding_pane_detail_pane_width = 0x7f07032f
 com.dicoding.instahelp:id/user_profile = 0x7f0902a7
 com.dicoding.instahelp:id/vehicle_count = 0x7f0902a9
 com.dicoding.instahelp:drawable/ic_mr_button_disconnected_dark = 0x7f080154
+=======
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:layout/m3_alert_dialog = 0x7f0c0049
 com.dicoding.instahelp:style/Base.Widget.AppCompat.Light.PopupMenu.Overflow = 0x7f1300e6
 com.dicoding.instahelp:style/Widget.AppCompat.PopupMenu.Overflow = 0x7f130332
 com.dicoding.instahelp:id/accessibility_custom_action_17 = 0x7f09001a
+<<<<<<< HEAD
+=======
+com.dicoding.instahelp:dimen/sliding_pane_detail_pane_width = 0x7f07032f
+com.dicoding.instahelp:id/user_profile = 0x7f0902a7
+com.dicoding.instahelp:id/vehicle_count = 0x7f0902a9
+com.dicoding.instahelp:drawable/ic_mr_button_disconnected_dark = 0x7f080154
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/Widget.Material3.MaterialTimePicker.Display.TextInputLayout = 0x7f1303ce
 com.dicoding.instahelp:drawable/ic_mr_button_disabled_light = 0x7f080153
 com.dicoding.instahelp:color/material_dynamic_secondary30 = 0x7f060253
@@ -2945,6 +4037,7 @@ com.dicoding.instahelp:id/textinput_counter = 0x7f090276
 com.dicoding.instahelp:string/availability = 0x7f120020
 com.dicoding.instahelp:color/material_dynamic_secondary90 = 0x7f060259
 com.dicoding.instahelp:drawable/abc_edit_text_material = 0x7f08003d
+<<<<<<< HEAD
 com.dicoding.instahelp:id/transitionToStart = 0x7f09028e
 com.dicoding.instahelp:style/Widget.Design.TextInputEditText = 0x7f130350
 com.dicoding.instahelp:styleable/MaterialTextAppearance = 0x7f140060
@@ -2954,6 +4047,17 @@ com.dicoding.instahelp:drawable/ic_mr_button_connecting_08_dark = 0x7f080124
 com.dicoding.instahelp:id/groups = 0x7f09010c
 com.dicoding.instahelp:macro/m3_comp_outlined_text_field_outline_color = 0x7f0d00c3
 com.dicoding.instahelp:attr/materialAlertDialogTitleTextStyle = 0x7f0402f5
+=======
+com.dicoding.instahelp:id/groups = 0x7f09010c
+com.dicoding.instahelp:macro/m3_comp_outlined_text_field_outline_color = 0x7f0d00c3
+com.dicoding.instahelp:attr/materialAlertDialogTitleTextStyle = 0x7f0402f5
+com.dicoding.instahelp:style/Widget.Design.TextInputEditText = 0x7f130350
+com.dicoding.instahelp:drawable/ic_mr_button_connecting_08_dark = 0x7f080124
+com.dicoding.instahelp:drawable/material_ic_menu_arrow_down_black_24dp = 0x7f080188
+com.dicoding.instahelp:drawable/mtrl_ic_arrow_drop_down = 0x7f0801b5
+com.dicoding.instahelp:id/transitionToStart = 0x7f09028e
+com.dicoding.instahelp:styleable/MaterialTextAppearance = 0x7f140060
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:style/Widget.Material3.FloatingActionButton.Secondary = 0x7f1303a3
 com.dicoding.instahelp:id/editText = 0x7f0900d4
 com.dicoding.instahelp:drawable/ic_mr_button_connecting_06_light = 0x7f080121
@@ -3150,22 +4254,39 @@ com.dicoding.instahelp:attr/colorSurfaceContainerHighest = 0x7f04012a
 com.dicoding.instahelp:attr/scrimAnimationDuration = 0x7f0403df
 com.dicoding.instahelp:dimen/mtrl_badge_text_size = 0x7f070263
 com.dicoding.instahelp:drawable/abc_list_selector_holo_light = 0x7f080058
+<<<<<<< HEAD
+=======
+com.dicoding.instahelp:attr/circularProgressIndicatorStyle = 0x7f0400d8
+com.dicoding.instahelp:anim/design_snackbar_in = 0x7f01001e
+com.dicoding.instahelp:styleable/LinearLayoutCompat = 0x7f14004e
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:drawable/abc_list_selector_background_transition_holo_light = 0x7f080054
 com.dicoding.instahelp:bool/abc_config_actionMenuItemAllCaps = 0x7f050001
 com.dicoding.instahelp:attr/minHeight = 0x7f040340
 com.dicoding.instahelp:id/dimensions = 0x7f0900bb
+<<<<<<< HEAD
 com.dicoding.instahelp:anim/design_snackbar_in = 0x7f01001e
 com.dicoding.instahelp:styleable/LinearLayoutCompat = 0x7f14004e
 com.dicoding.instahelp:attr/circularProgressIndicatorStyle = 0x7f0400d8
+=======
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:dimen/mtrl_card_spacing = 0x7f0702b4
 com.dicoding.instahelp:id/NO_DEBUG = 0x7f090006
 com.dicoding.instahelp:style/Widget.MaterialComponents.AppBarLayout.PrimarySurface = 0x7f130403
 com.dicoding.instahelp:style/Base.TextAppearance.AppCompat.Widget.Button.Colored = 0x7f13003c
+<<<<<<< HEAD
 com.dicoding.instahelp:macro/m3_comp_checkbox_selected_disabled_icon_color = 0x7f0d0008
 com.dicoding.instahelp:color/m3_ref_palette_neutral_variant100 = 0x7f060122
 com.dicoding.instahelp:style/Widget.Material3.SideSheet.Modal.Detached = 0x7f1303e2
 com.dicoding.instahelp:style/Widget.MaterialComponents.TabLayout = 0x7f13045c
 com.dicoding.instahelp:string/mtrl_picker_text_input_year_abbr = 0x7f1200ca
+=======
+com.dicoding.instahelp:style/Widget.Material3.SideSheet.Modal.Detached = 0x7f1303e2
+com.dicoding.instahelp:style/Widget.MaterialComponents.TabLayout = 0x7f13045c
+com.dicoding.instahelp:string/mtrl_picker_text_input_year_abbr = 0x7f1200ca
+com.dicoding.instahelp:macro/m3_comp_checkbox_selected_disabled_icon_color = 0x7f0d0008
+com.dicoding.instahelp:color/m3_ref_palette_neutral_variant100 = 0x7f060122
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 com.dicoding.instahelp:drawable/ic_group_expand_12 = 0x7f0800c1
 com.dicoding.instahelp:dimen/mtrl_high_ripple_hovered_alpha = 0x7f0702d0
 com.dicoding.instahelp:drawable/abc_list_selector_background_transition_holo_dark = 0x7f080053

@@ -4,7 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/InstaHELP.iml" filepath="$PROJECT_DIR$/.idea/InstaHELP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/InstaHELP.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/InstaHELP.app.androidTest.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/capstone-md.InstaHELP.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/capstone-md.InstaHELP.app.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/InstaHELP.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/InstaHELP.app.main.iml" />
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/capstone-md.InstaHELP.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/capstone-md.InstaHELP.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/capstone-md.InstaHELP.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/capstone-md.InstaHELP.app.unitTest.iml" />
     </modules>
