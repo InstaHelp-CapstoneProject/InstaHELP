@@ -9,7 +9,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.Toolbar;
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
@@ -38,20 +37,15 @@ public final class FragmentPengaturanBinding implements ViewBinding {
   @NonNull
   public final LinearLayout sectionSettings;
 
-  @NonNull
-  public final Toolbar toolbar;
-
   private FragmentPengaturanBinding(@NonNull ConstraintLayout rootView,
       @NonNull CardView cardProfile, @NonNull ImageView profileImage, @NonNull TextView profileName,
-      @NonNull TextView profileUsername, @NonNull LinearLayout sectionSettings,
-      @NonNull Toolbar toolbar) {
+      @NonNull TextView profileUsername, @NonNull LinearLayout sectionSettings) {
     this.rootView = rootView;
     this.cardProfile = cardProfile;
     this.profileImage = profileImage;
     this.profileName = profileName;
     this.profileUsername = profileUsername;
     this.sectionSettings = sectionSettings;
-    this.toolbar = toolbar;
   }
 
   @Override
@@ -111,14 +105,8 @@ public final class FragmentPengaturanBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.toolbar;
-      Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
-      if (toolbar == null) {
-        break missingId;
-      }
-
       return new FragmentPengaturanBinding((ConstraintLayout) rootView, cardProfile, profileImage,
-          profileName, profileUsername, sectionSettings, toolbar);
+          profileName, profileUsername, sectionSettings);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
