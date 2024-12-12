@@ -1,4 +1,21 @@
+<<<<<<< HEAD
 #Thu Dec 12 14:12:45 WIB 2024
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+#Thu Dec 12 13:28:22 WIB 2024
+base.0=C\:\\Users\\LENOVO\\AndroidStudioProjects\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\LENOVO\\AndroidStudioProjects\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\LENOVO\\AndroidStudioProjects\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.3=C\:\\Users\\LENOVO\\AndroidStudioProjects\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.4=C\:\\Users\\LENOVO\\AndroidStudioProjects\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.5=C\:\\Users\\LENOVO\\AndroidStudioProjects\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.6=C\:\\Users\\LENOVO\\AndroidStudioProjects\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.7=C\:\\Users\\LENOVO\\AndroidStudioProjects\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+base.8=C\:\\Users\\LENOVO\\AndroidStudioProjects\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+=======
+#Thu Dec 12 13:44:08 WIB 2024
+>>>>>>> 149011f74a021ea17578d1bbf40e1400cc4ed67b
 base.0=D\:\\MyProject\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\MyProject\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=D\:\\MyProject\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
@@ -8,6 +25,19 @@ base.5=D\:\\MyProject\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\d
 base.6=D\:\\MyProject\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
 base.7=D\:\\MyProject\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
 base.8=D\:\\MyProject\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
+=======
+#Thu Dec 12 13:12:05 WIB 2024
+base.0=C\:\\Users\\ASUS\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\ASUS\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\ASUS\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.3=C\:\\Users\\ASUS\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.4=C\:\\Users\\ASUS\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.5=C\:\\Users\\ASUS\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.6=C\:\\Users\\ASUS\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.7=C\:\\Users\\ASUS\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+base.8=C\:\\Users\\ASUS\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+>>>>>>> gatot
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=10/classes.dex

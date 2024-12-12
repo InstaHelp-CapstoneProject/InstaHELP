@@ -4,7 +4,11 @@
             "outputFile": "com.dicoding.instahelp.test.app-debugAndroidTest-5:/values_values.arsc.flat",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\Hp\\.gradle\\caches\\8.9\\transforms\\2172bf521189929275f5a05a1bd17a38\\transformed\\core-1.6.1\\res\\values\\values.xml",
+=======
+                    "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\caches\\8.9\\transforms\\2172bf521189929275f5a05a1bd17a38\\transformed\\core-1.6.1\\res\\values\\values.xml",
+>>>>>>> 149011f74a021ea17578d1bbf40e1400cc4ed67b
                     "from": {
                         "startLines": "4,11",
                         "startColumns": "0,0",
@@ -28,7 +32,11 @@
             "outputFile": "com.dicoding.instahelp.test.app-debugAndroidTest-5:/values-v21_values-v21.arsc.flat",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\Hp\\.gradle\\caches\\8.9\\transforms\\2172bf521189929275f5a05a1bd17a38\\transformed\\core-1.6.1\\res\\values-v21\\values.xml",
+=======
+                    "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\caches\\8.9\\transforms\\2172bf521189929275f5a05a1bd17a38\\transformed\\core-1.6.1\\res\\values-v21\\values.xml",
+>>>>>>> 149011f74a021ea17578d1bbf40e1400cc4ed67b
                     "from": {
                         "startLines": "4,13",
                         "startColumns": "0,0",
@@ -52,7 +60,11 @@
             "outputFile": "com.dicoding.instahelp.test.app-debugAndroidTest-5:/values-v18_values-v18.arsc.flat",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\Hp\\.gradle\\caches\\8.9\\transforms\\2172bf521189929275f5a05a1bd17a38\\transformed\\core-1.6.1\\res\\values-v18\\values.xml",
+=======
+                    "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\caches\\8.9\\transforms\\2172bf521189929275f5a05a1bd17a38\\transformed\\core-1.6.1\\res\\values-v18\\values.xml",
+>>>>>>> 149011f74a021ea17578d1bbf40e1400cc4ed67b
                     "from": {
                         "startLines": "4,12",
                         "startColumns": "0,0",
@@ -76,7 +88,11 @@
             "outputFile": "com.dicoding.instahelp.test.app-debugAndroidTest-5:/values-v28_values-v28.arsc.flat",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\Hp\\.gradle\\caches\\8.9\\transforms\\2172bf521189929275f5a05a1bd17a38\\transformed\\core-1.6.1\\res\\values-v28\\values.xml",
+=======
+                    "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\caches\\8.9\\transforms\\2172bf521189929275f5a05a1bd17a38\\transformed\\core-1.6.1\\res\\values-v28\\values.xml",
+>>>>>>> 149011f74a021ea17578d1bbf40e1400cc4ed67b
                     "from": {
                         "startLines": "4,13",
                         "startColumns": "0,0",

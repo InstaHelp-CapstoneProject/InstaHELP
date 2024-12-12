@@ -11,8 +11,11 @@
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
+=======
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
         android:layout_weight="1"/>
 
 
@@ -32,9 +35,15 @@
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:layout_anchor="@id/fragment_container"
+        app:layout_anchorGravity="bottom"
         android:layout_marginBottom="8dp"
         app:layout_anchor="@+id/fragment_container"
+<<<<<<< HEAD
+        app:layout_anchorGravity="bottom"
+=======
         app:layout_anchorGravity="bottom|center"
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

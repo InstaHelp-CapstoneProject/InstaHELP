@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -110,14 +114,26 @@
             android:autofillHints="search"
             android:inputType="text" />
     </RelativeLayout>
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 
     <!-- RecyclerView -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_hospitals"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+<<<<<<< HEAD
+        android:layout_weight="1"
+        android:clipToPadding="false"
+
+        />
+=======
         android:layout_marginTop="5dp"
         android:layout_weight="1"
         android:clipToPadding="false" />
+>>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
 
 </LinearLayout>

@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.navigation:navigation-ui-ktx:2.8.4@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/655a585578c4f95a7d83a0d1c6c5236b/transformed/navigation-ui-ktx-2.8.4/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/655a585578c4f95a7d83a0d1c6c5236b/transformed/navigation-ui-ktx-2.8.4/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/8.9/transforms/655a585578c4f95a7d83a0d1c6c5236b/transformed/navigation-ui-ktx-2.8.4/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Gradle/gradle-8.11.1-bin/gradle-8.11.1/caches/8.9/transforms/655a585578c4f95a7d83a0d1c6c5236b/transformed/navigation-ui-ktx-2.8.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../Gradle/gradle-8.11.1-bin/gradle-8.11.1/caches/8.9/transforms/655a585578c4f95a7d83a0d1c6c5236b/transformed/navigation-ui-ktx-2.8.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../Gradle/gradle-8.11.1-bin/gradle-8.11.1/caches/8.9/transforms/655a585578c4f95a7d83a0d1c6c5236b/transformed/navigation-ui-ktx-2.8.4/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-ui-ktx/2.8.4/7a9a22bc053aaa0170c4952b0403a0b9b8f81e4d/navigation-ui-ktx-2.8.4-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Gradle/gradle-8.11.1-bin/gradle-8.11.1/caches/modules-2/files-2.1/androidx.navigation/navigation-ui-ktx/2.8.4/7a9a22bc053aaa0170c4952b0403a0b9b8f81e4d/navigation-ui-ktx-2.8.4-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

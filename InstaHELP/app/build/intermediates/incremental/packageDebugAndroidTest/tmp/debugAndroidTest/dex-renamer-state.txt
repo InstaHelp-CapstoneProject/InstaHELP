@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 #Thu Dec 12 14:10:22 WIB 2024
 base.0=D\:\\MyProject\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
 base.1=D\:\\MyProject\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
 base.2=D\:\\MyProject\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\8\\classes.dex
+=======
+#Thu Dec 12 11:59:19 WIB 2024
+base.0=C\:\\Users\\ASUS\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=C\:\\Users\\ASUS\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.2=C\:\\Users\\ASUS\\capstone-md\\InstaHELP\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\8\\classes.dex
+>>>>>>> 149011f74a021ea17578d1bbf40e1400cc4ed67b
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=8/classes.dex
