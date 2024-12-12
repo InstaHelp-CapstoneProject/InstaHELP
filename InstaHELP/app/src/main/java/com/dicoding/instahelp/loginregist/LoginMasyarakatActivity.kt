@@ -45,8 +45,53 @@ class LoginMasyarakatActivity : AppCompatActivity() {
 
         val loginResident: TextView = findViewById(R.id.btn_next)
         loginResident.setOnClickListener {
-            loginUser()
+            val email = binding.etEmail.text.toString()
+            val password = binding.etPassword.text.toString()
+
+            if (email.isEmpty() || password.isEmpty()) {
+                Toast.makeText(this, "Semua field harus diisi", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
+            val loginRequest = LoginResidentRequest(
+                email = email,
+                password = password
+            )
+            // Mengirim permintaan login
+            ApiClient.apiService.loginResident(loginRequest).enqueue(object : Callback<LoginResponse> {
+                override fun onResponse(call: Call<LoginResponse>, response: Response<LoginResponse>) {
+                    if (response.isSuccessful) {
+                        val loginResponse = response.body()
+                        Log.d("LoginInstansiActivity", "Login successful: ${loginResponse?.message}")
+                        // Simpan token ke SharedPreferences
+                        val token = loginResponse?.message
+                        Log.d("LoginInstansiActivity", "Token received: $token")
+
+                        token?.let {
+                            val sharedPreferences = getSharedPreferences("user_preferences", MODE_PRIVATE)
+                            val editor = sharedPreferences.edit()
+                            editor.putString("bearer_token", it)
+                            editor.apply()
+                        }
+                        Toast.makeText(this@LoginMasyarakatActivity, "Login berhasil!", Toast.LENGTH_SHORT).show()
+                        startActivity(Intent(this@LoginMasyarakatActivity, ResidentMainActivity::class.java))
+                        finish()
+                    } else {
+                        val error = response.errorBody()?.string()
+                        Log.e("LoginInstansiActivity", "Error: $error")
+                        Toast.makeText(this@LoginMasyarakatActivity, "Login gagal: $error", Toast.LENGTH_SHORT).show()
+                    }
+                }
+
+
+                override fun onFailure(call: Call<LoginResponse>, t: Throwable) {
+                    Log.e("LoginInstansiActivity", "Failure: ${t.message}")
+                    Toast.makeText(this@LoginMasyarakatActivity, "Terjadi kesalahan. Silakan coba lagi.", Toast.LENGTH_SHORT).show()
+                }
+            })
         }
+
+
 
         val forgotPass: TextView = findViewById(R.id.tv_forgot_password_resident)
         forgotPass.setOnClickListener {

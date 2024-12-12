@@ -11,7 +11,6 @@ import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.dicoding.instahelp.API.ApiClient
-import com.dicoding.instahelp.API.ApiService
 import com.dicoding.instahelp.API.LoginInstitutionRequest
 import com.dicoding.instahelp.API.LoginResponse
 import com.dicoding.instahelp.R
