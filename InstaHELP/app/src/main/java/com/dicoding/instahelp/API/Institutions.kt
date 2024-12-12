@@ -1,6 +1,6 @@
 package com.dicoding.instahelp.API
 
-data class ListHospital(
+data class Institutions(
     val id: Int,
     val name: String,
     val email: String,
