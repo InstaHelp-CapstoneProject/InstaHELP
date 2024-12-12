@@ -246,6 +246,7 @@ string ambulance_name
 string app_name
 string availability
 string availability_badge_available
+string berikut_adalah_daftar_rumah_sakit_terdekat
 string buat_akun
 string call_button
 string coordinate_location_hint

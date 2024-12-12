@@ -4506,6 +4506,7 @@ string app_name
 string appbar_scrolling_view_behavior
 string availability
 string availability_badge_available
+string berikut_adalah_daftar_rumah_sakit_terdekat
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand

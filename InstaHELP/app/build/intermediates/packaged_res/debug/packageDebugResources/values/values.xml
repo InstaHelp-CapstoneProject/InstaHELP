@@ -31,6 +31,7 @@
     <string name="app_name">InstaHELP</string>
     <string name="availability">Tersedia</string>
     <string name="availability_badge_available">Tersedia</string>
+    <string name="berikut_adalah_daftar_rumah_sakit_terdekat">Berikut adalah daftar rumah sakit terdekat</string>
     <string name="buat_akun">Buat Akun</string>
     <string name="call_button">Panggil</string>
     <string name="coordinate_location_hint">Koordinat Lokasi</string>

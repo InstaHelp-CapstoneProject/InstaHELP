@@ -209,7 +209,7 @@ class SignUpResidentActivity : AppCompatActivity() {
 
                         Toast.makeText(this@SignUpResidentActivity, "Registrasi berhasil!", Toast.LENGTH_SHORT).show()
                         // Mulai aktivitas berikutnya, misalnya ke halaman utama
-                        startActivity(Intent(this@SignUpResidentActivity, ResidentMainActivity::class.java))
+                        startActivity(Intent(this@SignUpResidentActivity, LoginMasyarakatActivity::class.java))
                     } else {
                         // Handle error response dengan pesan yang lebih jelas
                         val error = response.errorBody()?.string()
