@@ -8,6 +8,7 @@ import android.text.method.HideReturnsTransformationMethod
 import android.text.method.PasswordTransformationMethod
 import android.util.Log
 import android.view.View
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.EditText
 import android.widget.ImageView
@@ -69,10 +70,28 @@ class SignUpResidentActivity : AppCompatActivity() {
 
         // Inisialisasi Spinner Jenis Kelamin
         val spinnerGender: Spinner = findViewById(R.id.sp_gender)
-        val genderOptions = resources.getStringArray(R.array.gender_options_value)
-        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, genderOptions)
+        val genderOptionsDisplay = resources.getStringArray(R.array.gender_options_display)
+        val genderOptionsValue = resources.getStringArray(R.array.gender_options_value)
+        val gender = when (spinnerGender.selectedItemPosition) {
+            1 -> "FEMALE"  // Wanita
+            2 -> "MALE"    // Pria
+            else -> ""    // Default jika tidak valid
+        }
+        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, genderOptionsDisplay)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spinnerGender.adapter = adapter
+
+        spinnerGender.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+                val selectedGenderValue = genderOptionsValue[position] // Nilai MALE/FEMALE
+                // Lakukan sesuatu dengan nilai ini, misalnya:
+                Log.d("SelectedGender", "Value: $selectedGenderValue")
+            }
+
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+                // Tidak ada yang dipilih
+            }
+        }
 
         val etDateBirth: EditText = findViewById(R.id.et_date_birth)
         val calenderIcon: ImageView = findViewById(R.id.calender)
@@ -120,7 +139,8 @@ class SignUpResidentActivity : AppCompatActivity() {
             val email = findViewById<EditText>(R.id.et_email).text.toString()
             val password = findViewById<EditText>(R.id.et_password).text.toString()
             val confirmPassword = findViewById<EditText>(R.id.et_confirmpass).text.toString()
-            val gender = spinnerGender.selectedItem.toString()
+            val genderOptionsValue = resources.getStringArray(R.array.gender_options_value)
+            val gender = genderOptionsValue[spinnerGender.selectedItemPosition] // Ambil nilai dari genderOptionsValue
             val dateOfBirth = findViewById<EditText>(R.id.et_date_birth).text.toString()
             val placeOfBirth = findViewById<EditText>(R.id.et_place_birth).text.toString()
             val nik = findViewById<EditText>(R.id.et_nik).text.toString()
@@ -129,10 +149,13 @@ class SignUpResidentActivity : AppCompatActivity() {
 
 
             // Validasi input
-            if (name.isEmpty() || email.isEmpty() || password.isEmpty() || confirmPassword.isEmpty() || gender.isEmpty() || dateOfBirth.isEmpty() || nik.isEmpty() || address.isEmpty() || phoneNumber.isEmpty()) {
-                Toast.makeText(this, "Semua field harus diisi", Toast.LENGTH_SHORT).show()
+            if (name.isEmpty() || email.isEmpty() || password.isEmpty() || confirmPassword.isEmpty() ||
+                spinnerGender.selectedItemPosition == 0 || dateOfBirth.isEmpty() || nik.isEmpty() ||
+                address.isEmpty() || phoneNumber.isEmpty()) {
+                Toast.makeText(this, "Semua field harus diisi dengan benar", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
+
 
             if (password != confirmPassword) {
                 Toast.makeText(this, "Kata sandi dan konfirmasi kata sandi tidak cocok", Toast.LENGTH_SHORT).show()
@@ -144,11 +167,11 @@ class SignUpResidentActivity : AppCompatActivity() {
                 name = name,  // Ensure this is a valid value (e.g., entered by the user)
                 email = email,
                 address = address,
-                username = "username",  // Username is added
+                username = name,  // Username is added
                 nik = nik,
                 date_of_birth = dateOfBirth,
                 place_of_birth = placeOfBirth,
-                gender = gender,  // Gender should be "MAN" or "WOMAN"
+                gender = gender,
                 phone_number = phoneNumber,
                 password = password,
                 password_confirmation = confirmPassword
