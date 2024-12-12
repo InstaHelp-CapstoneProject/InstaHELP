@@ -4,6 +4,7 @@ package com.dicoding.instahelp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -25,6 +26,9 @@ public final class FragmentPanggilBinding implements ViewBinding {
   public final RecyclerView recyclerHospitals;
 
   @NonNull
+  public final EditText searchBox;
+
+  @NonNull
   public final TextView userLocation;
 
   @NonNull
@@ -37,10 +41,12 @@ public final class FragmentPanggilBinding implements ViewBinding {
   public final TextView userStatus;
 
   private FragmentPanggilBinding(@NonNull LinearLayout rootView,
-      @NonNull RecyclerView recyclerHospitals, @NonNull TextView userLocation,
-      @NonNull TextView userName, @NonNull ImageView userProfile, @NonNull TextView userStatus) {
+      @NonNull RecyclerView recyclerHospitals, @NonNull EditText searchBox,
+      @NonNull TextView userLocation, @NonNull TextView userName, @NonNull ImageView userProfile,
+      @NonNull TextView userStatus) {
     this.rootView = rootView;
     this.recyclerHospitals = recyclerHospitals;
+    this.searchBox = searchBox;
     this.userLocation = userLocation;
     this.userName = userName;
     this.userProfile = userProfile;
@@ -80,6 +86,12 @@ public final class FragmentPanggilBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.search_box;
+      EditText searchBox = ViewBindings.findChildViewById(rootView, id);
+      if (searchBox == null) {
+        break missingId;
+      }
+
       id = R.id.user_location;
       TextView userLocation = ViewBindings.findChildViewById(rootView, id);
       if (userLocation == null) {
@@ -104,8 +116,8 @@ public final class FragmentPanggilBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentPanggilBinding((LinearLayout) rootView, recyclerHospitals, userLocation,
-          userName, userProfile, userStatus);
+      return new FragmentPanggilBinding((LinearLayout) rootView, recyclerHospitals, searchBox,
+          userLocation, userName, userProfile, userStatus);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
