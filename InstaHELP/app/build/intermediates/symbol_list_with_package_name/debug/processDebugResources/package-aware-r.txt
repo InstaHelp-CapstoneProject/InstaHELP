@@ -4049,6 +4049,7 @@ id scrollView
 id scrollable
 id search_badge
 id search_bar
+id search_box
 id search_button
 id search_close_btn
 id search_edit_frame

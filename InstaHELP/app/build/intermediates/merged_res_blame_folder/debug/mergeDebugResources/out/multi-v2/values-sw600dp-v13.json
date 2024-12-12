@@ -4,24 +4,7 @@
             "outputFile": "com.dicoding.instahelp.app-mergeDebugResources-49:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\caches\\8.9\\transforms\\1605f625a2ccd5e6560c2f61372b1d16\\transformed\\appcompat-1.7.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "94,163,232,302,376,452,511,582",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "158,227,297,371,447,506,577,645"
-                    }
-                },
-                {
-                    "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\caches\\8.9\\transforms\\1ae81dcff635e7a23c61b31dc4521055\\transformed\\mediarouter-1.7.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\LENOVO\\.gradle\\caches\\8.9\\transforms\\1ae81dcff635e7a23c61b31dc4521055\\transformed\\mediarouter-1.7.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\caches\\8.9\\transforms\\feccc49a95e6e8f306da9073f7008081\\transformed\\material-1.12.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\LENOVO\\.gradle\\caches\\8.9\\transforms\\1605f625a2ccd5e6560c2f61372b1d16\\transformed\\appcompat-1.7.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "94,163,232,302,376,452,511,582",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "158,227,297,371,447,506,577,645"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\LENOVO\\.gradle\\caches\\8.9\\transforms\\feccc49a95e6e8f306da9073f7008081\\transformed\\material-1.12.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",

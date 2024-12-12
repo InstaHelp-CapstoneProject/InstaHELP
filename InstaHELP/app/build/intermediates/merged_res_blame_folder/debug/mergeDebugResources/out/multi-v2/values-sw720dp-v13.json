@@ -4,7 +4,7 @@
             "outputFile": "com.dicoding.instahelp.app-mergeDebugResources-49:/values-sw720dp-v13/values-sw720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Gradle\\gradle-8.11.1-bin\\gradle-8.11.1\\caches\\8.9\\transforms\\1ae81dcff635e7a23c61b31dc4521055\\transformed\\mediarouter-1.7.0\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "source": "C:\\Users\\LENOVO\\.gradle\\caches\\8.9\\transforms\\1ae81dcff635e7a23c61b31dc4521055\\transformed\\mediarouter-1.7.0\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
