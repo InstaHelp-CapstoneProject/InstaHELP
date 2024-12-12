@@ -8,7 +8,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.EditText
-import androidx.lifecycle.enableSavedStateHandles
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.dicoding.instahelp.API.Institutions
@@ -28,7 +27,6 @@ class PanggilFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_panggil, container, false)
-        enableSavedStateHandles()
 
         // Inisialisasi RecyclerView
         recyclerView = view.findViewById(R.id.recycler_hospitals)

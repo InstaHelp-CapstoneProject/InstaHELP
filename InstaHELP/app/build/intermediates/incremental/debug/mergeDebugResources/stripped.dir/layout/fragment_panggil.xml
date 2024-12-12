@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-=======
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
->>>>>>> 149011f74a021ea17578d1bbf40e1400cc4ed67b
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -79,10 +75,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:orientation="vertical">
-<<<<<<< HEAD
 
-=======
->>>>>>> 149011f74a021ea17578d1bbf40e1400cc4ed67b
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -92,7 +85,6 @@
 
         <TextView
             android:layout_width="wrap_content"
-<<<<<<< HEAD
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:text="@string/berikut_adalah_daftar_rumah_sakit_terdekat" />
@@ -101,15 +93,6 @@
     <!-- Search Box -->
     <RelativeLayout
         android:layout_width="match_parent"
-=======
-            android:layout_marginTop="5dp"
-            android:layout_height="wrap_content"
-            android:text="@string/berikut_adalah_daftar_rumah_sakit_terdekat"/>
-    </LinearLayout>
-
-    <!-- Search Box -->
-    <RelativeLayout android:layout_width="match_parent"
->>>>>>> 149011f74a021ea17578d1bbf40e1400cc4ed67b
         android:layout_height="wrap_content"
         android:layout_marginVertical="8dp"
         android:background="@drawable/bg_edittext">
@@ -126,7 +109,6 @@
             android:textSize="14sp"
             android:autofillHints="search"
             android:inputType="text" />
-<<<<<<< HEAD
     </RelativeLayout>
 
     <!-- RecyclerView -->
@@ -137,24 +119,5 @@
         android:layout_marginTop="5dp"
         android:layout_weight="1"
         android:clipToPadding="false" />
-=======
-
-    </RelativeLayout>
-
-
-
-
-
-    <!-- Recycler View -->
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_hospitals"
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:clipToPadding="false"
-
-        />
->>>>>>> 149011f74a021ea17578d1bbf40e1400cc4ed67b
 
 </LinearLayout>
