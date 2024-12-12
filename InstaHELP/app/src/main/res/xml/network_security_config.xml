@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
     <domain-config cleartextTrafficPermitted="true">
-        <domain includeSubdomains="true">127.0.0.1</domain>
-        <!-- Menambahkan IP lokal yang digunakan oleh server -->
-        <domain includeSubdomains="true">192.168.126.51</domain>
+        <domain includeSubdomains="true">instahelp-api-825145996190.asia-southeast2.run.app</domain>
     </domain-config>
 </network-security-config>

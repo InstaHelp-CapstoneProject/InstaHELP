@@ -7,6 +7,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.dicoding.instahelp.R
 import androidx.fragment.app.Fragment
+import com.dicoding.instahelp.resident.fragment.LaporanFragment
 import com.dicoding.instahelp.resident.fragment.PanggilFragment
 
 import com.dicoding.instahelp.resident.fragment.PengaturanFragment
@@ -27,6 +28,11 @@ class ResidentMainActivity : AppCompatActivity() {
             when (item.itemId) {
                 R.id.panggilFragment -> {
                     loadFragment(PanggilFragment())
+                    true
+                }
+
+                R.id.laporanFragment -> {
+                    loadFragment(LaporanFragment())
                     true
                 }
 

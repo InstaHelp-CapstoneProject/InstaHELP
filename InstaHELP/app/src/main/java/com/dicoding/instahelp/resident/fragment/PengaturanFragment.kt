@@ -24,10 +24,7 @@ class PengaturanFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val toolbar: Toolbar = view.findViewById(R.id.toolbar)
-        toolbar.setNavigationOnClickListener {
-            requireActivity().onBackPressedDispatcher.onBackPressed()
-        }
+
 
         val profileCard: CardView = view.findViewById(R.id.card_profile)
         profileCard.setOnClickListener {
