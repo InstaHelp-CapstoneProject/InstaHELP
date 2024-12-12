@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/box_background">
+
+    <!-- ImageView untuk Foto Ambulans atau Sopir -->
+    <ImageView
+        android:id="@+id/ambulance_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/ambulance_image_description"
+        android:src="@drawable/placeholder_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Nama Ambulans -->
+    <TextView
+        android:id="@+id/ambulance_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ambulance_name"
+        android:textSize="14sp"
+        android:textColor="@color/dark"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/ambulance_image"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- Sopir Ambulans -->
+    <TextView
+        android:id="@+id/driver_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/driver_name"
+        android:textColor="@color/gray"
+        android:textSize="12sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="@id/ambulance_name"
+        app:layout_constraintTop_toBottomOf="@id/ambulance_name" />
+
+    <!-- Nomor Plat Lisensi -->
+    <TextView
+        android:id="@+id/plate_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plate_number"
+        android:textColor="@color/gray"
+        android:textSize="12sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="@id/driver_name"
+        app:layout_constraintTop_toBottomOf="@id/driver_name" />
+
+    <!-- Status Tersedia -->
+    <TextView
+        android:id="@+id/availability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/availability"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:background="@drawable/rounded_bg"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="10dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

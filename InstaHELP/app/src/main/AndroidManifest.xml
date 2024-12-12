@@ -16,6 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:targetApi="35"
+        android:enableOnBackInvokedCallback="true"
         android:hardwareAccelerated="true">
         <activity
             android:name=".resident.call.DetailHospitalActivity"
