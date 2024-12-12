@@ -1,18 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.savedstate:savedstate:1.2.1@aar" external-system-id="GRADLE">
     <CLASSES>
-<<<<<<< HEAD
-      <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/cb984733ca4abde20f9f37c032a9cdfe/transformed/savedstate-1.2.1/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/cb984733ca4abde20f9f37c032a9cdfe/transformed/savedstate-1.2.1/res" />
-=======
-      <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/cb984733ca4abde20f9f37c032a9cdfe/transformed/savedstate-1.2.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/cb984733ca4abde20f9f37c032a9cdfe/transformed/savedstate-1.2.1/AndroidManifest.xml" />
->>>>>>> b1349af20194283362d3fabf542185b7b926dbe1
-      <root url="jar://$USER_HOME$/.gradle/caches/8.9/transforms/cb984733ca4abde20f9f37c032a9cdfe/transformed/savedstate-1.2.1/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Gradle/gradle-8.11.1-bin/gradle-8.11.1/caches/8.9/transforms/cb984733ca4abde20f9f37c032a9cdfe/transformed/savedstate-1.2.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../Gradle/gradle-8.11.1-bin/gradle-8.11.1/caches/8.9/transforms/cb984733ca4abde20f9f37c032a9cdfe/transformed/savedstate-1.2.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../Gradle/gradle-8.11.1-bin/gradle-8.11.1/caches/8.9/transforms/cb984733ca4abde20f9f37c032a9cdfe/transformed/savedstate-1.2.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.savedstate/savedstate/1.2.1/58d4c9fd35e826d3bce813974006451ee9ba4344/savedstate-1.2.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Gradle/gradle-8.11.1-bin/gradle-8.11.1/caches/modules-2/files-2.1/androidx.savedstate/savedstate/1.2.1/58d4c9fd35e826d3bce813974006451ee9ba4344/savedstate-1.2.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

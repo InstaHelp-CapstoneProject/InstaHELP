@@ -16,8 +16,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:targetApi="35"
+<<<<<<< HEAD
         android:hardwareAccelerated="true"
         android:enableOnBackInvokedCallback="true">
+=======
+        android:enableOnBackInvokedCallback="true"
+        android:hardwareAccelerated="true">
+>>>>>>> gatot
         <activity
             android:name=".resident.call.DetailHospitalActivity"
             android:exported="false" />

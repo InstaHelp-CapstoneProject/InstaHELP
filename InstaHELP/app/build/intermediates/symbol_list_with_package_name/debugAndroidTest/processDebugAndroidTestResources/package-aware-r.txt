@@ -1,0 +1,3 @@
+com.dicoding.instahelp.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
