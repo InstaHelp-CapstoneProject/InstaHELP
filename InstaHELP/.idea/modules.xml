@@ -5,8 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/InstaHELP.iml" filepath="$PROJECT_DIR$/.idea/modules/InstaHELP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/InstaHELP.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/InstaHELP.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/InstaHELP.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/InstaHELP.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/InstaHELP.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/InstaHELP.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/InstaHELP.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/InstaHELP.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/capstone-md.InstaHELP.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/capstone-md.InstaHELP.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/capstone-md.InstaHELP.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/capstone-md.InstaHELP.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/capstone-md.InstaHELP.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/capstone-md.InstaHELP.app.main.iml" />
     </modules>
   </component>
 </project>
