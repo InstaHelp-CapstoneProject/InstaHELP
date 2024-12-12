@@ -5,7 +5,7 @@ data class ResidentRegistrationRequest(
     val name: String,  // Can be empty, but make sure to validate it properly
     val email: String,
     val address: String,
-    val username: String,  // Added username field
+    val username: String?,  // Added username field
     val nik: String,
     val date_of_birth: String,  // Format: "yyyy-MM-dd"
     val place_of_birth: String,

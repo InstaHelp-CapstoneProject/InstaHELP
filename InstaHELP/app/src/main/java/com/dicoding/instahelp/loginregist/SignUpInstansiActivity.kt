@@ -103,7 +103,7 @@ class SignUpInstansiActivity : AppCompatActivity() {
                 name = name,
                 email = email,
                 address = address,
-                username = "username",
+                username = name,
                 longitude = 107.69549F,  // Example value, replace with real input
                 latitude = -6.925487F,  // Example value, replace with real input
                 description = "RSU Bidadari didirikan pada 16 November 2006 dengan 40 tempat tidur, kini berkembang menjadi 200 tempat tidur dan lebih dari 350 tenaga medis serta non medis.",  // Example description

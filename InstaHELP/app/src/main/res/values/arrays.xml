@@ -7,7 +7,7 @@
 
     <string-array name="gender_options_value">
         <item></item> <!-- Untuk pilihan "Pilih jenis kelamin" -->
-        <item>WOMAN</item>
-        <item>MAN</item>
+        <item>FEMALE</item>
+        <item>MALE</item>
     </string-array>
 </resources>
