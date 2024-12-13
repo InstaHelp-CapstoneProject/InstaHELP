@@ -7,9 +7,12 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.dicoding.instahelp.API.Institutions
 import com.dicoding.instahelp.R
+import android.widget.Button
+import android.widget.LinearLayout
 
 class InstitutionAdapter(
     private val institutions: List<Institutions>,
+    private val onCallButtonClick: (Institutions) -> Unit,
     private val onItemClick: (Institutions) -> Unit
 ) : RecyclerView.Adapter<InstitutionAdapter.InstitutionViewHolder>() {
 
@@ -31,6 +34,7 @@ class InstitutionAdapter(
         private val tvAvailability: TextView = itemView.findViewById(R.id.availability_badge)
         private val tvVehicleCount: TextView = itemView.findViewById(R.id.vehicle_count)
         private val tvDistance: TextView = itemView.findViewById(R.id.distance)
+        private val btnCall: LinearLayout = itemView.findViewById(R.id.call_button)
 
         fun bind(institution: Institutions) {
             // Nama institusi
@@ -59,6 +63,11 @@ class InstitutionAdapter(
             // Set click listener untuk item
             itemView.setOnClickListener {
                 onItemClick(institution)
+            }
+
+            // Klik pada tombol Call
+            btnCall.setOnClickListener {
+                onCallButtonClick(institution)
             }
         }
     }
