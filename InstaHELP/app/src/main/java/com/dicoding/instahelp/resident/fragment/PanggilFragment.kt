@@ -26,18 +26,27 @@ class PanggilFragment : Fragment() {
     private lateinit var editTextSearch: EditText
     private val apiService = InstitutionsService.create() // Buat instance service
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
         val view = inflater.inflate(R.layout.fragment_panggil, container, false)
 
         recyclerView = view.findViewById(R.id.recycler_hospitals)
         recyclerView.layoutManager = LinearLayoutManager(context)
 
-        adapter = InstitutionAdapter(getDummyInstitutions()) { institution ->
+        adapter = InstitutionAdapter(getDummyInstitutions(), { institution ->
+            // Klik pada tombol Call
+            val bottomSheet = CallBottomSheetFragment()
+            bottomSheet.show(parentFragmentManager, bottomSheet.tag)
+        }, { institution ->
+            // Klik pada item RecyclerView
             val intent = Intent(requireContext(), DetailHospitalActivity::class.java).apply {
                 putExtra("EXTRA_INSTITUTION", institution)
             }
             startActivity(intent)
-        }
+        })
         recyclerView.adapter = adapter
 
         return view
@@ -69,7 +78,8 @@ class PanggilFragment : Fragment() {
             )
         )
     }
-
+}
+/*
     private fun getAllInstitutions() {
         val call = apiService.getInstitutions(null) // Panggil semua institusi tanpa filter
         call.enqueue(object : Callback<List<Institutions>> {
@@ -122,3 +132,4 @@ class PanggilFragment : Fragment() {
         })
     }
 }
+*/
