@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.dicoding.instahelp.R;
@@ -46,6 +47,9 @@ public final class ItemHospitalBinding implements ViewBinding {
   public final TextView hospitalName;
 
   @NonNull
+  public final ConstraintLayout itemHospital;
+
+  @NonNull
   public final ImageView locationIcon;
 
   @NonNull
@@ -58,8 +62,8 @@ public final class ItemHospitalBinding implements ViewBinding {
       @NonNull LinearLayout callButton, @NonNull ImageView callIcon, @NonNull TextView callText,
       @NonNull TextView distance, @NonNull ImageView hospitalImage,
       @NonNull TextView hospitalLocation, @NonNull TextView hospitalName,
-      @NonNull ImageView locationIcon, @NonNull TextView vehicleCount,
-      @NonNull ImageView vehicleIcon) {
+      @NonNull ConstraintLayout itemHospital, @NonNull ImageView locationIcon,
+      @NonNull TextView vehicleCount, @NonNull ImageView vehicleIcon) {
     this.rootView = rootView;
     this.availabilityBadge = availabilityBadge;
     this.callButton = callButton;
@@ -69,6 +73,7 @@ public final class ItemHospitalBinding implements ViewBinding {
     this.hospitalImage = hospitalImage;
     this.hospitalLocation = hospitalLocation;
     this.hospitalName = hospitalName;
+    this.itemHospital = itemHospital;
     this.locationIcon = locationIcon;
     this.vehicleCount = vehicleCount;
     this.vehicleIcon = vehicleIcon;
@@ -149,6 +154,12 @@ public final class ItemHospitalBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.item_hospital;
+      ConstraintLayout itemHospital = ViewBindings.findChildViewById(rootView, id);
+      if (itemHospital == null) {
+        break missingId;
+      }
+
       id = R.id.location_icon;
       ImageView locationIcon = ViewBindings.findChildViewById(rootView, id);
       if (locationIcon == null) {
@@ -168,8 +179,8 @@ public final class ItemHospitalBinding implements ViewBinding {
       }
 
       return new ItemHospitalBinding((CardView) rootView, availabilityBadge, callButton, callIcon,
-          callText, distance, hospitalImage, hospitalLocation, hospitalName, locationIcon,
-          vehicleCount, vehicleIcon);
+          callText, distance, hospitalImage, hospitalLocation, hospitalName, itemHospital,
+          locationIcon, vehicleCount, vehicleIcon);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -8,7 +8,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.dicoding.instahelp.API.Institutions
 import com.dicoding.instahelp.R
 
-class InstitutionAdapter(private val institutions: List<Institutions>) : RecyclerView.Adapter<InstitutionAdapter.InstitutionViewHolder>() {
+class InstitutionAdapter(
+    private val institutions: List<Institutions>,
+    private val onItemClick: (Institutions) -> Unit
+) : RecyclerView.Adapter<InstitutionAdapter.InstitutionViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): InstitutionViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_hospital, parent, false)
@@ -30,25 +33,33 @@ class InstitutionAdapter(private val institutions: List<Institutions>) : Recycle
         private val tvDistance: TextView = itemView.findViewById(R.id.distance)
 
         fun bind(institution: Institutions) {
-            // Set nama institusi
+            // Nama institusi
             tvName.text = institution.name ?: "Nama tidak tersedia"
 
-            // Set alamat institusi
+            // Alamat institusi
             tvLocation.text = institution.address ?: "Alamat tidak tersedia"
 
-            // Set ketersediaan
+            // Ketersediaan
             tvAvailability.text = institution.availability ?: "Tidak tersedia"
-            tvAvailability.setBackgroundResource(
-                if (institution.availability == "Tersedia") R.drawable.ic_ambulance
-                else R.drawable.ic_ambulance
-            )
 
-            // Set jumlah kendaraan
-            tvVehicleCount.text = institution.vehicleCount?.toString() ?: "0"
+            if (institution.availability == "Tersedia") {
+                tvAvailability.setBackgroundResource(R.drawable.rounded_bg) // Background hijau (tersedia)
+            } else {
+                tvAvailability.setBackgroundResource(R.drawable.rounded_bg_red) // Background merah (tidak tersedia)
+            }
 
-            // Set jarak dalam format yang lebih deskriptif
-            val distanceText = institution.longitude?.let { "${it} km" } ?: "Jarak tidak tersedia"
-            tvDistance.text = distanceText
+            tvAvailability.setTextColor(itemView.context.getColor(R.color.white)) // Tetap putih
+
+            // Jumlah kendaraan
+            tvVehicleCount.text = institution.vehicleCount.toString()
+
+            // Jarak (gunakan longitude atau kombinasi dengan latitude jika relevan)
+            tvDistance.text = if (institution.longitude.isNotEmpty()) "${institution.longitude} km" else "Jarak tidak tersedia"
+
+            // Set click listener untuk item
+            itemView.setOnClickListener {
+                onItemClick(institution)
+            }
         }
     }
 }

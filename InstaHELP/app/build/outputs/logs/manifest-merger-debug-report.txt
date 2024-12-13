@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:2:1-65:12
+ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:2:1-66:12
 MERGED from [androidx.databinding:viewbinding:8.7.2] C:\Users\Hp\.gradle\caches\8.9\transforms\da6c1723a4c176bfffc981696acfb168\transformed\viewbinding-8.7.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.8.4] C:\Users\Hp\.gradle\caches\8.9\transforms\abb7cce55cfb2ec08b9137666695fb88\transformed\navigation-common-2.8.4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.8.4] C:\Users\Hp\.gradle\caches\8.9\transforms\73b4c1639ad5538d112efb3f37983f17\transformed\navigation-common-ktx-2.8.4\AndroidManifest.xml:2:1-7:12
@@ -85,8 +85,8 @@ ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:6
 	android:name
 		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:8:5-63:19
-INJECTED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:8:5-63:19
+ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:8:5-64:19
+INJECTED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:8:5-64:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Hp\.gradle\caches\8.9\transforms\feccc49a95e6e8f306da9073f7008081\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Hp\.gradle\caches\8.9\transforms\feccc49a95e6e8f306da9073f7008081\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\Hp\.gradle\caches\8.9\transforms\3539ebe1f897d3157e3debd51d6825b6\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
@@ -152,69 +152,69 @@ ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:2
 	android:name
 		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:28:13-53
 activity#com.dicoding.instahelp.resident.ResidentMainActivity
-ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:30:9-31:39
+ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:30:9-38:20
 	android:exported
-		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:31:13-37
+		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:31:13-36
 	android:name
 		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:30:19-64
-activity#com.dicoding.instahelp.loginregist.ForgetPasswordInstansiActivity
-ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:32:9-34:40
-	android:exported
-		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:34:13-37
-	android:name
-		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:33:13-71
-activity#com.dicoding.instahelp.loginregist.SignUpInstansiActivity
-ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:35:9-37:40
-	android:exported
-		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:37:13-37
-	android:name
-		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:36:13-63
-activity#com.dicoding.instahelp.loginregist.LoginInstansiActivity
-ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:38:9-40:40
-	android:exported
-		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:40:13-37
-	android:name
-		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:39:13-62
-activity#com.dicoding.instahelp.loginregist.ForgetPasswordActivity
-ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:41:9-43:40
-	android:exported
-		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:43:13-37
-	android:name
-		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:42:13-63
-activity#com.dicoding.instahelp.loginregist.SignUpResidentActivity
-ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:44:9-46:40
-	android:exported
-		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:46:13-37
-	android:name
-		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:45:13-63
-activity#com.dicoding.instahelp.loginregist.LoginMasyarakatActivity
-ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:47:9-49:40
-	android:exported
-		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:49:13-37
-	android:name
-		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:48:13-64
-activity#com.dicoding.instahelp.loginregist.SelectRoleActivity
-ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:50:9-52:40
-	android:exported
-		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:52:13-37
-	android:name
-		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:51:13-59
-activity#com.dicoding.instahelp.loginregist.GetStartedActivity
-ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:53:9-62:20
-	android:exported
-		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:55:13-36
-	android:name
-		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:54:13-59
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:57:13-61:29
+ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:33:13-37:29
 action#android.intent.action.MAIN
-ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:58:17-69
+ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:34:17-69
 	android:name
-		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:58:25-66
+		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:34:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:60:17-77
+ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:60:27-74
+		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:36:27-74
+activity#com.dicoding.instahelp.loginregist.ForgetPasswordInstansiActivity
+ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:39:9-41:40
+	android:exported
+		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:40:13-71
+activity#com.dicoding.instahelp.loginregist.SignUpInstansiActivity
+ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:42:9-44:40
+	android:exported
+		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:43:13-63
+activity#com.dicoding.instahelp.loginregist.LoginInstansiActivity
+ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:46:13-62
+activity#com.dicoding.instahelp.loginregist.ForgetPasswordActivity
+ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:48:9-50:40
+	android:exported
+		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:49:13-63
+activity#com.dicoding.instahelp.loginregist.SignUpResidentActivity
+ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:51:9-53:40
+	android:exported
+		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:52:13-63
+activity#com.dicoding.instahelp.loginregist.LoginMasyarakatActivity
+ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:54:9-56:40
+	android:exported
+		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:55:13-64
+activity#com.dicoding.instahelp.loginregist.SelectRoleActivity
+ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:57:9-59:40
+	android:exported
+		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:58:13-59
+activity#com.dicoding.instahelp.loginregist.GetStartedActivity
+ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:60:9-63:20
+	android:exported
+		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:62:13-36
+	android:name
+		ADDED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml:61:13-59
 uses-sdk
 INJECTED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\MyProject\capstone-md\InstaHELP\app\src\main\AndroidManifest.xml

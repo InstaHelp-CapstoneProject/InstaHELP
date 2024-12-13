@@ -5,6 +5,7 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.dicoding.instahelp.API.Institutions
 import com.dicoding.instahelp.R
 import com.dicoding.instahelp.resident.call.recycleradapter.Ambulance
 import com.dicoding.instahelp.resident.call.recycleradapter.AmbulanceAdapter
@@ -41,6 +42,12 @@ class DetailHospitalActivity : AppCompatActivity() {
             val bottomSheet = CallBottomSheetFragment()
             bottomSheet.show(supportFragmentManager, bottomSheet.tag)
         }
+        val institution = intent.getParcelableExtra<Institutions>("EXTRA_INSTITUTION")
+        if (institution == null) {
+            // Tangani kondisi saat data kosong
+            finish()
+        }
+
 
     }
 }

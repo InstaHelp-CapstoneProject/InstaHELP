@@ -1,8 +1,8 @@
 package com.dicoding.instahelp.resident.fragment
 
+import android.content.Intent
 import android.os.Bundle
-import android.text.Editable
-import android.text.TextWatcher
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -14,6 +14,7 @@ import com.dicoding.instahelp.API.Institutions
 import com.dicoding.instahelp.API.InstitutionsService
 import com.dicoding.instahelp.R
 import com.dicoding.instahelp.resident.call.recycleradapter.InstitutionAdapter
+import com.dicoding.instahelp.resident.call.DetailHospitalActivity
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -28,34 +29,45 @@ class PanggilFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_panggil, container, false)
 
-        // Inisialisasi RecyclerView
         recyclerView = view.findViewById(R.id.recycler_hospitals)
         recyclerView.layoutManager = LinearLayoutManager(context)
 
-        // Inisialisasi EditText untuk pencarian
-        editTextSearch = view.findViewById(R.id.search_box)
-        editTextSearch.addTextChangedListener(object : TextWatcher {
-            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
-                // Tidak digunakan
+        adapter = InstitutionAdapter(getDummyInstitutions()) { institution ->
+            val intent = Intent(requireContext(), DetailHospitalActivity::class.java).apply {
+                putExtra("EXTRA_INSTITUTION", institution)
             }
-
-            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-                if (s != null && s.isNotEmpty()) {
-                    searchInstitutions(s.toString()) // Panggil pencarian hanya jika ada input
-                } else {
-                    getAllInstitutions() // Jika kosong, tampilkan semua institusi
-                }
-            }
-
-            override fun afterTextChanged(s: Editable?) {
-                // Tidak digunakan
-            }
-        })
-
-        // Tampilkan data awal
-        getAllInstitutions()
+            startActivity(intent)
+        }
+        recyclerView.adapter = adapter
 
         return view
+    }
+
+    private fun getDummyInstitutions(): List<Institutions> {
+        return listOf(
+            Institutions(
+                id = 1,
+                name = "RS Harapan Sehat",
+                email = "rs1@example.com",
+                address = "Jl. Sehat No. 1",
+                availability = "Tersedia",
+                vehicleCount = 5,
+                longitude = "2.5",
+                latitude = "-6.9",
+                description = "Rumah sakit dengan fasilitas lengkap."
+            ),
+            Institutions(
+                id = 2,
+                name = "RS Medika Prima",
+                email = "rs2@example.com",
+                address = "Jl. Utama No. 2",
+                availability = "Tidak tersedia",
+                vehicleCount = 2,
+                longitude = "1.2",
+                latitude = "-6.5",
+                description = "Pelayanan terbaik di bidang kesehatan."
+            )
+        )
     }
 
     private fun getAllInstitutions() {
@@ -63,18 +75,23 @@ class PanggilFragment : Fragment() {
         call.enqueue(object : Callback<List<Institutions>> {
             override fun onResponse(call: Call<List<Institutions>>, response: Response<List<Institutions>>) {
                 if (response.isSuccessful) {
-                    val institutions = response.body()
-                    institutions?.let {
-                        adapter = InstitutionAdapter(it)
+                    response.body()?.let {
+                        Log.d("API Response", it.toString())
+                        adapter = InstitutionAdapter(it) { institution ->
+                            val intent = Intent(requireContext(), DetailHospitalActivity::class.java).apply {
+                                putExtra("EXTRA_INSTITUTION", institution)
+                            }
+                            startActivity(intent)
+                        }
                         recyclerView.adapter = adapter
                     }
                 } else {
-                    // Tangani error response
+                    Log.e("API Error", response.message())
                 }
             }
 
             override fun onFailure(call: Call<List<Institutions>>, t: Throwable) {
-                // Tangani kegagalan
+                Log.e("API Failure", t.message ?: "Error tidak diketahui")
             }
         })
     }
@@ -84,18 +101,23 @@ class PanggilFragment : Fragment() {
         call.enqueue(object : Callback<List<Institutions>> {
             override fun onResponse(call: Call<List<Institutions>>, response: Response<List<Institutions>>) {
                 if (response.isSuccessful) {
-                    val institutions = response.body()
-                    institutions?.let {
-                        adapter = InstitutionAdapter(it)
+                    response.body()?.let {
+                        Log.d("API Response", it.toString())
+                        adapter = InstitutionAdapter(it) { institution ->
+                            val intent = Intent(requireContext(), DetailHospitalActivity::class.java).apply {
+                                putExtra("EXTRA_INSTITUTION", institution)
+                            }
+                            startActivity(intent)
+                        }
                         recyclerView.adapter = adapter
                     }
                 } else {
-                    // Tangani error response
+                    Log.e("API Error", response.message())
                 }
             }
 
             override fun onFailure(call: Call<List<Institutions>>, t: Throwable) {
-                // Tangani kegagalan
+                Log.e("API Failure", t.message ?: "Error tidak diketahui")
             }
         })
     }
