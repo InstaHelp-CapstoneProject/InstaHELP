@@ -28,7 +28,14 @@
             android:name=".loginregist.MainActivity"
             android:exported="false" />
         <activity android:name=".resident.ResidentMainActivity"
-            android:exported="false"/>
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".loginregist.ForgetPasswordInstansiActivity"
             android:exported="false" />
@@ -53,12 +60,6 @@
         <activity
             android:name=".loginregist.GetStartedActivity"
             android:exported="true" >
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

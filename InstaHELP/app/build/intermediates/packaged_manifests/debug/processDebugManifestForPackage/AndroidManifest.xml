@@ -50,7 +50,13 @@
             android:exported="false" />
         <activity
             android:name="com.dicoding.instahelp.resident.ResidentMainActivity"
-            android:exported="false" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.dicoding.instahelp.loginregist.ForgetPasswordInstansiActivity"
             android:exported="false" />
@@ -75,11 +81,6 @@
         <activity
             android:name="com.dicoding.instahelp.loginregist.GetStartedActivity"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <provider

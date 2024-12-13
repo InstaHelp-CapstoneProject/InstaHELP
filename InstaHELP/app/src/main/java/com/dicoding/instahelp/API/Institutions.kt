@@ -1,5 +1,9 @@
 package com.dicoding.instahelp.API
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
 data class Institutions(
     val id: Int,
     val name: String,
@@ -10,6 +14,4 @@ data class Institutions(
     val longitude: String,
     val latitude: String,
     val description: String
-) {
-
-}
+) : Parcelable

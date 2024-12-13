@@ -30,6 +30,8 @@ drawable arrow_down
 drawable arrow_up
 drawable baseline_arrow_back_ios_24
 drawable bg_edittext
+drawable bg_green
+drawable bg_red
 drawable bg_spinner
 drawable box_background
 drawable button
@@ -67,6 +69,7 @@ drawable photo
 drawable placeholder_image
 drawable pull_tab_background
 drawable rounded_bg
+drawable rounded_bg_red
 drawable rounded_bg_unverified
 drawable rounded_bottom
 drawable rounded_bottom_sheet
@@ -140,6 +143,7 @@ id hospital_image
 id hospital_location
 id hospital_name
 id imgReport
+id item_hospital
 id iv_logo
 id jarak_dari_lokasi
 id kami_siap_m

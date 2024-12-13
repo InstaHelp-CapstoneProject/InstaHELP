@@ -3132,6 +3132,8 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable baseline_arrow_back_ios_24
 drawable bg_edittext
+drawable bg_green
+drawable bg_red
 drawable bg_spinner
 drawable box_background
 drawable btn_checkbox_checked_mtrl
@@ -3486,6 +3488,7 @@ drawable photo
 drawable placeholder_image
 drawable pull_tab_background
 drawable rounded_bg
+drawable rounded_bg_red
 drawable rounded_bg_unverified
 drawable rounded_bottom
 drawable rounded_bottom_sheet
@@ -3799,6 +3802,7 @@ id invisible
 id inward
 id is_pooling_container_tag
 id italic
+id item_hospital
 id item_touch_helper_previous_elevation
 id iv_logo
 id jarak_dari_lokasi
